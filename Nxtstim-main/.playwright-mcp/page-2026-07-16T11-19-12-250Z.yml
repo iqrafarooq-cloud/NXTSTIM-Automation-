@@ -1,0 +1,373 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - button "open drawer" [ref=f2e1093] [cursor=pointer]
+      - generic [ref=f2e11] [cursor=pointer]:
+        - generic [ref=f2e12]:
+          - generic [ref=f2e13]:
+            - img "profile" [ref=f2e1094]
+            - generic [ref=f2e15]: "!"
+          - paragraph [ref=f2e16]: admin auth
+        - button [ref=f2e17]
+  - generic [ref=f2e21]:
+    - button [ref=f2e23] [cursor=pointer]
+    - separator [ref=f2e29]
+    - list [ref=f2e30]:
+      - link [ref=f2e1095] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f2e32]:
+          - button "Monitoring" [ref=f2e1096]
+      - link [ref=f2e1097] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f2e42]:
+          - button "Reports" [ref=f2e1098]
+      - link [ref=f2e1099] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f2e55]:
+          - button "Invoices" [ref=f2e1100]
+      - link [ref=f2e1101] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f2e65]:
+          - button "Clinics" [ref=f2e1102]
+      - link [ref=f2e1103] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f2e73]:
+          - button "Patients" [ref=f2e1104]
+      - link [ref=f2e1105] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f2e83]:
+          - button [ref=f2e1106]
+      - link [ref=f2e1107] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f2e90]:
+          - button "Roles" [ref=f2e1108]
+  - main [ref=f2e99]:
+    - generic [ref=f2e101]:
+      - generic [ref=f2e103]:
+        - generic [ref=f2e104]:
+          - paragraph [ref=f2e106]: Users
+          - button [active] [ref=f2e1109] [cursor=pointer]
+        - paragraph [ref=f2e111]: View and manage all users and their assigned roles across the system.
+      - tablist [ref=f2e114]:
+        - tab "Active" [selected] [ref=f2e1110] [cursor=pointer]
+        - tab "Pending" [ref=f2e1111] [cursor=pointer]
+        - tab "Suspended" [ref=f2e1112] [cursor=pointer]
+        - tab "Inactive" [ref=f2e1113] [cursor=pointer]
+      - generic [ref=f2e120]:
+        - generic [ref=f2e121]:
+          - button [ref=f2e1114] [cursor=pointer]
+          - generic [ref=f2e128]:
+            - textbox "Search for User ID" [ref=f2e1115]
+            - group
+        - generic [ref=f2e130]:
+          - button [ref=f2e1116] [cursor=pointer]
+          - button [ref=f2e1117] [cursor=pointer]
+          - button [ref=f2e1118] [cursor=pointer]
+      - generic [ref=f2e148]:
+        - generic [ref=f2e149]:
+          - generic [ref=f2e151]:
+            - paragraph [ref=f2e152]: Total Users
+            - generic [ref=f2e153]: 25 Users
+          - grid [ref=f2e157]:
+            - row [ref=f2e1119]:
+              - columnheader [ref=f2e159]
+              - columnheader "User ID" [ref=f2e1120]
+              - columnheader "Username" [ref=f2e1121]
+              - columnheader "First Name" [ref=f2e1122]
+              - columnheader "Last Name" [ref=f2e1123]
+              - columnheader "Roles" [ref=f2e1124]
+              - columnheader "Email Address" [ref=f2e1125]
+              - columnheader "Phone Number" [ref=f2e1126]
+              - columnheader "Onboarding Date" [ref=f2e1127]
+              - columnheader "Associated Clinics" [ref=f2e1128]
+              - columnheader [ref=f2e187]
+            - rowgroup [ref=f2e188]:
+              - row [ref=f2e1129]:
+                - gridcell "1" [ref=f2e1130]
+                - gridcell [ref=f2e1131]:
+                  - generic "10614" [ref=f2e1132]:
+                    - paragraph [ref=f2e193]: "10614"
+                - gridcell [ref=f2e1133]:
+                  - generic "QA Automation" [ref=f2e1134] [cursor=pointer]:
+                    - paragraph [ref=f2e197]: QA Automation
+                - gridcell [ref=f2e1135]:
+                  - generic "QA" [ref=f2e1136]:
+                    - paragraph [ref=f2e200]: QA
+                - gridcell [ref=f2e1137]:
+                  - generic "Automation" [ref=f2e1138]:
+                    - paragraph [ref=f2e203]: Automation
+                - gridcell "Elevated Supervisor" [ref=f2e1139]
+                - gridcell [ref=f2e1140]:
+                  - generic "ark046288@gmail.com" [ref=f2e1141]:
+                    - paragraph [ref=f2e210]: ark046288@gmail.com
+                - gridcell [ref=f2e1142]:
+                  - generic "+65 2958-9894" [ref=f2e1143]:
+                    - paragraph [ref=f2e213]: +65 2958-9894
+                - gridcell [ref=f2e1144]:
+                  - generic "07-15-2026" [ref=f2e1145]:
+                    - paragraph [ref=f2e216]: 07-15-2026
+                - gridcell [ref=f2e1146]:
+                  - generic "Bytecorp Clinic" [ref=f2e1147]:
+                    - paragraph [ref=f2e219]: Bytecorp Clinic
+                - gridcell [ref=f2e220]:
+                  - menu [ref=f2e221]:
+                    - button [ref=f2e223] [cursor=pointer]
+              - row [ref=f2e1148]:
+                - gridcell "2" [ref=f2e1149]
+                - gridcell [ref=f2e1150]:
+                  - generic "10597" [ref=f2e1151]:
+                    - paragraph [ref=f2e234]: "10597"
+                - gridcell [ref=f2e1152]:
+                  - generic "Iqra Farooq" [ref=f2e1153] [cursor=pointer]:
+                    - paragraph [ref=f2e238]: Iqra Farooq
+                - gridcell [ref=f2e1154]:
+                  - generic "Iqra" [ref=f2e1155]:
+                    - paragraph [ref=f2e241]: Iqra
+                - gridcell [ref=f2e1156]:
+                  - generic "Farooq" [ref=f2e1157]:
+                    - paragraph [ref=f2e244]: Farooq
+                - gridcell "Elevated Supervisor" [ref=f2e1158]
+                - gridcell [ref=f2e1159]:
+                  - generic "iqra.farooq+74@bytecorp.io" [ref=f2e1160]:
+                    - paragraph [ref=f2e251]: iqra.farooq+74@bytecorp.io
+                - gridcell [ref=f2e1161]:
+                  - generic "+1 (444) 444-4444" [ref=f2e1162]:
+                    - paragraph [ref=f2e254]: +1 (444) 444-4444
+                - gridcell [ref=f2e1163]:
+                  - generic "07-14-2026" [ref=f2e1164]:
+                    - paragraph [ref=f2e257]: 07-14-2026
+                - gridcell [ref=f2e1165]:
+                  - generic "QAClinic" [ref=f2e1166]:
+                    - paragraph [ref=f2e260]: QAClinic
+                - gridcell [ref=f2e261]:
+                  - menu [ref=f2e262]:
+                    - button [ref=f2e264] [cursor=pointer]
+              - row [ref=f2e1167]:
+                - gridcell "3" [ref=f2e1168]
+                - gridcell [ref=f2e1169]:
+                  - generic "10590" [ref=f2e1170]:
+                    - paragraph [ref=f2e275]: "10590"
+                - gridcell [ref=f2e1171]:
+                  - generic "Nurse Test" [ref=f2e1172] [cursor=pointer]:
+                    - paragraph [ref=f2e279]: Nurse Test
+                - gridcell [ref=f2e1173]:
+                  - generic "Nurse" [ref=f2e1174]:
+                    - paragraph [ref=f2e282]: Nurse
+                - gridcell [ref=f2e1175]:
+                  - generic "Test" [ref=f2e1176]:
+                    - paragraph [ref=f2e285]: Test
+                - gridcell "Nurse" [ref=f2e1177]
+                - gridcell [ref=f2e1178]:
+                  - generic "32p8lrvb@anonaddy.me" [ref=f2e1179]:
+                    - paragraph [ref=f2e292]: 32p8lrvb@anonaddy.me
+                - gridcell [ref=f2e1180]:
+                  - generic "+1 (111) 111-1111" [ref=f2e1181]:
+                    - paragraph [ref=f2e295]: +1 (111) 111-1111
+                - gridcell [ref=f2e1182]:
+                  - generic "07-01-2026" [ref=f2e1183]:
+                    - paragraph [ref=f2e298]: 07-01-2026
+                - gridcell [ref=f2e1184]:
+                  - generic "Testing Clinic" [ref=f2e1185]:
+                    - paragraph [ref=f2e301]: Testing Clinic
+                - gridcell [ref=f2e302]:
+                  - menu [ref=f2e303]:
+                    - button [ref=f2e305] [cursor=pointer]
+              - row [ref=f2e1186]:
+                - gridcell "4" [ref=f2e1187]
+                - gridcell [ref=f2e1188]:
+                  - generic "10544" [ref=f2e1189]:
+                    - paragraph [ref=f2e316]: "10544"
+                - gridcell [ref=f2e1190]:
+                  - generic "Nofil Khalid" [ref=f2e1191] [cursor=pointer]:
+                    - paragraph [ref=f2e320]: Nofil Khalid
+                - gridcell [ref=f2e1192]:
+                  - generic "Nofil" [ref=f2e1193]:
+                    - paragraph [ref=f2e323]: Nofil
+                - gridcell [ref=f2e1194]:
+                  - generic "Khalid" [ref=f2e1195]:
+                    - paragraph [ref=f2e326]: Khalid
+                - gridcell "NXTSTIM Nurse" [ref=f2e1196]
+                - gridcell [ref=f2e1197]:
+                  - generic "nofil.khalid@bytecorp.io" [ref=f2e1198]:
+                    - paragraph [ref=f2e333]: nofil.khalid@bytecorp.io
+                - gridcell [ref=f2e1199]:
+                  - generic "+1 (111) 111-1111" [ref=f2e1200]:
+                    - paragraph [ref=f2e336]: +1 (111) 111-1111
+                - gridcell [ref=f2e1201]:
+                  - generic "06-16-2026" [ref=f2e1202]:
+                    - paragraph [ref=f2e339]: 06-16-2026
+                - gridcell [ref=f2e1203]:
+                  - generic "All Clinics" [ref=f2e1204]:
+                    - paragraph [ref=f2e342]: All Clinics
+                - gridcell [ref=f2e343]:
+                  - menu [ref=f2e344]:
+                    - button [ref=f2e346] [cursor=pointer]
+              - row [ref=f2e1205]:
+                - gridcell "5" [ref=f2e1206]
+                - gridcell [ref=f2e1207]:
+                  - generic "10535" [ref=f2e1208]:
+                    - paragraph [ref=f2e357]: "10535"
+                - gridcell [ref=f2e1209]:
+                  - generic "Muhammad Khalid" [ref=f2e1210] [cursor=pointer]:
+                    - paragraph [ref=f2e361]: Muhammad Khalid
+                - gridcell [ref=f2e1211]:
+                  - generic "Muhammad" [ref=f2e1212]:
+                    - paragraph [ref=f2e364]: Muhammad
+                - gridcell [ref=f2e1213]:
+                  - generic "Khalid" [ref=f2e1214]:
+                    - paragraph [ref=f2e367]: Khalid
+                - gridcell "Nurse" [ref=f2e1215]
+                - gridcell [ref=f2e1216]:
+                  - generic "abyaz.khalid@bytecorp.io" [ref=f2e1217]:
+                    - paragraph [ref=f2e374]: abyaz.khalid@bytecorp.io
+                - gridcell [ref=f2e1218]:
+                  - generic "+1 (111) 111-2222" [ref=f2e1219]:
+                    - paragraph [ref=f2e377]: +1 (111) 111-2222
+                - gridcell [ref=f2e1220]:
+                  - generic "06-15-2026" [ref=f2e1221]:
+                    - paragraph [ref=f2e380]: 06-15-2026
+                - gridcell [ref=f2e1222]:
+                  - generic "Billing Clinic" [ref=f2e1223]:
+                    - paragraph [ref=f2e383]: Billing Clinic
+                - gridcell [ref=f2e384]:
+                  - menu [ref=f2e385]:
+                    - button [ref=f2e387] [cursor=pointer]
+              - row [ref=f2e1224]:
+                - gridcell "6" [ref=f2e1225]
+                - gridcell [ref=f2e1226]:
+                  - generic "10522" [ref=f2e1227]:
+                    - paragraph [ref=f2e398]: "10522"
+                - gridcell [ref=f2e1228]:
+                  - generic "Iqra Farooq" [ref=f2e1229] [cursor=pointer]:
+                    - paragraph [ref=f2e402]: Iqra Farooq
+                - gridcell [ref=f2e1230]:
+                  - generic "Iqra" [ref=f2e1231]:
+                    - paragraph [ref=f2e405]: Iqra
+                - gridcell [ref=f2e1232]:
+                  - generic "Farooq" [ref=f2e1233]:
+                    - paragraph [ref=f2e408]: Farooq
+                - gridcell "Elevated Supervisor" [ref=f2e1234]
+                - gridcell [ref=f2e1235]:
+                  - generic "iqra.farooq+41@bytecorp.io" [ref=f2e1236]:
+                    - paragraph [ref=f2e415]: iqra.farooq+41@bytecorp.io
+                - gridcell [ref=f2e1237]:
+                  - generic "+1 (984) 652-0" [ref=f2e1238]:
+                    - paragraph [ref=f2e418]: +1 (984) 652-0
+                - gridcell [ref=f2e1239]:
+                  - generic "06-04-2026" [ref=f2e1240]:
+                    - paragraph [ref=f2e421]: 06-04-2026
+                - gridcell [ref=f2e1241]:
+                  - generic "aghakhanclinic, Android" [ref=f2e1242]:
+                    - paragraph [ref=f2e424]: aghakhanclinic, Android
+                - gridcell [ref=f2e425]:
+                  - menu [ref=f2e426]:
+                    - button [ref=f2e428] [cursor=pointer]
+              - row [ref=f2e1243]:
+                - gridcell "7" [ref=f2e1244]
+                - gridcell [ref=f2e1245]:
+                  - generic "10520" [ref=f2e1246]:
+                    - paragraph [ref=f2e439]: "10520"
+                - gridcell [ref=f2e1247]:
+                  - generic "Nofil Khalid" [ref=f2e1248] [cursor=pointer]:
+                    - paragraph [ref=f2e443]: Nofil Khalid
+                - gridcell [ref=f2e1249]:
+                  - generic "Nofil" [ref=f2e1250]:
+                    - paragraph [ref=f2e446]: Nofil
+                - gridcell [ref=f2e1251]:
+                  - generic "Khalid" [ref=f2e1252]:
+                    - paragraph [ref=f2e449]: Khalid
+                - gridcell "Elevated Supervisor" [ref=f2e1253]
+                - gridcell [ref=f2e1254]:
+                  - generic "6wxc7xr1@anonaddy.me" [ref=f2e1255]:
+                    - paragraph [ref=f2e456]: 6wxc7xr1@anonaddy.me
+                - gridcell [ref=f2e1256]:
+                  - generic "+1 (111) 111-1111" [ref=f2e1257]:
+                    - paragraph [ref=f2e459]: +1 (111) 111-1111
+                - gridcell [ref=f2e1258]:
+                  - generic "06-02-2026" [ref=f2e1259]:
+                    - paragraph [ref=f2e462]: 06-02-2026
+                - gridcell [ref=f2e1260]:
+                  - generic "app clinic, aghakhanclinic, Android" [ref=f2e1261]:
+                    - paragraph [ref=f2e465]: app clinic, aghakhanclinic, Android
+                - gridcell [ref=f2e466]:
+                  - menu [ref=f2e467]:
+                    - button [ref=f2e469] [cursor=pointer]
+              - row [ref=f2e1262]:
+                - gridcell "8" [ref=f2e1263]
+                - gridcell [ref=f2e1264]:
+                  - generic "10515" [ref=f2e1265]:
+                    - paragraph [ref=f2e480]: "10515"
+                - gridcell [ref=f2e1266]:
+                  - generic "admin auth" [ref=f2e1267] [cursor=pointer]:
+                    - paragraph [ref=f2e484]: admin auth
+                - gridcell [ref=f2e1268]:
+                  - generic "admin" [ref=f2e1269]:
+                    - paragraph [ref=f2e487]: admin
+                - gridcell [ref=f2e1270]:
+                  - generic "auth" [ref=f2e1271]:
+                    - paragraph [ref=f2e490]: auth
+                - gridcell "Executive Admin" [ref=f2e1272]
+                - gridcell [ref=f2e1273]:
+                  - generic "adminuser@iqra.anonaddy.com" [ref=f2e1274]:
+                    - paragraph [ref=f2e497]: adminuser@iqra.anonaddy.com
+                - gridcell [ref=f2e1275]:
+                  - generic "+1 (789) 465-1328" [ref=f2e1276]:
+                    - paragraph [ref=f2e500]: +1 (789) 465-1328
+                - gridcell [ref=f2e1277]:
+                  - generic "05-25-2026" [ref=f2e1278]:
+                    - paragraph [ref=f2e503]: 05-25-2026
+                - gridcell [ref=f2e1279]:
+                  - generic "-" [ref=f2e1280]:
+                    - paragraph [ref=f2e506]: "-"
+                - gridcell [ref=f2e507]:
+                  - menu [ref=f2e508]:
+                    - button [ref=f2e510] [cursor=pointer]
+              - row [ref=f2e1281]:
+                - gridcell "9" [ref=f2e1282]
+                - gridcell [ref=f2e1283]:
+                  - generic "10501" [ref=f2e1284]:
+                    - paragraph [ref=f2e521]: "10501"
+                - gridcell [ref=f2e1285]:
+                  - generic "TestQA TempAdmin" [ref=f2e1286] [cursor=pointer]:
+                    - paragraph [ref=f2e525]: TestQA TempAdmin
+                - gridcell [ref=f2e1287]:
+                  - generic "TestQA" [ref=f2e1288]:
+                    - paragraph [ref=f2e528]: TestQA
+                - gridcell [ref=f2e1289]:
+                  - generic "TempAdmin" [ref=f2e1290]:
+                    - paragraph [ref=f2e531]: TempAdmin
+                - gridcell "Executive Admin" [ref=f2e1291]
+                - gridcell [ref=f2e1292]:
+                  - generic "qa-reset-relogin@anonaddy.com" [ref=f2e1293]:
+                    - paragraph [ref=f2e538]: qa-reset-relogin@anonaddy.com
+                - gridcell [ref=f2e1294]:
+                  - generic "-" [ref=f2e1295]:
+                    - paragraph [ref=f2e541]: "-"
+                - gridcell [ref=f2e1296]:
+                  - generic "05-21-2026" [ref=f2e1297]:
+                    - paragraph [ref=f2e544]: 05-21-2026
+                - gridcell [ref=f2e1298]:
+                  - generic "-" [ref=f2e1299]:
+                    - paragraph [ref=f2e547]: "-"
+                - gridcell [ref=f2e548]:
+                  - menu [ref=f2e549]:
+                    - button [ref=f2e551] [cursor=pointer]
+        - generic [ref=f2e566]:
+          - generic [ref=f2e567]:
+            - paragraph [ref=f2e568]: Rows per page
+            - generic [ref=f2e572]:
+              - combobox [ref=f2e573]: "10"
+              - button "Open" [ref=f2e1300] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f2e1301]:
+            - list [ref=f2e579]:
+              - listitem [ref=f2e580]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f2e581]:
+                - button "page 1" [ref=f2e1302] [cursor=pointer]: "1"
+              - listitem [ref=f2e583]:
+                - button "Go to page 2" [ref=f2e1303] [cursor=pointer]: "2"
+              - listitem [ref=f2e585]:
+                - button "Go to page 3" [ref=f2e1304] [cursor=pointer]: "3"
+              - listitem [ref=f2e587]:
+                - button "Go to next page" [ref=f2e1305] [cursor=pointer]

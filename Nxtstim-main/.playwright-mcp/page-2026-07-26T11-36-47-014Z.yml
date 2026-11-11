@@ -1,0 +1,339 @@
+- generic [ref=f2e8]:
+  - banner [ref=f2e1242]:
+    - generic [ref=f2e1243]:
+      - button "open drawer" [ref=f2e1245] [cursor=pointer]
+      - generic [ref=f2e1249] [cursor=pointer]:
+        - generic [ref=f2e1250]:
+          - generic [ref=f2e1251]:
+            - img "profile" [ref=f2e1252]
+            - generic [ref=f2e1253]: "!"
+          - paragraph [ref=f2e1254]: QAAuto Admin
+        - button [ref=f2e1255]
+  - generic [ref=f2e26]:
+    - button [ref=f2e28] [cursor=pointer]
+    - separator [ref=f2e34]
+    - list [ref=f2e35]:
+      - link [ref=f2e829] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f2e37]:
+          - button "Monitoring" [ref=f2e830]
+      - link [ref=f2e831] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f2e47]:
+          - button "Reports" [ref=f2e832]
+      - link [ref=f2e833] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f2e60]:
+          - button "Invoices" [ref=f2e834]
+      - link [ref=f2e835] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f2e70]:
+          - button "Clinics" [ref=f2e836]
+      - link [ref=f2e837] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f2e78]:
+          - button "Patients" [ref=f2e838]
+      - link [ref=f2e839] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f2e88]:
+          - button [ref=f2e840]
+      - link [ref=f2e841] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f2e95]:
+          - button "Roles" [ref=f2e842]
+  - main [ref=f2e104]:
+    - generic [ref=f2e106]:
+      - generic [ref=f2e108]:
+        - generic [ref=f2e109]:
+          - paragraph [ref=f2e111]: Users
+          - button [ref=f2e843] [cursor=pointer]
+        - paragraph [ref=f2e116]: View and manage all users and their assigned roles across the system.
+      - tablist [ref=f2e119]:
+        - tab "Active" [ref=f2e844] [cursor=pointer]
+        - tab "Pending" [ref=f2e845] [cursor=pointer]
+        - tab "Suspended" [active] [selected] [ref=f2e846] [cursor=pointer]
+        - tab "Inactive" [ref=f2e847] [cursor=pointer]
+      - generic [ref=f2e125]:
+        - generic [ref=f2e126]:
+          - button [ref=f2e848] [cursor=pointer]
+          - generic [ref=f2e133]:
+            - textbox "Search for User ID" [ref=f2e849]
+            - group
+        - generic [ref=f2e135]:
+          - button [ref=f2e850] [cursor=pointer]
+          - button [ref=f2e851] [cursor=pointer]
+          - button [ref=f2e852] [cursor=pointer]
+      - generic [ref=f2e153]:
+        - generic [ref=f2e154]:
+          - generic [ref=f2e156]:
+            - paragraph [ref=f2e157]: Total Users
+            - generic [ref=f2e158]: 8 Users
+          - grid [ref=f2e162]:
+            - row [ref=f2e853]:
+              - columnheader [ref=f2e164]
+              - columnheader "User ID" [ref=f2e854]
+              - columnheader "Username" [ref=f2e855]
+              - columnheader "First Name" [ref=f2e856]
+              - columnheader "Last Name" [ref=f2e857]
+              - columnheader "Roles" [ref=f2e858]
+              - columnheader "Email Address" [ref=f2e859]
+              - columnheader "Phone Number" [ref=f2e860]
+              - columnheader "Onboarding Date" [ref=f2e861]
+              - columnheader "Associated Clinics" [ref=f2e862]
+              - columnheader [ref=f2e192]
+            - rowgroup [ref=f2e193]:
+              - row [ref=f2e1258]:
+                - gridcell "1" [ref=f2e1259]
+                - gridcell [ref=f2e1260]:
+                  - generic "10085" [ref=f2e1261]:
+                    - paragraph [ref=f2e1262]: "10085"
+                - gridcell [ref=f2e1263]:
+                  - generic "Executive Admin" [ref=f2e1265] [cursor=pointer]:
+                    - paragraph [ref=f2e1266]: Executive Admin
+                - gridcell [ref=f2e1267]:
+                  - generic "Executive" [ref=f2e1268]:
+                    - paragraph [ref=f2e1269]: Executive
+                - gridcell [ref=f2e1270]:
+                  - generic "Admin" [ref=f2e1271]:
+                    - paragraph [ref=f2e1272]: Admin
+                - gridcell "Executive Admin" [ref=f2e1273]
+                - gridcell [ref=f2e1277]:
+                  - generic "executiveadmin1@yopmail.com" [ref=f2e1278]:
+                    - paragraph [ref=f2e1279]: executiveadmin1@yopmail.com
+                - gridcell [ref=f2e1280]:
+                  - generic "+1 (657) 888-5686" [ref=f2e1281]:
+                    - paragraph [ref=f2e1282]: +1 (657) 888-5686
+                - gridcell [ref=f2e1283]:
+                  - generic "02-19-2026" [ref=f2e1284]:
+                    - paragraph [ref=f2e1285]: 02-19-2026
+                - gridcell [ref=f2e1286]:
+                  - generic "-" [ref=f2e1287]:
+                    - paragraph [ref=f2e1288]: "-"
+                - gridcell [ref=f2e1289]:
+                  - menu [ref=f2e1290]:
+                    - button [ref=f2e1292] [cursor=pointer]
+              - row [ref=f2e1299]:
+                - gridcell "2" [ref=f2e1300]
+                - gridcell [ref=f2e1301]:
+                  - generic "10103" [ref=f2e1302]:
+                    - paragraph [ref=f2e1303]: "10103"
+                - gridcell [ref=f2e1304]:
+                  - generic "john doe" [ref=f2e1306] [cursor=pointer]:
+                    - paragraph [ref=f2e1307]: john doe
+                - gridcell [ref=f2e1308]:
+                  - generic "john" [ref=f2e1309]:
+                    - paragraph [ref=f2e1310]: john
+                - gridcell [ref=f2e1311]:
+                  - generic "doe" [ref=f2e1312]:
+                    - paragraph [ref=f2e1313]: doe
+                - gridcell "Executive Admin" [ref=f2e1314]
+                - gridcell [ref=f2e1318]:
+                  - generic "mids@yopmail.com" [ref=f2e1319]:
+                    - paragraph [ref=f2e1320]: mids@yopmail.com
+                - gridcell [ref=f2e1321]:
+                  - generic "-" [ref=f2e1322]:
+                    - paragraph [ref=f2e1323]: "-"
+                - gridcell [ref=f2e1324]:
+                  - generic "02-23-2026" [ref=f2e1325]:
+                    - paragraph [ref=f2e1326]: 02-23-2026
+                - gridcell [ref=f2e1327]:
+                  - generic "-" [ref=f2e1328]:
+                    - paragraph [ref=f2e1329]: "-"
+                - gridcell [ref=f2e1330]:
+                  - menu [ref=f2e1331]:
+                    - button [ref=f2e1333] [cursor=pointer]
+              - row [ref=f2e1340]:
+                - gridcell "3" [ref=f2e1341]
+                - gridcell [ref=f2e1342]:
+                  - generic "10481" [ref=f2e1343]:
+                    - paragraph [ref=f2e1344]: "10481"
+                - gridcell [ref=f2e1345]:
+                  - generic "TestQA TempSuspended" [ref=f2e1347] [cursor=pointer]:
+                    - paragraph [ref=f2e1348]: TestQA TempSuspended
+                - gridcell [ref=f2e1349]:
+                  - generic "TestQA" [ref=f2e1350]:
+                    - paragraph [ref=f2e1351]: TestQA
+                - gridcell [ref=f2e1352]:
+                  - generic "TempSuspended" [ref=f2e1353]:
+                    - paragraph [ref=f2e1354]: TempSuspended
+                - gridcell "Executive Admin" [ref=f2e1355]
+                - gridcell [ref=f2e1359]:
+                  - generic "qa-tpl-react@iqra.anonaddy.com" [ref=f2e1360]:
+                    - paragraph [ref=f2e1361]: qa-tpl-react@iqra.anonaddy.com
+                - gridcell [ref=f2e1362]:
+                  - generic "-" [ref=f2e1363]:
+                    - paragraph [ref=f2e1364]: "-"
+                - gridcell [ref=f2e1365]:
+                  - generic "05-21-2026" [ref=f2e1366]:
+                    - paragraph [ref=f2e1367]: 05-21-2026
+                - gridcell [ref=f2e1368]:
+                  - generic "-" [ref=f2e1369]:
+                    - paragraph [ref=f2e1370]: "-"
+                - gridcell [ref=f2e1371]:
+                  - menu [ref=f2e1372]:
+                    - button [ref=f2e1374] [cursor=pointer]
+              - row [ref=f2e1381]:
+                - gridcell "4" [ref=f2e1382]
+                - gridcell [ref=f2e1383]:
+                  - generic "10504" [ref=f2e1384]:
+                    - paragraph [ref=f2e1385]: "10504"
+                - gridcell [ref=f2e1386]:
+                  - generic "TestQA TempSuspended" [ref=f2e1388] [cursor=pointer]:
+                    - paragraph [ref=f2e1389]: TestQA TempSuspended
+                - gridcell [ref=f2e1390]:
+                  - generic "TestQA" [ref=f2e1391]:
+                    - paragraph [ref=f2e1392]: TestQA
+                - gridcell [ref=f2e1393]:
+                  - generic "TempSuspended" [ref=f2e1394]:
+                    - paragraph [ref=f2e1395]: TempSuspended
+                - gridcell "Executive Admin" [ref=f2e1396]
+                - gridcell [ref=f2e1400]:
+                  - generic "qa-react-set@iqra.anonaddy.com" [ref=f2e1401]:
+                    - paragraph [ref=f2e1402]: qa-react-set@iqra.anonaddy.com
+                - gridcell [ref=f2e1403]:
+                  - generic "-" [ref=f2e1404]:
+                    - paragraph [ref=f2e1405]: "-"
+                - gridcell [ref=f2e1406]:
+                  - generic "05-21-2026" [ref=f2e1407]:
+                    - paragraph [ref=f2e1408]: 05-21-2026
+                - gridcell [ref=f2e1409]:
+                  - generic "-" [ref=f2e1410]:
+                    - paragraph [ref=f2e1411]: "-"
+                - gridcell [ref=f2e1412]:
+                  - menu [ref=f2e1413]:
+                    - button [ref=f2e1415] [cursor=pointer]
+              - row [ref=f2e1422]:
+                - gridcell "5" [ref=f2e1423]
+                - gridcell [ref=f2e1424]:
+                  - generic "10505" [ref=f2e1425]:
+                    - paragraph [ref=f2e1426]: "10505"
+                - gridcell [ref=f2e1427]:
+                  - generic "TestQA TempSuspended" [ref=f2e1429] [cursor=pointer]:
+                    - paragraph [ref=f2e1430]: TestQA TempSuspended
+                - gridcell [ref=f2e1431]:
+                  - generic "TestQA" [ref=f2e1432]:
+                    - paragraph [ref=f2e1433]: TestQA
+                - gridcell [ref=f2e1434]:
+                  - generic "TempSuspended" [ref=f2e1435]:
+                    - paragraph [ref=f2e1436]: TempSuspended
+                - gridcell "Executive Admin" [ref=f2e1437]
+                - gridcell [ref=f2e1441]:
+                  - generic "qa-react-dup@iqra.anonaddy.com" [ref=f2e1442]:
+                    - paragraph [ref=f2e1443]: qa-react-dup@iqra.anonaddy.com
+                - gridcell [ref=f2e1444]:
+                  - generic "-" [ref=f2e1445]:
+                    - paragraph [ref=f2e1446]: "-"
+                - gridcell [ref=f2e1447]:
+                  - generic "05-21-2026" [ref=f2e1448]:
+                    - paragraph [ref=f2e1449]: 05-21-2026
+                - gridcell [ref=f2e1450]:
+                  - generic "-" [ref=f2e1451]:
+                    - paragraph [ref=f2e1452]: "-"
+                - gridcell [ref=f2e1453]:
+                  - menu [ref=f2e1454]:
+                    - button [ref=f2e1456] [cursor=pointer]
+              - row [ref=f2e1463]:
+                - gridcell "6" [ref=f2e1464]
+                - gridcell [ref=f2e1465]:
+                  - generic "10506" [ref=f2e1466]:
+                    - paragraph [ref=f2e1467]: "10506"
+                - gridcell [ref=f2e1468]:
+                  - generic "TestQA TempSuspended" [ref=f2e1470] [cursor=pointer]:
+                    - paragraph [ref=f2e1471]: TestQA TempSuspended
+                - gridcell [ref=f2e1472]:
+                  - generic "TestQA" [ref=f2e1473]:
+                    - paragraph [ref=f2e1474]: TestQA
+                - gridcell [ref=f2e1475]:
+                  - generic "TempSuspended" [ref=f2e1476]:
+                    - paragraph [ref=f2e1477]: TempSuspended
+                - gridcell "Executive Admin" [ref=f2e1478]
+                - gridcell [ref=f2e1482]:
+                  - generic "qa-react-pending-tab@iqra.anonaddy.com" [ref=f2e1483]:
+                    - paragraph [ref=f2e1484]: qa-react-pending-tab@iqra.anonaddy.com
+                - gridcell [ref=f2e1485]:
+                  - generic "-" [ref=f2e1486]:
+                    - paragraph [ref=f2e1487]: "-"
+                - gridcell [ref=f2e1488]:
+                  - generic "05-21-2026" [ref=f2e1489]:
+                    - paragraph [ref=f2e1490]: 05-21-2026
+                - gridcell [ref=f2e1491]:
+                  - generic "-" [ref=f2e1492]:
+                    - paragraph [ref=f2e1493]: "-"
+                - gridcell [ref=f2e1494]:
+                  - menu [ref=f2e1495]:
+                    - button [ref=f2e1497] [cursor=pointer]
+              - row [ref=f2e1504]:
+                - gridcell "7" [ref=f2e1505]
+                - gridcell [ref=f2e1506]:
+                  - generic "10515" [ref=f2e1507]:
+                    - paragraph [ref=f2e1508]: "10515"
+                - gridcell [ref=f2e1509]:
+                  - generic "admin auth" [ref=f2e1511] [cursor=pointer]:
+                    - paragraph [ref=f2e1512]: admin auth
+                - gridcell [ref=f2e1513]:
+                  - generic "admin" [ref=f2e1514]:
+                    - paragraph [ref=f2e1515]: admin
+                - gridcell [ref=f2e1516]:
+                  - generic "auth" [ref=f2e1517]:
+                    - paragraph [ref=f2e1518]: auth
+                - gridcell "Executive Admin" [ref=f2e1519]
+                - gridcell [ref=f2e1523]:
+                  - generic "adminuser@iqra.anonaddy.com" [ref=f2e1524]:
+                    - paragraph [ref=f2e1525]: adminuser@iqra.anonaddy.com
+                - gridcell [ref=f2e1526]:
+                  - generic "+1 (789) 465-1328" [ref=f2e1527]:
+                    - paragraph [ref=f2e1528]: +1 (789) 465-1328
+                - gridcell [ref=f2e1529]:
+                  - generic "05-25-2026" [ref=f2e1530]:
+                    - paragraph [ref=f2e1531]: 05-25-2026
+                - gridcell [ref=f2e1532]:
+                  - generic "-" [ref=f2e1533]:
+                    - paragraph [ref=f2e1534]: "-"
+                - gridcell [ref=f2e1535]:
+                  - menu [ref=f2e1536]:
+                    - button [ref=f2e1538] [cursor=pointer]
+              - row [ref=f2e1545]:
+                - gridcell "8" [ref=f2e1546]
+                - gridcell [ref=f2e1547]:
+                  - generic "10726" [ref=f2e1548]:
+                    - paragraph [ref=f2e1549]: "10726"
+                - gridcell [ref=f2e1550]:
+                  - generic "Sin Cara" [ref=f2e1552] [cursor=pointer]:
+                    - paragraph [ref=f2e1553]: Sin Cara
+                - gridcell [ref=f2e1554]:
+                  - generic "Sin" [ref=f2e1555]:
+                    - paragraph [ref=f2e1556]: Sin
+                - gridcell [ref=f2e1557]:
+                  - generic "Cara" [ref=f2e1558]:
+                    - paragraph [ref=f2e1559]: Cara
+                - gridcell "Billing Admin" [ref=f2e1560]
+                - gridcell [ref=f2e1564]:
+                  - generic "2tny6k6c@anonaddy.me" [ref=f2e1565]:
+                    - paragraph [ref=f2e1566]: 2tny6k6c@anonaddy.me
+                - gridcell [ref=f2e1567]:
+                  - generic "+1 (111) 111-1111" [ref=f2e1568]:
+                    - paragraph [ref=f2e1569]: +1 (111) 111-1111
+                - gridcell [ref=f2e1570]:
+                  - generic "07-16-2026" [ref=f2e1571]:
+                    - paragraph [ref=f2e1572]: 07-16-2026
+                - gridcell [ref=f2e1573]:
+                  - generic "-" [ref=f2e1574]:
+                    - paragraph [ref=f2e1575]: "-"
+                - gridcell [ref=f2e1576]:
+                  - menu [ref=f2e1577]:
+                    - button [ref=f2e1579] [cursor=pointer]
+        - generic [ref=f2e571]:
+          - generic [ref=f2e572]:
+            - paragraph [ref=f2e573]: Rows per page
+            - generic [ref=f2e577]:
+              - combobox [ref=f2e578]: "100"
+              - button "Open" [ref=f2e1235] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f2e1236]:
+            - list [ref=f2e584]:
+              - listitem [ref=f2e585]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f2e586]:
+                - button "page 1" [ref=f2e1237] [cursor=pointer]: "1"
+              - listitem [ref=f2e1589]:
+                - button "Go to next page" [disabled]

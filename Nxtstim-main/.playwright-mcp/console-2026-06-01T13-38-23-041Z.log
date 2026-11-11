@@ -1,0 +1,7 @@
+[    4689ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/me:0
+[   75873ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/devices:0
+[   75877ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/mfa/status:0
+[  249203ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/mfa/disable:0
+[  351253ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/mfa/setup/totp/verify:0
+[  416516ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/logout:0
+[  418361ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/login:0

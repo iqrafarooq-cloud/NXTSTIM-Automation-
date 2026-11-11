@@ -1,0 +1,233 @@
+- generic [ref=e6]:
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - button [ref=e373] [cursor=pointer]:
+          - img [ref=e13]
+        - generic [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]:
+            - img [ref=e374]
+            - paragraph [ref=e20]: admin auth
+          - button [ref=e21]:
+            - img [ref=e22]
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - button [ref=e27] [cursor=pointer]:
+          - img [ref=e28]
+        - img [ref=e31]
+      - separator [ref=e33]
+      - list [ref=e34]:
+        - listitem [ref=e36]:
+          - button [ref=e375] [cursor=pointer]:
+            - generic [ref=e38]:
+              - img [ref=e40]
+              - img [ref=e43]
+        - link [ref=e376] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=e46]:
+            - button [ref=e377]:
+              - img [ref=e49]
+        - link [ref=e378] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=e54]:
+            - button [ref=e379]:
+              - img [ref=e57]
+              - generic [ref=e65]: Reports
+        - link [ref=e380] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=e67]:
+            - button [ref=e381]:
+              - img [ref=e70]
+              - generic [ref=e75]: Invoices
+    - main [ref=e76]:
+      - generic [ref=e78]:
+        - generic [ref=e80]:
+          - paragraph [ref=e83]: Monitoring
+          - paragraph [ref=e84]: Track and monitor key patient metrics including device usage, vitals, care program status and many more.
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - button [ref=e382] [cursor=pointer]:
+              - text: Username
+              - img [ref=e89]
+            - generic [ref=e93]:
+              - textbox [ref=e383]:
+                - /placeholder: Search for Username
+              - group
+          - generic [ref=e95]:
+            - button [ref=e384] [cursor=pointer]:
+              - img [ref=e100]
+              - text: Filters
+            - button [ref=e385] [cursor=pointer]:
+              - img [ref=e106]
+              - text: Sort By
+            - button [ref=e386] [cursor=pointer]:
+              - img [ref=e110]
+              - text: Export CSV
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e115]:
+              - paragraph [ref=e116]: Total Patients
+              - generic [ref=e118]: 93 Patients
+            - grid [ref=e121]:
+              - row [ref=e387]:
+                - columnheader [ref=e123]
+                - columnheader [ref=e124]
+                - columnheader [ref=e388]:
+                  - generic [ref=e127]: Username
+                - columnheader [ref=e389]:
+                  - generic [ref=e130]: Patient ID
+                - columnheader [ref=e390]:
+                  - generic [ref=e133]: First Name
+                - columnheader [ref=e391]:
+                  - generic [ref=e136]: Last Name
+                - columnheader [ref=e137]
+              - rowgroup [ref=e138]:
+                - row [ref=e392]:
+                  - gridcell [ref=e393]: "1"
+                  - gridcell [ref=e141]
+                  - gridcell [ref=e394]:
+                    - paragraph [ref=e145] [cursor=pointer]: Nofil Khalid
+                  - gridcell [ref=e396]: "10519"
+                  - gridcell [ref=e397]:
+                    - paragraph [ref=e149]: Nofil
+                  - gridcell [ref=e399]:
+                    - paragraph [ref=e152]: Khalid
+                  - gridcell [ref=e153]:
+                    - menu [ref=e154]:
+                      - button [ref=e401] [cursor=pointer]:
+                        - img [ref=e156]
+                - row [ref=e402]:
+                  - gridcell [ref=e403]: "2"
+                  - gridcell [ref=e165]
+                  - gridcell [ref=e404]:
+                    - paragraph [ref=e169] [cursor=pointer]: newwww user
+                  - gridcell [ref=e406]: "10518"
+                  - gridcell [ref=e407]:
+                    - paragraph [ref=e173]: newwww
+                  - gridcell [ref=e409]:
+                    - paragraph [ref=e176]: user
+                  - gridcell [ref=e177]:
+                    - menu [ref=e178]:
+                      - button [ref=e411] [cursor=pointer]:
+                        - img [ref=e180]
+                - row [ref=e412]:
+                  - gridcell [ref=e413]: "3"
+                  - gridcell [ref=e189]
+                  - gridcell [ref=e414]:
+                    - paragraph [ref=e193] [cursor=pointer]: user codes
+                  - gridcell [ref=e416]: "10517"
+                  - gridcell [ref=e417]:
+                    - paragraph [ref=e197]: user
+                  - gridcell [ref=e419]:
+                    - paragraph [ref=e200]: codes
+                  - gridcell [ref=e201]:
+                    - menu [ref=e202]:
+                      - button [ref=e421] [cursor=pointer]:
+                        - img [ref=e204]
+                - row [ref=e422]:
+                  - gridcell [ref=e423]: "4"
+                  - gridcell [ref=e213]
+                  - gridcell [ref=e424]:
+                    - paragraph [ref=e217] [cursor=pointer]: Iqra Farooq
+                  - gridcell [ref=e426]: "10451"
+                  - gridcell [ref=e427]:
+                    - paragraph [ref=e221]: Iqra
+                  - gridcell [ref=e429]:
+                    - paragraph [ref=e224]: Farooq
+                  - gridcell [ref=e225]:
+                    - menu [ref=e226]:
+                      - button [ref=e431] [cursor=pointer]:
+                        - img [ref=e228]
+                - row [ref=e432]:
+                  - gridcell [ref=e433]: "5"
+                  - gridcell [ref=e237]
+                  - gridcell [ref=e434]:
+                    - paragraph [ref=e242] [cursor=pointer]: Iqra Farooq
+                  - gridcell [ref=e436]: "10426"
+                  - gridcell [ref=e437]:
+                    - paragraph [ref=e246]: Iqra
+                  - gridcell [ref=e439]:
+                    - paragraph [ref=e249]: Farooq
+                  - gridcell [ref=e250]:
+                    - menu [ref=e251]:
+                      - button [ref=e441] [cursor=pointer]:
+                        - img [ref=e253]
+                - row [ref=e442]:
+                  - gridcell [ref=e443]: "6"
+                  - gridcell [ref=e262]
+                  - gridcell [ref=e444]:
+                    - paragraph [ref=e266] [cursor=pointer]: rootcause analysis
+                  - gridcell [ref=e446]: "10425"
+                  - gridcell [ref=e447]:
+                    - paragraph [ref=e270]: rootcause
+                  - gridcell [ref=e449]:
+                    - paragraph [ref=e273]: analysis
+                  - gridcell [ref=e274]:
+                    - menu [ref=e275]:
+                      - button [ref=e451] [cursor=pointer]:
+                        - img [ref=e277]
+                - row [ref=e452]:
+                  - gridcell [ref=e453]: "7"
+                  - gridcell [ref=e286]
+                  - gridcell [ref=e454]:
+                    - paragraph [ref=e290] [cursor=pointer]: Nofil Khalid
+                  - gridcell [ref=e456]: "10423"
+                  - gridcell [ref=e457]:
+                    - paragraph [ref=e294]: Nofil
+                  - gridcell [ref=e459]:
+                    - paragraph [ref=e297]: Khalid
+                  - gridcell [ref=e298]:
+                    - menu [ref=e299]:
+                      - button [ref=e461] [cursor=pointer]:
+                        - img [ref=e301]
+                - row [ref=e462]:
+                  - gridcell [ref=e463]: "8"
+                  - gridcell [ref=e310]
+                  - gridcell [ref=e464]:
+                    - paragraph [ref=e314] [cursor=pointer]: Communication Test
+                  - gridcell [ref=e466]: "10420"
+                  - gridcell [ref=e467]:
+                    - paragraph [ref=e318]: Communication
+                  - gridcell [ref=e469]:
+                    - paragraph [ref=e321]: Test
+                  - gridcell [ref=e322]:
+                    - menu [ref=e323]:
+                      - button [ref=e471] [cursor=pointer]:
+                        - img [ref=e325]
+          - generic [ref=e340]:
+            - generic [ref=e341]:
+              - paragraph [ref=e342]: Rows per page
+              - generic [ref=e346]:
+                - combobox [ref=e347]: "10"
+                - button [ref=e472] [cursor=pointer]:
+                  - img [ref=e350]
+                - group
+            - navigation [ref=e473]:
+              - list [ref=e353]:
+                - listitem [ref=e354]:
+                  - button [disabled]:
+                    - img
+                - listitem [ref=e355]:
+                  - button [ref=e474] [cursor=pointer]: "1"
+                - listitem [ref=e357]:
+                  - button [ref=e475] [cursor=pointer]: "2"
+                - listitem [ref=e359]:
+                  - button [ref=e476] [cursor=pointer]: "3"
+                - listitem [ref=e361]:
+                  - button [ref=e477] [cursor=pointer]: "4"
+                - listitem [ref=e363]:
+                  - button [ref=e478] [cursor=pointer]: "5"
+                - listitem [ref=e365]:
+                  - generic [ref=e366]: …
+                - listitem [ref=e367]:
+                  - button [ref=e479] [cursor=pointer]: "10"
+                - listitem [ref=e369]:
+                  - button [ref=e480] [cursor=pointer]:
+                    - img [ref=e371]
+  - menu [ref=e483]:
+    - menuitem "Settings" [ref=e484] [cursor=pointer]:
+      - img [ref=e486]
+      - generic [ref=e491]: Settings
+    - menuitem "Logout" [ref=e492] [cursor=pointer]:
+      - img [ref=e494]
+      - generic [ref=e498]: Logout

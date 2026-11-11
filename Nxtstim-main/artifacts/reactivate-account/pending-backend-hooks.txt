@@ -1,0 +1,1 @@
+2026-05-21T12:33:34.743Z — failed-attempt counter assertion for qa-react-1@iqra.anonaddy.com (expected=0) — QA backend does not expose the counter. Step passed without verification.

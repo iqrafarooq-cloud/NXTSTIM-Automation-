@@ -1,0 +1,147 @@
+- generic [ref=e8]:
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - button "open drawer" [ref=e12] [cursor=pointer]:
+        - img [ref=e13]
+      - generic [ref=e16] [cursor=pointer]:
+        - generic [ref=e17]:
+          - img "profile" [ref=e18]
+          - paragraph [ref=e19]: Executive Admin
+        - button [ref=e20]:
+          - img [ref=e21]
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - button [ref=e26] [cursor=pointer]:
+        - img [ref=e27]
+      - img [ref=e30]
+    - separator [ref=e32]
+    - list [ref=e33]:
+      - listitem [ref=e35]:
+        - button "Accounts" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]:
+            - img [ref=e39]
+            - img [ref=e42]
+          - generic:
+            - generic: Accounts
+      - link "Monitoring" [ref=e44] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e45]:
+          - button "Monitoring" [ref=e46]:
+            - img [ref=e48]
+            - generic [ref=e53]: Monitoring
+      - link "Reports" [ref=e54] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e55]:
+          - button "Reports" [ref=e56]:
+            - img [ref=e58]
+            - generic [ref=e66]: Reports
+      - link "Invoices" [ref=e67] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e68]:
+          - button "Invoices" [ref=e69]:
+            - img [ref=e71]
+            - generic [ref=e76]: Invoices
+  - main [ref=e77]:
+    - generic [ref=e79]:
+      - generic [ref=e81]:
+        - paragraph [ref=e84]: Admin
+        - paragraph [ref=e85]: Access and manage platform-wide settings, user roles, system controls, and global reports across all clinics and care programs.
+      - tablist [ref=e88]:
+        - tab "Active" [ref=e89] [cursor=pointer]: Active
+        - tab "Pending" [ref=e90] [cursor=pointer]: Pending
+        - tab "Suspended" [selected] [ref=e91] [cursor=pointer]: Suspended
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - button "ID" [ref=e95] [cursor=pointer]:
+            - text: ID
+            - img [ref=e97]
+          - generic [ref=e101]:
+            - textbox "Search for ID" [ref=e102]
+            - group
+        - generic [ref=e103]:
+          - button "Sort By" [ref=e105] [cursor=pointer]:
+            - img [ref=e108]
+            - text: Sort By
+          - button "Export CSV" [ref=e110] [cursor=pointer]:
+            - img [ref=e112]
+            - text: Export CSV
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - generic [ref=e118]:
+            - paragraph [ref=e119]: Total Admin
+            - generic [ref=e121]: 2 Admin
+          - grid [ref=e124]:
+            - row "ID First Name Last Name Email Onboarding Date" [ref=e125]:
+              - columnheader [ref=e126]
+              - columnheader "ID" [ref=e127]:
+                - generic [ref=e129]: ID
+              - columnheader "First Name" [ref=e130]:
+                - generic [ref=e132]: First Name
+              - columnheader "Last Name" [ref=e133]:
+                - generic [ref=e135]: Last Name
+              - columnheader "Email" [ref=e136]:
+                - generic [ref=e138]: Email
+              - columnheader "Onboarding Date" [ref=e139]:
+                - generic [ref=e141]: Onboarding Date
+              - columnheader [ref=e142]
+            - rowgroup [ref=e143]:
+              - row "1 10103 john doe mids@yopmail.com 02-23-2026" [ref=e144]:
+                - gridcell "1" [ref=e145]
+                - gridcell "10103" [ref=e146]:
+                  - generic "10103" [ref=e147]:
+                    - paragraph [ref=e148]: "10103"
+                - gridcell "john" [ref=e149]:
+                  - generic "john" [ref=e150]:
+                    - paragraph [ref=e151]: john
+                - gridcell "doe" [ref=e152]:
+                  - generic "doe" [ref=e153]:
+                    - paragraph [ref=e154]: doe
+                - gridcell "mids@yopmail.com" [ref=e155]:
+                  - generic "mids@yopmail.com" [ref=e156]:
+                    - paragraph [ref=e157]: mids@yopmail.com
+                - gridcell "02-23-2026" [ref=e158]:
+                  - generic "02-23-2026" [ref=e159]:
+                    - paragraph [ref=e160]: 02-23-2026
+                - gridcell [ref=e161]:
+                  - menu [ref=e162]:
+                    - button [ref=e164] [cursor=pointer]:
+                      - img [ref=e165]
+              - row "2 10085 Executive Admin executiveadmin1@yopmail.com 02-19-2026" [ref=e171]:
+                - gridcell "2" [ref=e172]
+                - gridcell "10085" [ref=e173]:
+                  - generic "10085" [ref=e174]:
+                    - paragraph [ref=e175]: "10085"
+                - gridcell "Executive" [ref=e176]:
+                  - generic "Executive" [ref=e177]:
+                    - paragraph [ref=e178]: Executive
+                - gridcell "Admin" [ref=e179]:
+                  - generic "Admin" [ref=e180]:
+                    - paragraph [ref=e181]: Admin
+                - gridcell "executiveadmin1@yopmail.com" [ref=e182]:
+                  - generic "executiveadmin1@yopmail.com" [ref=e183]:
+                    - paragraph [ref=e184]: executiveadmin1@yopmail.com
+                - gridcell "02-19-2026" [ref=e185]:
+                  - generic "02-19-2026" [ref=e186]:
+                    - paragraph [ref=e187]: 02-19-2026
+                - gridcell [ref=e188]:
+                  - menu [ref=e189]:
+                    - button [ref=e191] [cursor=pointer]:
+                      - img [ref=e192]
+        - generic [ref=e206]:
+          - generic [ref=e207]:
+            - paragraph [ref=e208]: Rows per page
+            - generic [ref=e212]:
+              - combobox [ref=e213]: "10"
+              - button "Open" [ref=e215] [cursor=pointer]:
+                - img [ref=e216]
+              - group
+          - navigation "pagination navigation" [ref=e218]:
+            - list [ref=e219]:
+              - listitem [ref=e220]:
+                - button "Go to previous page" [disabled]:
+                  - img
+              - listitem [ref=e221]:
+                - button "page 1" [ref=e222] [cursor=pointer]: "1"
+              - listitem [ref=e223]:
+                - button "Go to next page" [disabled]:
+                  - img

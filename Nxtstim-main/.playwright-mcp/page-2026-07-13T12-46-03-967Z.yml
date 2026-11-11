@@ -1,0 +1,75 @@
+- generic [ref=f1e8]:
+  - banner [ref=f1e9]:
+    - generic [ref=f1e10]:
+      - button "open drawer" [ref=f1e227] [cursor=pointer]
+      - generic [ref=f1e16] [cursor=pointer]:
+        - generic [ref=f1e17]:
+          - generic [ref=f1e18]:
+            - img "profile" [ref=f1e228]
+            - generic [ref=f1e20]: "!"
+          - paragraph [ref=f1e21]: QAExecutive admin
+        - button [ref=f1e22]
+  - generic [ref=f1e26]:
+    - button [ref=f1e28] [cursor=pointer]
+    - separator [ref=f1e34]
+    - list [ref=f1e35]:
+      - link [ref=f1e229] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f1e37]:
+          - button "Monitoring" [ref=f1e230]
+      - link [ref=f1e231] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f1e47]:
+          - button "Reports" [ref=f1e232]
+      - link [ref=f1e233] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f1e60]:
+          - button "Invoices" [ref=f1e234]
+      - link [ref=f1e235] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f1e70]:
+          - button "Clinics" [ref=f1e236]
+      - link [ref=f1e237] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f1e78]:
+          - button "Patients" [ref=f1e238]
+      - link [ref=f1e239] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f1e88]:
+          - button "Users" [ref=f1e240]
+      - link [ref=f1e241] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f1e97]:
+          - button "Roles" [ref=f1e242]
+  - main [ref=f1e106]:
+    - generic [ref=f1e107]:
+      - paragraph [ref=f1e110]: Settings
+      - paragraph [ref=f1e111]: Manage your account settings
+      - paragraph [ref=f1e113]: Security Settings
+      - generic [ref=f1e114]:
+        - generic [ref=f1e115]:
+          - paragraph [ref=f1e116]: Change your password
+          - paragraph [ref=f1e117]: Update your password to keep your account secure and accessible only to you. Change your password frequently to reduce the chance of unauthorized access
+        - button "Change Password" [active] [ref=f1e243] [cursor=pointer]
+      - generic [ref=f1e121]:
+        - generic [ref=f1e122]:
+          - generic [ref=f1e123]:
+            - paragraph [ref=f1e124]: Set-up Multifactor Authentication
+            - generic "Action required" [ref=f1e244]
+          - paragraph [ref=f1e129]: Select your preferred Multifactor Authentication method
+          - radiogroup [ref=f1e130]:
+            - generic [ref=f1e131] [cursor=pointer]:
+              - 'radio "Authenticator App : Use an app to generate a verification code when signing in. Recommended" [checked] [ref=f1e245]'
+              - generic [ref=f1e140]:
+                - generic [ref=f1e141]: "Authenticator App :"
+                - generic [ref=f1e142]: Use an app to generate a verification code when signing in.
+                - generic [ref=f1e143]: Recommended
+            - generic [ref=f1e144] [cursor=pointer]:
+              - 'radio "Email Verification : We''ll send a verification code to your email each time you sign in." [ref=f1e246]'
+              - generic [ref=f1e151]:
+                - generic [ref=f1e152]: "Email Verification :"
+                - generic [ref=f1e153]: We'll send a verification code to your email each time you sign in.
+        - button "Enable MFA" [ref=f1e247] [cursor=pointer]
+      - generic [ref=f1e158]:
+        - paragraph [ref=f1e159]: Trusted Devices
+        - paragraph [ref=f1e160]: Manage the devices you have marked as trusted. These devices don't require a Multifactor Authentication code when signing in.

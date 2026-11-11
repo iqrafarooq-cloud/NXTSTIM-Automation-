@@ -1,0 +1,290 @@
+- generic [ref=e46]:
+  - banner [ref=e47]:
+    - generic [ref=e48]:
+      - button "open drawer" [ref=e50] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54] [cursor=pointer]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - img "profile" [ref=e57]
+            - generic [ref=e58]: "!"
+          - paragraph [ref=e59]: admin auth
+        - button [ref=e60]:
+          - img [ref=e61]
+  - generic [ref=e64]:
+    - generic [ref=e65]:
+      - button [ref=e66] [cursor=pointer]:
+        - img [ref=e67]
+      - img [ref=e70]
+    - separator [ref=e72]
+    - list [ref=e73]:
+      - listitem [ref=e75]:
+        - button "Accounts" [ref=e76] [cursor=pointer]:
+          - generic [ref=e77]:
+            - img [ref=e79]
+            - img [ref=e82]
+          - generic:
+            - generic: Accounts
+      - link "Monitoring" [ref=e84] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e85]:
+          - button "Monitoring" [ref=e86]:
+            - img [ref=e88]
+            - generic:
+              - generic: Monitoring
+      - link "Reports" [ref=e92] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e93]:
+          - button "Reports" [ref=e94]:
+            - img [ref=e96]
+            - generic [ref=e104]: Reports
+      - link "Invoices" [ref=e105] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e106]:
+          - button "Invoices" [ref=e107]:
+            - img [ref=e109]
+            - generic [ref=e114]: Invoices
+  - main [ref=e115]:
+    - generic [ref=e117]:
+      - generic [ref=e119]:
+        - paragraph [ref=e122]: Monitoring
+        - paragraph [ref=e123]: Track and monitor key patient metrics including device usage, vitals, care program status and many more.
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - button "Username" [ref=e126] [cursor=pointer]:
+            - text: Username
+            - img [ref=e128]
+          - generic [ref=e132]:
+            - textbox "Search for Username" [ref=e133]
+            - group
+        - generic [ref=e134]:
+          - button "Filters" [ref=e137] [cursor=pointer]:
+            - img [ref=e139]
+            - text: Filters
+          - button "Sort By" [ref=e142] [cursor=pointer]:
+            - img [ref=e145]
+            - text: Sort By
+          - button "Export CSV" [ref=e147] [cursor=pointer]:
+            - img [ref=e149]
+            - text: Export CSV
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e154]:
+            - paragraph [ref=e155]: Total Patients
+            - generic [ref=e157]: 93 Patients
+          - grid [ref=e160]:
+            - row "Username Patient ID First Name Last Name Email Phone Number" [ref=e161]:
+              - columnheader [ref=e162]
+              - columnheader [ref=e163]
+              - columnheader "Username" [ref=e164]:
+                - generic [ref=e166]: Username
+              - columnheader "Patient ID" [ref=e167]:
+                - generic [ref=e169]: Patient ID
+              - columnheader "First Name" [ref=e170]:
+                - generic [ref=e172]: First Name
+              - columnheader "Last Name" [ref=e173]:
+                - generic [ref=e175]: Last Name
+              - columnheader "Email" [ref=e176]:
+                - generic [ref=e178]: Email
+              - columnheader "Phone Number" [ref=e179]:
+                - generic [ref=e181]: Phone Number
+              - columnheader [ref=e182]
+            - rowgroup [ref=e183]:
+              - row "1 Nofil Khalid 10519 Nofil Khalid nofil.khalid@byt.io +1 (111) 111-1111" [ref=e184]:
+                - gridcell "1" [ref=e185]
+                - gridcell [ref=e186]
+                - gridcell "Nofil Khalid" [ref=e188]:
+                  - generic "Nofil Khalid" [ref=e189]:
+                    - paragraph [ref=e190] [cursor=pointer]: Nofil Khalid
+                - gridcell "10519" [ref=e191]
+                - gridcell "Nofil" [ref=e192]:
+                  - generic "Nofil" [ref=e193]:
+                    - paragraph [ref=e194]: Nofil
+                - gridcell "Khalid" [ref=e195]:
+                  - generic "Khalid" [ref=e196]:
+                    - paragraph [ref=e197]: Khalid
+                - gridcell "nofil.khalid@byt.io" [ref=e198]:
+                  - generic "nofil.khalid@byt.io" [ref=e199]:
+                    - paragraph [ref=e200]: nofil.khalid@byt.io
+                - gridcell "+1 (111) 111-1111" [ref=e201]
+                - gridcell [ref=e202]:
+                  - menu [ref=e203]:
+                    - button "View Details" [ref=e204] [cursor=pointer]:
+                      - img [ref=e205]
+              - row "2 newwww user 10518 newwww user carecodes@iqra.anonaddy.com +1 (879) 465-3298" [ref=e212]:
+                - gridcell "2" [ref=e213]
+                - gridcell [ref=e214]
+                - gridcell "newwww user" [ref=e216]:
+                  - generic "newwww user" [ref=e217]:
+                    - paragraph [ref=e218] [cursor=pointer]: newwww user
+                - gridcell "10518" [ref=e219]
+                - gridcell "newwww" [ref=e220]:
+                  - generic "newwww" [ref=e221]:
+                    - paragraph [ref=e222]: newwww
+                - gridcell "user" [ref=e223]:
+                  - generic "user" [ref=e224]:
+                    - paragraph [ref=e225]: user
+                - gridcell "carecodes@iqra.anonaddy.com" [ref=e226]:
+                  - generic "carecodes@iqra.anonaddy.com" [ref=e227]:
+                    - paragraph [ref=e228]: carecodes@iqra.anonaddy.com
+                - gridcell "+1 (879) 465-3298" [ref=e229]
+                - gridcell [ref=e230]:
+                  - menu [ref=e231]:
+                    - button "View Details" [ref=e232] [cursor=pointer]:
+                      - img [ref=e233]
+              - row "3 user codes 10517 user codes codes@addy.com +1 (987) 746-5329" [ref=e240]:
+                - gridcell "3" [ref=e241]
+                - gridcell [ref=e242]
+                - gridcell "user codes" [ref=e244]:
+                  - generic "user codes" [ref=e245]:
+                    - paragraph [ref=e246] [cursor=pointer]: user codes
+                - gridcell "10517" [ref=e247]
+                - gridcell "user" [ref=e248]:
+                  - generic "user" [ref=e249]:
+                    - paragraph [ref=e250]: user
+                - gridcell "codes" [ref=e251]:
+                  - generic "codes" [ref=e252]:
+                    - paragraph [ref=e253]: codes
+                - gridcell "codes@addy.com" [ref=e254]:
+                  - generic "codes@addy.com" [ref=e255]:
+                    - paragraph [ref=e256]: codes@addy.com
+                - gridcell "+1 (987) 746-5329" [ref=e257]
+                - gridcell [ref=e258]:
+                  - menu [ref=e259]:
+                    - button "View Details" [ref=e260] [cursor=pointer]:
+                      - img [ref=e261]
+              - row "4 Iqra Farooq 10451 Iqra Farooq iqra.farooq+77@bytecorp.io +1 (987) 465-3098" [ref=e268]:
+                - gridcell "4" [ref=e269]
+                - gridcell [ref=e270]
+                - gridcell "Iqra Farooq" [ref=e272]:
+                  - generic "Iqra Farooq" [ref=e273]:
+                    - paragraph [ref=e274] [cursor=pointer]: Iqra Farooq
+                - gridcell "10451" [ref=e275]
+                - gridcell "Iqra" [ref=e276]:
+                  - generic "Iqra" [ref=e277]:
+                    - paragraph [ref=e278]: Iqra
+                - gridcell "Farooq" [ref=e279]:
+                  - generic "Farooq" [ref=e280]:
+                    - paragraph [ref=e281]: Farooq
+                - gridcell "iqra.farooq+77@bytecorp.io" [ref=e282]:
+                  - generic "iqra.farooq+77@bytecorp.io" [ref=e283]:
+                    - paragraph [ref=e284]: iqra.farooq+77@bytecorp.io
+                - gridcell "+1 (987) 465-3098" [ref=e285]
+                - gridcell [ref=e286]:
+                  - menu [ref=e287]:
+                    - button "View Details" [ref=e288] [cursor=pointer]:
+                      - img [ref=e289]
+              - row "5 Iqra Farooq 10426 Iqra Farooq iqra.farooq+000@bytecorp.io +1 (984) 653-2985" [ref=e296]:
+                - gridcell "5" [ref=e297]
+                - gridcell [ref=e298]
+                - gridcell "Iqra Farooq" [ref=e301]:
+                  - generic "Iqra Farooq" [ref=e302]:
+                    - paragraph [ref=e303] [cursor=pointer]: Iqra Farooq
+                - gridcell "10426" [ref=e304]
+                - gridcell "Iqra" [ref=e305]:
+                  - generic "Iqra" [ref=e306]:
+                    - paragraph [ref=e307]: Iqra
+                - gridcell "Farooq" [ref=e308]:
+                  - generic "Farooq" [ref=e309]:
+                    - paragraph [ref=e310]: Farooq
+                - gridcell "iqra.farooq+000@bytecorp.io" [ref=e311]:
+                  - generic "iqra.farooq+000@bytecorp.io" [ref=e312]:
+                    - paragraph [ref=e313]: iqra.farooq+000@bytecorp.io
+                - gridcell "+1 (984) 653-2985" [ref=e314]
+                - gridcell [ref=e315]:
+                  - menu [ref=e316]:
+                    - button "View Details" [ref=e317] [cursor=pointer]:
+                      - img [ref=e318]
+              - row "6 rootcause analysis 10425 rootcause analysis iqra.farooq+011@bytecorp.io +1 (879) 465-1297" [ref=e325]:
+                - gridcell "6" [ref=e326]
+                - gridcell [ref=e327]
+                - gridcell "rootcause analysis" [ref=e329]:
+                  - generic "rootcause analysis" [ref=e330]:
+                    - paragraph [ref=e331] [cursor=pointer]: rootcause analysis
+                - gridcell "10425" [ref=e332]
+                - gridcell "rootcause" [ref=e333]:
+                  - generic "rootcause" [ref=e334]:
+                    - paragraph [ref=e335]: rootcause
+                - gridcell "analysis" [ref=e336]:
+                  - generic "analysis" [ref=e337]:
+                    - paragraph [ref=e338]: analysis
+                - gridcell "iqra.farooq+011@bytecorp.io" [ref=e339]:
+                  - generic "iqra.farooq+011@bytecorp.io" [ref=e340]:
+                    - paragraph [ref=e341]: iqra.farooq+011@bytecorp.io
+                - gridcell "+1 (879) 465-1297" [ref=e342]
+                - gridcell [ref=e343]:
+                  - menu [ref=e344]:
+                    - button "View Details" [ref=e345] [cursor=pointer]:
+                      - img [ref=e346]
+              - row "7 Nofil Khalid 10423 Nofil Khalid nk@gmail.com +1 (111) 111-1111" [ref=e353]:
+                - gridcell "7" [ref=e354]
+                - gridcell [ref=e355]
+                - gridcell "Nofil Khalid" [ref=e357]:
+                  - generic "Nofil Khalid" [ref=e358]:
+                    - paragraph [ref=e359] [cursor=pointer]: Nofil Khalid
+                - gridcell "10423" [ref=e360]
+                - gridcell "Nofil" [ref=e361]:
+                  - generic "Nofil" [ref=e362]:
+                    - paragraph [ref=e363]: Nofil
+                - gridcell "Khalid" [ref=e364]:
+                  - generic "Khalid" [ref=e365]:
+                    - paragraph [ref=e366]: Khalid
+                - gridcell "nk@gmail.com" [ref=e367]:
+                  - generic "nk@gmail.com" [ref=e368]:
+                    - paragraph [ref=e369]: nk@gmail.com
+                - gridcell "+1 (111) 111-1111" [ref=e370]
+                - gridcell [ref=e371]:
+                  - menu [ref=e372]:
+                    - button "View Details" [ref=e373] [cursor=pointer]:
+                      - img [ref=e374]
+              - row "8 Communication Test 10420 Communication Test communication@adday.com +1 (798) 632-8974" [ref=e381]:
+                - gridcell "8" [ref=e382]
+                - gridcell [ref=e383]
+                - gridcell "Communication Test" [ref=e385]:
+                  - generic "Communication Test" [ref=e386]:
+                    - paragraph [ref=e387] [cursor=pointer]: Communication Test
+                - gridcell "10420" [ref=e388]
+                - gridcell "Communication" [ref=e389]:
+                  - generic "Communication" [ref=e390]:
+                    - paragraph [ref=e391]: Communication
+                - gridcell "Test" [ref=e392]:
+                  - generic "Test" [ref=e393]:
+                    - paragraph [ref=e394]: Test
+                - gridcell "communication@adday.com" [ref=e395]:
+                  - generic "communication@adday.com" [ref=e396]:
+                    - paragraph [ref=e397]: communication@adday.com
+                - gridcell "+1 (798) 632-8974" [ref=e398]
+                - gridcell [ref=e399]:
+                  - menu [ref=e400]:
+                    - button "View Details" [ref=e401] [cursor=pointer]:
+                      - img [ref=e402]
+        - generic [ref=e417]:
+          - generic [ref=e418]:
+            - paragraph [ref=e419]: Rows per page
+            - generic [ref=e423]:
+              - combobox [ref=e424]: "10"
+              - button "Open" [ref=e426] [cursor=pointer]:
+                - img [ref=e427]
+              - group
+          - navigation "pagination navigation" [ref=e429]:
+            - list [ref=e430]:
+              - listitem [ref=e431]:
+                - button "Go to previous page" [disabled]:
+                  - img
+              - listitem [ref=e432]:
+                - button "page 1" [ref=e433] [cursor=pointer]: "1"
+              - listitem [ref=e434]:
+                - button "Go to page 2" [ref=e435] [cursor=pointer]: "2"
+              - listitem [ref=e436]:
+                - button "Go to page 3" [ref=e437] [cursor=pointer]: "3"
+              - listitem [ref=e438]:
+                - button "Go to page 4" [ref=e439] [cursor=pointer]: "4"
+              - listitem [ref=e440]:
+                - button "Go to page 5" [ref=e441] [cursor=pointer]: "5"
+              - listitem [ref=e442]:
+                - generic [ref=e443]: …
+              - listitem [ref=e444]:
+                - button "Go to page 10" [ref=e445] [cursor=pointer]: "10"
+              - listitem [ref=e446]:
+                - button "Go to next page" [ref=e447] [cursor=pointer]:
+                  - img [ref=e448]

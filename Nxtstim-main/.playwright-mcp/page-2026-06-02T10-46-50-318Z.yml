@@ -1,0 +1,103 @@
+- generic [ref=e47]:
+  - banner [ref=e48]:
+    - generic [ref=e49]:
+      - button "open drawer" [ref=e51] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55] [cursor=pointer]:
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - img "profile" [ref=e58]
+            - generic: "!"
+          - paragraph [ref=e59]: admin auth
+        - button [ref=e60]:
+          - img [ref=e61]
+  - generic [ref=e64]:
+    - generic [ref=e65]:
+      - button [ref=e66] [cursor=pointer]:
+        - img [ref=e67]
+      - img [ref=e70]
+    - separator [ref=e72]
+    - list [ref=e73]:
+      - listitem [ref=e75]:
+        - button "Accounts" [ref=e76] [cursor=pointer]:
+          - generic [ref=e77]:
+            - img [ref=e79]
+            - img [ref=e82]
+          - generic:
+            - generic: Accounts
+      - link "Monitoring" [ref=e84] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e85]:
+          - button "Monitoring" [ref=e86]:
+            - img [ref=e88]
+            - generic:
+              - generic: Monitoring
+      - link "Reports" [ref=e92] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e93]:
+          - button "Reports" [ref=e94]:
+            - img [ref=e96]
+            - generic [ref=e104]: Reports
+      - link "Invoices" [ref=e105] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e106]:
+          - button "Invoices" [ref=e107]:
+            - img [ref=e109]
+            - generic [ref=e114]: Invoices
+  - main [ref=e115]:
+    - generic [ref=e117]:
+      - generic [ref=e119]:
+        - paragraph [ref=e122]: Monitoring
+        - paragraph [ref=e123]: Track and monitor key patient metrics including device usage, vitals, care program status and many more.
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - button "Username" [ref=e126] [cursor=pointer]:
+            - text: Username
+            - img [ref=e128]
+          - generic [ref=e132]:
+            - textbox "Search for Username" [ref=e133]
+            - group
+        - generic [ref=e134]:
+          - button "Filters" [ref=e137] [cursor=pointer]:
+            - img [ref=e139]
+            - text: Filters
+          - button "Sort By" [ref=e142] [cursor=pointer]:
+            - img [ref=e145]
+            - text: Sort By
+          - button "Export CSV" [ref=e147] [cursor=pointer]:
+            - img [ref=e149]
+            - text: Export CSV
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e154]:
+            - paragraph [ref=e155]: Total Patients
+            - generic [ref=e157]: 0 Patient
+          - grid [ref=e160]:
+            - row "Username Patient ID First Name Last Name" [ref=e161]:
+              - columnheader [ref=e162]
+              - columnheader [ref=e163]
+              - columnheader "Username" [ref=e164]:
+                - generic [ref=e166]: Username
+              - columnheader "Patient ID" [ref=e167]:
+                - generic [ref=e169]: Patient ID
+              - columnheader "First Name" [ref=e170]:
+                - generic [ref=e172]: First Name
+              - columnheader "Last Name" [ref=e173]:
+                - generic [ref=e175]: Last Name
+              - columnheader [ref=e176]
+        - generic [ref=e375]:
+          - generic [ref=e376]:
+            - paragraph [ref=e377]: Rows per page
+            - generic [ref=e381]:
+              - combobox [ref=e382]: "10"
+              - button "Open" [ref=e384] [cursor=pointer]:
+                - img [ref=e385]
+              - group
+          - navigation "pagination navigation" [ref=e387]:
+            - list [ref=e388]:
+              - listitem [ref=e389]:
+                - button "Go to previous page" [disabled]:
+                  - img
+              - listitem [ref=e390]:
+                - button "Go to next page" [disabled]:
+                  - img

@@ -1,0 +1,5 @@
+[    7572ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/me:0
+[    8235ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/refresh-token:0
+[    8236ms] [LOG] Token refresh failed: Do @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-Yk7rnhMV.js:329
+[   28999ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/forgot-password:0
+[   29002ms] [ERROR] Forgot Password Error: Do @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/ForgotPassword-DTQIpYBp.js:0

@@ -1,0 +1,400 @@
+- generic [ref=e40]:
+  - banner [ref=e41]:
+    - generic [ref=e42]:
+      - button "open drawer" [ref=e834] [cursor=pointer]
+      - generic [ref=e48] [cursor=pointer]:
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - img "profile" [ref=e835]
+            - generic [ref=e52]: "!"
+          - paragraph [ref=e53]: Rbac Probe
+        - button [ref=e54]
+  - generic [ref=e58]:
+    - button [ref=e60] [cursor=pointer]
+    - separator [ref=e66]
+    - list [ref=e67]:
+      - link [ref=e836] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e69]:
+          - button [ref=e837]
+      - link [ref=e838] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e77]:
+          - button "Reports" [ref=e839]
+      - link [ref=e840] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e90]:
+          - button "Invoices" [ref=e841]
+      - link [ref=e842] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=e100]:
+          - button "Clinics" [ref=e843]
+      - link [ref=e844] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=e108]:
+          - button "Patients" [ref=e845]
+      - link [ref=e846] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=e118]:
+          - button "Users" [ref=e847]
+  - main [ref=e126]:
+    - generic [ref=e128]:
+      - generic [ref=e130]:
+        - paragraph [ref=e133]: Monitoring
+        - paragraph [ref=e134]: Track and monitor key patient metrics including device usage, vitals, care program status and many more.
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - button [ref=e848] [cursor=pointer]
+          - generic [ref=e143]:
+            - textbox "Search for Username" [ref=e849]
+            - group
+        - generic [ref=e145]:
+          - button [ref=e850] [cursor=pointer]
+          - button [ref=e851] [cursor=pointer]
+          - button [ref=e852] [cursor=pointer]
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - generic [ref=e165]:
+            - paragraph [ref=e166]: Total Patients
+            - generic [ref=e167]: 258 Patients
+          - grid [ref=e171]:
+            - row [ref=e853]:
+              - columnheader [ref=e173]
+              - columnheader [ref=e174]
+              - columnheader "Username" [ref=e854]
+              - columnheader "Patient ID" [ref=e855]
+              - columnheader "First Name" [ref=e856]
+              - columnheader "Last Name" [ref=e857]
+              - columnheader "Email" [ref=e858]
+              - columnheader "Phone Number" [ref=e859]
+              - columnheader "DOB" [ref=e860]
+              - columnheader "Associated Clinic" [ref=e861]
+              - columnheader [ref=e862]:
+                - generic [ref=e201]:
+                  - paragraph [ref=e202]: Care Codes
+                  - generic "Check patient care codes and see their applicability" [ref=e863]
+              - columnheader [ref=e206]
+            - rowgroup [ref=e207]:
+              - row [ref=e864]:
+                - gridcell "1" [ref=e865]
+                - gridcell [ref=e210]
+                - gridcell [ref=e866]:
+                  - generic "Jane Doe-ihjjafipljpiefdakeppjcllngihaadi" [ref=e867]:
+                    - paragraph [ref=e216] [cursor=pointer]: Jane Doe-ihjjafipljpiefdakeppjcllngihaadi
+                - gridcell "10891" [ref=e868]
+                - gridcell [ref=e869]:
+                  - generic "Jane" [ref=e870]:
+                    - paragraph [ref=e220]: Jane
+                - gridcell [ref=e871]:
+                  - generic "Doe-ihjjafipljpiefdakeppjcllngihaadi" [ref=e872]:
+                    - paragraph [ref=e223]: Doe-ihjjafipljpiefdakeppjcllngihaadi
+                - gridcell [ref=e873]:
+                  - generic "jane.doe.8799058f-b9f8-4530-a4ff-92bbd6870038@example.com" [ref=e874]:
+                    - paragraph [ref=e226]: jane.doe.8799058f-b9f8-4530-a4ff-92bbd6870038@example.com
+                - gridcell "+1 (555) 123-4567" [ref=e875]
+                - gridcell "01-01-1990" [ref=e876]
+                - gridcell [ref=e877]:
+                  - generic "Bytecorp Clinic" [ref=e878]:
+                    - paragraph [ref=e231]: Bytecorp Clinic
+                - gridcell [ref=e879]:
+                  - generic [ref=e233]:
+                    - 'generic "BHI: 6 Days Rem, RPM: 27 Days Rem, CCM: 6 Days Rem" [ref=e880]'
+                    - 'generic "RPM: 1 Interaction Rem" [ref=e881]'
+                    - 'generic "RPM: 2 Days of Data Rem" [ref=e882]'
+                    - 'generic "BHI: 20 Minutes Rem, RPM: 8 Minutes Rem, CCM: 20 Minutes Rem" [ref=e883]'
+                    - button [ref=e884] [cursor=pointer]:
+                      - paragraph [ref=e261]: details
+                - gridcell [ref=e262]:
+                  - menu [ref=e263]:
+                    - generic "View Details" [ref=e885]:
+                      - button [ref=e265] [cursor=pointer]
+              - row [ref=e886]:
+                - gridcell "2" [ref=e887]
+                - gridcell [ref=e275]
+                - gridcell [ref=e888]:
+                  - generic "Jane Doe-hjlohlbjkpgdelkfjamaimpegbpiejic" [ref=e889]:
+                    - paragraph [ref=e280] [cursor=pointer]: Jane Doe-hjlohlbjkpgdelkfjamaimpegbpiejic
+                - gridcell "10890" [ref=e890]
+                - gridcell [ref=e891]:
+                  - generic "Jane" [ref=e892]:
+                    - paragraph [ref=e284]: Jane
+                - gridcell [ref=e893]:
+                  - generic "Doe-hjlohlbjkpgdelkfjamaimpegbpiejic" [ref=e894]:
+                    - paragraph [ref=e287]: Doe-hjlohlbjkpgdelkfjamaimpegbpiejic
+                - gridcell [ref=e895]:
+                  - generic "jane.doe.79be7b19-af63-4ba5-90c0-8cf461f84982@example.com" [ref=e896]:
+                    - paragraph [ref=e290]: jane.doe.79be7b19-af63-4ba5-90c0-8cf461f84982@example.com
+                - gridcell "+1 (555) 123-4567" [ref=e897]
+                - gridcell "01-01-1990" [ref=e898]
+                - gridcell [ref=e899]:
+                  - generic "Bytecorp Clinic" [ref=e900]:
+                    - paragraph [ref=e295]: Bytecorp Clinic
+                - gridcell [ref=e901]:
+                  - generic [ref=e297]:
+                    - 'generic "RPM: 27 Days Rem, BHI: 6 Days Rem" [ref=e902]'
+                    - 'generic "RPM: 1 Interaction Rem" [ref=e903]'
+                    - 'generic "RPM: 2 Days of Data Rem" [ref=e904]'
+                    - 'generic "RPM: 10 Minutes Rem, BHI: 20 Minutes Rem" [ref=e905]'
+                    - button [ref=e906] [cursor=pointer]:
+                      - paragraph [ref=e325]: details
+                - gridcell [ref=e326]:
+                  - menu [ref=e327]:
+                    - generic "View Details" [ref=e907]:
+                      - button [ref=e329] [cursor=pointer]
+              - row [ref=e908]:
+                - gridcell "3" [ref=e909]
+                - gridcell [ref=e339]
+                - gridcell [ref=e910]:
+                  - generic "Jane Doe-pgihoaohafmdefcelfblnijcinogepbj" [ref=e911]:
+                    - paragraph [ref=e344] [cursor=pointer]: Jane Doe-pgihoaohafmdefcelfblnijcinogepbj
+                - gridcell "10889" [ref=e912]
+                - gridcell [ref=e913]:
+                  - generic "Jane" [ref=e914]:
+                    - paragraph [ref=e348]: Jane
+                - gridcell [ref=e915]:
+                  - generic "Doe-pgihoaohafmdefcelfblnijcinogepbj" [ref=e916]:
+                    - paragraph [ref=e351]: Doe-pgihoaohafmdefcelfblnijcinogepbj
+                - gridcell [ref=e917]:
+                  - generic "jane.doe.f687e0e7-05c3-4524-b51b-d8928de64f19@example.com" [ref=e918]:
+                    - paragraph [ref=e354]: jane.doe.f687e0e7-05c3-4524-b51b-d8928de64f19@example.com
+                - gridcell "+1 (555) 123-4567" [ref=e919]
+                - gridcell "01-01-1990" [ref=e920]
+                - gridcell [ref=e921]:
+                  - generic "Bytecorp Clinic" [ref=e922]:
+                    - paragraph [ref=e359]: Bytecorp Clinic
+                - gridcell [ref=e923]:
+                  - generic [ref=e361]:
+                    - 'generic "RPM: 27 Days Rem, BHI: 6 Days Rem" [ref=e924]'
+                    - 'generic "RPM: 1 Interaction Rem" [ref=e925]'
+                    - 'generic "RPM: 2 Days of Data Rem" [ref=e926]'
+                    - 'generic "RPM: 10 Minutes Rem, BHI: 20 Minutes Rem" [ref=e927]'
+                    - button [ref=e928] [cursor=pointer]:
+                      - paragraph [ref=e389]: details
+                - gridcell [ref=e390]:
+                  - menu [ref=e391]:
+                    - generic "View Details" [ref=e929]:
+                      - button [ref=e393] [cursor=pointer]
+              - row [ref=e930]:
+                - gridcell "4" [ref=e931]
+                - gridcell [ref=e403]
+                - gridcell [ref=e932]:
+                  - generic "Jane Doe-nicpmeebdkahedneibcieebpcilfmnng" [ref=e933]:
+                    - paragraph [ref=e408] [cursor=pointer]: Jane Doe-nicpmeebdkahedneibcieebpcilfmnng
+                - gridcell "10888" [ref=e934]
+                - gridcell [ref=e935]:
+                  - generic "Jane" [ref=e936]:
+                    - paragraph [ref=e412]: Jane
+                - gridcell [ref=e937]:
+                  - generic "Doe-nicpmeebdkahedneibcieebpcilfmnng" [ref=e938]:
+                    - paragraph [ref=e415]: Doe-nicpmeebdkahedneibcieebpcilfmnng
+                - gridcell [ref=e939]:
+                  - generic "jane.doe.d82fc441-3a07-43d4-8128-441f28b5cdd6@example.com" [ref=e940]:
+                    - paragraph [ref=e418]: jane.doe.d82fc441-3a07-43d4-8128-441f28b5cdd6@example.com
+                - gridcell "+1 (555) 123-4567" [ref=e941]
+                - gridcell "01-01-1990" [ref=e942]
+                - gridcell [ref=e943]:
+                  - generic "Bytecorp Clinic" [ref=e944]:
+                    - paragraph [ref=e423]: Bytecorp Clinic
+                - gridcell [ref=e945]:
+                  - generic [ref=e425]:
+                    - 'generic "RPM: 27 Days Rem, BHI: 6 Days Rem" [ref=e946]'
+                    - 'generic "RPM: 1 Interaction Rem" [ref=e947]'
+                    - 'generic "RPM: 2 Days of Data Rem" [ref=e948]'
+                    - 'generic "RPM: 9 Minutes Rem, BHI: 20 Minutes Rem" [ref=e949]'
+                    - button [ref=e950] [cursor=pointer]:
+                      - paragraph [ref=e453]: details
+                - gridcell [ref=e454]:
+                  - menu [ref=e455]:
+                    - generic "View Details" [ref=e951]:
+                      - button [ref=e457] [cursor=pointer]
+              - row [ref=e952]:
+                - gridcell "5" [ref=e953]
+                - gridcell [ref=e467]
+                - gridcell [ref=e954]:
+                  - generic "Jane Doe-hobadinlhlhnefjeimbckmmjenhgafpc" [ref=e955]:
+                    - paragraph [ref=e472] [cursor=pointer]: Jane Doe-hobadinlhlhnefjeimbckmmjenhgafpc
+                - gridcell "10887" [ref=e956]
+                - gridcell [ref=e957]:
+                  - generic "Jane" [ref=e958]:
+                    - paragraph [ref=e476]: Jane
+                - gridcell [ref=e959]:
+                  - generic "Doe-hobadinlhlhnefjeimbckmmjenhgafpc" [ref=e960]:
+                    - paragraph [ref=e479]: Doe-hobadinlhlhnefjeimbckmmjenhgafpc
+                - gridcell [ref=e961]:
+                  - generic "jane.doe.7e1038db-7b7d-4594-8c12-acc94d7605f2@example.com" [ref=e962]:
+                    - paragraph [ref=e482]: jane.doe.7e1038db-7b7d-4594-8c12-acc94d7605f2@example.com
+                - gridcell "+55 (51) 234567" [ref=e963]
+                - gridcell "01-01-1990" [ref=e964]
+                - gridcell [ref=e965]:
+                  - generic "Bytecorp Clinic" [ref=e966]:
+                    - paragraph [ref=e487]: Bytecorp Clinic
+                - gridcell [ref=e967]:
+                  - generic [ref=e489]:
+                    - 'generic "RPM: 27 Days Rem, BHI: 6 Days Rem" [ref=e968]'
+                    - 'generic "RPM: 2 Days of Data Rem" [ref=e969]'
+                    - 'generic "RPM: 8 Minutes Rem, BHI: 20 Minutes Rem" [ref=e970]'
+                    - button [ref=e971] [cursor=pointer]:
+                      - paragraph [ref=e507]: details
+                - gridcell [ref=e508]:
+                  - menu [ref=e509]:
+                    - generic "View Details" [ref=e972]:
+                      - button [ref=e511] [cursor=pointer]
+              - row [ref=e973]:
+                - gridcell "6" [ref=e974]
+                - gridcell [ref=e521]
+                - gridcell [ref=e975]:
+                  - generic "Jane Doe-fcobejhphcneeilfjmeibgkffmjlledc" [ref=e976]:
+                    - paragraph [ref=e526] [cursor=pointer]: Jane Doe-fcobejhphcneeilfjmeibgkffmjlledc
+                - gridcell "10886" [ref=e977]
+                - gridcell [ref=e978]:
+                  - generic "Jane" [ref=e979]:
+                    - paragraph [ref=e530]: Jane
+                - gridcell [ref=e980]:
+                  - generic "Doe-fcobejhphcneeilfjmeibgkffmjlledc" [ref=e981]:
+                    - paragraph [ref=e533]: Doe-fcobejhphcneeilfjmeibgkffmjlledc
+                - gridcell [ref=e982]:
+                  - generic "jane.doe.52e1497f-72d4-48b5-9c48-16a55c9bb432@example.com" [ref=e983]:
+                    - paragraph [ref=e536]: jane.doe.52e1497f-72d4-48b5-9c48-16a55c9bb432@example.com
+                - gridcell "+55 (51) 234567" [ref=e984]
+                - gridcell "01-01-1990" [ref=e985]
+                - gridcell [ref=e986]:
+                  - generic "Bytecorp Clinic" [ref=e987]:
+                    - paragraph [ref=e541]: Bytecorp Clinic
+                - gridcell [ref=e988]:
+                  - generic [ref=e543]:
+                    - 'generic "RPM: 27 Days Rem, BHI: 6 Days Rem" [ref=e989]'
+                    - 'generic "RPM: 1 Interaction Rem" [ref=e990]'
+                    - 'generic "RPM: 2 Days of Data Rem" [ref=e991]'
+                    - 'generic "RPM: 10 Minutes Rem, BHI: 20 Minutes Rem" [ref=e992]'
+                    - button [ref=e993] [cursor=pointer]:
+                      - paragraph [ref=e571]: details
+                - gridcell [ref=e572]:
+                  - menu [ref=e573]:
+                    - generic "View Details" [ref=e994]:
+                      - button [ref=e575] [cursor=pointer]
+              - row [ref=e995]:
+                - gridcell "7" [ref=e996]
+                - gridcell [ref=e585]
+                - gridcell [ref=e997]:
+                  - generic "Jane Doe-gnncjhmjgnodeemaikenodhglgkfibge" [ref=e998]:
+                    - paragraph [ref=e590] [cursor=pointer]: Jane Doe-gnncjhmjgnodeemaikenodhglgkfibge
+                - gridcell "10885" [ref=e999]
+                - gridcell [ref=e1000]:
+                  - generic "Jane" [ref=e1001]:
+                    - paragraph [ref=e594]: Jane
+                - gridcell [ref=e1002]:
+                  - generic "Doe-gnncjhmjgnodeemaikenodhglgkfibge" [ref=e1003]:
+                    - paragraph [ref=e597]: Doe-gnncjhmjgnodeemaikenodhglgkfibge
+                - gridcell [ref=e1004]:
+                  - generic "jane.doe.6dd297c9-6de3-44c0-8a4d-e376b6a58164@example.com" [ref=e1005]:
+                    - paragraph [ref=e600]: jane.doe.6dd297c9-6de3-44c0-8a4d-e376b6a58164@example.com
+                - gridcell "+1 (555) 123-4567" [ref=e1006]
+                - gridcell "01-01-1990" [ref=e1007]
+                - gridcell [ref=e1008]:
+                  - generic "Bytecorp Clinic" [ref=e1009]:
+                    - paragraph [ref=e605]: Bytecorp Clinic
+                - gridcell [ref=e1010]:
+                  - generic [ref=e607]:
+                    - 'generic "BHI: 6 Days Rem, RPM: 27 Days Rem" [ref=e1011]'
+                    - 'generic "RPM: 1 Interaction Rem" [ref=e1012]'
+                    - 'generic "RPM: 2 Days of Data Rem" [ref=e1013]'
+                    - 'generic "BHI: 20 Minutes Rem, RPM: 10 Minutes Rem" [ref=e1014]'
+                    - button [ref=e1015] [cursor=pointer]:
+                      - paragraph [ref=e635]: details
+                - gridcell [ref=e636]:
+                  - menu [ref=e637]:
+                    - generic "View Details" [ref=e1016]:
+                      - button [ref=e639] [cursor=pointer]
+              - row [ref=e1017]:
+                - gridcell "8" [ref=e1018]
+                - gridcell [ref=e649]
+                - gridcell [ref=e1019]:
+                  - generic "Jane Doe-iiceifjaefalecjhjhfdhfbffdennmma" [ref=e1020]:
+                    - paragraph [ref=e654] [cursor=pointer]: Jane Doe-iiceifjaefalecjhjhfdhfbffdennmma
+                - gridcell "10884" [ref=e1021]
+                - gridcell [ref=e1022]:
+                  - generic "Jane" [ref=e1023]:
+                    - paragraph [ref=e658]: Jane
+                - gridcell [ref=e1024]:
+                  - generic "Doe-iiceifjaefalecjhjhfdhfbffdennmma" [ref=e1025]:
+                    - paragraph [ref=e661]: Doe-iiceifjaefalecjhjhfdhfbffdennmma
+                - gridcell [ref=e1026]:
+                  - generic "jane.doe.88248590-450b-4297-9753-7515534ddcc0@example.com" [ref=e1027]:
+                    - paragraph [ref=e664]: jane.doe.88248590-450b-4297-9753-7515534ddcc0@example.com
+                - gridcell "+55 (51) 234567" [ref=e1028]
+                - gridcell "01-01-1990" [ref=e1029]
+                - gridcell [ref=e1030]:
+                  - generic "Bytecorp Clinic" [ref=e1031]:
+                    - paragraph [ref=e669]: Bytecorp Clinic
+                - gridcell [ref=e1032]:
+                  - generic [ref=e671]:
+                    - 'generic "RPM: 27 Days Rem, BHI: 6 Days Rem" [ref=e1033]'
+                    - 'generic "RPM: 1 Interaction Rem" [ref=e1034]'
+                    - 'generic "RPM: 2 Days of Data Rem" [ref=e1035]'
+                    - 'generic "RPM: 9 Minutes Rem, BHI: 20 Minutes Rem" [ref=e1036]'
+                    - button [ref=e1037] [cursor=pointer]:
+                      - paragraph [ref=e699]: details
+                - gridcell [ref=e700]:
+                  - menu [ref=e701]:
+                    - generic "View Details" [ref=e1038]:
+                      - button [ref=e703] [cursor=pointer]
+              - row [ref=e1039]:
+                - gridcell "9" [ref=e1040]
+                - gridcell [ref=e713]
+                - gridcell [ref=e1041]:
+                  - generic "Jane Doe-aeebhchjphhiejhailpnmmbbgdllppka" [ref=e1042]:
+                    - paragraph [ref=e718] [cursor=pointer]: Jane Doe-aeebhchjphhiejhailpnmmbbgdllppka
+                - gridcell "10883" [ref=e1043]
+                - gridcell [ref=e1044]:
+                  - generic "Jane" [ref=e1045]:
+                    - paragraph [ref=e722]: Jane
+                - gridcell [ref=e1046]:
+                  - generic "Doe-aeebhchjphhiejhailpnmmbbgdllppka" [ref=e1047]:
+                    - paragraph [ref=e725]: Doe-aeebhchjphhiejhailpnmmbbgdllppka
+                - gridcell [ref=e1048]:
+                  - generic "jane.doe.04417279-f778-4970-8bfd-cc1163bbffa0@example.com" [ref=e1049]:
+                    - paragraph [ref=e728]: jane.doe.04417279-f778-4970-8bfd-cc1163bbffa0@example.com
+                - gridcell "+55 (51) 234567" [ref=e1050]
+                - gridcell "01-01-1990" [ref=e1051]
+                - gridcell [ref=e1052]:
+                  - generic "Bytecorp Clinic" [ref=e1053]:
+                    - paragraph [ref=e733]: Bytecorp Clinic
+                - gridcell [ref=e1054]:
+                  - generic [ref=e735]:
+                    - 'generic "RPM: 27 Days Rem, BHI: 6 Days Rem" [ref=e1055]'
+                    - 'generic "RPM: 1 Interaction Rem" [ref=e1056]'
+                    - 'generic "RPM: 2 Days of Data Rem" [ref=e1057]'
+                    - 'generic "RPM: 10 Minutes Rem, BHI: 20 Minutes Rem" [ref=e1058]'
+                    - button [ref=e1059] [cursor=pointer]:
+                      - paragraph [ref=e763]: details
+                - gridcell [ref=e764]:
+                  - menu [ref=e765]:
+                    - generic "View Details" [ref=e1060]:
+                      - button [ref=e767] [cursor=pointer]
+        - generic [ref=e783]:
+          - generic [ref=e784]:
+            - paragraph [ref=e785]: Rows per page
+            - generic [ref=e789]:
+              - combobox [ref=e790]: "10"
+              - button "Open" [ref=e1061] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=e1062]:
+            - list [ref=e796]:
+              - listitem [ref=e797]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=e798]:
+                - button "page 1" [ref=e1063] [cursor=pointer]: "1"
+              - listitem [ref=e800]:
+                - button "Go to page 2" [ref=e1064] [cursor=pointer]: "2"
+              - listitem [ref=e802]:
+                - button "Go to page 3" [ref=e1065] [cursor=pointer]: "3"
+              - listitem [ref=e804]:
+                - button "Go to page 4" [ref=e1066] [cursor=pointer]: "4"
+              - listitem [ref=e806]:
+                - button "Go to page 5" [ref=e1067] [cursor=pointer]: "5"
+              - listitem [ref=e808]:
+                - generic [ref=e809]: …
+              - listitem [ref=e810]:
+                - button "Go to page 26" [ref=e1068] [cursor=pointer]: "26"
+              - listitem [ref=e812]:
+                - button "Go to next page" [ref=e1069] [cursor=pointer]

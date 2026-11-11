@@ -1,0 +1,141 @@
+- generic [ref=f3e6]:
+  - generic [ref=f3e8]:
+    - banner [ref=f3e608]:
+      - generic [ref=f3e609]:
+        - button [ref=f3e669] [cursor=pointer]
+        - generic [ref=f3e615] [cursor=pointer]:
+          - generic [ref=f3e616]:
+            - generic [ref=f3e617]: "!"
+            - paragraph [ref=f3e620]: ADMIN USER
+          - button [ref=f3e621]
+    - generic [ref=f3e26]:
+      - button [ref=f3e28] [cursor=pointer]
+      - separator [ref=f3e34]
+      - list [ref=f3e35]:
+        - link [ref=f3e671] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f3e37]:
+            - button [ref=f3e672]:
+              - generic [ref=f3e44]: Monitoring
+        - link [ref=f3e673] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f3e47]:
+            - button [ref=f3e674]:
+              - generic [ref=f3e57]: Reports
+        - link [ref=f3e675] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f3e60]:
+            - button [ref=f3e676]:
+              - generic [ref=f3e67]: Invoices
+        - link [ref=f3e677] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f3e70]:
+            - button [ref=f3e678]:
+              - generic [ref=f3e75]: Clinics
+        - link [ref=f3e679] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f3e78]:
+            - button [ref=f3e680]:
+              - generic [ref=f3e85]: Patients
+        - link [ref=f3e681] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f3e88]:
+            - button [ref=f3e682]
+        - link [ref=f3e683] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f3e95]:
+            - button [ref=f3e684]:
+              - generic [ref=f3e102]: Roles
+    - main [ref=f3e104]:
+      - generic [ref=f3e106]:
+        - generic [ref=f3e108]:
+          - generic [ref=f3e109]:
+            - paragraph [ref=f3e111]: Users
+            - button [ref=f3e685] [cursor=pointer]: Add New User
+          - paragraph [ref=f3e116]: View and manage all users and their assigned roles across the system.
+        - tablist [ref=f3e119]:
+          - tab [ref=f3e686] [cursor=pointer]: Active
+          - tab [selected] [ref=f3e687] [cursor=pointer]: Pending
+          - tab [ref=f3e688] [cursor=pointer]: Suspended
+          - tab [ref=f3e689] [cursor=pointer]: Inactive
+        - generic [ref=f3e125]:
+          - generic [ref=f3e126]:
+            - button [ref=f3e690] [cursor=pointer]: User ID
+            - generic [ref=f3e133]:
+              - textbox [ref=f3e691]:
+                - /placeholder: Search for User ID
+                - text: "10431"
+              - group
+          - generic [ref=f3e135]:
+            - button [ref=f3e692] [cursor=pointer]: Filters
+            - button [ref=f3e693] [cursor=pointer]: Sort By
+            - button [ref=f3e694] [cursor=pointer]: Export CSV
+        - generic [ref=f3e153]:
+          - generic [ref=f3e154]:
+            - generic [ref=f3e156]:
+              - paragraph [ref=f3e157]: Total Users
+              - generic [ref=f3e158]: 1 Users
+            - grid [ref=f3e162]:
+              - row [ref=f3e695]:
+                - columnheader [ref=f3e164]
+                - columnheader [ref=f3e696]:
+                  - generic [ref=f3e166]: User ID
+                - columnheader [ref=f3e697]:
+                  - generic [ref=f3e169]: Username
+                - columnheader [ref=f3e698]:
+                  - generic [ref=f3e172]: First Name
+                - columnheader [ref=f3e699]:
+                  - generic [ref=f3e175]: Last Name
+                - columnheader [ref=f3e700]:
+                  - generic [ref=f3e178]: Roles
+                - columnheader [ref=f3e701]:
+                  - generic [ref=f3e181]: Email Address
+                - columnheader [ref=f3e702]:
+                  - generic [ref=f3e184]: Phone Number
+                - columnheader [ref=f3e703]:
+                  - generic [ref=f3e187]: Onboarding Date
+                - columnheader [ref=f3e704]:
+                  - generic [ref=f3e190]: Associated Clinics
+                - columnheader [ref=f3e192]
+              - rowgroup [ref=f3e193]:
+                - row [ref=f3e705]:
+                  - gridcell [ref=f3e706]: "1"
+                  - gridcell [ref=f3e707]:
+                    - paragraph [ref=f3e628]: "10431"
+                  - gridcell [ref=f3e709]:
+                    - paragraph [ref=f3e632] [cursor=pointer]: Executive Admin
+                  - gridcell [ref=f3e711]:
+                    - paragraph [ref=f3e635]: Executive
+                  - gridcell [ref=f3e713]:
+                    - paragraph [ref=f3e638]: Admin
+                  - gridcell [ref=f3e715]:
+                    - generic [ref=f3e640]: Executive Admin
+                  - gridcell [ref=f3e716]:
+                    - paragraph [ref=f3e645]: executiveadmin@iqra.anonaddy.com
+                  - gridcell [ref=f3e718]:
+                    - paragraph [ref=f3e648]: "-"
+                  - gridcell [ref=f3e720]:
+                    - paragraph [ref=f3e651]: 05-19-2026
+                  - gridcell [ref=f3e722]:
+                    - paragraph [ref=f3e654]: "-"
+                  - gridcell [ref=f3e655]:
+                    - menu [ref=f3e656]:
+                      - button [ref=f3e658] [cursor=pointer]
+          - generic [ref=f3e573]:
+            - generic [ref=f3e574]:
+              - paragraph [ref=f3e575]: Rows per page
+              - generic [ref=f3e579]:
+                - combobox [ref=f3e580]: "10"
+                - button [ref=f3e724] [cursor=pointer]
+                - group
+            - navigation [ref=f3e725]:
+              - list [ref=f3e586]:
+                - listitem [ref=f3e587]:
+                  - button [disabled]
+                - listitem [ref=f3e588]:
+                  - button [ref=f3e726] [cursor=pointer]: "1"
+                - listitem [ref=f3e668]:
+                  - button [disabled]
+  - menu [ref=f3e729]:
+    - menuitem [active] [ref=f3e730] [cursor=pointer]:
+      - paragraph [ref=f3e733]: Resend Email

@@ -1,0 +1,5 @@
+[    6331ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/me:0
+[    6799ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/refresh-token:0
+[    6800ms] [LOG] Token refresh failed: Po @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-B80supyG.js:326
+[    7680ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/login:0
+[  202129ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/mfa/verify-login:0

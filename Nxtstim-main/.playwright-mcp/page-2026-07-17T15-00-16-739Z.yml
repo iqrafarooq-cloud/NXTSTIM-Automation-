@@ -1,0 +1,26 @@
+- generic [ref=e6]:
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - paragraph [ref=e15]: Forgot Your Password?
+      - paragraph [ref=e16]: Enter your registered email address below, and we’ll send you a link to reset your password.
+      - generic [ref=e17]:
+        - generic [ref=e18]: Email Address
+        - generic [ref=e20]:
+          - textbox [ref=e21]:
+            - /placeholder: Enter Email
+          - group
+      - button [disabled]: Send Reset Link
+      - separator [ref=e22]:
+        - paragraph [ref=e24]: OR
+      - paragraph [ref=e25]:
+        - link [ref=e26] [cursor=pointer]:
+          - /url: /login
+          - text: Back to Login
+    - link [ref=e27] [cursor=pointer]:
+      - /url: https://nxtstim.com/terms-of-service
+      - text: Terms Of Service
+  - dialog [ref=e30]:
+    - generic [ref=e31]:
+      - heading "Session Ended" [level=6] [ref=e32]
+      - paragraph [ref=e33]: Your session has expired. Please log in again.
+      - button "Close" [ref=e34] [cursor=pointer]

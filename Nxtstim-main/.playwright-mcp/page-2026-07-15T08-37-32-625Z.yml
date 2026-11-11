@@ -1,0 +1,106 @@
+- generic [ref=f2e8]:
+  - banner [ref=f2e9]:
+    - generic [ref=f2e10]:
+      - button "open drawer" [ref=f2e307] [cursor=pointer]
+      - generic [ref=f2e16] [cursor=pointer]:
+        - generic [ref=f2e17]:
+          - generic [ref=f2e18]:
+            - img "profile" [ref=f2e308]
+            - generic [ref=f2e20]: "!"
+          - paragraph [ref=f2e21]: admin auth
+        - button [ref=f2e22]
+  - generic [ref=f2e26]:
+    - button [ref=f2e28] [cursor=pointer]
+    - separator [ref=f2e34]
+    - list [ref=f2e35]:
+      - link [ref=f2e309] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f2e37]:
+          - button "Monitoring" [ref=f2e310]
+      - link [ref=f2e311] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f2e47]:
+          - button "Reports" [ref=f2e312]
+      - link [ref=f2e313] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f2e60]:
+          - button "Invoices" [ref=f2e314]
+      - link [ref=f2e315] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f2e70]:
+          - button [ref=f2e316]
+      - link [ref=f2e317] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f2e76]:
+          - button "Patients" [ref=f2e318]
+      - link [ref=f2e319] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f2e86]:
+          - button "Users" [ref=f2e320]
+      - link [ref=f2e321] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f2e95]:
+          - button "Roles" [ref=f2e322]
+  - main [ref=f2e104]:
+    - generic [ref=f2e105]:
+      - navigation [ref=f2e106]:
+        - list [ref=f2e107]:
+          - listitem [ref=f2e108]:
+            - button "Clinics" [ref=f2e323] [cursor=pointer]
+          - listitem [ref=f2e110]: ">"
+          - listitem [ref=f2e111]:
+            - paragraph [ref=f2e112]: Clinic ID 11646
+      - generic [ref=f2e113]:
+        - generic [ref=f2e115]:
+          - paragraph [ref=f2e116]: Bytecorp Clinic
+          - generic [ref=f2e117]: Active
+        - generic [ref=f2e127]:
+          - paragraph [ref=f2e132]: "11646"
+          - paragraph [ref=f2e136]: Abdul Rehman
+          - paragraph [ref=f2e140]: abdul.rehman@bytecorp.io
+          - paragraph [ref=f2e149]: +1 (221) 548-4544
+      - generic [ref=f2e150]:
+        - tablist [ref=f2e154]:
+          - tab "Clinic Profile" [selected] [ref=f2e324] [cursor=pointer]
+          - tab "Supervisor" [ref=f2e325] [cursor=pointer]
+          - tab "Nurses" [ref=f2e326] [cursor=pointer]
+          - tab "Patient Tags" [ref=f2e327] [cursor=pointer]
+          - tab "File Vault" [ref=f2e328] [cursor=pointer]
+          - tab "Billing" [ref=f2e329] [cursor=pointer]
+        - generic [ref=f2e161]:
+          - button "Edit" [active] [ref=f2e330] [cursor=pointer]
+          - generic [ref=f2e165]:
+            - paragraph [ref=f2e172]: Clinic Info
+            - generic [ref=f2e174]:
+              - paragraph [ref=f2e175]: Name
+              - paragraph [ref=f2e176]: Bytecorp Clinic
+          - generic [ref=f2e177]:
+            - paragraph [ref=f2e183]: Contact Info
+            - generic [ref=f2e184]:
+              - generic [ref=f2e185]:
+                - paragraph [ref=f2e186]: Full Name
+                - paragraph [ref=f2e187]: Abdul Rehman
+              - generic [ref=f2e188]:
+                - paragraph [ref=f2e189]: Email
+                - paragraph [ref=f2e190]: abdul.rehman@bytecorp.io
+              - generic [ref=f2e191]:
+                - paragraph [ref=f2e192]: Phone Number
+                - paragraph [ref=f2e193]:
+                  - generic [ref=f2e194]:
+                    - textbox "1 (702) 123-4567" [disabled] [ref=f2e331]: +1 (221) 548-4544
+                    - 'button "United States: + 1" [ref=f2e332]'
+          - generic [ref=f2e199]:
+            - paragraph [ref=f2e206]: Location
+            - generic [ref=f2e207]:
+              - generic [ref=f2e208]:
+                - paragraph [ref=f2e209]: Street Address
+                - paragraph [ref=f2e210]: 2nd Floor A-352 Blk 15 Block 15 Gulistan-e-Johar
+              - generic [ref=f2e211]:
+                - paragraph [ref=f2e212]: City
+                - paragraph [ref=f2e213]: karachi
+              - generic [ref=f2e214]:
+                - paragraph [ref=f2e215]: State
+                - paragraph [ref=f2e216]: Sindh
+              - generic [ref=f2e217]:
+                - paragraph [ref=f2e218]: Zip Code
+                - paragraph [ref=f2e219]: "75950"

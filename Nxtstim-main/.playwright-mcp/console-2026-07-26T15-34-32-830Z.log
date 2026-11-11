@@ -1,0 +1,6 @@
+[   31661ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/reports/patient-data-report?sortBy=id&sortDirection=asc&page=1&pageSize=10&searchTerm=Jane&searchAttribute=username:0
+[   31665ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/mfa/status:0
+[ 2195403ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/login:0
+[ 2197295ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/mfa/status:0
+[ 2197300ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/me:0
+[ 2197304ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/logout:0

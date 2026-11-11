@@ -1,0 +1,254 @@
+- generic [ref=e8]:
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - button "open drawer" [ref=e12] [cursor=pointer]:
+        - img [ref=e13]
+      - generic [ref=e16] [cursor=pointer]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - img "profile" [ref=e19]
+            - generic: "!"
+          - paragraph [ref=e20]: admin auth
+        - button [ref=e21]:
+          - img [ref=e22]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - button [ref=e27] [cursor=pointer]:
+        - img [ref=e28]
+      - img [ref=e31]
+    - separator [ref=e33]
+    - list [ref=e34]:
+      - listitem [ref=e36]:
+        - button "Accounts" [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]:
+            - img [ref=e40]
+            - img [ref=e43]
+          - generic:
+            - generic: Accounts
+      - link "Monitoring" [ref=e45] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e46]:
+          - button "Monitoring" [ref=e47]:
+            - img [ref=e49]
+            - generic:
+              - generic: Monitoring
+      - link "Reports" [ref=e53] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e54]:
+          - button "Reports" [ref=e55]:
+            - img [ref=e57]
+            - generic [ref=e65]: Reports
+      - link "Invoices" [ref=e66] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e67]:
+          - button "Invoices" [ref=e68]:
+            - img [ref=e70]
+            - generic [ref=e75]: Invoices
+  - main [ref=e76]:
+    - generic [ref=e78]:
+      - generic [ref=e80]:
+        - paragraph [ref=e83]: Monitoring
+        - paragraph [ref=e84]: Track and monitor key patient metrics including device usage, vitals, care program status and many more.
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - button "Username" [ref=e87] [cursor=pointer]:
+            - text: Username
+            - img [ref=e89]
+          - generic [ref=e93]:
+            - textbox "Search for Username" [ref=e94]
+            - group
+        - generic [ref=e95]:
+          - button "Filters" [ref=e98] [cursor=pointer]:
+            - img [ref=e100]
+            - text: Filters
+          - button "Sort By" [ref=e103] [cursor=pointer]:
+            - img [ref=e106]
+            - text: Sort By
+          - button "Export CSV" [ref=e108] [cursor=pointer]:
+            - img [ref=e110]
+            - text: Export CSV
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - generic [ref=e115]:
+            - paragraph [ref=e116]: Total Patients
+            - generic [ref=e118]: 93 Patients
+          - grid [ref=e121]:
+            - row "Username Patient ID First Name Last Name" [ref=e122]:
+              - columnheader [ref=e123]
+              - columnheader [ref=e124]
+              - columnheader "Username" [ref=e125]:
+                - generic [ref=e127]: Username
+              - columnheader "Patient ID" [ref=e128]:
+                - generic [ref=e130]: Patient ID
+              - columnheader "First Name" [ref=e131]:
+                - generic [ref=e133]: First Name
+              - columnheader "Last Name" [ref=e134]:
+                - generic [ref=e136]: Last Name
+              - columnheader [ref=e137]
+            - rowgroup [ref=e138]:
+              - row "1 Nofil Khalid 10519 Nofil Khalid" [ref=e139]:
+                - gridcell "1" [ref=e140]
+                - gridcell [ref=e141]
+                - gridcell "Nofil Khalid" [ref=e143]:
+                  - generic "Nofil Khalid" [ref=e144]:
+                    - paragraph [ref=e145] [cursor=pointer]: Nofil Khalid
+                - gridcell "10519" [ref=e146]
+                - gridcell "Nofil" [ref=e147]:
+                  - generic "Nofil" [ref=e148]:
+                    - paragraph [ref=e149]: Nofil
+                - gridcell "Khalid" [ref=e150]:
+                  - generic "Khalid" [ref=e151]:
+                    - paragraph [ref=e152]: Khalid
+                - gridcell [ref=e153]:
+                  - menu [ref=e154]:
+                    - button "View Details" [ref=e155] [cursor=pointer]:
+                      - img [ref=e156]
+              - row "2 newwww user 10518 newwww user" [ref=e163]:
+                - gridcell "2" [ref=e164]
+                - gridcell [ref=e165]
+                - gridcell "newwww user" [ref=e167]:
+                  - generic "newwww user" [ref=e168]:
+                    - paragraph [ref=e169] [cursor=pointer]: newwww user
+                - gridcell "10518" [ref=e170]
+                - gridcell "newwww" [ref=e171]:
+                  - generic "newwww" [ref=e172]:
+                    - paragraph [ref=e173]: newwww
+                - gridcell "user" [ref=e174]:
+                  - generic "user" [ref=e175]:
+                    - paragraph [ref=e176]: user
+                - gridcell [ref=e177]:
+                  - menu [ref=e178]:
+                    - button "View Details" [ref=e179] [cursor=pointer]:
+                      - img [ref=e180]
+              - row "3 user codes 10517 user codes" [ref=e187]:
+                - gridcell "3" [ref=e188]
+                - gridcell [ref=e189]
+                - gridcell "user codes" [ref=e191]:
+                  - generic "user codes" [ref=e192]:
+                    - paragraph [ref=e193] [cursor=pointer]: user codes
+                - gridcell "10517" [ref=e194]
+                - gridcell "user" [ref=e195]:
+                  - generic "user" [ref=e196]:
+                    - paragraph [ref=e197]: user
+                - gridcell "codes" [ref=e198]:
+                  - generic "codes" [ref=e199]:
+                    - paragraph [ref=e200]: codes
+                - gridcell [ref=e201]:
+                  - menu [ref=e202]:
+                    - button "View Details" [ref=e203] [cursor=pointer]:
+                      - img [ref=e204]
+              - row "4 Iqra Farooq 10451 Iqra Farooq" [ref=e211]:
+                - gridcell "4" [ref=e212]
+                - gridcell [ref=e213]
+                - gridcell "Iqra Farooq" [ref=e215]:
+                  - generic "Iqra Farooq" [ref=e216]:
+                    - paragraph [ref=e217] [cursor=pointer]: Iqra Farooq
+                - gridcell "10451" [ref=e218]
+                - gridcell "Iqra" [ref=e219]:
+                  - generic "Iqra" [ref=e220]:
+                    - paragraph [ref=e221]: Iqra
+                - gridcell "Farooq" [ref=e222]:
+                  - generic "Farooq" [ref=e223]:
+                    - paragraph [ref=e224]: Farooq
+                - gridcell [ref=e225]:
+                  - menu [ref=e226]:
+                    - button "View Details" [ref=e227] [cursor=pointer]:
+                      - img [ref=e228]
+              - row "5 Iqra Farooq 10426 Iqra Farooq" [ref=e235]:
+                - gridcell "5" [ref=e236]
+                - gridcell [ref=e237]
+                - gridcell "Iqra Farooq" [ref=e240]:
+                  - generic "Iqra Farooq" [ref=e241]:
+                    - paragraph [ref=e242] [cursor=pointer]: Iqra Farooq
+                - gridcell "10426" [ref=e243]
+                - gridcell "Iqra" [ref=e244]:
+                  - generic "Iqra" [ref=e245]:
+                    - paragraph [ref=e246]: Iqra
+                - gridcell "Farooq" [ref=e247]:
+                  - generic "Farooq" [ref=e248]:
+                    - paragraph [ref=e249]: Farooq
+                - gridcell [ref=e250]:
+                  - menu [ref=e251]:
+                    - button "View Details" [ref=e252] [cursor=pointer]:
+                      - img [ref=e253]
+              - row "6 rootcause analysis 10425 rootcause analysis" [ref=e260]:
+                - gridcell "6" [ref=e261]
+                - gridcell [ref=e262]
+                - gridcell "rootcause analysis" [ref=e264]:
+                  - generic "rootcause analysis" [ref=e265]:
+                    - paragraph [ref=e266] [cursor=pointer]: rootcause analysis
+                - gridcell "10425" [ref=e267]
+                - gridcell "rootcause" [ref=e268]:
+                  - generic "rootcause" [ref=e269]:
+                    - paragraph [ref=e270]: rootcause
+                - gridcell "analysis" [ref=e271]:
+                  - generic "analysis" [ref=e272]:
+                    - paragraph [ref=e273]: analysis
+                - gridcell [ref=e274]:
+                  - menu [ref=e275]:
+                    - button "View Details" [ref=e276] [cursor=pointer]:
+                      - img [ref=e277]
+              - row "7 Nofil Khalid 10423 Nofil Khalid" [ref=e284]:
+                - gridcell "7" [ref=e285]
+                - gridcell [ref=e286]
+                - gridcell "Nofil Khalid" [ref=e288]:
+                  - generic "Nofil Khalid" [ref=e289]:
+                    - paragraph [ref=e290] [cursor=pointer]: Nofil Khalid
+                - gridcell "10423" [ref=e291]
+                - gridcell "Nofil" [ref=e292]:
+                  - generic "Nofil" [ref=e293]:
+                    - paragraph [ref=e294]: Nofil
+                - gridcell "Khalid" [ref=e295]:
+                  - generic "Khalid" [ref=e296]:
+                    - paragraph [ref=e297]: Khalid
+                - gridcell [ref=e298]:
+                  - menu [ref=e299]:
+                    - button "View Details" [ref=e300] [cursor=pointer]:
+                      - img [ref=e301]
+              - row "8 Communication Test 10420 Communication Test" [ref=e308]:
+                - gridcell "8" [ref=e309]
+                - gridcell [ref=e310]
+                - gridcell "Communication Test" [ref=e312]:
+                  - generic "Communication Test" [ref=e313]:
+                    - paragraph [ref=e314] [cursor=pointer]: Communication Test
+                - gridcell "10420" [ref=e315]
+                - gridcell "Communication" [ref=e316]:
+                  - generic "Communication" [ref=e317]:
+                    - paragraph [ref=e318]: Communication
+                - gridcell "Test" [ref=e319]:
+                  - generic "Test" [ref=e320]:
+                    - paragraph [ref=e321]: Test
+                - gridcell [ref=e322]:
+                  - menu [ref=e323]:
+                    - button "View Details" [ref=e324] [cursor=pointer]:
+                      - img [ref=e325]
+        - generic [ref=e340]:
+          - generic [ref=e341]:
+            - paragraph [ref=e342]: Rows per page
+            - generic [ref=e346]:
+              - combobox [ref=e347]: "10"
+              - button "Open" [ref=e349] [cursor=pointer]:
+                - img [ref=e350]
+              - group
+          - navigation "pagination navigation" [ref=e352]:
+            - list [ref=e353]:
+              - listitem [ref=e354]:
+                - button "Go to previous page" [disabled]:
+                  - img
+              - listitem [ref=e355]:
+                - button "page 1" [ref=e356] [cursor=pointer]: "1"
+              - listitem [ref=e357]:
+                - button "Go to page 2" [ref=e358] [cursor=pointer]: "2"
+              - listitem [ref=e359]:
+                - button "Go to page 3" [ref=e360] [cursor=pointer]: "3"
+              - listitem [ref=e361]:
+                - button "Go to page 4" [ref=e362] [cursor=pointer]: "4"
+              - listitem [ref=e363]:
+                - button "Go to page 5" [ref=e364] [cursor=pointer]: "5"
+              - listitem [ref=e365]:
+                - generic [ref=e366]: …
+              - listitem [ref=e367]:
+                - button "Go to page 10" [ref=e368] [cursor=pointer]: "10"
+              - listitem [ref=e369]:
+                - button "Go to next page" [ref=e370] [cursor=pointer]:
+                  - img [ref=e371]

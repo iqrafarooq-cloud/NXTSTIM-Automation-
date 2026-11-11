@@ -1,0 +1,101 @@
+- generic [ref=f3e8]:
+  - banner [ref=f3e744]:
+    - generic [ref=f3e745]:
+      - button "open drawer" [ref=f3e747] [cursor=pointer]
+      - generic [ref=f3e751] [cursor=pointer]:
+        - generic [ref=f3e752]:
+          - generic [ref=f3e753]:
+            - img "profile" [ref=f3e754]
+            - generic [ref=f3e755]: "!"
+          - paragraph [ref=f3e756]: Rbac Probe
+        - button [ref=f3e757]
+  - generic [ref=f3e26]:
+    - button [active] [ref=f3e28] [cursor=pointer]
+    - separator [ref=f3e34]
+    - list [ref=f3e35]:
+      - link [ref=f3e760] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f3e37]:
+          - button "Monitoring" [ref=f3e761]
+      - link [ref=f3e762] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f3e47]:
+          - button "Reports" [ref=f3e763]
+      - link [ref=f3e764] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f3e60]:
+          - button "Invoices" [ref=f3e765]
+      - link [ref=f3e766] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f3e70]:
+          - button [ref=f3e767]
+      - link [ref=f3e768] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f3e76]:
+          - button "Patients" [ref=f3e769]
+      - link [ref=f3e770] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f3e86]:
+          - button "Users" [ref=f3e771]
+  - main [ref=f3e94]:
+    - generic [ref=f3e772]:
+      - navigation [ref=f3e773]:
+        - list [ref=f3e774]:
+          - listitem [ref=f3e775]:
+            - button "Clinics" [ref=f3e776] [cursor=pointer]
+          - listitem [ref=f3e777]: ">"
+          - listitem [ref=f3e778]:
+            - paragraph [ref=f3e779]: Clinic ID 11732
+      - generic [ref=f3e780]:
+        - generic [ref=f3e782]:
+          - paragraph [ref=f3e783]: QA Clinic bhiedhcfgdbhe
+          - generic [ref=f3e784]: Active
+        - generic [ref=f3e794]:
+          - paragraph [ref=f3e799]: "11732"
+          - paragraph [ref=f3e803]: QA Automation
+          - paragraph [ref=f3e807]: qa.clinic+563174@bytecorp.io
+          - paragraph [ref=f3e816]: +1 (310) 564-872
+      - generic [ref=f3e817]:
+        - tablist [ref=f3e821]:
+          - tab "Clinic Profile" [selected] [ref=f3e822] [cursor=pointer]
+          - tab "Supervisor" [ref=f3e823] [cursor=pointer]
+          - tab "Nurses" [ref=f3e824] [cursor=pointer]
+          - tab "Patient Tags" [ref=f3e825] [cursor=pointer]
+          - tab "File Vault" [ref=f3e826] [cursor=pointer]
+          - tab "Billing" [ref=f3e827] [cursor=pointer]
+        - generic [ref=f3e828]:
+          - generic [ref=f3e829]:
+            - paragraph [ref=f3e836]: Clinic Info
+            - generic [ref=f3e838]:
+              - paragraph [ref=f3e839]: Name
+              - paragraph [ref=f3e840]: QA Clinic bhiedhcfgdbhe
+          - generic [ref=f3e841]:
+            - paragraph [ref=f3e847]: Contact Info
+            - generic [ref=f3e848]:
+              - generic [ref=f3e849]:
+                - paragraph [ref=f3e850]: Full Name
+                - paragraph [ref=f3e851]: QA Automation
+              - generic [ref=f3e852]:
+                - paragraph [ref=f3e853]: Email
+                - paragraph [ref=f3e854]: qa.clinic+563174@bytecorp.io
+              - generic [ref=f3e855]:
+                - paragraph [ref=f3e856]: Phone Number
+                - paragraph [ref=f3e857]:
+                  - generic [ref=f3e858]:
+                    - textbox "1 (702) 123-4567" [disabled] [ref=f3e859]: +1 (310) 564-872
+                    - 'button "United States: + 1" [ref=f3e861]'
+          - generic [ref=f3e863]:
+            - paragraph [ref=f3e870]: Location
+            - generic [ref=f3e871]:
+              - generic [ref=f3e872]:
+                - paragraph [ref=f3e873]: Street Address
+                - paragraph [ref=f3e874]: 123 QA Street
+              - generic [ref=f3e875]:
+                - paragraph [ref=f3e876]: City
+                - paragraph [ref=f3e877]: San Diego
+              - generic [ref=f3e878]:
+                - paragraph [ref=f3e879]: State
+                - paragraph [ref=f3e880]: CA
+              - generic [ref=f3e881]:
+                - paragraph [ref=f3e882]: Zip Code
+                - paragraph [ref=f3e883]: "92130"

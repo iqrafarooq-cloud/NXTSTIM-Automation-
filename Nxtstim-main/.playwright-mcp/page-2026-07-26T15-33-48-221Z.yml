@@ -1,0 +1,60 @@
+- generic [ref=f14e8]:
+  - banner [ref=f14e9]:
+    - generic [ref=f14e10]:
+      - button "open drawer" [ref=f14e12] [cursor=pointer]
+      - generic [ref=f14e16] [cursor=pointer]:
+        - generic [ref=f14e17]:
+          - generic [ref=f14e18]:
+            - img "profile" [ref=f14e19]
+            - generic [ref=f14e20]: "!"
+          - paragraph [ref=f14e21]: Rbac Probe
+        - button [ref=f14e22]
+  - generic [ref=f14e26]:
+    - button [ref=f14e28] [cursor=pointer]
+    - separator [ref=f14e34]
+    - list [ref=f14e35]:
+      - link [ref=f14e36] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f14e37]:
+          - button "Monitoring" [ref=f14e38]
+      - link [ref=f14e46] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f14e47]:
+          - button [ref=f14e48]
+      - link [ref=f14e57] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f14e58]:
+          - button "Invoices" [ref=f14e59]
+      - link [ref=f14e67] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f14e68]:
+          - button "Clinics" [ref=f14e69]
+      - link [ref=f14e75] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f14e76]:
+          - button "Patients" [ref=f14e77]
+      - link [ref=f14e85] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f14e86]:
+          - button "Users" [ref=f14e87]
+  - main [ref=f14e94]:
+    - generic [ref=f14e95]:
+      - navigation [ref=f14e96]:
+        - list [ref=f14e97]:
+          - listitem [ref=f14e98]:
+            - button "Reports" [ref=f14e99] [cursor=pointer]
+          - listitem [ref=f14e100]: ">"
+          - listitem [ref=f14e101]:
+            - paragraph [ref=f14e102]: Patients Monitoring Report
+      - generic [ref=f14e103]:
+        - paragraph [ref=f14e107] [cursor=pointer]: Select Clinic
+        - button [ref=f14e120] [cursor=pointer]
+        - generic [ref=f14e124]:
+          - button "Generate Report" [disabled]
+      - grid [ref=f14e129]:
+        - row [ref=f14e130]:
+          - columnheader "Detail panel toggle" [ref=f14e131]:
+            - generic:
+              - generic "Detail panel toggle"
+        - generic: Nothing here yet. Select the above options to generate report
+        - rowgroup

@@ -1,0 +1,65 @@
+- generic [ref=e35]:
+  - banner [ref=e1200]:
+    - generic [ref=e1201]:
+      - button "open drawer" [ref=e1203] [cursor=pointer]
+      - generic [ref=e1207] [cursor=pointer]:
+        - generic [ref=e1208]:
+          - generic [ref=e1209]:
+            - img "profile" [ref=e1210]
+            - generic [ref=e1211]: "!"
+          - paragraph [ref=e1212]: admin auth
+        - button [ref=e1213]
+  - generic [ref=e52]:
+    - button [ref=e54] [cursor=pointer]
+    - separator [ref=e60]
+    - list [ref=e61]:
+      - listitem [ref=e63]:
+        - button [ref=e1216] [cursor=pointer]
+      - link [ref=e1217] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e73]:
+          - button "Monitoring" [ref=e1218]
+      - link [ref=e1221] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e81]:
+          - button "Reports" [ref=e1222]
+      - link [ref=e1223] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e94]:
+          - button "Invoices" [ref=e1224]
+  - main [ref=e103]:
+    - generic [ref=e1225]:
+      - paragraph [ref=e1228]: Settings
+      - paragraph [ref=e1229]: Manage your account settings
+      - paragraph [ref=e1231]: Security Settings
+      - generic [ref=e1232]:
+        - generic [ref=e1233]:
+          - paragraph [ref=e1234]: Change your password
+          - paragraph [ref=e1235]: Update your password to keep your account secure and accessible only to you. Change your password frequently to reduce the chance of unauthorized access
+        - button "Change Password" [ref=e1236] [cursor=pointer]
+      - generic [ref=e1239]:
+        - generic [ref=e1240]:
+          - generic [ref=e1241]:
+            - paragraph [ref=e1242]: Set-up Multifactor Authentication
+            - generic "Action required" [ref=e1243]
+          - paragraph [ref=e1247]: Select your preferred Multifactor Authentication method
+          - radiogroup [ref=e1248]:
+            - generic [ref=e1249] [cursor=pointer]:
+              - 'radio "Authenticator App : Use an app to generate a verification code when signing in. Recommended" [checked] [ref=e1251]'
+              - generic [ref=e1258]:
+                - generic [ref=e1259]: "Authenticator App :"
+                - generic [ref=e1260]: Use an app to generate a verification code when signing in.
+                - generic [ref=e1261]: Recommended
+            - generic [ref=e1262] [cursor=pointer]:
+              - 'radio "Email Verification : We''ll send a verification code to your email each time you sign in." [ref=e1264]'
+              - generic [ref=e1269]:
+                - generic [ref=e1270]: "Email Verification :"
+                - generic [ref=e1271]: We'll send a verification code to your email each time you sign in.
+        - button "Enable MFA" [ref=e1273] [cursor=pointer]
+      - generic [ref=e1275]:
+        - generic [ref=e1276]:
+          - paragraph [ref=e1277]: Trusted Devices
+          - paragraph [ref=e1278]: Manage the devices you have marked as trusted. These devices don't require a Multifactor Authentication code when signing in.
+        - generic [ref=e1279]:
+          - img "No trusted devices" [ref=e1280]
+          - paragraph [ref=e1281]: You haven't marked any devices as trusted yet. Once you enable Multifactor Authentication and log in from a new device, you can choose to trust it for easier future sign-ins.

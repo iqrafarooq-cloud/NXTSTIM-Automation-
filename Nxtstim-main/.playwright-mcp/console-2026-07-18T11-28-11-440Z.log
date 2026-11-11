@@ -1,0 +1,3 @@
+[    8173ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/clinic/list?pageSize=0&page=1&sortBy=created_at&sortDirection=desc&isActive=true:0
+[    8180ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/list?page=1&pageSize=10&sortBy=created_at&sortDirection=desc&status=pending:0
+[    8254ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/manageable-roles:0

@@ -1,0 +1,141 @@
+- generic [ref=f6e6]:
+  - generic [ref=f6e8]:
+    - banner [ref=f6e9]:
+      - generic [ref=f6e10]:
+        - button [ref=f6e260] [cursor=pointer]
+        - generic [ref=f6e16] [cursor=pointer]:
+          - generic [ref=f6e17]:
+            - generic [ref=f6e18]: "!"
+            - paragraph [ref=f6e21]: admin auth
+          - button [ref=f6e22]
+    - generic [ref=f6e26]:
+      - button [ref=f6e28] [cursor=pointer]
+      - separator [ref=f6e34]
+      - list [ref=f6e35]:
+        - link [ref=f6e262] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f6e37]:
+            - button [ref=f6e263]:
+              - generic [ref=f6e44]: Monitoring
+        - link [ref=f6e264] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f6e47]:
+            - button [ref=f6e265]:
+              - generic [ref=f6e57]: Reports
+        - link [ref=f6e266] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f6e60]:
+            - button [ref=f6e267]:
+              - generic [ref=f6e67]: Invoices
+        - link [ref=f6e268] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f6e70]:
+            - button [ref=f6e269]
+        - link [ref=f6e270] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f6e76]:
+            - button [ref=f6e271]:
+              - generic [ref=f6e83]: Patients
+        - link [ref=f6e272] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f6e86]:
+            - button [ref=f6e273]:
+              - generic [ref=f6e92]: Users
+        - link [ref=f6e274] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f6e95]:
+            - button [ref=f6e275]:
+              - generic [ref=f6e102]: Roles
+    - main [ref=f6e104]:
+      - generic [ref=f6e105]:
+        - navigation [ref=f6e106]:
+          - list [ref=f6e107]:
+            - listitem [ref=f6e108]:
+              - button [ref=f6e276] [cursor=pointer]: Clinics
+            - listitem [ref=f6e110]: ">"
+            - listitem [ref=f6e111]:
+              - paragraph [ref=f6e112]: Clinic ID 11647
+        - generic [ref=f6e113]:
+          - generic [ref=f6e115]:
+            - paragraph [ref=f6e116]: QA Automation Clinic
+            - generic [ref=f6e117]: Active
+          - generic [ref=f6e127]:
+            - paragraph [ref=f6e132]: "11647"
+            - paragraph [ref=f6e136]: John Tester
+            - paragraph [ref=f6e140]: qa.clinic@bytecorp.io
+            - paragraph [ref=f6e149]: +31 05 648721
+        - generic [ref=f6e150]:
+          - tablist [ref=f6e154]:
+            - tab [ref=f6e277] [cursor=pointer]: Clinic Profile
+            - tab [ref=f6e278] [cursor=pointer]: Supervisor
+            - tab [ref=f6e279] [cursor=pointer]: Nurses
+            - tab [ref=f6e280] [cursor=pointer]: Patient Tags
+            - tab [selected] [ref=f6e281] [cursor=pointer]: File Vault
+            - tab [ref=f6e282] [cursor=pointer]: Billing
+          - generic [ref=f6e162]:
+            - generic [ref=f6e163]:
+              - generic [ref=f6e164]:
+                - button [ref=f6e283] [cursor=pointer]: File Name
+                - generic [ref=f6e171]:
+                  - textbox [ref=f6e284]:
+                    - /placeholder: Search for File Name
+                  - group
+              - generic [ref=f6e173]:
+                - button [ref=f6e285] [cursor=pointer]: Select Date
+                - button [ref=f6e286] [cursor=pointer]: Filters
+                - button [ref=f6e287] [cursor=pointer]: Sort By
+                - button [ref=f6e288] [cursor=pointer]: Upload File
+            - generic [ref=f6e195]:
+              - generic [ref=f6e196]:
+                - generic [ref=f6e199]:
+                  - paragraph [ref=f6e200]: Total Files
+                  - generic [ref=f6e201]: 0 File
+                - grid [ref=f6e205]:
+                  - row [ref=f6e289]:
+                    - columnheader [ref=f6e207]
+                    - columnheader [ref=f6e208]:
+                      - checkbox [ref=f6e211] [cursor=pointer]
+                    - columnheader [ref=f6e290]:
+                      - generic [ref=f6e215]: File Name
+                    - columnheader [ref=f6e291]:
+                      - generic [ref=f6e218]: File Type
+                    - columnheader [ref=f6e292]:
+                      - generic [ref=f6e221]: Date Uploaded
+                    - columnheader [ref=f6e293]:
+                      - generic [ref=f6e224]: Uploaded By
+                    - columnheader [ref=f6e294]:
+                      - generic [ref=f6e227]: File Size
+                    - columnheader [ref=f6e295]:
+                      - generic [ref=f6e230]: Actions
+                  - generic [ref=f6e232]: Nothing here yet.
+              - generic [ref=f6e244]:
+                - generic [ref=f6e245]:
+                  - paragraph [ref=f6e246]: Rows per page
+                  - generic [ref=f6e250]:
+                    - combobox [ref=f6e251]: "10"
+                    - button [ref=f6e296] [cursor=pointer]
+                    - group
+                - navigation [ref=f6e297]:
+                  - list [ref=f6e257]:
+                    - listitem [ref=f6e258]:
+                      - button [disabled]
+                    - listitem [ref=f6e259]:
+                      - button [disabled]
+  - dialog [ref=f6e300]:
+    - generic [ref=f6e301]:
+      - generic [ref=f6e302]:
+        - paragraph [ref=f6e305]: Media Upload
+        - generic [ref=f6e306]: Add your documents here, and you can upload up to 5 files max
+      - button [ref=f6e307] [cursor=pointer]
+    - generic [ref=f6e311]:
+      - generic [ref=f6e312]:
+        - generic [ref=f6e313] [cursor=pointer]:
+          - button "Choose File" [ref=f6e314]
+          - paragraph [ref=f6e325]: Drag & drop your file(s) to start uploading
+          - separator [ref=f6e327]:
+            - paragraph [ref=f6e329]: OR
+          - button "Browse files" [ref=f6e330]
+        - paragraph [ref=f6e331]: Only support pdf, doc, docx, png, csv, xlsx files and max size of 5MB
+      - generic [ref=f6e332]:
+        - button "Cancel" [ref=f6e333] [cursor=pointer]
+        - button "Upload File" [disabled]

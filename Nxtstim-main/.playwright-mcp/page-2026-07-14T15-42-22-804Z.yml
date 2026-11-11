@@ -1,0 +1,117 @@
+- generic [ref=f6e8]:
+  - banner [ref=f6e9]:
+    - generic [ref=f6e10]:
+      - button "open drawer" [ref=f6e334] [cursor=pointer]
+      - generic [ref=f6e16] [cursor=pointer]:
+        - generic [ref=f6e17]:
+          - generic [ref=f6e18]:
+            - img "profile" [ref=f6e335]
+            - generic [ref=f6e20]: "!"
+          - paragraph [ref=f6e21]: admin auth
+        - button [ref=f6e22]
+  - generic [ref=f6e26]:
+    - button [ref=f6e28] [cursor=pointer]
+    - separator [ref=f6e34]
+    - list [ref=f6e35]:
+      - link [ref=f6e336] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f6e37]:
+          - button "Monitoring" [ref=f6e337]
+      - link [ref=f6e338] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f6e47]:
+          - button "Reports" [ref=f6e339]
+      - link [ref=f6e340] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f6e60]:
+          - button "Invoices" [ref=f6e341]
+      - link [ref=f6e342] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f6e70]:
+          - button [ref=f6e343]
+      - link [ref=f6e344] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f6e76]:
+          - button "Patients" [ref=f6e345]
+      - link [ref=f6e346] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f6e86]:
+          - button "Users" [ref=f6e347]
+      - link [ref=f6e348] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f6e95]:
+          - button "Roles" [ref=f6e349]
+  - main [ref=f6e104]:
+    - generic [ref=f6e105]:
+      - navigation [ref=f6e106]:
+        - list [ref=f6e107]:
+          - listitem [ref=f6e108]:
+            - button "Clinics" [ref=f6e350] [cursor=pointer]
+          - listitem [ref=f6e110]: ">"
+          - listitem [ref=f6e111]:
+            - paragraph [ref=f6e112]: Clinic ID 11647
+      - generic [ref=f6e113]:
+        - generic [ref=f6e115]:
+          - paragraph [ref=f6e116]: QA Automation Clinic
+          - generic [ref=f6e117]: Active
+        - generic [ref=f6e127]:
+          - paragraph [ref=f6e132]: "11647"
+          - paragraph [ref=f6e136]: John Tester
+          - paragraph [ref=f6e140]: qa.clinic@bytecorp.io
+          - paragraph [ref=f6e149]: +31 05 648721
+      - generic [ref=f6e150]:
+        - tablist [ref=f6e154]:
+          - tab "Clinic Profile" [ref=f6e351] [cursor=pointer]
+          - tab "Supervisor" [ref=f6e352] [cursor=pointer]
+          - tab "Nurses" [ref=f6e353] [cursor=pointer]
+          - tab "Patient Tags" [ref=f6e354] [cursor=pointer]
+          - tab "File Vault" [selected] [ref=f6e355] [cursor=pointer]
+          - tab "Billing" [ref=f6e356] [cursor=pointer]
+        - generic [ref=f6e162]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph
+          - generic [ref=f6e163]:
+            - generic [ref=f6e164]:
+              - button [ref=f6e357] [cursor=pointer]
+              - generic [ref=f6e171]:
+                - textbox "Search for File Name" [ref=f6e358]
+                - group
+            - generic [ref=f6e173]:
+              - button [ref=f6e359] [cursor=pointer]
+              - button [ref=f6e360] [cursor=pointer]
+              - button [ref=f6e361] [cursor=pointer]
+              - button "Upload File" [active] [ref=f6e362] [cursor=pointer]
+          - generic [ref=f6e195]:
+            - generic [ref=f6e196]:
+              - generic [ref=f6e199]:
+                - paragraph [ref=f6e200]: Total Files
+                - generic [ref=f6e201]: 0 File
+              - grid [ref=f6e205]:
+                - row [ref=f6e363]:
+                  - columnheader [ref=f6e207]
+                  - columnheader [ref=f6e208]:
+                    - checkbox [ref=f6e211] [cursor=pointer]
+                  - columnheader "File Name" [ref=f6e364]
+                  - columnheader "File Type" [ref=f6e365]
+                  - columnheader "Date Uploaded" [ref=f6e366]
+                  - columnheader "Uploaded By" [ref=f6e367]
+                  - columnheader "File Size" [ref=f6e368]
+                  - columnheader "Actions" [ref=f6e369]
+                - generic: Nothing here yet.
+                - rowgroup
+            - generic [ref=f6e244]:
+              - generic [ref=f6e245]:
+                - paragraph [ref=f6e246]: Rows per page
+                - generic [ref=f6e250]:
+                  - combobox [ref=f6e251]: "10"
+                  - button "Open" [ref=f6e370] [cursor=pointer]
+                  - group
+              - navigation "pagination navigation" [ref=f6e371]:
+                - list [ref=f6e257]:
+                  - listitem [ref=f6e258]:
+                    - button "Go to previous page" [disabled]
+                  - listitem [ref=f6e259]:
+                    - button "Go to next page" [disabled]

@@ -1,0 +1,263 @@
+- generic [ref=e6]:
+  - generic [ref=e46]:
+    - banner [ref=e47]:
+      - generic [ref=e48]:
+        - button [ref=e450] [cursor=pointer]:
+          - img [ref=e51]
+        - generic [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - img [ref=e451]
+              - generic [ref=e58]: "!"
+            - paragraph [ref=e59]: admin auth
+          - button [ref=e60]:
+            - img [ref=e61]
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - button [ref=e66] [cursor=pointer]:
+          - img [ref=e67]
+        - img [ref=e70]
+      - separator [ref=e72]
+      - list [ref=e73]:
+        - listitem [ref=e75]:
+          - button [ref=e452] [cursor=pointer]:
+            - generic [ref=e77]:
+              - img [ref=e79]
+              - img [ref=e82]
+        - link [ref=e453] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=e85]:
+            - button [ref=e454]:
+              - img [ref=e88]
+        - link [ref=e455] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=e93]:
+            - button [ref=e456]:
+              - img [ref=e96]
+              - generic [ref=e104]: Reports
+        - link [ref=e457] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=e106]:
+            - button [ref=e458]:
+              - img [ref=e109]
+              - generic [ref=e114]: Invoices
+    - main [ref=e115]:
+      - generic [ref=e117]:
+        - generic [ref=e119]:
+          - paragraph [ref=e122]: Monitoring
+          - paragraph [ref=e123]: Track and monitor key patient metrics including device usage, vitals, care program status and many more.
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - button [ref=e459] [cursor=pointer]:
+              - text: Username
+              - img [ref=e128]
+            - generic [ref=e132]:
+              - textbox [ref=e460]:
+                - /placeholder: Search for Username
+              - group
+          - generic [ref=e134]:
+            - button [ref=e461] [cursor=pointer]:
+              - img [ref=e139]
+              - text: Filters
+            - button [ref=e462] [cursor=pointer]:
+              - img [ref=e145]
+              - text: Sort By
+            - button [ref=e463] [cursor=pointer]:
+              - img [ref=e149]
+              - text: Export CSV
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e154]:
+              - paragraph [ref=e155]: Total Patients
+              - generic [ref=e157]: 93 Patients
+            - grid [ref=e160]:
+              - row [ref=e464]:
+                - columnheader [ref=e162]
+                - columnheader [ref=e163]
+                - columnheader [ref=e465]:
+                  - generic [ref=e166]: Username
+                - columnheader [ref=e466]:
+                  - generic [ref=e169]: Patient ID
+                - columnheader [ref=e467]:
+                  - generic [ref=e172]: First Name
+                - columnheader [ref=e468]:
+                  - generic [ref=e175]: Last Name
+                - columnheader [ref=e469]:
+                  - generic [ref=e178]: Email
+                - columnheader [ref=e470]:
+                  - generic [ref=e181]: Phone Number
+                - columnheader [ref=e182]
+              - rowgroup [ref=e183]:
+                - row [ref=e471]:
+                  - gridcell [ref=e472]: "1"
+                  - gridcell [ref=e186]
+                  - gridcell [ref=e473]:
+                    - paragraph [ref=e190] [cursor=pointer]: Nofil Khalid
+                  - gridcell [ref=e475]: "10519"
+                  - gridcell [ref=e476]:
+                    - paragraph [ref=e194]: Nofil
+                  - gridcell [ref=e478]:
+                    - paragraph [ref=e197]: Khalid
+                  - gridcell [ref=e480]:
+                    - paragraph [ref=e200]: nofil.khalid@byt.io
+                  - gridcell [ref=e482]: +1 (111) 111-1111
+                  - gridcell [ref=e202]:
+                    - menu [ref=e203]:
+                      - button [ref=e483] [cursor=pointer]:
+                        - img [ref=e205]
+                - row [ref=e484]:
+                  - gridcell [ref=e485]: "2"
+                  - gridcell [ref=e214]
+                  - gridcell [ref=e486]:
+                    - paragraph [ref=e218] [cursor=pointer]: newwww user
+                  - gridcell [ref=e488]: "10518"
+                  - gridcell [ref=e489]:
+                    - paragraph [ref=e222]: newwww
+                  - gridcell [ref=e491]:
+                    - paragraph [ref=e225]: user
+                  - gridcell [ref=e493]:
+                    - paragraph [ref=e228]: carecodes@iqra.anonaddy.com
+                  - gridcell [ref=e495]: +1 (879) 465-3298
+                  - gridcell [ref=e230]:
+                    - menu [ref=e231]:
+                      - button [ref=e496] [cursor=pointer]:
+                        - img [ref=e233]
+                - row [ref=e497]:
+                  - gridcell [ref=e498]: "3"
+                  - gridcell [ref=e242]
+                  - gridcell [ref=e499]:
+                    - paragraph [ref=e246] [cursor=pointer]: user codes
+                  - gridcell [ref=e501]: "10517"
+                  - gridcell [ref=e502]:
+                    - paragraph [ref=e250]: user
+                  - gridcell [ref=e504]:
+                    - paragraph [ref=e253]: codes
+                  - gridcell [ref=e506]:
+                    - paragraph [ref=e256]: codes@addy.com
+                  - gridcell [ref=e508]: +1 (987) 746-5329
+                  - gridcell [ref=e258]:
+                    - menu [ref=e259]:
+                      - button [ref=e509] [cursor=pointer]:
+                        - img [ref=e261]
+                - row [ref=e510]:
+                  - gridcell [ref=e511]: "4"
+                  - gridcell [ref=e270]
+                  - gridcell [ref=e512]:
+                    - paragraph [ref=e274] [cursor=pointer]: Iqra Farooq
+                  - gridcell [ref=e514]: "10451"
+                  - gridcell [ref=e515]:
+                    - paragraph [ref=e278]: Iqra
+                  - gridcell [ref=e517]:
+                    - paragraph [ref=e281]: Farooq
+                  - gridcell [ref=e519]:
+                    - paragraph [ref=e284]: iqra.farooq+77@bytecorp.io
+                  - gridcell [ref=e521]: +1 (987) 465-3098
+                  - gridcell [ref=e286]:
+                    - menu [ref=e287]:
+                      - button [ref=e522] [cursor=pointer]:
+                        - img [ref=e289]
+                - row [ref=e523]:
+                  - gridcell [ref=e524]: "5"
+                  - gridcell [ref=e298]
+                  - gridcell [ref=e525]:
+                    - paragraph [ref=e303] [cursor=pointer]: Iqra Farooq
+                  - gridcell [ref=e527]: "10426"
+                  - gridcell [ref=e528]:
+                    - paragraph [ref=e307]: Iqra
+                  - gridcell [ref=e530]:
+                    - paragraph [ref=e310]: Farooq
+                  - gridcell [ref=e532]:
+                    - paragraph [ref=e313]: iqra.farooq+000@bytecorp.io
+                  - gridcell [ref=e534]: +1 (984) 653-2985
+                  - gridcell [ref=e315]:
+                    - menu [ref=e316]:
+                      - button [ref=e535] [cursor=pointer]:
+                        - img [ref=e318]
+                - row [ref=e536]:
+                  - gridcell [ref=e537]: "6"
+                  - gridcell [ref=e327]
+                  - gridcell [ref=e538]:
+                    - paragraph [ref=e331] [cursor=pointer]: rootcause analysis
+                  - gridcell [ref=e540]: "10425"
+                  - gridcell [ref=e541]:
+                    - paragraph [ref=e335]: rootcause
+                  - gridcell [ref=e543]:
+                    - paragraph [ref=e338]: analysis
+                  - gridcell [ref=e545]:
+                    - paragraph [ref=e341]: iqra.farooq+011@bytecorp.io
+                  - gridcell [ref=e547]: +1 (879) 465-1297
+                  - gridcell [ref=e343]:
+                    - menu [ref=e344]:
+                      - button [ref=e548] [cursor=pointer]:
+                        - img [ref=e346]
+                - row [ref=e549]:
+                  - gridcell [ref=e550]: "7"
+                  - gridcell [ref=e355]
+                  - gridcell [ref=e551]:
+                    - paragraph [ref=e359] [cursor=pointer]: Nofil Khalid
+                  - gridcell [ref=e553]: "10423"
+                  - gridcell [ref=e554]:
+                    - paragraph [ref=e363]: Nofil
+                  - gridcell [ref=e556]:
+                    - paragraph [ref=e366]: Khalid
+                  - gridcell [ref=e558]:
+                    - paragraph [ref=e369]: nk@gmail.com
+                  - gridcell [ref=e560]: +1 (111) 111-1111
+                  - gridcell [ref=e371]:
+                    - menu [ref=e372]:
+                      - button [ref=e561] [cursor=pointer]:
+                        - img [ref=e374]
+                - row [ref=e562]:
+                  - gridcell [ref=e563]: "8"
+                  - gridcell [ref=e383]
+                  - gridcell [ref=e564]:
+                    - paragraph [ref=e387] [cursor=pointer]: Communication Test
+                  - gridcell [ref=e566]: "10420"
+                  - gridcell [ref=e567]:
+                    - paragraph [ref=e391]: Communication
+                  - gridcell [ref=e569]:
+                    - paragraph [ref=e394]: Test
+                  - gridcell [ref=e571]:
+                    - paragraph [ref=e397]: communication@adday.com
+                  - gridcell [ref=e573]: +1 (798) 632-8974
+                  - gridcell [ref=e399]:
+                    - menu [ref=e400]:
+                      - button [ref=e574] [cursor=pointer]:
+                        - img [ref=e402]
+          - generic [ref=e417]:
+            - generic [ref=e418]:
+              - paragraph [ref=e419]: Rows per page
+              - generic [ref=e423]:
+                - combobox [ref=e424]: "10"
+                - button [ref=e575] [cursor=pointer]:
+                  - img [ref=e427]
+                - group
+            - navigation [ref=e576]:
+              - list [ref=e430]:
+                - listitem [ref=e431]:
+                  - button [disabled]:
+                    - img
+                - listitem [ref=e432]:
+                  - button [ref=e577] [cursor=pointer]: "1"
+                - listitem [ref=e434]:
+                  - button [ref=e578] [cursor=pointer]: "2"
+                - listitem [ref=e436]:
+                  - button [ref=e579] [cursor=pointer]: "3"
+                - listitem [ref=e438]:
+                  - button [ref=e580] [cursor=pointer]: "4"
+                - listitem [ref=e440]:
+                  - button [ref=e581] [cursor=pointer]: "5"
+                - listitem [ref=e442]:
+                  - generic [ref=e443]: …
+                - listitem [ref=e444]:
+                  - button [ref=e582] [cursor=pointer]: "10"
+                - listitem [ref=e446]:
+                  - button [ref=e583] [cursor=pointer]:
+                    - img [ref=e448]
+  - menu [ref=e586]:
+    - menuitem "Settings" [ref=e587] [cursor=pointer]:
+      - img [ref=e589]
+      - generic [ref=e594]: Settings
+    - menuitem "Logout" [ref=e595] [cursor=pointer]:
+      - img [ref=e597]
+      - generic [ref=e601]: Logout

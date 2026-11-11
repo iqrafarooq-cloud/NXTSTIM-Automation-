@@ -1,0 +1,116 @@
+- generic [ref=e6]:
+  - generic [ref=e46]:
+    - banner [ref=e47]:
+      - generic [ref=e48]:
+        - button [ref=e670] [cursor=pointer]:
+          - img [ref=e51]
+        - generic [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - img [ref=e671]
+              - generic [ref=e58]: "!"
+            - paragraph [ref=e59]: admin auth
+          - button [ref=e60]:
+            - img [ref=e61]
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - button [ref=e66] [cursor=pointer]:
+          - img [ref=e67]
+        - img [ref=e70]
+      - separator [ref=e72]
+      - list [ref=e73]:
+        - listitem [ref=e75]:
+          - button [ref=e672] [cursor=pointer]:
+            - generic [ref=e77]:
+              - img [ref=e79]
+              - img [ref=e82]
+        - link [ref=e673] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=e85]:
+            - button [ref=e674]:
+              - img [ref=e88]
+              - generic [ref=e608]: Monitoring
+        - link [ref=e675] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=e93]:
+            - button [ref=e676]:
+              - img [ref=e96]
+              - generic [ref=e104]: Reports
+        - link [ref=e677] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=e106]:
+            - button [ref=e678]:
+              - img [ref=e109]
+              - generic [ref=e114]: Invoices
+    - main [ref=e115]:
+      - generic [ref=e613]:
+        - paragraph [ref=e616]: Settings
+        - paragraph [ref=e617]: Manage your account settings
+        - paragraph [ref=e619]: Security Settings
+        - generic [ref=e620]:
+          - generic [ref=e621]:
+            - paragraph [ref=e622]: Change your password
+            - paragraph [ref=e623]: Update your password to keep your account secure and accessible only to you. Change your password frequently to reduce the chance of unauthorized access
+          - button [ref=e679] [cursor=pointer]: Change Password
+        - generic [ref=e627]:
+          - generic [ref=e628]:
+            - generic [ref=e629]:
+              - paragraph [ref=e630]: Set-up 2FA
+              - img [ref=e632]
+            - paragraph [ref=e635]: Select your preferred 2FA method
+            - radiogroup [ref=e636]:
+              - generic [ref=e637] [cursor=pointer]:
+                - generic [ref=e638]:
+                  - radio [checked] [ref=e681]
+                  - generic [ref=e640]:
+                    - img [ref=e641]
+                    - img [ref=e643]
+                - generic [ref=e646]:
+                  - generic [ref=e647]: "Authenticator App :"
+                  - generic [ref=e648]: Use an app to generate a verification code when signing in.
+                  - generic [ref=e649]: Recommended
+              - generic [ref=e650] [cursor=pointer]:
+                - generic [ref=e651]:
+                  - radio [ref=e682]
+                  - img [ref=e654]
+                - generic [ref=e657]:
+                  - generic [ref=e658]: "Email Verification :"
+                  - generic [ref=e659]: We'll send a verification code to your email each time you sign in.
+          - button [ref=e683] [cursor=pointer]: Enable 2FA
+        - generic [ref=e663]:
+          - generic [ref=e664]:
+            - paragraph [ref=e665]: Trusted Devices
+            - paragraph [ref=e666]: Manage the devices you have marked as trusted. These devices don't require a 2FA code when signing in.
+          - generic [ref=e667]:
+            - img [ref=e684]
+            - paragraph [ref=e669]: You haven't marked any devices as trusted yet. Once you enable 2FA and log in from a new device, you can choose to trust it for easier future sign-ins.
+  - dialog [ref=e687]:
+    - generic [ref=e704]:
+      - generic [ref=e705]:
+        - generic [ref=e706]:
+          - paragraph [ref=e707]: Enter authenticator code
+          - paragraph [ref=e708]: Enter the 6-digit code from your authenticator app to continue.
+        - generic [ref=e709]:
+          - paragraph [ref=e710]: Verification code
+          - generic [ref=e711]:
+            - generic [ref=e713]:
+              - textbox "Digit 1" [active] [ref=e714]
+              - group
+            - generic [ref=e716]:
+              - textbox "Digit 2" [ref=e717]
+              - group
+            - generic [ref=e719]:
+              - textbox "Digit 3" [ref=e720]
+              - group
+            - generic [ref=e722]:
+              - textbox "Digit 4" [ref=e723]
+              - group
+            - generic [ref=e725]:
+              - textbox "Digit 5" [ref=e726]
+              - group
+            - generic [ref=e728]:
+              - textbox "Digit 6" [ref=e729]
+              - group
+      - generic [ref=e730]:
+        - button "Cancel" [ref=e731] [cursor=pointer]: Cancel
+        - button "Complete" [disabled]

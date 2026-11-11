@@ -1,0 +1,139 @@
+- generic [ref=f2e6]:
+  - generic [ref=f2e8]:
+    - banner [ref=f2e1323]:
+      - generic [ref=f2e1324]:
+        - button [ref=f2e1383] [cursor=pointer]
+        - generic [ref=f2e1330] [cursor=pointer]:
+          - paragraph [ref=f2e1334]: admin auth
+          - button [ref=f2e1335]
+    - generic [ref=f2e25]:
+      - button [ref=f2e27] [cursor=pointer]
+      - separator [ref=f2e33]
+      - list [ref=f2e34]:
+        - link [ref=f2e1385] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f2e36]:
+            - button [ref=f2e1386]:
+              - generic [ref=f2e43]: Monitoring
+        - link [ref=f2e1387] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f2e46]:
+            - button [ref=f2e1388]:
+              - generic [ref=f2e56]: Reports
+        - link [ref=f2e1389] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f2e59]:
+            - button [ref=f2e1390]:
+              - generic [ref=f2e66]: Invoices
+        - link [ref=f2e1391] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f2e69]:
+            - button [ref=f2e1392]:
+              - generic [ref=f2e74]: Clinics
+        - link [ref=f2e1393] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f2e77]:
+            - button [ref=f2e1394]:
+              - generic [ref=f2e84]: Patients
+        - link [ref=f2e1395] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f2e87]:
+            - button [ref=f2e1396]
+        - link [ref=f2e1397] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f2e94]:
+            - button [ref=f2e1398]:
+              - generic [ref=f2e101]: Roles
+    - main [ref=f2e103]:
+      - generic [ref=f2e105]:
+        - generic [ref=f2e107]:
+          - generic [ref=f2e108]:
+            - paragraph [ref=f2e110]: Users
+            - button [ref=f2e1399] [cursor=pointer]: Add New User
+          - paragraph [ref=f2e115]: View and manage all users and their assigned roles across the system.
+        - tablist [ref=f2e118]:
+          - tab [ref=f2e1400] [cursor=pointer]: Active
+          - tab [ref=f2e1401] [cursor=pointer]: Pending
+          - tab [ref=f2e1402] [cursor=pointer]: Suspended
+          - tab [selected] [ref=f2e1403] [cursor=pointer]: Inactive
+        - generic [ref=f2e124]:
+          - generic [ref=f2e125]:
+            - button [ref=f2e1404] [cursor=pointer]: User ID
+            - generic [ref=f2e132]:
+              - textbox [ref=f2e1405]:
+                - /placeholder: Search for User ID
+                - text: "10733"
+              - group
+          - generic [ref=f2e134]:
+            - button [ref=f2e1406] [cursor=pointer]: Filters
+            - button [ref=f2e1407] [cursor=pointer]: Sort By
+            - button [ref=f2e1408] [cursor=pointer]: Export CSV
+        - generic [ref=f2e152]:
+          - generic [ref=f2e153]:
+            - generic [ref=f2e155]:
+              - paragraph [ref=f2e156]: Total Users
+              - generic [ref=f2e157]: 1 Users
+            - grid [ref=f2e161]:
+              - row [ref=f2e1409]:
+                - columnheader [ref=f2e163]
+                - columnheader [ref=f2e1410]:
+                  - generic [ref=f2e165]: User ID
+                - columnheader [ref=f2e1411]:
+                  - generic [ref=f2e168]: Username
+                - columnheader [ref=f2e1412]:
+                  - generic [ref=f2e171]: First Name
+                - columnheader [ref=f2e1413]:
+                  - generic [ref=f2e174]: Last Name
+                - columnheader [ref=f2e1414]:
+                  - generic [ref=f2e177]: Roles
+                - columnheader [ref=f2e1415]:
+                  - generic [ref=f2e180]: Email Address
+                - columnheader [ref=f2e1416]:
+                  - generic [ref=f2e183]: Phone Number
+                - columnheader [ref=f2e1417]:
+                  - generic [ref=f2e186]: Onboarding Date
+                - columnheader [ref=f2e1418]:
+                  - generic [ref=f2e189]: Associated Clinics
+                - columnheader [ref=f2e191]
+              - rowgroup [ref=f2e192]:
+                - row [ref=f2e1419]:
+                  - gridcell [ref=f2e1420]: "1"
+                  - gridcell [ref=f2e1421]:
+                    - paragraph [ref=f2e1342]: "10733"
+                  - gridcell [ref=f2e1423]:
+                    - paragraph [ref=f2e1346] [cursor=pointer]: Inactive QAUser
+                  - gridcell [ref=f2e1425]:
+                    - paragraph [ref=f2e1349]: Inactive
+                  - gridcell [ref=f2e1427]:
+                    - paragraph [ref=f2e1352]: QAUser
+                  - gridcell [ref=f2e1429]:
+                    - generic [ref=f2e1354]: Monitoring Admin
+                  - gridcell [ref=f2e1430]:
+                    - paragraph [ref=f2e1359]: inactive+716a@iqra.anonaddy.com
+                  - gridcell [ref=f2e1432]:
+                    - paragraph [ref=f2e1362]: +1 (555) 123-4567
+                  - gridcell [ref=f2e1434]:
+                    - paragraph [ref=f2e1365]: 07-16-2026
+                  - gridcell [ref=f2e1436]:
+                    - paragraph [ref=f2e1368]: "-"
+                  - gridcell [ref=f2e1369]:
+                    - menu [ref=f2e1370]:
+                      - button [ref=f2e1372] [cursor=pointer]
+          - generic [ref=f2e572]:
+            - generic [ref=f2e573]:
+              - paragraph [ref=f2e574]: Rows per page
+              - generic [ref=f2e578]:
+                - combobox [ref=f2e579]: "10"
+                - button [ref=f2e1438] [cursor=pointer]
+                - group
+            - navigation [ref=f2e1439]:
+              - list [ref=f2e585]:
+                - listitem [ref=f2e586]:
+                  - button [disabled]
+                - listitem [ref=f2e587]:
+                  - button [ref=f2e1440] [cursor=pointer]: "1"
+                - listitem [ref=f2e1382]:
+                  - button [disabled]
+  - menu [ref=f2e1443]:
+    - menuitem "Settings" [ref=f2e1444] [cursor=pointer]
+    - menuitem "Logout" [ref=f2e1452] [cursor=pointer]

@@ -1,0 +1,377 @@
+- generic [ref=e1444]:
+  - banner [ref=e1445]:
+    - generic [ref=e1446]:
+      - button "open drawer" [ref=e1448] [cursor=pointer]
+      - generic [ref=e1452] [cursor=pointer]:
+        - generic [ref=e1453]:
+          - generic [ref=e1454]:
+            - img "profile" [ref=e1455]
+            - generic [ref=e1456]: "!"
+          - paragraph [ref=e1457]: admin auth
+        - button [ref=e1458]
+  - generic [ref=e1462]:
+    - button [ref=e1464] [cursor=pointer]
+    - separator [ref=e1470]
+    - list [ref=e1471]:
+      - listitem [ref=e1473]:
+        - button [ref=e1474] [cursor=pointer]
+      - link [ref=e1482] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e1483]:
+          - button [ref=e1484]
+      - link [ref=e1490] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e1491]:
+          - button "Reports" [ref=e1492]
+      - link [ref=e1503] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e1504]:
+          - button "Invoices" [ref=e1505]
+  - main [ref=e1513]:
+    - generic [ref=e1515]:
+      - generic [ref=e1517]:
+        - paragraph [ref=e1520]: Monitoring
+        - paragraph [ref=e1521]: Track and monitor key patient metrics including device usage, vitals, care program status and many more.
+      - generic [ref=e1522]:
+        - generic [ref=e1523]:
+          - button [ref=e1524] [cursor=pointer]
+          - generic [ref=e1530]:
+            - textbox "Search for Username" [ref=e1531]
+            - group
+        - generic [ref=e1532]:
+          - button [ref=e1535] [cursor=pointer]
+          - button [ref=e1540] [cursor=pointer]
+          - button [ref=e1545] [cursor=pointer]
+      - generic [ref=e1549]:
+        - generic [ref=e1550]:
+          - generic [ref=e1552]:
+            - paragraph [ref=e1553]: Total Patients
+            - generic [ref=e1554]: 97 Patients
+          - grid [ref=e1558]:
+            - row [ref=e1559]:
+              - columnheader [ref=e1560]
+              - columnheader [ref=e1561]
+              - columnheader "Username" [ref=e1562]
+              - columnheader "Patient ID" [ref=e1565]
+              - columnheader "First Name" [ref=e1568]
+              - columnheader "Last Name" [ref=e1571]
+              - columnheader "Email" [ref=e1574]
+              - columnheader "Phone Number" [ref=e1577]
+              - columnheader "DOB" [ref=e1580]
+              - columnheader "Associated Clinic" [ref=e1583]
+              - columnheader [ref=e1586]:
+                - generic [ref=e1588]:
+                  - paragraph [ref=e1589]: Care Codes
+                  - generic "Check patient care codes and see their applicability" [ref=e1590]
+              - columnheader [ref=e1593]
+            - rowgroup [ref=e1594]:
+              - row [ref=e1595]:
+                - gridcell "1" [ref=e1596]
+                - gridcell [ref=e1597]
+                - gridcell [ref=e1599]:
+                  - generic "Testing Timer" [ref=e1600]:
+                    - paragraph [ref=e1601] [cursor=pointer]: Testing Timer
+                - gridcell "10589" [ref=e1602]
+                - gridcell [ref=e1603]:
+                  - generic "Testing" [ref=e1604]:
+                    - paragraph [ref=e1605]: Testing
+                - gridcell [ref=e1606]:
+                  - generic "Timer" [ref=e1607]:
+                    - paragraph [ref=e1608]: Timer
+                - gridcell [ref=e1609]:
+                  - generic "testing_timer@c.com" [ref=e1610]:
+                    - paragraph [ref=e1611]: testing_timer@c.com
+                - gridcell "+1 (111) 111-1111" [ref=e1612]
+                - gridcell "07-01-2026" [ref=e1613]
+                - gridcell [ref=e1614]:
+                  - generic "Testing Clinic" [ref=e1615]:
+                    - paragraph [ref=e1616]: Testing Clinic
+                - gridcell [ref=e1617]:
+                  - generic [ref=e1618]:
+                    - 'generic "RPM: 18 Days Rem" [ref=e1619]'
+                    - 'generic "RPM: 1 Interaction Rem" [ref=e1623]'
+                    - 'generic "RPM: 2 Days of Data Rem" [ref=e1633]'
+                    - 'generic "RPM: 9 Minutes Rem" [ref=e1640]'
+                    - button [ref=e1645] [cursor=pointer]:
+                      - paragraph [ref=e1646]: details
+                - gridcell [ref=e1647]:
+                  - menu [ref=e1648]:
+                    - button "View Details" [ref=e1649] [cursor=pointer]
+              - row [ref=e1657]:
+                - gridcell "2" [ref=e1658]
+                - gridcell [ref=e1659]
+                - gridcell [ref=e1661]:
+                  - generic "rtm test" [ref=e1662]:
+                    - paragraph [ref=e1663] [cursor=pointer]: rtm test
+                - gridcell "10586" [ref=e1664]
+                - gridcell [ref=e1665]:
+                  - generic "rtm" [ref=e1666]:
+                    - paragraph [ref=e1667]: rtm
+                - gridcell [ref=e1668]:
+                  - generic "test" [ref=e1669]:
+                    - paragraph [ref=e1670]: test
+                - gridcell [ref=e1671]:
+                  - generic "rpmtest@gmail.com" [ref=e1672]:
+                    - paragraph [ref=e1673]: rpmtest@gmail.com
+                - gridcell "+1 (111) 111-1111" [ref=e1674]
+                - gridcell "06-30-1985" [ref=e1675]
+                - gridcell [ref=e1676]:
+                  - generic "NXTSTIM" [ref=e1677]:
+                    - paragraph [ref=e1678]: NXTSTIM
+                - gridcell [ref=e1679]:
+                  - generic [ref=e1680]:
+                    - 'generic "RTM: 17 Days Rem" [ref=e1681]'
+                    - 'generic "RTM: 1 Interaction Rem" [ref=e1685]'
+                    - 'generic "RTM: 2 Days of Data Rem" [ref=e1695]'
+                    - 'generic "RTM: 10 Minutes Rem" [ref=e1702]'
+                    - button [ref=e1707] [cursor=pointer]:
+                      - paragraph [ref=e1708]: details
+                - gridcell [ref=e1709]:
+                  - menu [ref=e1710]:
+                    - button "View Details" [ref=e1711] [cursor=pointer]
+              - row [ref=e1719]:
+                - gridcell "3" [ref=e1720]
+                - gridcell [ref=e1721]
+                - gridcell [ref=e1723]:
+                  - generic "Merge-patient details" [ref=e1724]:
+                    - paragraph [ref=e1725] [cursor=pointer]: Merge-patient details
+                - gridcell "10581" [ref=e1726]
+                - gridcell [ref=e1727]:
+                  - generic "Merge-patient" [ref=e1728]:
+                    - paragraph [ref=e1729]: Merge-patient
+                - gridcell [ref=e1730]:
+                  - generic "details" [ref=e1731]:
+                    - paragraph [ref=e1732]: details
+                - gridcell [ref=e1733]:
+                  - generic "details@addy.com" [ref=e1734]:
+                    - paragraph [ref=e1735]: details@addy.com
+                - gridcell "+1 (555) 555-5555" [ref=e1736]
+                - gridcell "06-24-2026" [ref=e1737]
+                - gridcell [ref=e1738]:
+                  - generic "Testing Clinic" [ref=e1739]:
+                    - paragraph [ref=e1740]: Testing Clinic
+                - gridcell [ref=e1741]:
+                  - generic [ref=e1742]:
+                    - 'generic "RTM: 17 Days Rem" [ref=e1743]'
+                    - 'generic "RTM: 1 Interaction Rem" [ref=e1747]'
+                    - 'generic "RTM: 2 Days of Data Rem" [ref=e1757]'
+                    - 'generic "RTM: 10 Minutes Rem" [ref=e1764]'
+                    - button [ref=e1769] [cursor=pointer]:
+                      - paragraph [ref=e1770]: details
+                - gridcell [ref=e1771]:
+                  - menu [ref=e1772]:
+                    - button "View Details" [ref=e1773] [cursor=pointer]
+              - row [ref=e1781]:
+                - gridcell "4" [ref=e1782]
+                - gridcell [ref=e1783]
+                - gridcell [ref=e1785]:
+                  - generic "Iqra Farooq" [ref=e1786]:
+                    - paragraph [ref=e1787] [cursor=pointer]: Iqra Farooq
+                - gridcell "10557" [ref=e1788]
+                - gridcell [ref=e1789]:
+                  - generic "Iqra" [ref=e1790]:
+                    - paragraph [ref=e1791]: Iqra
+                - gridcell [ref=e1792]:
+                  - generic "Farooq" [ref=e1793]:
+                    - paragraph [ref=e1794]: Farooq
+                - gridcell [ref=e1795]:
+                  - generic "iqra.farooq+90@bytecorp.io" [ref=e1796]:
+                    - paragraph [ref=e1797]: iqra.farooq+90@bytecorp.io
+                - gridcell "+1 (345) 678-90" [ref=e1798]
+                - gridcell "06-12-2026" [ref=e1799]
+                - gridcell [ref=e1800]:
+                  - generic "Testing Clinic" [ref=e1801]:
+                    - paragraph [ref=e1802]: Testing Clinic
+                - gridcell [ref=e1803]:
+                  - generic [ref=e1804]:
+                    - 'generic "RPM: 10 Days Rem" [ref=e1805]'
+                    - 'generic "RPM: 1 Interaction Rem" [ref=e1809]'
+                    - 'generic "RPM: 10 Minutes Rem" [ref=e1819]'
+                    - button [ref=e1824] [cursor=pointer]:
+                      - paragraph [ref=e1825]: details
+                - gridcell [ref=e1826]:
+                  - menu [ref=e1827]:
+                    - button "View Details" [ref=e1828] [cursor=pointer]
+              - row [ref=e1836]:
+                - gridcell "5" [ref=e1837]
+                - gridcell [ref=e1838]
+                - gridcell [ref=e1840]:
+                  - generic "codes logic" [ref=e1841]:
+                    - paragraph [ref=e1842] [cursor=pointer]: codes logic
+                - gridcell "10555" [ref=e1843]
+                - gridcell [ref=e1844]:
+                  - generic "codes" [ref=e1845]:
+                    - paragraph [ref=e1846]: codes
+                - gridcell [ref=e1847]:
+                  - generic "logic" [ref=e1848]:
+                    - paragraph [ref=e1849]: logic
+                - gridcell [ref=e1850]:
+                  - generic "user23@addy.com" [ref=e1851]:
+                    - paragraph [ref=e1852]: user23@addy.com
+                - gridcell "+1 (345) 678-90" [ref=e1853]
+                - gridcell "06-04-2026" [ref=e1854]
+                - gridcell [ref=e1855]:
+                  - generic "Testing Clinic" [ref=e1856]:
+                    - paragraph [ref=e1857]: Testing Clinic
+                - gridcell [ref=e1858]:
+                  - generic [ref=e1859]:
+                    - 'generic "RPM: 10 Days Rem" [ref=e1860]'
+                    - 'generic "RPM: 1 Interaction Rem" [ref=e1864]'
+                    - 'generic "RPM: 2 Days of Data Rem" [ref=e1874]'
+                    - 'generic "RPM: 10 Minutes Rem" [ref=e1881]'
+                    - button [ref=e1886] [cursor=pointer]:
+                      - paragraph [ref=e1887]: details
+                - gridcell [ref=e1888]:
+                  - menu [ref=e1889]:
+                    - button "View Details" [ref=e1890] [cursor=pointer]
+              - row [ref=e1898]:
+                - gridcell "6" [ref=e1899]
+                - gridcell [ref=e1900]
+                - gridcell [ref=e1904]:
+                  - generic "Nofil Khalid" [ref=e1905]:
+                    - paragraph [ref=e1906] [cursor=pointer]: Nofil Khalid
+                - gridcell "10543" [ref=e1907]
+                - gridcell [ref=e1908]:
+                  - generic "Nofil" [ref=e1909]:
+                    - paragraph [ref=e1910]: Nofil
+                - gridcell [ref=e1911]:
+                  - generic "Khalid" [ref=e1912]:
+                    - paragraph [ref=e1913]: Khalid
+                - gridcell [ref=e1914]:
+                  - generic "nnofil@gmail.com" [ref=e1915]:
+                    - paragraph [ref=e1916]: nnofil@gmail.com
+                - gridcell "+1 (111) 111-1111" [ref=e1917]
+                - gridcell "12-12-2004" [ref=e1918]
+                - gridcell [ref=e1919]:
+                  - generic "NXTSTIM" [ref=e1920]:
+                    - paragraph [ref=e1921]: NXTSTIM
+                - gridcell [ref=e1922]:
+                  - generic [ref=e1923]:
+                    - 'generic "RTM: 10 Days Rem, BHI: 19 Days Rem, CCM: 19 Days Rem" [ref=e1924]'
+                    - 'generic "RTM: 1 Interaction Rem" [ref=e1928]'
+                    - 'generic "RTM: 2 Days of Data Rem" [ref=e1938]'
+                    - 'generic "RTM: 10 Minutes Rem, BHI: 20 Minutes Rem, CCM: 20 Minutes Rem" [ref=e1945]'
+                    - button [ref=e1950] [cursor=pointer]:
+                      - paragraph [ref=e1951]: details
+                - gridcell [ref=e1952]:
+                  - menu [ref=e1953]:
+                    - button "View Details" [ref=e1954] [cursor=pointer]
+              - row [ref=e1962]:
+                - gridcell "7" [ref=e1963]
+                - gridcell [ref=e1964]
+                - gridcell [ref=e1966]:
+                  - generic "Iqra Farooq" [ref=e1967]:
+                    - paragraph [ref=e1968] [cursor=pointer]: Iqra Farooq
+                - gridcell "10539" [ref=e1969]
+                - gridcell [ref=e1970]:
+                  - generic "Iqra" [ref=e1971]:
+                    - paragraph [ref=e1972]: Iqra
+                - gridcell [ref=e1973]:
+                  - generic "Farooq" [ref=e1974]:
+                    - paragraph [ref=e1975]: Farooq
+                - gridcell [ref=e1976]:
+                  - generic "iqra.farooq+44@bytecorp.io" [ref=e1977]:
+                    - paragraph [ref=e1978]: iqra.farooq+44@bytecorp.io
+                - gridcell "+1 (894) 527-8945" [ref=e1979]
+                - gridcell "06-11-2026" [ref=e1980]
+                - gridcell [ref=e1981]:
+                  - generic "healthcare" [ref=e1982]:
+                    - paragraph [ref=e1983]: healthcare
+                - gridcell [ref=e1984]:
+                  - generic [ref=e1985]:
+                    - 'generic "RPM: 17 Days Rem" [ref=e1986]'
+                    - 'generic "RPM: 1 Interaction Rem" [ref=e1990]'
+                    - 'generic "RPM: 2 Days of Data Rem" [ref=e2000]'
+                    - 'generic "RPM: 9 Minutes Rem" [ref=e2007]'
+                    - button [ref=e2012] [cursor=pointer]:
+                      - paragraph [ref=e2013]: details
+                - gridcell [ref=e2014]:
+                  - menu [ref=e2015]:
+                    - button "View Details" [ref=e2016] [cursor=pointer]
+              - row [ref=e2024]:
+                - gridcell "8" [ref=e2025]
+                - gridcell [ref=e2026]
+                - gridcell [ref=e2029]:
+                  - generic "Testing Timer Issue" [ref=e2030]:
+                    - paragraph [ref=e2031] [cursor=pointer]: Testing Timer Issue
+                - gridcell "10538" [ref=e2032]
+                - gridcell [ref=e2033]:
+                  - generic "Testing Timer" [ref=e2034]:
+                    - paragraph [ref=e2035]: Testing Timer
+                - gridcell [ref=e2036]:
+                  - generic "Issue" [ref=e2037]:
+                    - paragraph [ref=e2038]: Issue
+                - gridcell [ref=e2039]:
+                  - generic "issue@timer.com" [ref=e2040]:
+                    - paragraph [ref=e2041]: issue@timer.com
+                - gridcell "+1 (111) 111-1111" [ref=e2042]
+                - gridcell "06-01-2026" [ref=e2043]
+                - gridcell [ref=e2044]:
+                  - generic "healthcare" [ref=e2045]:
+                    - paragraph [ref=e2046]: healthcare
+                - gridcell [ref=e2047]:
+                  - generic [ref=e2048]:
+                    - 'generic "CCM: 19 Days Rem, BHI: 19 Days Rem" [ref=e2049]'
+                    - 'generic "BHI: 19 Minutes Rem" [ref=e2053]'
+                    - button [ref=e2058] [cursor=pointer]:
+                      - paragraph [ref=e2059]: details
+                - gridcell [ref=e2060]:
+                  - menu [ref=e2061]:
+                    - button "View Details" [ref=e2062] [cursor=pointer]
+              - row [ref=e2070]:
+                - gridcell "9" [ref=e2071]
+                - gridcell [ref=e2072]
+                - gridcell [ref=e2074]:
+                  - generic "new test" [ref=e2075]:
+                    - paragraph [ref=e2076] [cursor=pointer]: new test
+                - gridcell "10529" [ref=e2077]
+                - gridcell [ref=e2078]:
+                  - generic "new" [ref=e2079]:
+                    - paragraph [ref=e2080]: new
+                - gridcell [ref=e2081]:
+                  - generic "test" [ref=e2082]:
+                    - paragraph [ref=e2083]: test
+                - gridcell [ref=e2084]:
+                  - generic "newtest@gmail.com" [ref=e2085]:
+                    - paragraph [ref=e2086]: newtest@gmail.com
+                - gridcell "+1 (232) 323-2322" [ref=e2087]
+                - gridcell "02-22-2002" [ref=e2088]
+                - gridcell [ref=e2089]:
+                  - generic "Billing" [ref=e2090]:
+                    - paragraph [ref=e2091]: Billing
+                - gridcell [ref=e2092]:
+                  - generic [ref=e2093]:
+                    - 'generic "CCM: 19 Days Rem" [ref=e2094]'
+                    - 'generic "CCM: 20 Minutes Rem" [ref=e2098]'
+                    - button [ref=e2103] [cursor=pointer]:
+                      - paragraph [ref=e2104]: details
+                - gridcell [ref=e2105]:
+                  - menu [ref=e2106]:
+                    - button "View Details" [ref=e2107] [cursor=pointer]
+        - generic [ref=e2123]:
+          - generic [ref=e2124]:
+            - paragraph [ref=e2125]: Rows per page
+            - generic [ref=e2129]:
+              - combobox [ref=e2130]: "10"
+              - button "Open" [ref=e2132] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=e2135]:
+            - list [ref=e2136]:
+              - listitem [ref=e2137]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=e2138]:
+                - button "page 1" [ref=e2139] [cursor=pointer]: "1"
+              - listitem [ref=e2140]:
+                - button "Go to page 2" [ref=e2141] [cursor=pointer]: "2"
+              - listitem [ref=e2142]:
+                - button "Go to page 3" [ref=e2143] [cursor=pointer]: "3"
+              - listitem [ref=e2144]:
+                - button "Go to page 4" [ref=e2145] [cursor=pointer]: "4"
+              - listitem [ref=e2146]:
+                - button "Go to page 5" [ref=e2147] [cursor=pointer]: "5"
+              - listitem [ref=e2148]:
+                - generic [ref=e2149]: …
+              - listitem [ref=e2150]:
+                - button "Go to page 10" [ref=e2151] [cursor=pointer]: "10"
+              - listitem [ref=e2152]:
+                - button "Go to next page" [ref=e2153] [cursor=pointer]

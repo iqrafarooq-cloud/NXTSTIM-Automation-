@@ -1,0 +1,20 @@
+- generic [ref=e7]:
+  - generic [ref=e8]:
+    - generic [ref=e11]:
+      - paragraph [ref=e15]: Forgot Your Password?
+      - paragraph [ref=e16]: Enter your registered email address below, and we’ll send you a link to reset your password.
+      - generic [ref=e17]:
+        - generic [ref=e18]: Email Address
+        - generic [ref=e20]:
+          - textbox "Enter Email" [ref=e35]: executiveadmin@iqra.anonaddy.com
+          - group
+      - button "Send Reset Link" [active] [ref=e38] [cursor=pointer]
+      - separator [ref=e22]:
+        - paragraph [ref=e24]: OR
+      - paragraph [ref=e25]:
+        - link "Back to Login" [ref=e36] [cursor=pointer]:
+          - /url: /login
+    - link "Terms Of Service" [ref=e37] [cursor=pointer]:
+      - /url: https://nxtstim.com/terms-of-service
+  - alert [ref=e42]:
+    - generic [ref=e43]: Your account is suspended, please contact portal@nxtstim.com

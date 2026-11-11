@@ -1,0 +1,77 @@
+- generic [ref=e35]:
+  - banner [ref=e36]:
+    - generic [ref=e37]:
+      - button "open drawer" [ref=e39] [cursor=pointer]
+      - generic [ref=e43] [cursor=pointer]:
+        - generic [ref=e44]:
+          - img "profile" [ref=e46]
+          - paragraph [ref=e47]: admin auth
+        - button [ref=e48]
+  - generic [ref=e52]:
+    - button [ref=e54] [cursor=pointer]
+    - separator [ref=e60]
+    - list [ref=e61]:
+      - listitem [ref=e63]:
+        - button [ref=e64] [cursor=pointer]
+      - link [ref=e72] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e73]:
+          - button [ref=e74]
+      - link [ref=e80] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e81]:
+          - button "Reports" [ref=e82]
+      - link [ref=e93] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e94]:
+          - button "Invoices" [ref=e95]
+  - main [ref=e103]:
+    - generic [ref=e105]:
+      - generic [ref=e107]:
+        - paragraph [ref=e110]: Monitoring
+        - paragraph [ref=e111]: Track and monitor key patient metrics including device usage, vitals, care program status and many more.
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - button [ref=e114] [cursor=pointer]
+          - generic [ref=e120]:
+            - textbox "Search for Username" [ref=e121]
+            - group
+        - generic [ref=e122]:
+          - button [ref=e125] [cursor=pointer]
+          - button [ref=e130] [cursor=pointer]
+          - button [ref=e135] [cursor=pointer]
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - generic [ref=e142]:
+            - paragraph [ref=e143]: Total Patients
+            - generic [ref=e144]: 0 Patient
+          - grid [ref=e148]:
+            - row [ref=e149]:
+              - columnheader [ref=e150]
+              - columnheader [ref=e151]
+              - columnheader "Username" [ref=e152]
+              - columnheader "Patient ID" [ref=e155]
+              - columnheader "First Name" [ref=e158]
+              - columnheader "Last Name" [ref=e161]
+              - columnheader "Email" [ref=e164]
+              - columnheader "Phone Number" [ref=e167]
+              - columnheader "DOB" [ref=e170]
+              - columnheader "Associated Clinic" [ref=e173]
+              - columnheader [ref=e176]:
+                - generic [ref=e178]:
+                  - paragraph [ref=e179]: Care Codes
+                  - generic "Check patient care codes and see their applicability" [ref=e180]
+              - columnheader [ref=e183]
+        - generic [ref=e382]:
+          - generic [ref=e383]:
+            - paragraph [ref=e384]: Rows per page
+            - generic [ref=e388]:
+              - combobox [ref=e389]: "10"
+              - button "Open" [ref=e391] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=e394]:
+            - list [ref=e395]:
+              - listitem [ref=e396]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=e397]:
+                - button "Go to next page" [disabled]

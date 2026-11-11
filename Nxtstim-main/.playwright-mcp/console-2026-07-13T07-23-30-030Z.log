@@ -1,0 +1,9 @@
+[    5213ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/me:0
+[    5672ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/refresh-token:0
+[    5673ms] [LOG] Token refresh failed: Po @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-CV-H1dFw.js:329
+[    6527ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/login:0
+[   71900ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/settings:0
+[   86467ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/settings:0
+[  142546ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/change-password-logged-in:0
+[  144136ms] [VERBOSE] [DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/settings:0
+[  162123ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/login:0

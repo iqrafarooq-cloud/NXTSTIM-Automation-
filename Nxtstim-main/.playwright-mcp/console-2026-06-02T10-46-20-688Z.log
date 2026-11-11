@@ -1,0 +1,8 @@
+[   11257ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/me:0
+[   11727ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/refresh-token:0
+[   11729ms] [LOG] Token refresh failed: Po @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-B80supyG.js:326
+[   12637ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/login:0
+[  222005ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://qa-nxtstim-api.azurewebsites.net/api/auth/mfa/status:0
+[  222006ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://qa-nxtstim-api.azurewebsites.net/api/auth/devices:0
+[  222006ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://qa-nxtstim-api.azurewebsites.net/api/users/me:0
+[  222152ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/login:0

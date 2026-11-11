@@ -1,0 +1,169 @@
+- generic [ref=f4e8]:
+  - banner [ref=f4e9]:
+    - generic [ref=f4e10]:
+      - button "open drawer" [ref=f4e620] [cursor=pointer]
+      - generic [ref=f4e16] [cursor=pointer]:
+        - generic [ref=f4e17]:
+          - generic [ref=f4e18]:
+            - img "profile" [ref=f4e621]
+            - generic [ref=f4e20]: "!"
+          - paragraph [ref=f4e21]: admin auth
+        - button [ref=f4e22]
+  - generic [ref=f4e26]:
+    - button [ref=f4e28] [cursor=pointer]
+    - separator [ref=f4e34]
+    - list [ref=f4e35]:
+      - link [ref=f4e622] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f4e37]:
+          - button "Monitoring" [ref=f4e623]
+      - link [ref=f4e624] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f4e47]:
+          - button "Reports" [ref=f4e625]
+      - link [ref=f4e626] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f4e60]:
+          - button "Invoices" [ref=f4e627]
+      - link [ref=f4e628] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f4e70]:
+          - button [ref=f4e629]
+      - link [ref=f4e630] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f4e76]:
+          - button "Patients" [ref=f4e631]
+      - link [ref=f4e632] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f4e86]:
+          - button "Users" [ref=f4e633]
+      - link [ref=f4e634] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f4e95]:
+          - button "Roles" [ref=f4e635]
+  - main [ref=f4e104]:
+    - generic [ref=f4e106]:
+      - generic [ref=f4e108]:
+        - generic [ref=f4e109]:
+          - paragraph [ref=f4e111]: Clinics
+          - button [ref=f4e636] [cursor=pointer]
+        - paragraph [ref=f4e116]: View and manage all registered clinics, track their active status, contact details and access monitoring metrics in one centralized list.
+      - tablist [ref=f4e119]:
+        - tab "Active" [selected] [ref=f4e637] [cursor=pointer]
+        - tab "Inactive" [ref=f4e638] [cursor=pointer]
+      - generic [ref=f4e123]:
+        - generic [ref=f4e124]:
+          - button [active] [ref=f4e639] [cursor=pointer]
+          - generic [ref=f4e131]:
+            - textbox "Search for Clinic Name" [ref=f4e640]
+            - group
+        - generic [ref=f4e133]:
+          - generic [ref=f4e135]:
+            - button [ref=f4e641] [cursor=pointer]
+            - generic: "1"
+            - button "Clear All" [ref=f4e642] [cursor=pointer]
+          - button [ref=f4e643] [cursor=pointer]
+          - button [ref=f4e644] [cursor=pointer]
+      - generic [ref=f4e155]:
+        - generic [ref=f4e156]:
+          - generic [ref=f4e158]:
+            - paragraph [ref=f4e159]: Total Clinics
+            - generic [ref=f4e160]: 3 Clinics
+          - grid [ref=f4e164]:
+            - row [ref=f4e645]:
+              - columnheader [ref=f4e166]
+              - columnheader "ID" [ref=f4e646]
+              - columnheader "Name" [ref=f4e647]
+              - columnheader "Street Address" [ref=f4e648]
+              - columnheader "City" [ref=f4e649]
+              - columnheader "State" [ref=f4e650]
+              - columnheader "Zip Code" [ref=f4e651]
+              - columnheader "Monitoring Metrics" [ref=f4e652]
+              - columnheader "Contact Info" [ref=f4e653]
+              - columnheader "Current Status" [ref=f4e654]
+              - columnheader [ref=f4e194]
+            - rowgroup [ref=f4e195]:
+              - row [ref=f4e655]:
+                - gridcell "1" [ref=f4e656]
+                - gridcell "11647" [ref=f4e657]
+                - gridcell [ref=f4e658]:
+                  - generic "QA Automation Clinic" [ref=f4e659]:
+                    - paragraph [ref=f4e201]: QA Automation Clinic
+                - gridcell [ref=f4e660]:
+                  - generic "123 QA Street" [ref=f4e661]:
+                    - paragraph [ref=f4e204]: 123 QA Street
+                - gridcell "San Diego" [ref=f4e662]
+                - gridcell "CA" [ref=f4e663]
+                - gridcell "92130" [ref=f4e664]
+                - gridcell [ref=f4e665]:
+                  - button "View Metrics" [ref=f4e666] [cursor=pointer]
+                - gridcell [ref=f4e667]:
+                  - generic [ref=f4e211]:
+                    - paragraph [ref=f4e212]: John Tester
+                    - paragraph [ref=f4e213]: "Email: qa.clinic@bytecorp.io"
+                    - paragraph [ref=f4e214]: "Phone: +31 05 648721"
+                - gridcell "Active" [ref=f4e668]
+                - gridcell [ref=f4e221]:
+                  - menu [ref=f4e222]:
+                    - button [ref=f4e224] [cursor=pointer]
+              - row [ref=f4e669]:
+                - gridcell "2" [ref=f4e670]
+                - gridcell "11246" [ref=f4e671]
+                - gridcell [ref=f4e672]:
+                  - generic "Billing Clinic" [ref=f4e673]:
+                    - paragraph [ref=f4e236]: Billing Clinic
+                - gridcell [ref=f4e674]:
+                  - generic "5362 sweetwater tr" [ref=f4e675]:
+                    - paragraph [ref=f4e239]: 5362 sweetwater tr
+                - gridcell "San Diego" [ref=f4e676]
+                - gridcell "CA" [ref=f4e677]
+                - gridcell "92130" [ref=f4e678]
+                - gridcell [ref=f4e679]:
+                  - button "View Metrics" [ref=f4e680] [cursor=pointer]
+                - gridcell [ref=f4e681]:
+                  - generic [ref=f4e246]:
+                    - paragraph [ref=f4e247]: Nofil Khalid
+                    - paragraph [ref=f4e248]: "Email: nofilkhalid@yopmail.com"
+                    - paragraph [ref=f4e249]: "Phone: +1 (111) 111-1111"
+                - gridcell "Active" [ref=f4e682]
+                - gridcell [ref=f4e256]:
+                  - menu [ref=f4e257]:
+                    - button [ref=f4e259] [cursor=pointer]
+              - row [ref=f4e683]:
+                - gridcell "3" [ref=f4e684]
+                - gridcell "10001" [ref=f4e685]
+                - gridcell [ref=f4e686]:
+                  - generic "NXTSTIM" [ref=f4e687]:
+                    - paragraph [ref=f4e271]: NXTSTIM
+                - gridcell [ref=f4e688]:
+                  - generic "5362 sweetwater tr" [ref=f4e689]:
+                    - paragraph [ref=f4e274]: 5362 sweetwater tr
+                - gridcell "San Diego" [ref=f4e690]
+                - gridcell "CA" [ref=f4e691]
+                - gridcell "92130" [ref=f4e692]
+                - gridcell [ref=f4e693]:
+                  - button "View Metrics" [ref=f4e694] [cursor=pointer]
+                - gridcell [ref=f4e695]:
+                  - generic [ref=f4e281]:
+                    - paragraph [ref=f4e282]: Maria Kappell
+                    - paragraph [ref=f4e283]: "Email: maria.kappell@nxtstim.com"
+                    - paragraph [ref=f4e284]: "Phone: 6192590296"
+                - gridcell "Active" [ref=f4e696]
+                - gridcell [ref=f4e291]:
+                  - menu [ref=f4e292]:
+                    - button [ref=f4e294] [cursor=pointer]
+        - generic [ref=f4e309]:
+          - generic [ref=f4e310]:
+            - paragraph [ref=f4e311]: Rows per page
+            - generic [ref=f4e315]:
+              - combobox [ref=f4e316]: "10"
+              - button "Open" [ref=f4e697] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f4e698]:
+            - list [ref=f4e322]:
+              - listitem [ref=f4e323]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f4e324]:
+                - button "page 1" [ref=f4e699] [cursor=pointer]: "1"
+              - listitem [ref=f4e326]:
+                - button "Go to next page" [disabled]

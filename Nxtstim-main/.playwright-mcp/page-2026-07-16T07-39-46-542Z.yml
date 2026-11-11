@@ -1,0 +1,94 @@
+- generic [ref=f1e8]:
+  - banner [ref=f1e2428]:
+    - generic [ref=f1e2429]:
+      - button "open drawer" [ref=f1e2431] [cursor=pointer]
+      - generic [ref=f1e2435] [cursor=pointer]:
+        - generic [ref=f1e2436]:
+          - generic [ref=f1e2437]:
+            - img "profile" [ref=f1e2438]
+            - generic [ref=f1e2439]: "!"
+          - paragraph [ref=f1e2440]: admin auth
+        - button [ref=f1e2441]
+  - generic [ref=f1e26]:
+    - button [ref=f1e28] [cursor=pointer]
+    - separator [ref=f1e34]
+    - list [ref=f1e35]:
+      - link [ref=f1e1897] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f1e37]:
+          - button "Monitoring" [ref=f1e1898]
+      - link [ref=f1e1899] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f1e47]:
+          - button "Reports" [ref=f1e1900]
+      - link [ref=f1e1901] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f1e60]:
+          - button "Invoices" [ref=f1e1902]
+      - link [ref=f1e1903] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f1e70]:
+          - button [ref=f1e1904]
+      - link [ref=f1e1905] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f1e76]:
+          - button "Patients" [ref=f1e1906]
+      - link [ref=f1e1907] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f1e86]:
+          - button "Users" [ref=f1e1908]
+      - link [ref=f1e1909] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f1e95]:
+          - button "Roles" [ref=f1e1910]
+  - main [ref=f1e104]:
+    - generic [ref=f1e106]:
+      - generic [ref=f1e108]:
+        - generic [ref=f1e109]:
+          - paragraph [ref=f1e111]: Clinics
+          - button [ref=f1e1911] [cursor=pointer]
+        - paragraph [ref=f1e116]: View and manage all registered clinics, track their active status, contact details and access monitoring metrics in one centralized list.
+      - tablist [ref=f1e119]:
+        - tab "Active" [ref=f1e1912] [cursor=pointer]
+        - tab "Inactive" [active] [selected] [ref=f1e1913] [cursor=pointer]
+      - generic [ref=f1e123]:
+        - generic [ref=f1e124]:
+          - button [ref=f1e1914] [cursor=pointer]
+          - generic [ref=f1e131]:
+            - textbox "Search for ID" [ref=f1e1915]
+            - group
+        - generic [ref=f1e133]:
+          - button [ref=f1e1916] [cursor=pointer]
+          - button [ref=f1e1917] [cursor=pointer]
+          - button [ref=f1e1918] [cursor=pointer]
+      - generic [ref=f1e151]:
+        - generic [ref=f1e152]:
+          - generic [ref=f1e154]:
+            - paragraph [ref=f1e155]: Total Clinics
+            - generic [ref=f1e156]: 0 Clinic
+          - grid [ref=f1e160]:
+            - row [ref=f1e2444]:
+              - columnheader [ref=f1e162]
+              - columnheader "ID" [ref=f1e1920]
+              - columnheader "Name" [ref=f1e1921]
+              - columnheader "Street Address" [ref=f1e1922]
+              - columnheader "City" [ref=f1e1923]
+              - columnheader "State" [ref=f1e1924]
+              - columnheader "Zip Code" [ref=f1e1925]
+              - columnheader "Monitoring Metrics" [ref=f1e1926]
+              - columnheader "Contact Info" [ref=f1e1927]
+              - columnheader "Current Status" [ref=f1e2445]
+              - columnheader [ref=f1e190]
+        - generic [ref=f1e515]:
+          - generic [ref=f1e516]:
+            - paragraph [ref=f1e517]: Rows per page
+            - generic [ref=f1e521]:
+              - combobox [ref=f1e522]: "100"
+              - button "Open" [ref=f1e2249] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f1e2250]:
+            - list [ref=f1e528]:
+              - listitem [ref=f1e529]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f1e530]:
+                - button "Go to next page" [disabled]

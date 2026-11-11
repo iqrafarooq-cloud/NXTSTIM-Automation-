@@ -1,0 +1,16 @@
+{
+  "validUser": {
+    "email": "adminuser@iqra.anonaddy.com",
+    "password": "StrongPass123!",
+    "_note": "Non-MFA valid account (= BASE_EMAIL / TEST_USER_EMAIL). Logs in straight to the /monitoring dashboard; used by the @e2e success + logout scenarios."
+  },
+  "invalidEmailUser": {
+    "email": "wrong.user@bytecorp.io",
+    "password": "StrongPass123!"
+  },
+  "invalidPasswordUser": {
+    "email": "adminuser@iqra.anonaddy.com",
+    "password": "WrongPassword!"
+  },
+  "_adminUser_note": "Admin credentials are loaded from env vars TEST_ADMIN_EMAIL / TEST_ADMIN_PASSWORD (see .env.example) so they never get committed. Step defs read them via process.env."
+}

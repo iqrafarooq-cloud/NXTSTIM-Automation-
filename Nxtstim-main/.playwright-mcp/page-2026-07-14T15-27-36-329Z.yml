@@ -1,0 +1,248 @@
+- generic [ref=f1e6]:
+  - generic [ref=f1e8]:
+    - banner [ref=f1e925]:
+      - generic [ref=f1e926]:
+        - button [ref=f1e1312] [cursor=pointer]
+        - generic [ref=f1e932] [cursor=pointer]:
+          - generic [ref=f1e933]:
+            - generic [ref=f1e934]: "!"
+            - paragraph [ref=f1e937]: admin auth
+          - button [ref=f1e938]
+    - generic [ref=f1e26]:
+      - button [ref=f1e28] [cursor=pointer]
+      - separator [ref=f1e34]
+      - list [ref=f1e35]:
+        - link [ref=f1e1314] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f1e37]:
+            - button [ref=f1e1315]:
+              - generic [ref=f1e44]: Monitoring
+        - link [ref=f1e1316] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f1e47]:
+            - button [ref=f1e1317]:
+              - generic [ref=f1e57]: Reports
+        - link [ref=f1e1318] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f1e60]:
+            - button [ref=f1e1319]:
+              - generic [ref=f1e67]: Invoices
+        - link [ref=f1e1320] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f1e70]:
+            - button [ref=f1e1321]
+        - link [ref=f1e1322] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f1e76]:
+            - button [ref=f1e1323]:
+              - generic [ref=f1e83]: Patients
+        - link [ref=f1e1324] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f1e86]:
+            - button [ref=f1e1325]:
+              - generic [ref=f1e92]: Users
+        - link [ref=f1e1326] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f1e95]:
+            - button [ref=f1e1327]:
+              - generic [ref=f1e102]: Roles
+    - main [ref=f1e104]:
+      - generic [ref=f1e106]:
+        - generic [ref=f1e108]:
+          - generic [ref=f1e109]:
+            - paragraph [ref=f1e111]: Clinics
+            - button [ref=f1e1328] [cursor=pointer]: Add Clinic
+          - paragraph [ref=f1e116]: View and manage all registered clinics, track their active status, contact details and access monitoring metrics in one centralized list.
+        - tablist [ref=f1e119]:
+          - tab [selected] [ref=f1e1329] [cursor=pointer]: Active
+          - tab [ref=f1e1330] [cursor=pointer]: Inactive
+        - generic [ref=f1e123]:
+          - generic [ref=f1e124]:
+            - button [ref=f1e1331] [cursor=pointer]: ID
+            - generic [ref=f1e131]:
+              - textbox [ref=f1e1332]:
+                - /placeholder: Search for ID
+              - group
+          - generic [ref=f1e133]:
+            - button [ref=f1e1333] [cursor=pointer]: Filters
+            - button [ref=f1e1334] [cursor=pointer]: Sort By
+            - button [ref=f1e1335] [cursor=pointer]: Export CSV
+        - generic [ref=f1e151]:
+          - generic [ref=f1e152]:
+            - generic [ref=f1e154]:
+              - paragraph [ref=f1e155]: Total Clinics
+              - generic [ref=f1e156]: 62 Clinics
+            - grid [ref=f1e160]:
+              - row [ref=f1e1336]:
+                - columnheader [ref=f1e162]
+                - columnheader [ref=f1e1337]:
+                  - generic [ref=f1e1338]: ID
+                - columnheader [ref=f1e1340]:
+                  - generic [ref=f1e1341]: Name
+                - columnheader [ref=f1e1343]:
+                  - generic [ref=f1e170]: Street Address
+                - columnheader [ref=f1e1344]:
+                  - generic [ref=f1e173]: City
+                - columnheader [ref=f1e1345]:
+                  - generic [ref=f1e176]: State
+                - columnheader [ref=f1e1346]:
+                  - generic [ref=f1e179]: Zip Code
+                - columnheader [ref=f1e1347]:
+                  - generic [ref=f1e182]: Monitoring Metrics
+                - columnheader [ref=f1e1348]:
+                  - generic [ref=f1e185]: Contact Info
+                - columnheader [ref=f1e190]
+              - rowgroup [ref=f1e191]:
+                - row [ref=f1e1349]:
+                  - gridcell [ref=f1e1350]: "1"
+                  - gridcell [ref=f1e1351]: "11647"
+                  - gridcell [ref=f1e1352]:
+                    - paragraph [ref=f1e1354]: QA Automation Clinic
+                  - gridcell [ref=f1e1355]:
+                    - paragraph [ref=f1e981]: 123 QA Street
+                  - gridcell [ref=f1e1357]: San Diego
+                  - gridcell [ref=f1e1358]: CA
+                  - gridcell [ref=f1e1359]: "92130"
+                  - gridcell [ref=f1e1360]:
+                    - button [ref=f1e1361] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e1362]:
+                    - generic [ref=f1e988]:
+                      - paragraph [ref=f1e989]: John Tester
+                      - paragraph [ref=f1e990]: "Email: qa.clinic@bytecorp.io"
+                      - paragraph [ref=f1e991]: "Phone: +31 05 648721"
+                  - gridcell [ref=f1e998]:
+                    - menu [ref=f1e999]:
+                      - button [ref=f1e1001] [cursor=pointer]
+                - row [ref=f1e1363]:
+                  - gridcell [ref=f1e1364]: "2"
+                  - gridcell [ref=f1e1365]: "11646"
+                  - gridcell [ref=f1e1366]:
+                    - paragraph [ref=f1e1368]: Bytecorp Clinic
+                  - gridcell [ref=f1e1369]:
+                    - paragraph [ref=f1e1016]: 2nd Floor A-352 Blk 15 Block 15 Gulistan-e-Johar
+                  - gridcell [ref=f1e1371]: karachi
+                  - gridcell [ref=f1e1372]: Sindh
+                  - gridcell [ref=f1e1373]: "75950"
+                  - gridcell [ref=f1e1374]:
+                    - button [ref=f1e1375] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e1376]:
+                    - generic [ref=f1e1023]:
+                      - paragraph [ref=f1e1024]: Abdul Rehman
+                      - paragraph [ref=f1e1025]: "Email: abdul.rehman@bytecorp.io"
+                      - paragraph [ref=f1e1026]: "Phone: +1 (221) 548-4544"
+                  - gridcell [ref=f1e1033]:
+                    - menu [ref=f1e1034]:
+                      - button [ref=f1e1036] [cursor=pointer]
+                - row [ref=f1e1377]:
+                  - gridcell [ref=f1e1378]: "3"
+                  - gridcell [ref=f1e1379]: "11645"
+                  - gridcell [ref=f1e1380]:
+                    - paragraph [ref=f1e1382]: QAClinic
+                  - gridcell [ref=f1e1383]:
+                    - paragraph [ref=f1e1051]: nuil
+                  - gridcell [ref=f1e1385]: karachio
+                  - gridcell [ref=f1e1386]: sindh
+                  - gridcell [ref=f1e1387]: "75000"
+                  - gridcell [ref=f1e1388]:
+                    - button [ref=f1e1389] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e1390]:
+                    - generic [ref=f1e1058]:
+                      - paragraph [ref=f1e1059]: xyzz
+                      - paragraph [ref=f1e1060]: "Email: xyzzz@addy.com"
+                      - paragraph [ref=f1e1061]: "Phone: +1 (888) 888-8888"
+                  - gridcell [ref=f1e1068]:
+                    - menu [ref=f1e1069]:
+                      - button [ref=f1e1071] [cursor=pointer]
+                - row [ref=f1e1391]:
+                  - gridcell [ref=f1e1392]: "4"
+                  - gridcell [ref=f1e1393]: "11314"
+                  - gridcell [ref=f1e1394]:
+                    - paragraph [ref=f1e1396]: Testing Clinic
+                  - gridcell [ref=f1e1397]:
+                    - paragraph [ref=f1e1086]: aa
+                  - gridcell [ref=f1e1399]: aa
+                  - gridcell [ref=f1e1400]: aa
+                  - gridcell [ref=f1e1401]: "12345"
+                  - gridcell [ref=f1e1402]:
+                    - button [ref=f1e1403] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e1404]:
+                    - generic [ref=f1e1093]:
+                      - paragraph [ref=f1e1094]: QA
+                      - paragraph [ref=f1e1095]: "Email: abc@gmail.com"
+                      - paragraph [ref=f1e1096]: "Phone: +1 (111) 111-1111"
+                  - gridcell [ref=f1e1103]:
+                    - menu [ref=f1e1104]:
+                      - button [ref=f1e1106] [cursor=pointer]
+                - row [ref=f1e1405]:
+                  - gridcell [ref=f1e1406]: "5"
+                  - gridcell [ref=f1e1407]: "11246"
+                  - gridcell [ref=f1e1408]:
+                    - paragraph [ref=f1e1410]: Billing Clinic
+                  - gridcell [ref=f1e1411]:
+                    - paragraph [ref=f1e1121]: 5362 sweetwater tr
+                  - gridcell [ref=f1e1413]: San Diego
+                  - gridcell [ref=f1e1414]: CA
+                  - gridcell [ref=f1e1415]: "92130"
+                  - gridcell [ref=f1e1416]:
+                    - button [ref=f1e1417] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e1418]:
+                    - generic [ref=f1e1128]:
+                      - paragraph [ref=f1e1129]: Nofil Khalid
+                      - paragraph [ref=f1e1130]: "Email: nofilkhalid@yopmail.com"
+                      - paragraph [ref=f1e1131]: "Phone: +1 (111) 111-1111"
+                  - gridcell [ref=f1e1138]:
+                    - menu [ref=f1e1139]:
+                      - button [ref=f1e1141] [cursor=pointer]
+                - row [ref=f1e1419]:
+                  - gridcell [ref=f1e1420]: "6"
+                  - gridcell [ref=f1e1421]: "11245"
+                  - gridcell [ref=f1e1422]:
+                    - paragraph [ref=f1e1424]: hfgvc
+                  - gridcell [ref=f1e1425]:
+                    - paragraph [ref=f1e1156]: karachi
+                  - gridcell [ref=f1e1427]: karachi
+                  - gridcell [ref=f1e1428]: sindh
+                  - gridcell [ref=f1e1429]: "75000"
+                  - gridcell [ref=f1e1430]:
+                    - button [ref=f1e1431] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e1432]:
+                    - generic [ref=f1e1163]:
+                      - paragraph [ref=f1e1164]: sd
+                      - paragraph [ref=f1e1165]: "Email: iqra.farooq+55@bytecorp.io"
+                      - paragraph [ref=f1e1166]: "Phone: +1 (978) 461-3298"
+                  - gridcell [ref=f1e1173]:
+                    - menu [ref=f1e1174]:
+                      - button [ref=f1e1176] [cursor=pointer]
+          - generic [ref=f1e515]:
+            - generic [ref=f1e516]:
+              - paragraph [ref=f1e517]: Rows per page
+              - generic [ref=f1e521]:
+                - combobox [ref=f1e522]: "10"
+                - button [ref=f1e1433] [cursor=pointer]
+                - group
+            - navigation [ref=f1e1434]:
+              - list [ref=f1e528]:
+                - listitem [ref=f1e529]:
+                  - button [disabled]
+                - listitem [ref=f1e530]:
+                  - button [ref=f1e1435] [cursor=pointer]: "1"
+                - listitem [ref=f1e532]:
+                  - button [ref=f1e1436] [cursor=pointer]: "2"
+                - listitem [ref=f1e534]:
+                  - button [ref=f1e1437] [cursor=pointer]: "3"
+                - listitem [ref=f1e536]:
+                  - button [ref=f1e1438] [cursor=pointer]: "4"
+                - listitem [ref=f1e538]:
+                  - button [ref=f1e1439] [cursor=pointer]: "5"
+                - listitem [ref=f1e540]:
+                  - button [ref=f1e1440] [cursor=pointer]: "6"
+                - listitem [ref=f1e542]:
+                  - button [ref=f1e1441] [cursor=pointer]: "7"
+                - listitem [ref=f1e544]:
+                  - button [ref=f1e1442] [cursor=pointer]
+  - menu [ref=f1e1445]:
+    - menuitem [active] [ref=f1e1446] [cursor=pointer]:
+      - paragraph [ref=f1e1454]: View Details
+    - generic "Disable all patient programs linked to this clinic before proceeding" [ref=f1e1455]:
+      - menuitem [ref=f1e1456] [cursor=pointer]:
+        - paragraph [ref=f1e1459]: Mark as Inactive

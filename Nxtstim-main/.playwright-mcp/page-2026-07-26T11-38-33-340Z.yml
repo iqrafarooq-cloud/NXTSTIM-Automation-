@@ -1,0 +1,132 @@
+- generic [ref=f3e8]:
+  - banner [ref=f3e1708]:
+    - generic [ref=f3e1709]:
+      - button "open drawer" [ref=f3e1711] [cursor=pointer]
+      - generic [ref=f3e1715] [cursor=pointer]:
+        - generic [ref=f3e1716]:
+          - generic [ref=f3e1717]:
+            - img "profile" [ref=f3e1718]
+            - generic [ref=f3e1719]: "!"
+          - paragraph [ref=f3e1720]: QAAuto Admin
+        - button [ref=f3e1721]
+  - generic [ref=f3e26]:
+    - button [ref=f3e28] [cursor=pointer]
+    - separator [ref=f3e34]
+    - list [ref=f3e35]:
+      - link [ref=f3e1376] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f3e37]:
+          - button "Monitoring" [ref=f3e1377]
+      - link [ref=f3e1378] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f3e47]:
+          - button "Reports" [ref=f3e1379]
+      - link [ref=f3e1380] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f3e60]:
+          - button "Invoices" [ref=f3e1381]
+      - link [ref=f3e1382] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f3e70]:
+          - button "Clinics" [ref=f3e1383]
+      - link [ref=f3e1384] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f3e78]:
+          - button "Patients" [ref=f3e1385]
+      - link [ref=f3e1386] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f3e88]:
+          - button [ref=f3e1387]
+      - link [ref=f3e1388] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f3e95]:
+          - button "Roles" [ref=f3e1389]
+  - main [ref=f3e104]:
+    - generic [ref=f3e106]:
+      - generic [ref=f3e108]:
+        - generic [ref=f3e109]:
+          - paragraph [ref=f3e111]: Users
+          - button [ref=f3e1390] [cursor=pointer]
+        - paragraph [ref=f3e116]: View and manage all users and their assigned roles across the system.
+      - tablist [ref=f3e119]:
+        - tab "Active" [ref=f3e1391] [cursor=pointer]
+        - tab "Pending" [ref=f3e1392] [cursor=pointer]
+        - tab "Suspended" [selected] [ref=f3e1393] [cursor=pointer]
+        - tab "Inactive" [ref=f3e1394] [cursor=pointer]
+      - generic [ref=f3e125]:
+        - generic [ref=f3e126]:
+          - button [ref=f3e1395] [cursor=pointer]
+          - generic [ref=f3e133]:
+            - textbox "Search for User ID" [ref=f3e1396]: "10504"
+            - group
+        - generic [ref=f3e135]:
+          - generic [ref=f3e137]:
+            - button [ref=f3e1397] [cursor=pointer]
+            - generic: "1"
+            - button "Clear All" [ref=f3e1401] [cursor=pointer]
+          - button [ref=f3e1402] [cursor=pointer]
+          - button [active] [ref=f3e1403] [cursor=pointer]
+      - generic [ref=f3e153]:
+        - generic [ref=f3e154]:
+          - generic [ref=f3e156]:
+            - paragraph [ref=f3e157]: Total Users
+            - generic [ref=f3e158]: 1 Users
+          - grid [ref=f3e162]:
+            - row [ref=f3e1404]:
+              - columnheader [ref=f3e164]
+              - columnheader "User ID" [ref=f3e1405]
+              - columnheader "Username" [ref=f3e1406]
+              - columnheader "First Name" [ref=f3e1407]
+              - columnheader "Last Name" [ref=f3e1408]
+              - columnheader "Roles" [ref=f3e1409]
+              - columnheader "Email Address" [ref=f3e1410]
+              - columnheader "Phone Number" [ref=f3e1411]
+              - columnheader "Onboarding Date" [ref=f3e1412]
+              - columnheader "Associated Clinics" [ref=f3e1413]
+              - columnheader [ref=f3e192]
+            - rowgroup [ref=f3e193]:
+              - row [ref=f3e1724]:
+                - gridcell "1" [ref=f3e1725]
+                - gridcell [ref=f3e1726]:
+                  - generic "10504" [ref=f3e1727]:
+                    - paragraph [ref=f3e1728]: "10504"
+                - gridcell [ref=f3e1729]:
+                  - generic "TestQA TempSuspended" [ref=f3e1731] [cursor=pointer]:
+                    - paragraph [ref=f3e1732]: TestQA TempSuspended
+                - gridcell [ref=f3e1733]:
+                  - generic "TestQA" [ref=f3e1734]:
+                    - paragraph [ref=f3e1735]: TestQA
+                - gridcell [ref=f3e1736]:
+                  - generic "TempSuspended" [ref=f3e1737]:
+                    - paragraph [ref=f3e1738]: TempSuspended
+                - gridcell "Executive Admin" [ref=f3e1739]
+                - gridcell [ref=f3e1743]:
+                  - generic "qa-react-set@iqra.anonaddy.com" [ref=f3e1744]:
+                    - paragraph [ref=f3e1745]: qa-react-set@iqra.anonaddy.com
+                - gridcell [ref=f3e1746]:
+                  - generic "-" [ref=f3e1747]:
+                    - paragraph [ref=f3e1748]: "-"
+                - gridcell [ref=f3e1749]:
+                  - generic "05-21-2026" [ref=f3e1750]:
+                    - paragraph [ref=f3e1751]: 05-21-2026
+                - gridcell [ref=f3e1752]:
+                  - generic "-" [ref=f3e1753]:
+                    - paragraph [ref=f3e1754]: "-"
+                - gridcell [ref=f3e1755]:
+                  - menu [ref=f3e1756]:
+                    - button [ref=f3e1758] [cursor=pointer]
+        - generic [ref=f3e571]:
+          - generic [ref=f3e572]:
+            - paragraph [ref=f3e573]: Rows per page
+            - generic [ref=f3e577]:
+              - combobox [ref=f3e578]: "100"
+              - button "Open" [ref=f3e1704] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f3e1705]:
+            - list [ref=f3e584]:
+              - listitem [ref=f3e585]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f3e586]:
+                - button "page 1" [ref=f3e1706] [cursor=pointer]: "1"
+              - listitem [ref=f3e1768]:
+                - button "Go to next page" [disabled]

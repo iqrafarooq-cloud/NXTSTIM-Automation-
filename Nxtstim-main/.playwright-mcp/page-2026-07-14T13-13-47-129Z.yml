@@ -1,0 +1,29 @@
+- generic [ref=f2e35]:
+  - generic [ref=f2e38]:
+    - img "NXTSTIM" [ref=f2e40]
+    - paragraph [ref=f2e41]: Multifactor Authentication
+    - paragraph [ref=f2e42]: Enter the 6-digit code sent to a****r@iqra.anonaddy.com to proceed
+    - paragraph [ref=f2e43]: Verification code
+    - generic [ref=f2e44]:
+      - generic [ref=f2e46]:
+        - textbox "Digit 1" [active] [ref=f2e47]
+        - group
+      - generic [ref=f2e49]:
+        - textbox "Digit 2" [ref=f2e50]
+        - group
+      - generic [ref=f2e52]:
+        - textbox "Digit 3" [ref=f2e53]
+        - group
+      - generic [ref=f2e55]:
+        - textbox "Digit 4" [ref=f2e56]
+        - group
+      - generic [ref=f2e58]:
+        - textbox "Digit 5" [ref=f2e59]
+        - group
+      - generic [ref=f2e61]:
+        - textbox "Digit 6" [ref=f2e62]
+        - group
+    - button "Log in" [disabled]
+    - paragraph [ref=f2e64]: Resend code in 01:00
+  - link "Terms Of Service" [ref=f2e65] [cursor=pointer]:
+    - /url: https://nxtstim.com/terms-of-service

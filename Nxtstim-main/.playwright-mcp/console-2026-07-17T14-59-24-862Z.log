@@ -1,0 +1,16 @@
+[    4460ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/SourceSansPro-Regular-DttFCsV7.woff2 @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-Yk7rnhMV.js:64
+[    9811ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/me:0
+[   10288ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/refresh-token:0
+[   10290ms] [LOG] Token refresh failed: Do @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-Yk7rnhMV.js:329
+[   12015ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/SourceSansPro-SemiBold-BlPiV9Yc.woff2 @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-Yk7rnhMV.js:277
+[  101232ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/forgot-password:0
+[  101234ms] [ERROR] Forgot Password Error: Do @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/ForgotPassword-DTQIpYBp.js:0
+[  253327ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/forgot-password:0
+[  269343ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/forgot-password:0
+[  269345ms] [ERROR] Forgot Password Error: Do @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/ForgotPassword-DTQIpYBp.js:0
+[  292666ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/forgot-password:0
+[  292668ms] [ERROR] Forgot Password Error: Do @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/ForgotPassword-DTQIpYBp.js:0
+[  299858ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/forgot-password:0
+[  299859ms] [ERROR] Forgot Password Error: Do @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/ForgotPassword-DTQIpYBp.js:0
+[  308266ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/forgot-password:0
+[  308267ms] [ERROR] Forgot Password Error: Do @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/ForgotPassword-DTQIpYBp.js:0

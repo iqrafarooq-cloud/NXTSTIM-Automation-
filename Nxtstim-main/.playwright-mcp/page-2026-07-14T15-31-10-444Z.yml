@@ -1,0 +1,212 @@
+- generic [ref=f2e8]:
+  - banner [ref=f2e1838]:
+    - generic [ref=f2e1839]:
+      - button "open drawer" [ref=f2e1841] [cursor=pointer]
+      - generic [ref=f2e1845] [cursor=pointer]:
+        - generic [ref=f2e1846]:
+          - generic [ref=f2e1847]:
+            - img "profile" [ref=f2e1848]
+            - generic [ref=f2e1849]: "!"
+          - paragraph [ref=f2e1850]: admin auth
+        - button [ref=f2e1851]
+  - generic [ref=f2e26]:
+    - button [ref=f2e28] [cursor=pointer]
+    - separator [ref=f2e34]
+    - list [ref=f2e35]:
+      - link [ref=f2e1667] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f2e37]:
+          - button "Monitoring" [ref=f2e1668]
+      - link [ref=f2e1669] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f2e47]:
+          - button "Reports" [ref=f2e1670]
+      - link [ref=f2e1671] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f2e60]:
+          - button "Invoices" [ref=f2e1672]
+      - link [ref=f2e1673] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f2e70]:
+          - button [ref=f2e1674]
+      - link [ref=f2e1675] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f2e76]:
+          - button "Patients" [ref=f2e1676]
+      - link [ref=f2e1677] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f2e86]:
+          - button "Users" [ref=f2e1678]
+      - link [ref=f2e1679] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f2e95]:
+          - button "Roles" [ref=f2e1680]
+  - main [ref=f2e104]:
+    - generic [ref=f2e106]:
+      - generic [ref=f2e108]:
+        - generic [ref=f2e109]:
+          - paragraph [ref=f2e111]: Clinics
+          - button [ref=f2e1681] [cursor=pointer]
+        - paragraph [ref=f2e116]: View and manage all registered clinics, track their active status, contact details and access monitoring metrics in one centralized list.
+      - tablist [ref=f2e119]:
+        - tab "Active" [ref=f2e1682] [cursor=pointer]
+        - tab "Inactive" [active] [selected] [ref=f2e1683] [cursor=pointer]
+      - generic [ref=f2e123]:
+        - generic [ref=f2e124]:
+          - button [ref=f2e1684] [cursor=pointer]
+          - generic [ref=f2e131]:
+            - textbox "Search for ID" [ref=f2e1685]
+            - group
+        - generic [ref=f2e133]:
+          - button [ref=f2e1686] [cursor=pointer]
+          - button [ref=f2e1687] [cursor=pointer]
+          - button [ref=f2e1688] [cursor=pointer]
+      - generic [ref=f2e151]:
+        - generic [ref=f2e152]:
+          - generic [ref=f2e154]:
+            - paragraph [ref=f2e155]: Total Clinics
+            - generic [ref=f2e156]: 5 Clinics
+          - grid [ref=f2e160]:
+            - row [ref=f2e1689]:
+              - columnheader [ref=f2e162]
+              - columnheader "ID" [ref=f2e1690]
+              - columnheader "Name" [ref=f2e1691]
+              - columnheader "Street Address" [ref=f2e1692]
+              - columnheader "City" [ref=f2e1693]
+              - columnheader "State" [ref=f2e1694]
+              - columnheader "Zip Code" [ref=f2e1695]
+              - columnheader "Monitoring Metrics" [ref=f2e1696]
+              - columnheader "Contact Info" [ref=f2e1697]
+              - columnheader "Current Status" [ref=f2e1698]
+              - columnheader [ref=f2e190]
+            - rowgroup [ref=f2e191]:
+              - row [ref=f2e1854]:
+                - gridcell "1" [ref=f2e1855]
+                - gridcell "11269" [ref=f2e1856]
+                - gridcell [ref=f2e1857]:
+                  - generic "clinix xyz" [ref=f2e1858]:
+                    - paragraph [ref=f2e1859]: clinix xyz
+                - gridcell [ref=f2e1860]:
+                  - generic "dwa213wda" [ref=f2e1861]:
+                    - paragraph [ref=f2e1862]: dwa213wda
+                - gridcell "Karachi" [ref=f2e1863]
+                - gridcell "Sindh" [ref=f2e1864]
+                - gridcell "32422" [ref=f2e1865]
+                - gridcell [ref=f2e1866]:
+                  - button "View Metrics" [ref=f2e1867] [cursor=pointer]
+                - gridcell [ref=f2e1868]:
+                  - generic [ref=f2e1869]:
+                    - paragraph [ref=f2e1870]: xyz
+                    - paragraph [ref=f2e1871]: "Email: xyz@example.com"
+                    - paragraph [ref=f2e1872]: "Phone: +1 (213) 131-2312"
+                - gridcell "Inactive" [ref=f2e1873]
+                - gridcell [ref=f2e1879]:
+                  - menu [ref=f2e1880]:
+                    - button [ref=f2e1882] [cursor=pointer]
+              - row [ref=f2e1889]:
+                - gridcell "2" [ref=f2e1890]
+                - gridcell "10030" [ref=f2e1891]
+                - gridcell [ref=f2e1892]:
+                  - generic "Abdul Rehman" [ref=f2e1893]:
+                    - paragraph [ref=f2e1894]: Abdul Rehman
+                - gridcell [ref=f2e1895]:
+                  - generic "A14 LPQ" [ref=f2e1896]:
+                    - paragraph [ref=f2e1897]: A14 LPQ
+                - gridcell "New York City" [ref=f2e1898]
+                - gridcell "New York" [ref=f2e1899]
+                - gridcell "12345" [ref=f2e1900]
+                - gridcell [ref=f2e1901]:
+                  - button "View Metrics" [ref=f2e1902] [cursor=pointer]
+                - gridcell [ref=f2e1903]:
+                  - generic [ref=f2e1904]:
+                    - paragraph [ref=f2e1905]: Mr Ark
+                    - paragraph [ref=f2e1906]: "Email: 123123!@dd.com"
+                    - paragraph [ref=f2e1907]: "Phone: +1 (123) 123-1231"
+                - gridcell "Inactive" [ref=f2e1908]
+                - gridcell [ref=f2e1914]:
+                  - menu [ref=f2e1915]:
+                    - button [ref=f2e1917] [cursor=pointer]
+              - row [ref=f2e1924]:
+                - gridcell "3" [ref=f2e1925]
+                - gridcell "10027" [ref=f2e1926]
+                - gridcell [ref=f2e1927]:
+                  - generic "ss" [ref=f2e1928]:
+                    - paragraph [ref=f2e1929]: ss
+                - gridcell [ref=f2e1930]:
+                  - generic "ss" [ref=f2e1931]:
+                    - paragraph [ref=f2e1932]: ss
+                - gridcell "ss" [ref=f2e1933]
+                - gridcell "ss" [ref=f2e1934]
+                - gridcell "23234" [ref=f2e1935]
+                - gridcell [ref=f2e1936]:
+                  - button "View Metrics" [ref=f2e1937] [cursor=pointer]
+                - gridcell [ref=f2e1938]:
+                  - generic [ref=f2e1939]:
+                    - paragraph [ref=f2e1940]: ss
+                    - paragraph [ref=f2e1941]: "Email: 1@gmail.com"
+                    - paragraph [ref=f2e1942]: "Phone: +1 (345) 5"
+                - gridcell "Inactive" [ref=f2e1943]
+                - gridcell [ref=f2e1949]:
+                  - menu [ref=f2e1950]:
+                    - button [ref=f2e1952] [cursor=pointer]
+              - row [ref=f2e1959]:
+                - gridcell "4" [ref=f2e1960]
+                - gridcell "10026" [ref=f2e1961]
+                - gridcell [ref=f2e1962]:
+                  - generic "Test" [ref=f2e1963]:
+                    - paragraph [ref=f2e1964]: Test
+                - gridcell [ref=f2e1965]:
+                  - generic "Bufferzone" [ref=f2e1966]:
+                    - paragraph [ref=f2e1967]: Bufferzone
+                - gridcell "Karachi" [ref=f2e1968]
+                - gridcell "akjakjs" [ref=f2e1969]
+                - gridcell "78558" [ref=f2e1970]
+                - gridcell [ref=f2e1971]:
+                  - button "View Metrics" [ref=f2e1972] [cursor=pointer]
+                - gridcell [ref=f2e1973]:
+                  - generic [ref=f2e1974]:
+                    - paragraph [ref=f2e1975]: Abyaz
+                    - paragraph [ref=f2e1976]: "Email: pnq16mkr@anonaddy.me"
+                    - paragraph [ref=f2e1977]: "Phone: +1 (111) 111-1111"
+                - gridcell "Inactive" [ref=f2e1978]
+                - gridcell [ref=f2e1984]:
+                  - menu [ref=f2e1985]:
+                    - button [ref=f2e1987] [cursor=pointer]
+              - row [ref=f2e1994]:
+                - gridcell "5" [ref=f2e1995]
+                - gridcell "10019" [ref=f2e1996]
+                - gridcell [ref=f2e1997]:
+                  - generic "Rejuvink Richmond" [ref=f2e1998]:
+                    - paragraph [ref=f2e1999]: Rejuvink Richmond
+                - gridcell [ref=f2e2000]:
+                  - generic "7301 Forest Avenue Suite 204" [ref=f2e2001]:
+                    - paragraph [ref=f2e2002]: 7301 Forest Avenue Suite 204
+                - gridcell "Richmond" [ref=f2e2003]
+                - gridcell "VA" [ref=f2e2004]
+                - gridcell "23226" [ref=f2e2005]
+                - gridcell [ref=f2e2006]:
+                  - button "View Metrics" [ref=f2e2007] [cursor=pointer]
+                - gridcell [ref=f2e2008]:
+                  - generic [ref=f2e2009]:
+                    - paragraph [ref=f2e2010]: Jingi Hairston
+                    - paragraph [ref=f2e2011]: "Email: jingi@rejstaff.com"
+                    - paragraph [ref=f2e2012]: "Phone: (804) 533-5399"
+                - gridcell "Inactive" [ref=f2e2013]
+                - gridcell [ref=f2e2019]:
+                  - menu [ref=f2e2020]:
+                    - button [ref=f2e2022] [cursor=pointer]
+        - generic [ref=f2e515]:
+          - generic [ref=f2e516]:
+            - paragraph [ref=f2e517]: Rows per page
+            - generic [ref=f2e521]:
+              - combobox [ref=f2e522]: "10"
+              - button "Open" [ref=f2e1825] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f2e1826]:
+            - list [ref=f2e528]:
+              - listitem [ref=f2e529]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f2e530]:
+                - button "page 1" [ref=f2e1827] [cursor=pointer]: "1"
+              - listitem [ref=f2e2032]:
+                - button "Go to next page" [disabled]

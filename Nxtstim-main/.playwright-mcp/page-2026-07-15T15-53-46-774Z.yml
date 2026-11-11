@@ -1,0 +1,155 @@
+- generic [ref=f3e6]:
+  - generic [ref=f3e8]:
+    - banner [ref=f3e339]:
+      - generic [ref=f3e340]:
+        - button [ref=f3e342] [cursor=pointer]
+        - generic [ref=f3e346] [cursor=pointer]:
+          - generic [ref=f3e347]:
+            - generic [ref=f3e348]: "!"
+            - paragraph [ref=f3e351]: admin auth
+          - button [ref=f3e352]
+    - generic [ref=f3e26]:
+      - button [ref=f3e28] [cursor=pointer]
+      - separator [ref=f3e34]
+      - list [ref=f3e35]:
+        - link [ref=f3e255] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f3e37]:
+            - button [ref=f3e256]:
+              - generic [ref=f3e44]: Monitoring
+        - link [ref=f3e257] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f3e47]:
+            - button [ref=f3e258]:
+              - generic [ref=f3e57]: Reports
+        - link [ref=f3e259] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f3e60]:
+            - button [ref=f3e260]:
+              - generic [ref=f3e67]: Invoices
+        - link [ref=f3e261] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f3e70]:
+            - button [ref=f3e262]
+        - link [ref=f3e263] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f3e76]:
+            - button [ref=f3e264]:
+              - generic [ref=f3e83]: Patients
+        - link [ref=f3e265] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f3e86]:
+            - button [ref=f3e266]:
+              - generic [ref=f3e92]: Users
+        - link [ref=f3e267] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f3e95]:
+            - button [ref=f3e268]:
+              - generic [ref=f3e102]: Roles
+    - main [ref=f3e104]:
+      - generic [ref=f3e106]:
+        - generic [ref=f3e108]:
+          - generic [ref=f3e109]:
+            - paragraph [ref=f3e111]: Clinics
+            - button [ref=f3e269] [cursor=pointer]: Add Clinic
+          - paragraph [ref=f3e116]: View and manage all registered clinics, track their active status, contact details and access monitoring metrics in one centralized list.
+        - tablist [ref=f3e119]:
+          - tab [selected] [ref=f3e270] [cursor=pointer]: Active
+          - tab [ref=f3e271] [cursor=pointer]: Inactive
+        - generic [ref=f3e123]:
+          - generic [ref=f3e124]:
+            - button [ref=f3e272] [cursor=pointer]: Clinic Name
+            - generic [ref=f3e131]:
+              - textbox [ref=f3e273]:
+                - /placeholder: Search for Clinic Name
+                - text: bytecorp
+              - group
+          - generic [ref=f3e133]:
+            - button [ref=f3e274] [cursor=pointer]: Filters
+            - button [ref=f3e275] [cursor=pointer]: Sort By
+            - button [ref=f3e276] [cursor=pointer]: Export CSV
+        - generic [ref=f3e151]:
+          - generic [ref=f3e152]:
+            - generic [ref=f3e154]:
+              - paragraph [ref=f3e155]: Total Clinics
+              - generic [ref=f3e156]: 1 Clinic
+            - grid [ref=f3e160]:
+              - row [ref=f3e277]:
+                - columnheader [ref=f3e162]
+                - columnheader [ref=f3e278]:
+                  - generic [ref=f3e164]: ID
+                - columnheader [ref=f3e279]:
+                  - generic [ref=f3e167]: Name
+                - columnheader [ref=f3e280]:
+                  - generic [ref=f3e170]: Street Address
+                - columnheader [ref=f3e281]:
+                  - generic [ref=f3e173]: City
+                - columnheader [ref=f3e282]:
+                  - generic [ref=f3e176]: State
+                - columnheader [ref=f3e283]:
+                  - generic [ref=f3e179]: Zip Code
+                - columnheader [ref=f3e284]:
+                  - generic [ref=f3e182]: Monitoring Metrics
+                - columnheader [ref=f3e285]:
+                  - generic [ref=f3e185]: Contact Info
+                - columnheader [ref=f3e286]:
+                  - generic [ref=f3e188]: Current Status
+                - columnheader [ref=f3e190]
+              - rowgroup [ref=f3e191]:
+                - row [ref=f3e355]:
+                  - gridcell [ref=f3e356]: "1"
+                  - gridcell [ref=f3e357]: "11646"
+                  - gridcell [ref=f3e358]:
+                    - paragraph [ref=f3e360]: Bytecorp Clinic
+                  - gridcell [ref=f3e361]:
+                    - paragraph [ref=f3e363]: 2nd Floor A-352 Blk 15 Block 15 Gulistan-e-Johar
+                  - gridcell [ref=f3e364]: karachi
+                  - gridcell [ref=f3e365]: Sindh
+                  - gridcell [ref=f3e366]: "75950"
+                  - gridcell [ref=f3e367]:
+                    - button [ref=f3e368] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f3e369]:
+                    - generic [ref=f3e370]:
+                      - paragraph [ref=f3e371]: Abdul Rehman
+                      - paragraph [ref=f3e372]: "Email: abdul.rehman@bytecorp.io"
+                      - paragraph [ref=f3e373]: "Phone: +1 (221) 548-4544"
+                  - gridcell [ref=f3e374]:
+                    - generic [ref=f3e375]: Active
+                  - gridcell [ref=f3e380]:
+                    - menu [ref=f3e381]:
+                      - button [ref=f3e383] [cursor=pointer]
+          - generic [ref=f3e235]:
+            - generic [ref=f3e236]:
+              - paragraph [ref=f3e237]: Rows per page
+              - generic [ref=f3e241]:
+                - combobox [ref=f3e242]: "10"
+                - button [ref=f3e301] [cursor=pointer]
+                - group
+            - navigation [ref=f3e302]:
+              - list [ref=f3e248]:
+                - listitem [ref=f3e249]:
+                  - button [disabled]
+                - listitem [ref=f3e250]:
+                  - button [ref=f3e303] [cursor=pointer]: "1"
+                - listitem [ref=f3e393]:
+                  - button [disabled]
+  - menu [ref=f3e306]:
+    - radiogroup [ref=f3e307]:
+      - generic [ref=f3e308] [cursor=pointer]:
+        - radio "ID" [ref=f3e310]
+        - paragraph [ref=f3e312]: ID
+      - generic [ref=f3e313] [cursor=pointer]:
+        - radio "Clinic Name" [checked] [ref=f3e315]
+        - paragraph [ref=f3e318]: Clinic Name
+      - generic [ref=f3e319] [cursor=pointer]:
+        - radio "Street Address" [ref=f3e321]
+        - paragraph [ref=f3e323]: Street Address
+      - generic [ref=f3e324] [cursor=pointer]:
+        - radio "City" [ref=f3e326]
+        - paragraph [ref=f3e328]: City
+      - generic [ref=f3e329] [cursor=pointer]:
+        - radio "State" [ref=f3e331]
+        - paragraph [ref=f3e333]: State
+      - generic [ref=f3e334] [cursor=pointer]:
+        - radio "Zip Code" [ref=f3e336]
+        - paragraph [ref=f3e338]: Zip Code

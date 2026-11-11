@@ -1,0 +1,143 @@
+- generic [ref=f2e6]:
+  - generic [ref=f2e8]:
+    - banner [ref=f2e1004]:
+      - generic [ref=f2e1005]:
+        - button [ref=f2e1064] [cursor=pointer]
+        - generic [ref=f2e1011] [cursor=pointer]:
+          - paragraph [ref=f2e1015]: admin auth
+          - button [ref=f2e1016]
+    - generic [ref=f2e25]:
+      - button [ref=f2e27] [cursor=pointer]
+      - separator [ref=f2e33]
+      - list [ref=f2e34]:
+        - link [ref=f2e1066] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f2e36]:
+            - button [ref=f2e1067]:
+              - generic [ref=f2e43]: Monitoring
+        - link [ref=f2e1068] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f2e46]:
+            - button [ref=f2e1069]:
+              - generic [ref=f2e56]: Reports
+        - link [ref=f2e1070] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f2e59]:
+            - button [ref=f2e1071]:
+              - generic [ref=f2e66]: Invoices
+        - link [ref=f2e1072] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f2e69]:
+            - button [ref=f2e1073]:
+              - generic [ref=f2e74]: Clinics
+        - link [ref=f2e1074] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f2e77]:
+            - button [ref=f2e1075]:
+              - generic [ref=f2e84]: Patients
+        - link [ref=f2e1076] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f2e87]:
+            - button [ref=f2e1077]
+        - link [ref=f2e1078] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f2e94]:
+            - button [ref=f2e1079]:
+              - generic [ref=f2e101]: Roles
+    - main [ref=f2e103]:
+      - generic [ref=f2e105]:
+        - generic [ref=f2e107]:
+          - generic [ref=f2e108]:
+            - paragraph [ref=f2e110]: Users
+            - button [ref=f2e1080] [cursor=pointer]: Add New User
+          - paragraph [ref=f2e115]: View and manage all users and their assigned roles across the system.
+        - tablist [ref=f2e118]:
+          - tab [selected] [ref=f2e1081] [cursor=pointer]: Active
+          - tab [ref=f2e1082] [cursor=pointer]: Pending
+          - tab [ref=f2e1083] [cursor=pointer]: Suspended
+          - tab [ref=f2e1084] [cursor=pointer]: Inactive
+        - generic [ref=f2e124]:
+          - generic [ref=f2e125]:
+            - button [ref=f2e1085] [cursor=pointer]: User ID
+            - generic [ref=f2e132]:
+              - textbox [ref=f2e1086]:
+                - /placeholder: Search for User ID
+                - text: "10733"
+              - group
+          - generic [ref=f2e134]:
+            - button [ref=f2e1087] [cursor=pointer]: Filters
+            - button [ref=f2e1088] [cursor=pointer]: Sort By
+            - button [ref=f2e1089] [cursor=pointer]: Export CSV
+        - generic [ref=f2e152]:
+          - generic [ref=f2e153]:
+            - generic [ref=f2e155]:
+              - paragraph [ref=f2e156]: Total Users
+              - generic [ref=f2e157]: 1 Users
+            - grid [ref=f2e161]:
+              - row [ref=f2e1090]:
+                - columnheader [ref=f2e163]
+                - columnheader [ref=f2e1091]:
+                  - generic [ref=f2e165]: User ID
+                - columnheader [ref=f2e1092]:
+                  - generic [ref=f2e168]: Username
+                - columnheader [ref=f2e1093]:
+                  - generic [ref=f2e171]: First Name
+                - columnheader [ref=f2e1094]:
+                  - generic [ref=f2e174]: Last Name
+                - columnheader [ref=f2e1095]:
+                  - generic [ref=f2e177]: Roles
+                - columnheader [ref=f2e1096]:
+                  - generic [ref=f2e180]: Email Address
+                - columnheader [ref=f2e1097]:
+                  - generic [ref=f2e183]: Phone Number
+                - columnheader [ref=f2e1098]:
+                  - generic [ref=f2e186]: Onboarding Date
+                - columnheader [ref=f2e1099]:
+                  - generic [ref=f2e189]: Associated Clinics
+                - columnheader [ref=f2e191]
+              - rowgroup [ref=f2e192]:
+                - row [ref=f2e1100]:
+                  - gridcell [ref=f2e1101]: "1"
+                  - gridcell [ref=f2e1102]:
+                    - paragraph [ref=f2e1023]: "10733"
+                  - gridcell [ref=f2e1104]:
+                    - paragraph [ref=f2e1027] [cursor=pointer]: Inactive QAUser
+                  - gridcell [ref=f2e1106]:
+                    - paragraph [ref=f2e1030]: Inactive
+                  - gridcell [ref=f2e1108]:
+                    - paragraph [ref=f2e1033]: QAUser
+                  - gridcell [ref=f2e1110]:
+                    - generic [ref=f2e1035]: Monitoring Admin
+                  - gridcell [ref=f2e1111]:
+                    - paragraph [ref=f2e1040]: inactive+716a@iqra.anonaddy.com
+                  - gridcell [ref=f2e1113]:
+                    - paragraph [ref=f2e1043]: +1 (555) 123-4567
+                  - gridcell [ref=f2e1115]:
+                    - paragraph [ref=f2e1046]: 07-16-2026
+                  - gridcell [ref=f2e1117]:
+                    - paragraph [ref=f2e1049]: "-"
+                  - gridcell [ref=f2e1050]:
+                    - menu [ref=f2e1051]:
+                      - button [ref=f2e1053] [cursor=pointer]
+          - generic [ref=f2e572]:
+            - generic [ref=f2e573]:
+              - paragraph [ref=f2e574]: Rows per page
+              - generic [ref=f2e578]:
+                - combobox [ref=f2e579]: "10"
+                - button [ref=f2e1119] [cursor=pointer]
+                - group
+            - navigation [ref=f2e1120]:
+              - list [ref=f2e585]:
+                - listitem [ref=f2e586]:
+                  - button [disabled]
+                - listitem [ref=f2e587]:
+                  - button [ref=f2e1121] [cursor=pointer]: "1"
+                - listitem [ref=f2e1063]:
+                  - button [disabled]
+  - dialog [ref=f2e1140]:
+    - generic [ref=f2e1141]:
+      - paragraph [ref=f2e1142]: Mark User as Inactive
+      - paragraph [ref=f2e1143]: This user will lose access to the portal until reactivated. Are you sure you want to mark this user as inactive?
+    - generic [ref=f2e1144]:
+      - button "Cancel" [ref=f2e1145] [cursor=pointer]
+      - button "Mark as Inactive" [ref=f2e1146] [cursor=pointer]

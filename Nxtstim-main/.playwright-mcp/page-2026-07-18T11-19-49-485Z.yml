@@ -1,0 +1,241 @@
+- generic [ref=f1e6]:
+  - generic [ref=f1e8]:
+    - banner [ref=f1e598]:
+      - generic [ref=f1e599]:
+        - button [ref=f1e987] [cursor=pointer]
+        - generic [ref=f1e605] [cursor=pointer]:
+          - generic [ref=f1e606]:
+            - generic [ref=f1e607]: "!"
+            - paragraph [ref=f1e610]: ADMIN USER
+          - button [ref=f1e611]
+    - generic [ref=f1e26]:
+      - button [ref=f1e28] [cursor=pointer]
+      - separator [ref=f1e34]
+      - list [ref=f1e35]:
+        - link [ref=f1e989] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f1e37]:
+            - button [ref=f1e990]:
+              - generic [ref=f1e44]: Monitoring
+        - link [ref=f1e991] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f1e47]:
+            - button [ref=f1e992]:
+              - generic [ref=f1e57]: Reports
+        - link [ref=f1e993] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f1e60]:
+            - button [ref=f1e994]:
+              - generic [ref=f1e67]: Invoices
+        - link [ref=f1e995] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f1e70]:
+            - button [ref=f1e996]:
+              - generic [ref=f1e75]: Clinics
+        - link [ref=f1e997] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f1e78]:
+            - button [ref=f1e998]:
+              - generic [ref=f1e85]: Patients
+        - link [ref=f1e999] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f1e88]:
+            - button [ref=f1e1000]
+        - link [ref=f1e1001] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f1e95]:
+            - button [ref=f1e1002]:
+              - generic [ref=f1e102]: Roles
+    - main [ref=f1e104]:
+      - generic [ref=f1e106]:
+        - generic [ref=f1e108]:
+          - generic [ref=f1e109]:
+            - paragraph [ref=f1e111]: Users
+            - button [ref=f1e1003] [cursor=pointer]: Add New User
+          - paragraph [ref=f1e116]: View and manage all users and their assigned roles across the system.
+        - tablist [ref=f1e119]:
+          - tab [ref=f1e1004] [cursor=pointer]: Active
+          - tab [ref=f1e1005] [cursor=pointer]: Pending
+          - tab [selected] [ref=f1e1006] [cursor=pointer]: Suspended
+          - tab [ref=f1e1007] [cursor=pointer]: Inactive
+        - generic [ref=f1e125]:
+          - generic [ref=f1e126]:
+            - button [ref=f1e1008] [cursor=pointer]: User ID
+            - generic [ref=f1e133]:
+              - textbox [ref=f1e1009]:
+                - /placeholder: Search for User ID
+              - group
+          - generic [ref=f1e135]:
+            - button [ref=f1e1010] [cursor=pointer]: Filters
+            - button [ref=f1e1011] [cursor=pointer]: Sort By
+            - button [ref=f1e1012] [cursor=pointer]: Export CSV
+        - generic [ref=f1e153]:
+          - generic [ref=f1e154]:
+            - generic [ref=f1e156]:
+              - paragraph [ref=f1e157]: Total Users
+              - generic [ref=f1e158]: 10 Users
+            - grid [ref=f1e162]:
+              - row [ref=f1e1013]:
+                - columnheader [ref=f1e164]
+                - columnheader [ref=f1e1014]:
+                  - generic [ref=f1e166]: User ID
+                - columnheader [ref=f1e1015]:
+                  - generic [ref=f1e169]: Username
+                - columnheader [ref=f1e1016]:
+                  - generic [ref=f1e172]: First Name
+                - columnheader [ref=f1e1017]:
+                  - generic [ref=f1e175]: Last Name
+                - columnheader [ref=f1e1018]:
+                  - generic [ref=f1e178]: Roles
+                - columnheader [ref=f1e1019]:
+                  - generic [ref=f1e181]: Email Address
+                - columnheader [ref=f1e1020]:
+                  - generic [ref=f1e184]: Phone Number
+                - columnheader [ref=f1e1021]:
+                  - generic [ref=f1e187]: Onboarding Date
+                - columnheader [ref=f1e192]
+              - rowgroup [ref=f1e193]:
+                - row [ref=f1e1022]:
+                  - gridcell [ref=f1e1023]: "5"
+                  - gridcell [ref=f1e1024]:
+                    - paragraph [ref=f1e782]: "10505"
+                  - gridcell [ref=f1e1026]:
+                    - paragraph [ref=f1e786] [cursor=pointer]: TestQA TempSuspended
+                  - gridcell [ref=f1e1028]:
+                    - paragraph [ref=f1e789]: TestQA
+                  - gridcell [ref=f1e1030]:
+                    - paragraph [ref=f1e792]: TempSuspended
+                  - gridcell [ref=f1e1032]:
+                    - generic [ref=f1e794]: Executive Admin
+                  - gridcell [ref=f1e1033]:
+                    - paragraph [ref=f1e799]: qa-react-dup@iqra.anonaddy.com
+                  - gridcell [ref=f1e1035]:
+                    - paragraph [ref=f1e802]: "-"
+                  - gridcell [ref=f1e1037]:
+                    - paragraph [ref=f1e805]: 05-21-2026
+                  - gridcell [ref=f1e809]:
+                    - menu [ref=f1e810]:
+                      - button [ref=f1e812] [cursor=pointer]
+                - row [ref=f1e1039]:
+                  - gridcell [ref=f1e1040]: "6"
+                  - gridcell [ref=f1e1041]:
+                    - paragraph [ref=f1e823]: "10504"
+                  - gridcell [ref=f1e1043]:
+                    - paragraph [ref=f1e827] [cursor=pointer]: TestQA TempSuspended
+                  - gridcell [ref=f1e1045]:
+                    - paragraph [ref=f1e830]: TestQA
+                  - gridcell [ref=f1e1047]:
+                    - paragraph [ref=f1e833]: TempSuspended
+                  - gridcell [ref=f1e1049]:
+                    - generic [ref=f1e835]: Executive Admin
+                  - gridcell [ref=f1e1050]:
+                    - paragraph [ref=f1e840]: qa-react-set@iqra.anonaddy.com
+                  - gridcell [ref=f1e1052]:
+                    - paragraph [ref=f1e843]: "-"
+                  - gridcell [ref=f1e1054]:
+                    - paragraph [ref=f1e846]: 05-21-2026
+                  - gridcell [ref=f1e850]:
+                    - menu [ref=f1e851]:
+                      - button [ref=f1e853] [cursor=pointer]
+                - row [ref=f1e1056]:
+                  - gridcell [ref=f1e1057]: "7"
+                  - gridcell [ref=f1e1058]:
+                    - paragraph [ref=f1e864]: "10481"
+                  - gridcell [ref=f1e1060]:
+                    - paragraph [ref=f1e868] [cursor=pointer]: TestQA TempSuspended
+                  - gridcell [ref=f1e1062]:
+                    - paragraph [ref=f1e871]: TestQA
+                  - gridcell [ref=f1e1064]:
+                    - paragraph [ref=f1e874]: TempSuspended
+                  - gridcell [ref=f1e1066]:
+                    - generic [ref=f1e876]: Executive Admin
+                  - gridcell [ref=f1e1067]:
+                    - paragraph [ref=f1e881]: qa-tpl-react@iqra.anonaddy.com
+                  - gridcell [ref=f1e1069]:
+                    - paragraph [ref=f1e884]: "-"
+                  - gridcell [ref=f1e1071]:
+                    - paragraph [ref=f1e887]: 05-21-2026
+                  - gridcell [ref=f1e891]:
+                    - menu [ref=f1e892]:
+                      - button [ref=f1e894] [cursor=pointer]
+                - row [ref=f1e1073]:
+                  - gridcell [ref=f1e1074]: "8"
+                  - gridcell [ref=f1e1075]:
+                    - paragraph [ref=f1e905]: "10431"
+                  - gridcell [ref=f1e1077]:
+                    - paragraph [ref=f1e909] [cursor=pointer]: Executive Admin
+                  - gridcell [ref=f1e1079]:
+                    - paragraph [ref=f1e912]: Executive
+                  - gridcell [ref=f1e1081]:
+                    - paragraph [ref=f1e915]: Admin
+                  - gridcell [ref=f1e1083]:
+                    - generic [ref=f1e917]: Executive Admin
+                  - gridcell [ref=f1e1084]:
+                    - paragraph [ref=f1e922]: executiveadmin@iqra.anonaddy.com
+                  - gridcell [ref=f1e1086]:
+                    - paragraph [ref=f1e925]: "-"
+                  - gridcell [ref=f1e1088]:
+                    - paragraph [ref=f1e928]: 05-19-2026
+                  - gridcell [ref=f1e932]:
+                    - menu [ref=f1e933]:
+                      - button [ref=f1e935] [cursor=pointer]
+                - row [ref=f1e1090]:
+                  - gridcell [ref=f1e1091]: "9"
+                  - gridcell [ref=f1e1092]:
+                    - paragraph [ref=f1e946]: "10103"
+                  - gridcell [ref=f1e1094]:
+                    - paragraph [ref=f1e950] [cursor=pointer]: john doe
+                  - gridcell [ref=f1e1096]:
+                    - paragraph [ref=f1e953]: john
+                  - gridcell [ref=f1e1098]:
+                    - paragraph [ref=f1e956]: doe
+                  - gridcell [ref=f1e1100]:
+                    - generic [ref=f1e958]: Executive Admin
+                  - gridcell [ref=f1e1101]:
+                    - paragraph [ref=f1e963]: mids@yopmail.com
+                  - gridcell [ref=f1e1103]:
+                    - paragraph [ref=f1e966]: "-"
+                  - gridcell [ref=f1e1105]:
+                    - paragraph [ref=f1e969]: 02-23-2026
+                  - gridcell [ref=f1e973]:
+                    - menu [ref=f1e974]:
+                      - button [ref=f1e976] [cursor=pointer]
+                - row [ref=f1e1107]:
+                  - gridcell [ref=f1e1108]: "10"
+                  - gridcell [ref=f1e1109]:
+                    - paragraph [ref=f1e1111]: "10085"
+                  - gridcell [ref=f1e1112]:
+                    - paragraph [ref=f1e1115] [cursor=pointer]: Executive Admin
+                  - gridcell [ref=f1e1116]:
+                    - paragraph [ref=f1e1118]: Executive
+                  - gridcell [ref=f1e1119]:
+                    - paragraph [ref=f1e1121]: Admin
+                  - gridcell [ref=f1e1122]:
+                    - generic [ref=f1e1123]: Executive Admin
+                  - gridcell [ref=f1e1126]:
+                    - paragraph [ref=f1e1128]: executiveadmin1@yopmail.com
+                  - gridcell [ref=f1e1129]:
+                    - paragraph [ref=f1e1131]: +1 (657) 888-5686
+                  - gridcell [ref=f1e1132]:
+                    - paragraph [ref=f1e1134]: 02-19-2026
+                  - gridcell [ref=f1e1135]:
+                    - menu [ref=f1e1136]:
+                      - button [ref=f1e1138] [cursor=pointer]
+          - generic [ref=f1e571]:
+            - generic [ref=f1e572]:
+              - paragraph [ref=f1e573]: Rows per page
+              - generic [ref=f1e577]:
+                - combobox [ref=f1e578]: "10"
+                - button [ref=f1e1145] [cursor=pointer]
+                - group
+            - navigation [ref=f1e1146]:
+              - list [ref=f1e584]:
+                - listitem [ref=f1e585]:
+                  - button [disabled]
+                - listitem [ref=f1e586]:
+                  - button [ref=f1e1147] [cursor=pointer]: "1"
+                - listitem [ref=f1e986]:
+                  - button [disabled]
+  - menu [ref=f1e1150]:
+    - menuitem [active] [ref=f1e1151] [cursor=pointer]:
+      - paragraph [ref=f1e1154]: Reactivate Account

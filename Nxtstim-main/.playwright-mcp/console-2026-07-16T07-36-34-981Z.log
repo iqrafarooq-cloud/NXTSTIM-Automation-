@@ -1,0 +1,1 @@
+[  190962ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/clinic/list?pageSize=100&page=1&sortBy=id&sortDirection=desc&isActive=false:0

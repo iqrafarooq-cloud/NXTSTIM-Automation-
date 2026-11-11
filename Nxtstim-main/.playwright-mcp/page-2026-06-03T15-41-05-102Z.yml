@@ -1,0 +1,22 @@
+- generic [ref=e20]:
+  - generic [ref=e23]:
+    - img [ref=e25]
+    - paragraph [ref=e27]: Log in to your account
+    - generic [ref=e28]:
+      - generic [ref=e29]: Email Address
+      - generic [ref=e31]:
+        - textbox "Enter Email" [ref=e32]
+        - group
+    - generic [ref=e33]:
+      - generic [ref=e34]: Password
+      - generic [ref=e36]:
+        - textbox "Enter Password" [ref=e37]
+        - button [ref=e39] [cursor=pointer]:
+          - img [ref=e40]
+        - group
+    - link "Forgot Your Password?" [ref=e43] [cursor=pointer]:
+      - /url: /forgot-password
+      - paragraph [ref=e44]: Forgot Your Password?
+    - button "Log In" [disabled]
+  - link "Terms Of Service" [ref=e45] [cursor=pointer]:
+    - /url: https://nxtstim.com/terms-of-service

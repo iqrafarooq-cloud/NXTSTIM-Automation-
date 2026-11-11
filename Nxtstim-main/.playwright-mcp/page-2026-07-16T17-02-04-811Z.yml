@@ -1,0 +1,99 @@
+- generic [ref=f2e7]:
+  - generic [ref=f2e8]:
+    - banner [ref=f2e1004]:
+      - generic [ref=f2e1005]:
+        - button "open drawer" [ref=f2e1147] [cursor=pointer]
+        - generic [ref=f2e1011] [cursor=pointer]:
+          - generic [ref=f2e1012]:
+            - img "profile" [ref=f2e1148]
+            - paragraph [ref=f2e1015]: admin auth
+          - button [ref=f2e1016]
+    - generic [ref=f2e25]:
+      - button [ref=f2e27] [cursor=pointer]
+      - separator [ref=f2e33]
+      - list [ref=f2e34]:
+        - link [ref=f2e1149] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f2e36]:
+            - button "Monitoring" [ref=f2e1150]
+        - link [ref=f2e1151] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f2e46]:
+            - button "Reports" [ref=f2e1152]
+        - link [ref=f2e1153] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f2e59]:
+            - button "Invoices" [ref=f2e1154]
+        - link [ref=f2e1155] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f2e69]:
+            - button "Clinics" [ref=f2e1156]
+        - link [ref=f2e1157] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f2e77]:
+            - button "Patients" [ref=f2e1158]
+        - link [ref=f2e1159] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f2e87]:
+            - button [ref=f2e1160]
+        - link [ref=f2e1161] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f2e94]:
+            - button "Roles" [ref=f2e1162]
+    - main [ref=f2e103]:
+      - generic [ref=f2e105]:
+        - generic [ref=f2e107]:
+          - generic [ref=f2e108]:
+            - paragraph [ref=f2e110]: Users
+            - button [ref=f2e1163] [cursor=pointer]
+          - paragraph [ref=f2e115]: View and manage all users and their assigned roles across the system.
+        - tablist [ref=f2e118]:
+          - tab "Active" [selected] [ref=f2e1164] [cursor=pointer]
+          - tab "Pending" [ref=f2e1165] [cursor=pointer]
+          - tab "Suspended" [ref=f2e1166] [cursor=pointer]
+          - tab "Inactive" [ref=f2e1167] [cursor=pointer]
+        - generic [ref=f2e124]:
+          - generic [ref=f2e125]:
+            - button [ref=f2e1168] [cursor=pointer]
+            - generic [ref=f2e132]:
+              - textbox "Search for User ID" [ref=f2e1169]: "10733"
+              - group
+          - generic [ref=f2e134]:
+            - button [ref=f2e1170] [cursor=pointer]
+            - button [ref=f2e1171] [cursor=pointer]
+            - button [ref=f2e1172] [cursor=pointer]
+        - generic [ref=f2e152]:
+          - generic [ref=f2e153]:
+            - generic [ref=f2e155]:
+              - paragraph [ref=f2e156]: Total Users
+              - generic [ref=f2e157]: 1 Users
+            - grid [ref=f2e161]:
+              - row [ref=f2e1173]:
+                - columnheader [ref=f2e163]
+                - columnheader "User ID" [ref=f2e1174]
+                - columnheader "Username" [ref=f2e1175]
+                - columnheader "First Name" [ref=f2e1176]
+                - columnheader "Last Name" [ref=f2e1177]
+                - columnheader "Roles" [ref=f2e1178]
+                - columnheader "Email Address" [ref=f2e1179]
+                - columnheader "Phone Number" [ref=f2e1180]
+                - columnheader "Onboarding Date" [ref=f2e1181]
+                - columnheader "Associated Clinics" [ref=f2e1182]
+                - columnheader [ref=f2e191]
+          - generic [ref=f2e572]:
+            - generic [ref=f2e573]:
+              - paragraph [ref=f2e574]: Rows per page
+              - generic [ref=f2e578]:
+                - combobox [ref=f2e579]: "10"
+                - button "Open" [ref=f2e1306] [cursor=pointer]
+                - group
+            - navigation "pagination navigation" [ref=f2e1307]:
+              - list [ref=f2e585]:
+                - listitem [ref=f2e586]:
+                  - button "Go to previous page" [disabled]
+                - listitem [ref=f2e587]:
+                  - button "page 1" [ref=f2e1308] [cursor=pointer]: "1"
+                - listitem [ref=f2e1063]:
+                  - button "Go to next page" [disabled]
+  - alert [ref=f2e1312]:
+    - generic [ref=f2e1313]: User marked as inactive successfully.

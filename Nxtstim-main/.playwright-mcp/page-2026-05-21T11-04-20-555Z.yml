@@ -1,0 +1,304 @@
+- generic [ref=e35]:
+  - banner [ref=e622]:
+    - generic [ref=e625] [cursor=pointer]:
+      - generic [ref=e626]:
+        - img "profile" [ref=e627]
+        - paragraph [ref=e628]: Executive Admin
+      - button [ref=e629]:
+        - img [ref=e630]
+  - generic [ref=e51]:
+    - generic [ref=e52]:
+      - button [ref=e53] [cursor=pointer]:
+        - img [ref=e54]
+      - img [ref=e57]
+    - separator [ref=e59]
+    - list [ref=e60]:
+      - generic [ref=e61]:
+        - listitem [ref=e62]:
+          - button "Accounts" [ref=e63] [cursor=pointer]:
+            - img [ref=e632]
+            - generic [ref=e635]: Accounts
+            - img [ref=e636]
+        - generic [ref=e641]:
+          - link "Admin" [ref=e642] [cursor=pointer]:
+            - /url: /admin
+            - listitem [ref=e643]:
+              - button "Admin" [active] [ref=e644]:
+                - generic [ref=e646]: Admin
+          - link "Supervisors" [ref=e647] [cursor=pointer]:
+            - /url: /supervisors
+            - listitem [ref=e648]:
+              - button "Supervisors" [ref=e649]:
+                - generic [ref=e651]: Supervisors
+          - link "Clinics" [ref=e652] [cursor=pointer]:
+            - /url: /clinics
+            - listitem [ref=e653]:
+              - button "Clinics" [ref=e654]:
+                - generic [ref=e656]: Clinics
+          - link "Nurses" [ref=e657] [cursor=pointer]:
+            - /url: /nurses
+            - listitem [ref=e658]:
+              - button "Nurses" [ref=e659]:
+                - generic [ref=e661]: Nurses
+          - link "Patients" [ref=e662] [cursor=pointer]:
+            - /url: /patients
+            - listitem [ref=e663]:
+              - button "Patients" [ref=e664]:
+                - generic [ref=e666]: Patients
+          - link "Support Staff" [ref=e667] [cursor=pointer]:
+            - /url: /support-staff
+            - listitem [ref=e668]:
+              - button "Support Staff" [ref=e669]:
+                - generic [ref=e671]: Support Staff
+      - link "Monitoring" [ref=e71] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e72]:
+          - button "Monitoring" [ref=e73]:
+            - img [ref=e75]
+            - generic [ref=e673]: Monitoring
+      - link "Reports" [ref=e79] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e80]:
+          - button "Reports" [ref=e81]:
+            - img [ref=e83]
+            - generic [ref=e91]: Reports
+      - link "Invoices" [ref=e92] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e93]:
+          - button "Invoices" [ref=e94]:
+            - img [ref=e96]
+            - generic [ref=e101]: Invoices
+  - main [ref=e102]:
+    - generic [ref=e675]:
+      - generic [ref=e677]:
+        - paragraph [ref=e680]: Admin
+        - paragraph [ref=e681]: Access and manage platform-wide settings, user roles, system controls, and global reports across all clinics and care programs.
+      - tablist [ref=e684]:
+        - tab "Active" [selected] [ref=e685] [cursor=pointer]: Active
+        - tab "Pending" [ref=e686] [cursor=pointer]: Pending
+        - tab "Suspended" [ref=e687] [cursor=pointer]: Suspended
+      - generic [ref=e689]:
+        - generic [ref=e690]:
+          - button "ID" [ref=e691] [cursor=pointer]:
+            - text: ID
+            - img [ref=e693]
+          - generic [ref=e697]:
+            - textbox "Search for ID" [ref=e698]
+            - group
+        - generic [ref=e699]:
+          - button "Sort By" [ref=e701] [cursor=pointer]:
+            - img [ref=e704]
+            - text: Sort By
+          - button "Export CSV" [ref=e706] [cursor=pointer]:
+            - img [ref=e708]
+            - text: Export CSV
+      - generic [ref=e711]:
+        - generic [ref=e712]:
+          - generic [ref=e714]:
+            - paragraph [ref=e715]: Total Admin
+            - generic [ref=e717]: 22 Admin
+          - grid [ref=e720]:
+            - row "ID First Name Last Name Email Onboarding Date" [ref=e721]:
+              - columnheader [ref=e722]
+              - columnheader "ID" [ref=e723]:
+                - generic [ref=e725]: ID
+              - columnheader "First Name" [ref=e726]:
+                - generic [ref=e728]: First Name
+              - columnheader "Last Name" [ref=e729]:
+                - generic [ref=e731]: Last Name
+              - columnheader "Email" [ref=e732]:
+                - generic [ref=e734]: Email
+              - columnheader "Onboarding Date" [ref=e735]:
+                - generic [ref=e737]: Onboarding Date
+              - columnheader [ref=e738]
+            - rowgroup [ref=e739]:
+              - row "1 10434 john doe iqra.farooq+9@bytecorp.io 05-19-2026" [ref=e740]:
+                - gridcell "1" [ref=e741]
+                - gridcell "10434" [ref=e742]:
+                  - generic "10434" [ref=e743]:
+                    - paragraph [ref=e744]: "10434"
+                - gridcell "john" [ref=e745]:
+                  - generic "john" [ref=e746]:
+                    - paragraph [ref=e747]: john
+                - gridcell "doe" [ref=e748]:
+                  - generic "doe" [ref=e749]:
+                    - paragraph [ref=e750]: doe
+                - gridcell "iqra.farooq+9@bytecorp.io" [ref=e751]:
+                  - generic "iqra.farooq+9@bytecorp.io" [ref=e752]:
+                    - paragraph [ref=e753]: iqra.farooq+9@bytecorp.io
+                - gridcell "05-19-2026" [ref=e754]:
+                  - generic "05-19-2026" [ref=e755]:
+                    - paragraph [ref=e756]: 05-19-2026
+                - gridcell [ref=e757]:
+                  - menu [ref=e758]:
+                    - button [ref=e760] [cursor=pointer]:
+                      - img [ref=e761]
+              - row "2 10431 Executive Admin executiveadmin@iqra.anonaddy.com 05-19-2026" [ref=e767]:
+                - gridcell "2" [ref=e768]
+                - gridcell "10431" [ref=e769]:
+                  - generic "10431" [ref=e770]:
+                    - paragraph [ref=e771]: "10431"
+                - gridcell "Executive" [ref=e772]:
+                  - generic "Executive" [ref=e773]:
+                    - paragraph [ref=e774]: Executive
+                - gridcell "Admin" [ref=e775]:
+                  - generic "Admin" [ref=e776]:
+                    - paragraph [ref=e777]: Admin
+                - gridcell "executiveadmin@iqra.anonaddy.com" [ref=e778]:
+                  - generic "executiveadmin@iqra.anonaddy.com" [ref=e779]:
+                    - paragraph [ref=e780]: executiveadmin@iqra.anonaddy.com
+                - gridcell "05-19-2026" [ref=e781]:
+                  - generic "05-19-2026" [ref=e782]:
+                    - paragraph [ref=e783]: 05-19-2026
+                - gridcell [ref=e784]:
+                  - menu [ref=e785]:
+                    - button [ref=e787] [cursor=pointer]:
+                      - img [ref=e788]
+              - row "3 10422 john doe iqra.farooq+12@bytecorp.io 05-19-2026" [ref=e794]:
+                - gridcell "3" [ref=e795]
+                - gridcell "10422" [ref=e796]:
+                  - generic "10422" [ref=e797]:
+                    - paragraph [ref=e798]: "10422"
+                - gridcell "john" [ref=e799]:
+                  - generic "john" [ref=e800]:
+                    - paragraph [ref=e801]: john
+                - gridcell "doe" [ref=e802]:
+                  - generic "doe" [ref=e803]:
+                    - paragraph [ref=e804]: doe
+                - gridcell "iqra.farooq+12@bytecorp.io" [ref=e805]:
+                  - generic "iqra.farooq+12@bytecorp.io" [ref=e806]:
+                    - paragraph [ref=e807]: iqra.farooq+12@bytecorp.io
+                - gridcell "05-19-2026" [ref=e808]:
+                  - generic "05-19-2026" [ref=e809]:
+                    - paragraph [ref=e810]: 05-19-2026
+                - gridcell [ref=e811]:
+                  - menu [ref=e812]:
+                    - button [ref=e814] [cursor=pointer]:
+                      - img [ref=e815]
+              - row "4 10406 Testing admin 9pyg6hlh@anonaddy.com 05-05-2026" [ref=e821]:
+                - gridcell "4" [ref=e822]
+                - gridcell "10406" [ref=e823]:
+                  - generic "10406" [ref=e824]:
+                    - paragraph [ref=e825]: "10406"
+                - gridcell "Testing" [ref=e826]:
+                  - generic "Testing" [ref=e827]:
+                    - paragraph [ref=e828]: Testing
+                - gridcell "admin" [ref=e829]:
+                  - generic "admin" [ref=e830]:
+                    - paragraph [ref=e831]: admin
+                - gridcell "9pyg6hlh@anonaddy.com" [ref=e832]:
+                  - generic "9pyg6hlh@anonaddy.com" [ref=e833]:
+                    - paragraph [ref=e834]: 9pyg6hlh@anonaddy.com
+                - gridcell "05-05-2026" [ref=e835]:
+                  - generic "05-05-2026" [ref=e836]:
+                    - paragraph [ref=e837]: 05-05-2026
+                - gridcell [ref=e838]:
+                  - menu [ref=e839]:
+                    - button [ref=e841] [cursor=pointer]:
+                      - img [ref=e842]
+              - row "5 10360 john doe janrpgrv@anonaddy.com 04-14-2026" [ref=e848]:
+                - gridcell "5" [ref=e849]
+                - gridcell "10360" [ref=e850]:
+                  - generic "10360" [ref=e851]:
+                    - paragraph [ref=e852]: "10360"
+                - gridcell "john" [ref=e853]:
+                  - generic "john" [ref=e854]:
+                    - paragraph [ref=e855]: john
+                - gridcell "doe" [ref=e856]:
+                  - generic "doe" [ref=e857]:
+                    - paragraph [ref=e858]: doe
+                - gridcell "janrpgrv@anonaddy.com" [ref=e859]:
+                  - generic "janrpgrv@anonaddy.com" [ref=e860]:
+                    - paragraph [ref=e861]: janrpgrv@anonaddy.com
+                - gridcell "04-14-2026" [ref=e862]:
+                  - generic "04-14-2026" [ref=e863]:
+                    - paragraph [ref=e864]: 04-14-2026
+                - gridcell [ref=e865]:
+                  - menu [ref=e866]:
+                    - button [ref=e868] [cursor=pointer]:
+                      - img [ref=e869]
+              - row "6 10358 john doe d0w0hwdh@anonaddy.com 04-14-2026" [ref=e875]:
+                - gridcell "6" [ref=e876]
+                - gridcell "10358" [ref=e877]:
+                  - generic "10358" [ref=e878]:
+                    - paragraph [ref=e879]: "10358"
+                - gridcell "john" [ref=e880]:
+                  - generic "john" [ref=e881]:
+                    - paragraph [ref=e882]: john
+                - gridcell "doe" [ref=e883]:
+                  - generic "doe" [ref=e884]:
+                    - paragraph [ref=e885]: doe
+                - gridcell "d0w0hwdh@anonaddy.com" [ref=e886]:
+                  - generic "d0w0hwdh@anonaddy.com" [ref=e887]:
+                    - paragraph [ref=e888]: d0w0hwdh@anonaddy.com
+                - gridcell "04-14-2026" [ref=e889]:
+                  - generic "04-14-2026" [ref=e890]:
+                    - paragraph [ref=e891]: 04-14-2026
+                - gridcell [ref=e892]:
+                  - menu [ref=e893]:
+                    - button [ref=e895] [cursor=pointer]:
+                      - img [ref=e896]
+              - row "7 10313 QAExecutive admin uy8ojhef@anonaddy.com 04-06-2026" [ref=e902]:
+                - gridcell "7" [ref=e903]
+                - gridcell "10313" [ref=e904]:
+                  - generic "10313" [ref=e905]:
+                    - paragraph [ref=e906]: "10313"
+                - gridcell "QAExecutive" [ref=e907]:
+                  - generic "QAExecutive" [ref=e908]:
+                    - paragraph [ref=e909]: QAExecutive
+                - gridcell "admin" [ref=e910]:
+                  - generic "admin" [ref=e911]:
+                    - paragraph [ref=e912]: admin
+                - gridcell "uy8ojhef@anonaddy.com" [ref=e913]:
+                  - generic "uy8ojhef@anonaddy.com" [ref=e914]:
+                    - paragraph [ref=e915]: uy8ojhef@anonaddy.com
+                - gridcell "04-06-2026" [ref=e916]:
+                  - generic "04-06-2026" [ref=e917]:
+                    - paragraph [ref=e918]: 04-06-2026
+                - gridcell [ref=e919]:
+                  - menu [ref=e920]:
+                    - button [ref=e922] [cursor=pointer]:
+                      - img [ref=e923]
+              - row "8 10187 Executive Admin p9mn1kh5@anonaddy.me 03-24-2026" [ref=e929]:
+                - gridcell "8" [ref=e930]
+                - gridcell "10187" [ref=e931]:
+                  - generic "10187" [ref=e932]:
+                    - paragraph [ref=e933]: "10187"
+                - gridcell "Executive" [ref=e934]:
+                  - generic "Executive" [ref=e935]:
+                    - paragraph [ref=e936]: Executive
+                - gridcell "Admin" [ref=e937]:
+                  - generic "Admin" [ref=e938]:
+                    - paragraph [ref=e939]: Admin
+                - gridcell "p9mn1kh5@anonaddy.me" [ref=e940]:
+                  - generic "p9mn1kh5@anonaddy.me" [ref=e941]:
+                    - paragraph [ref=e942]: p9mn1kh5@anonaddy.me
+                - gridcell "03-24-2026" [ref=e943]:
+                  - generic "03-24-2026" [ref=e944]:
+                    - paragraph [ref=e945]: 03-24-2026
+                - gridcell [ref=e946]:
+                  - menu [ref=e947]:
+                    - button [ref=e949] [cursor=pointer]:
+                      - img [ref=e950]
+        - generic [ref=e964]:
+          - generic [ref=e965]:
+            - paragraph [ref=e966]: Rows per page
+            - generic [ref=e970]:
+              - combobox [ref=e971]: "10"
+              - button "Open" [ref=e973] [cursor=pointer]:
+                - img [ref=e974]
+              - group
+          - navigation "pagination navigation" [ref=e976]:
+            - list [ref=e977]:
+              - listitem [ref=e978]:
+                - button "Go to previous page" [disabled]:
+                  - img
+              - listitem [ref=e979]:
+                - button "page 1" [ref=e980] [cursor=pointer]: "1"
+              - listitem [ref=e981]:
+                - button "Go to page 2" [ref=e982] [cursor=pointer]: "2"
+              - listitem [ref=e983]:
+                - button "Go to page 3" [ref=e984] [cursor=pointer]: "3"
+              - listitem [ref=e985]:
+                - button "Go to next page" [ref=e986] [cursor=pointer]:
+                  - img [ref=e987]

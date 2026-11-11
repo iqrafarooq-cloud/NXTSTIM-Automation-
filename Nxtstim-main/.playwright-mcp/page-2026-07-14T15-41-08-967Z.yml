@@ -1,0 +1,113 @@
+- generic [ref=f5e7]:
+  - generic [ref=f5e8]:
+    - banner [ref=f5e9]:
+      - generic [ref=f5e10]:
+        - button "open drawer" [ref=f5e297] [cursor=pointer]
+        - generic [ref=f5e16] [cursor=pointer]:
+          - generic [ref=f5e17]:
+            - generic [ref=f5e18]:
+              - img "profile" [ref=f5e298]
+              - generic [ref=f5e20]: "!"
+            - paragraph [ref=f5e21]: admin auth
+          - button [ref=f5e22]
+    - generic [ref=f5e26]:
+      - button [ref=f5e28] [cursor=pointer]
+      - separator [ref=f5e34]
+      - list [ref=f5e35]:
+        - link [ref=f5e299] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f5e37]:
+            - button "Monitoring" [ref=f5e300]
+        - link [ref=f5e301] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f5e47]:
+            - button "Reports" [ref=f5e302]
+        - link [ref=f5e303] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f5e60]:
+            - button "Invoices" [ref=f5e304]
+        - link [ref=f5e305] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f5e70]:
+            - button [ref=f5e306]
+        - link [ref=f5e307] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f5e76]:
+            - button "Patients" [ref=f5e308]
+        - link [ref=f5e309] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f5e86]:
+            - button "Users" [ref=f5e310]
+        - link [ref=f5e311] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f5e95]:
+            - button "Roles" [ref=f5e312]
+    - main [ref=f5e104]:
+      - generic [ref=f5e105]:
+        - navigation [ref=f5e106]:
+          - list [ref=f5e107]:
+            - listitem [ref=f5e108]:
+              - button "Clinics" [ref=f5e313] [cursor=pointer]
+            - listitem [ref=f5e110]: ">"
+            - listitem [ref=f5e111]:
+              - paragraph [ref=f5e112]: Clinic ID 11647
+        - generic [ref=f5e113]:
+          - generic [ref=f5e115]:
+            - paragraph [ref=f5e116]: QA Automation Clinic
+            - generic [ref=f5e117]: Active
+          - generic [ref=f5e127]:
+            - paragraph [ref=f5e132]: "11647"
+            - paragraph [ref=f5e136]: John Tester
+            - paragraph [ref=f5e140]: qa.clinic@bytecorp.io
+            - paragraph [ref=f5e149]: +31 05 648721
+        - generic [ref=f5e150]:
+          - tablist [ref=f5e154]:
+            - tab "Clinic Profile" [ref=f5e314] [cursor=pointer]
+            - tab "Supervisor" [ref=f5e315] [cursor=pointer]
+            - tab "Nurses" [ref=f5e316] [cursor=pointer]
+            - tab "Patient Tags" [selected] [ref=f5e317] [cursor=pointer]
+            - tab "File Vault" [ref=f5e318] [cursor=pointer]
+            - tab "Billing" [ref=f5e319] [cursor=pointer]
+          - generic [ref=f5e162]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - paragraph
+            - generic [ref=f5e163]:
+              - generic [ref=f5e164]:
+                - button [ref=f5e320] [cursor=pointer]
+                - generic [ref=f5e171]:
+                  - textbox "Search for ID" [ref=f5e321]
+                  - group
+              - generic [ref=f5e173]:
+                - button [ref=f5e322] [cursor=pointer]
+                - button "Add New Patient Tag" [active] [ref=f5e323] [cursor=pointer]
+            - generic [ref=f5e182]:
+              - generic [ref=f5e183]:
+                - generic [ref=f5e185]:
+                  - paragraph [ref=f5e186]: Total Tags
+                  - generic [ref=f5e187]: 0 Patient Tag
+                - grid [ref=f5e191]:
+                  - row [ref=f5e324]:
+                    - columnheader [ref=f5e193]
+                    - columnheader "ID" [ref=f5e325]
+                    - columnheader "Tag Name" [ref=f5e326]
+                    - columnheader "Description" [ref=f5e327]
+                    - columnheader "Date Created" [ref=f5e328]
+                    - columnheader "Actions" [ref=f5e329]
+              - generic [ref=f5e219]:
+                - generic [ref=f5e220]:
+                  - paragraph [ref=f5e221]: Rows per page
+                  - generic [ref=f5e225]:
+                    - combobox [ref=f5e226]: "10"
+                    - button "Open" [ref=f5e402] [cursor=pointer]
+                    - group
+                - navigation "pagination navigation" [ref=f5e403]:
+                  - list [ref=f5e232]:
+                    - listitem [ref=f5e233]:
+                      - button "Go to previous page" [disabled]
+                    - listitem [ref=f5e234]:
+                      - button "Go to next page" [disabled]
+  - alert [ref=f5e407]:
+    - generic [ref=f5e408]: Patient Tag Added Successfully!

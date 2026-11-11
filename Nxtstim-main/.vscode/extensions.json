@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "nick-mandziak.vscode-cucumber-js-runner",
+    "cucumberopen.cucumber-official"
+  ],
+  "unwantedRecommendations": [
+    "sleeper-inc.cucumber-runner",
+    "alexkrechik.cucumberautocomplete"
+  ]
+}

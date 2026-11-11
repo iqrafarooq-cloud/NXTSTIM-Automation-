@@ -1,0 +1,112 @@
+- generic [ref=f1e8]:
+  - banner [ref=f1e879]:
+    - generic [ref=f1e880]:
+      - button "open drawer" [ref=f1e882] [cursor=pointer]
+      - generic [ref=f1e886] [cursor=pointer]:
+        - generic [ref=f1e887]:
+          - generic [ref=f1e888]:
+            - img "profile" [ref=f1e889]
+            - generic [ref=f1e890]: "!"
+          - paragraph [ref=f1e891]: ADMIN USER
+        - button [ref=f1e892]
+  - generic [ref=f1e26]:
+    - button [ref=f1e28] [cursor=pointer]
+    - separator [ref=f1e34]
+    - list [ref=f1e35]:
+      - link [ref=f1e750] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f1e37]:
+          - button "Monitoring" [ref=f1e751]
+      - link [ref=f1e752] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f1e47]:
+          - button "Reports" [ref=f1e753]
+      - link [ref=f1e754] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f1e60]:
+          - button "Invoices" [ref=f1e755]
+      - link [ref=f1e756] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f1e70]:
+          - button [ref=f1e757]
+      - link [ref=f1e758] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f1e76]:
+          - button "Patients" [ref=f1e759]
+      - link [ref=f1e760] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f1e86]:
+          - button "Users" [ref=f1e761]
+      - link [ref=f1e762] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f1e95]:
+          - button "Roles" [ref=f1e763]
+  - main [ref=f1e104]:
+    - generic [ref=f1e764]:
+      - navigation [ref=f1e765]:
+        - list [ref=f1e766]:
+          - listitem [ref=f1e767]:
+            - button "Clinics" [ref=f1e768] [cursor=pointer]
+          - listitem [ref=f1e769]: ">"
+          - listitem [ref=f1e770]:
+            - paragraph [ref=f1e771]: Clinic ID 11730
+      - generic [ref=f1e772]:
+        - generic [ref=f1e774]:
+          - paragraph [ref=f1e775]: QA Clinic bhiedgjfjhiig
+          - generic [ref=f1e776]: Active
+        - generic [ref=f1e786]:
+          - paragraph [ref=f1e791]: "11730"
+          - paragraph [ref=f1e795]: QA Automation
+          - paragraph [ref=f1e799]: qa.clinic+597886@bytecorp.io
+          - paragraph [ref=f1e808]: +1 (310) 564-8721
+      - generic [ref=f1e809]:
+        - tablist [ref=f1e813]:
+          - tab "Clinic Profile" [ref=f1e814] [cursor=pointer]
+          - tab "Supervisor" [ref=f1e815] [cursor=pointer]
+          - tab "Nurses" [ref=f1e816] [cursor=pointer]
+          - tab "Patient Tags" [active] [selected] [ref=f1e817] [cursor=pointer]
+          - tab "File Vault" [ref=f1e818] [cursor=pointer]
+          - tab "Billing" [ref=f1e819] [cursor=pointer]
+        - generic [ref=f1e896]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph
+          - generic [ref=f1e897]:
+            - generic [ref=f1e898]:
+              - button [ref=f1e899] [cursor=pointer]
+              - generic [ref=f1e905]:
+                - textbox "Search for ID" [ref=f1e906]
+                - group
+            - generic [ref=f1e907]:
+              - button [ref=f1e909] [cursor=pointer]
+              - button "Add New Patient Tag" [ref=f1e914] [cursor=pointer]
+          - generic [ref=f1e916]:
+            - generic [ref=f1e917]:
+              - generic [ref=f1e919]:
+                - paragraph [ref=f1e920]: Total Tags
+                - generic [ref=f1e921]: 0 Patient Tag
+              - grid [ref=f1e925]:
+                - row [ref=f1e926]:
+                  - columnheader [ref=f1e927]
+                  - columnheader "ID" [ref=f1e928]
+                  - columnheader "Tag Name" [ref=f1e931]
+                  - columnheader "Description" [ref=f1e934]
+                  - columnheader "Date Created" [ref=f1e937]
+                  - columnheader "Actions" [ref=f1e940]
+                - generic: Nothing here yet.
+                - rowgroup
+            - generic [ref=f1e953]:
+              - generic [ref=f1e954]:
+                - paragraph [ref=f1e955]: Rows per page
+                - generic [ref=f1e959]:
+                  - combobox [ref=f1e960]: "10"
+                  - button "Open" [ref=f1e962] [cursor=pointer]
+                  - group
+              - navigation "pagination navigation" [ref=f1e965]:
+                - list [ref=f1e966]:
+                  - listitem [ref=f1e967]:
+                    - button "Go to previous page" [disabled]
+                  - listitem [ref=f1e968]:
+                    - button "Go to next page" [disabled]

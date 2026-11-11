@@ -1,0 +1,267 @@
+- generic [ref=f1e6]:
+  - generic [ref=f1e8]:
+    - banner [ref=f1e9]:
+      - generic [ref=f1e10]:
+        - button [ref=f1e12] [cursor=pointer]
+        - generic [ref=f1e16] [cursor=pointer]:
+          - generic [ref=f1e17]:
+            - generic [ref=f1e18]: "!"
+            - paragraph [ref=f1e21]: admin auth
+          - button [ref=f1e22]
+    - generic [ref=f1e26]:
+      - button [ref=f1e28] [cursor=pointer]
+      - separator [ref=f1e34]
+      - list [ref=f1e35]:
+        - link [ref=f1e36] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f1e37]:
+            - button [ref=f1e38]:
+              - generic [ref=f1e44]: Monitoring
+        - link [ref=f1e46] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f1e47]:
+            - button [ref=f1e48]:
+              - generic [ref=f1e57]: Reports
+        - link [ref=f1e59] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f1e60]:
+            - button [ref=f1e61]:
+              - generic [ref=f1e67]: Invoices
+        - link [ref=f1e69] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f1e70]:
+            - button [ref=f1e71]
+        - link [ref=f1e75] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f1e76]:
+            - button [ref=f1e77]:
+              - generic [ref=f1e83]: Patients
+        - link [ref=f1e85] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f1e86]:
+            - button [ref=f1e87]:
+              - generic [ref=f1e92]: Users
+        - link [ref=f1e94] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f1e95]:
+            - button [ref=f1e96]:
+              - generic [ref=f1e102]: Roles
+    - main [ref=f1e104]:
+      - generic [ref=f1e106]:
+        - generic [ref=f1e108]:
+          - generic [ref=f1e109]:
+            - paragraph [ref=f1e111]: Clinics
+            - button [ref=f1e112] [cursor=pointer]: Add Clinic
+          - paragraph [ref=f1e116]: View and manage all registered clinics, track their active status, contact details and access monitoring metrics in one centralized list.
+        - tablist [ref=f1e119]:
+          - tab [ref=f1e120] [cursor=pointer]: Active
+          - tab [selected] [ref=f1e121] [cursor=pointer]: Inactive
+        - generic [ref=f1e123]:
+          - generic [ref=f1e124]:
+            - button [ref=f1e125] [cursor=pointer]: ID
+            - generic [ref=f1e131]:
+              - textbox [ref=f1e132]:
+                - /placeholder: Search for ID
+              - group
+          - generic [ref=f1e133]:
+            - button [ref=f1e136] [cursor=pointer]: Filters
+            - button [ref=f1e141] [cursor=pointer]: Sort By
+            - button [ref=f1e146] [cursor=pointer]: Export CSV
+        - generic [ref=f1e151]:
+          - generic [ref=f1e152]:
+            - generic [ref=f1e154]:
+              - paragraph [ref=f1e155]: Total Clinics
+              - generic [ref=f1e156]: 5 Clinics
+            - grid [ref=f1e160]:
+              - row [ref=f1e161]:
+                - columnheader [ref=f1e162]
+                - columnheader [ref=f1e163]:
+                  - generic [ref=f1e164]: ID
+                - columnheader [ref=f1e166]:
+                  - generic [ref=f1e167]: Name
+                - columnheader [ref=f1e169]:
+                  - generic [ref=f1e170]: Street Address
+                - columnheader [ref=f1e172]:
+                  - generic [ref=f1e173]: City
+                - columnheader [ref=f1e175]:
+                  - generic [ref=f1e176]: State
+                - columnheader [ref=f1e178]:
+                  - generic [ref=f1e179]: Zip Code
+                - columnheader [ref=f1e181]:
+                  - generic [ref=f1e182]: Monitoring Metrics
+                - columnheader [ref=f1e184]:
+                  - generic [ref=f1e185]: Contact Info
+                - columnheader [ref=f1e187]:
+                  - generic [ref=f1e188]: Current Status
+                - columnheader [ref=f1e190]
+              - rowgroup [ref=f1e191]:
+                - row [ref=f1e192]:
+                  - gridcell [ref=f1e193]: "1"
+                  - gridcell [ref=f1e194]: "11269"
+                  - gridcell [ref=f1e195]:
+                    - paragraph [ref=f1e197]: clinix xyz
+                  - gridcell [ref=f1e198]:
+                    - paragraph [ref=f1e200]: dwa213wda
+                  - gridcell [ref=f1e201]: Karachi
+                  - gridcell [ref=f1e202]: Sindh
+                  - gridcell [ref=f1e203]: "32422"
+                  - gridcell [ref=f1e204]:
+                    - button [ref=f1e205] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e206]:
+                    - generic [ref=f1e207]:
+                      - paragraph [ref=f1e208]: xyz
+                      - paragraph [ref=f1e209]: "Email: xyz@example.com"
+                      - paragraph [ref=f1e210]: "Phone: +1 (213) 131-2312"
+                  - gridcell [ref=f1e211]:
+                    - generic [ref=f1e212]: Inactive
+                  - gridcell [ref=f1e217]:
+                    - menu [ref=f1e218]:
+                      - button [ref=f1e220] [cursor=pointer]
+                - row [ref=f1e227]:
+                  - gridcell [ref=f1e228]: "2"
+                  - gridcell [ref=f1e229]: "10030"
+                  - gridcell [ref=f1e230]:
+                    - paragraph [ref=f1e232]: Abdul Rehman
+                  - gridcell [ref=f1e233]:
+                    - paragraph [ref=f1e235]: A14 LPQ
+                  - gridcell [ref=f1e236]: New York City
+                  - gridcell [ref=f1e237]: New York
+                  - gridcell [ref=f1e238]: "12345"
+                  - gridcell [ref=f1e239]:
+                    - button [ref=f1e240] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e241]:
+                    - generic [ref=f1e242]:
+                      - paragraph [ref=f1e243]: Mr Ark
+                      - paragraph [ref=f1e244]: "Email: 123123!@dd.com"
+                      - paragraph [ref=f1e245]: "Phone: +1 (123) 123-1231"
+                  - gridcell [ref=f1e246]:
+                    - generic [ref=f1e247]: Inactive
+                  - gridcell [ref=f1e252]:
+                    - menu [ref=f1e253]:
+                      - button [ref=f1e255] [cursor=pointer]
+                - row [ref=f1e262]:
+                  - gridcell [ref=f1e263]: "3"
+                  - gridcell [ref=f1e264]: "10027"
+                  - gridcell [ref=f1e265]:
+                    - paragraph [ref=f1e267]: ss
+                  - gridcell [ref=f1e268]:
+                    - paragraph [ref=f1e270]: ss
+                  - gridcell [ref=f1e271]: ss
+                  - gridcell [ref=f1e272]: ss
+                  - gridcell [ref=f1e273]: "23234"
+                  - gridcell [ref=f1e274]:
+                    - button [ref=f1e275] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e276]:
+                    - generic [ref=f1e277]:
+                      - paragraph [ref=f1e278]: ss
+                      - paragraph [ref=f1e279]: "Email: 1@gmail.com"
+                      - paragraph [ref=f1e280]: "Phone: +1 (345) 5"
+                  - gridcell [ref=f1e281]:
+                    - generic [ref=f1e282]: Inactive
+                  - gridcell [ref=f1e287]:
+                    - menu [ref=f1e288]:
+                      - button [ref=f1e290] [cursor=pointer]
+                - row [ref=f1e297]:
+                  - gridcell [ref=f1e298]: "4"
+                  - gridcell [ref=f1e299]: "10026"
+                  - gridcell [ref=f1e300]:
+                    - paragraph [ref=f1e302]: Test
+                  - gridcell [ref=f1e303]:
+                    - paragraph [ref=f1e305]: Bufferzone
+                  - gridcell [ref=f1e306]: Karachi
+                  - gridcell [ref=f1e307]: akjakjs
+                  - gridcell [ref=f1e308]: "78558"
+                  - gridcell [ref=f1e309]:
+                    - button [ref=f1e310] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e311]:
+                    - generic [ref=f1e312]:
+                      - paragraph [ref=f1e313]: Abyaz
+                      - paragraph [ref=f1e314]: "Email: pnq16mkr@anonaddy.me"
+                      - paragraph [ref=f1e315]: "Phone: +1 (111) 111-1111"
+                  - gridcell [ref=f1e316]:
+                    - generic [ref=f1e317]: Inactive
+                  - gridcell [ref=f1e322]:
+                    - menu [ref=f1e323]:
+                      - button [ref=f1e325] [cursor=pointer]
+                - row [ref=f1e332]:
+                  - gridcell [ref=f1e333]: "5"
+                  - gridcell [ref=f1e334]: "10019"
+                  - gridcell [ref=f1e335]:
+                    - paragraph [ref=f1e337]: Rejuvink Richmond
+                  - gridcell [ref=f1e338]:
+                    - paragraph [ref=f1e340]: 7301 Forest Avenue Suite 204
+                  - gridcell [ref=f1e341]: Richmond
+                  - gridcell [ref=f1e342]: VA
+                  - gridcell [ref=f1e343]: "23226"
+                  - gridcell [ref=f1e344]:
+                    - button [ref=f1e345] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e346]:
+                    - generic [ref=f1e347]:
+                      - paragraph [ref=f1e348]: Jingi Hairston
+                      - paragraph [ref=f1e349]: "Email: jingi@rejstaff.com"
+                      - paragraph [ref=f1e350]: "Phone: (804) 533-5399"
+                  - gridcell [ref=f1e351]:
+                    - generic [ref=f1e352]: Inactive
+                  - gridcell [ref=f1e357]:
+                    - menu [ref=f1e358]:
+                      - button [ref=f1e360] [cursor=pointer]
+          - generic [ref=f1e375]:
+            - generic [ref=f1e376]:
+              - paragraph [ref=f1e377]: Rows per page
+              - generic [ref=f1e381]:
+                - combobox [ref=f1e382]: "10"
+                - button [ref=f1e384] [cursor=pointer]
+                - group
+            - navigation [ref=f1e387]:
+              - list [ref=f1e388]:
+                - listitem [ref=f1e389]:
+                  - button [disabled]
+                - listitem [ref=f1e390]:
+                  - button [ref=f1e391] [cursor=pointer]: "1"
+                - listitem [ref=f1e392]:
+                  - button [disabled]
+  - generic [active] [ref=f1e394]:
+    - generic [ref=f1e395]:
+      - generic [ref=f1e396] [cursor=pointer]:
+        - paragraph [ref=f1e397]: "1"
+        - generic [ref=f1e398]:
+          - paragraph [ref=f1e399]: Clinic Profile
+          - paragraph [ref=f1e400]: Basic clinic and contact information
+      - generic:
+        - paragraph: "2"
+        - generic:
+          - paragraph: Billing Details
+          - paragraph: Enter invoice billing information
+      - generic:
+        - paragraph: "3"
+        - generic:
+          - paragraph: Shipping Details
+          - paragraph: Enter delivery address details
+    - generic [ref=f1e401]:
+      - generic [ref=f1e404]:
+        - paragraph [ref=f1e405]: Step 1/3
+        - paragraph [ref=f1e406]: Clinic Profile
+      - generic [ref=f1e407]:
+        - generic [ref=f1e408]:
+          - generic [ref=f1e409]:
+            - generic [ref=f1e410]: Clinic Name*
+            - generic [ref=f1e412]:
+              - textbox "Enter Name" [ref=f1e413]
+              - group
+          - generic [ref=f1e414]:
+            - generic [ref=f1e415]: Contact Full Name*
+            - generic [ref=f1e417]:
+              - textbox "Enter Full Name" [ref=f1e418]
+              - group
+          - generic [ref=f1e419]:
+            - generic [ref=f1e420]: Contact Email Address*
+            - generic [ref=f1e422]:
+              - textbox "Enter Email" [ref=f1e423]
+              - group
+          - generic [ref=f1e424]:
+            - generic [ref=f1e425]: Contact Phone Number*
+            - generic [ref=f1e427]:
+              - textbox "Enter Number" [ref=f1e428]: "+1"
+              - 'button "United States: + 1" [ref=f1e430]'
+        - generic "Some data is missing or incorrect. Please check your details." [ref=f1e433]:
+          - button "Next" [disabled]

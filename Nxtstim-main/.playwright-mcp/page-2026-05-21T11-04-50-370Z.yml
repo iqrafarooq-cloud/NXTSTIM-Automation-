@@ -1,0 +1,270 @@
+- generic [ref=e6]:
+  - generic [ref=e35]:
+    - banner [ref=e622]:
+      - generic [ref=e625] [cursor=pointer]:
+        - generic [ref=e626]:
+          - img [ref=e989]
+          - paragraph [ref=e628]: Executive Admin
+        - button [ref=e629]:
+          - img [ref=e630]
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - button [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - img [ref=e57]
+      - separator [ref=e59]
+      - list [ref=e60]:
+        - generic [ref=e61]:
+          - listitem [ref=e62]:
+            - button [ref=e990] [cursor=pointer]:
+              - img [ref=e632]
+              - generic [ref=e635]: Accounts
+              - img [ref=e636]
+          - generic [ref=e641]:
+            - link [ref=e991] [cursor=pointer]:
+              - /url: /admin
+              - listitem [ref=e643]:
+                - button [ref=e992]:
+                  - generic [ref=e646]: Admin
+            - link [ref=e993] [cursor=pointer]:
+              - /url: /supervisors
+              - listitem [ref=e648]:
+                - button [ref=e994]:
+                  - generic [ref=e651]: Supervisors
+            - link [ref=e995] [cursor=pointer]:
+              - /url: /clinics
+              - listitem [ref=e653]:
+                - button [ref=e996]:
+                  - generic [ref=e656]: Clinics
+            - link [ref=e997] [cursor=pointer]:
+              - /url: /nurses
+              - listitem [ref=e658]:
+                - button [ref=e998]:
+                  - generic [ref=e661]: Nurses
+            - link [ref=e999] [cursor=pointer]:
+              - /url: /patients
+              - listitem [ref=e663]:
+                - button [ref=e1000]:
+                  - generic [ref=e666]: Patients
+            - link [ref=e1001] [cursor=pointer]:
+              - /url: /support-staff
+              - listitem [ref=e668]:
+                - button [ref=e1002]:
+                  - generic [ref=e671]: Support Staff
+        - link [ref=e1003] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=e72]:
+            - button [ref=e1004]:
+              - img [ref=e75]
+              - generic [ref=e673]: Monitoring
+        - link [ref=e1005] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=e80]:
+            - button [ref=e1006]:
+              - img [ref=e83]
+              - generic [ref=e91]: Reports
+        - link [ref=e1007] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=e93]:
+            - button [ref=e1008]:
+              - img [ref=e96]
+              - generic [ref=e101]: Invoices
+    - main [ref=e102]:
+      - generic [ref=e675]:
+        - generic [ref=e677]:
+          - paragraph [ref=e680]: Admin
+          - paragraph [ref=e681]: Access and manage platform-wide settings, user roles, system controls, and global reports across all clinics and care programs.
+        - tablist [ref=e684]:
+          - tab [selected] [ref=e1009] [cursor=pointer]: Active
+          - tab [ref=e1010] [cursor=pointer]: Pending
+          - tab [ref=e1011] [cursor=pointer]: Suspended
+        - generic [ref=e689]:
+          - generic [ref=e690]:
+            - button [ref=e1012] [cursor=pointer]:
+              - text: ID
+              - img [ref=e693]
+            - generic [ref=e697]:
+              - textbox [ref=e1013]:
+                - /placeholder: Search for ID
+              - group
+          - generic [ref=e699]:
+            - button [ref=e1014] [cursor=pointer]:
+              - img [ref=e704]
+              - text: Sort By
+            - button [ref=e1015] [cursor=pointer]:
+              - img [ref=e708]
+              - text: Export CSV
+        - generic [ref=e711]:
+          - generic [ref=e712]:
+            - generic [ref=e714]:
+              - paragraph [ref=e715]: Total Admin
+              - generic [ref=e717]: 22 Admin
+            - grid [ref=e720]:
+              - row [ref=e1016]:
+                - columnheader [ref=e722]
+                - columnheader [ref=e1017]:
+                  - generic [ref=e1019]: ID
+                - columnheader [ref=e1020]:
+                  - generic [ref=e728]: First Name
+                - columnheader [ref=e1021]:
+                  - generic [ref=e731]: Last Name
+                - columnheader [ref=e1022]:
+                  - generic [ref=e734]: Email
+                - columnheader [ref=e1023]:
+                  - generic [ref=e737]: Onboarding Date
+                - columnheader [ref=e738]
+              - rowgroup [ref=e739]:
+                - row [ref=e1024]:
+                  - gridcell [ref=e1025]: "1"
+                  - gridcell [ref=e1026]:
+                    - paragraph [ref=e1028]: "10434"
+                  - gridcell [ref=e1029]:
+                    - paragraph [ref=e747]: john
+                  - gridcell [ref=e1031]:
+                    - paragraph [ref=e750]: doe
+                  - gridcell [ref=e1033]:
+                    - paragraph [ref=e753]: iqra.farooq+9@bytecorp.io
+                  - gridcell [ref=e1035]:
+                    - paragraph [ref=e756]: 05-19-2026
+                  - gridcell [ref=e757]:
+                    - menu [ref=e758]:
+                      - button [ref=e760] [cursor=pointer]:
+                        - img [ref=e761]
+                - row [ref=e1037]:
+                  - gridcell [ref=e1038]: "2"
+                  - gridcell [ref=e1039]:
+                    - paragraph [ref=e1041]: "10431"
+                  - gridcell [ref=e1042]:
+                    - paragraph [ref=e774]: Executive
+                  - gridcell [ref=e1044]:
+                    - paragraph [ref=e777]: Admin
+                  - gridcell [ref=e1046]:
+                    - paragraph [ref=e780]: executiveadmin@iqra.anonaddy.com
+                  - gridcell [ref=e1048]:
+                    - paragraph [ref=e783]: 05-19-2026
+                  - gridcell [ref=e784]:
+                    - menu [ref=e785]:
+                      - button [ref=e787] [cursor=pointer]:
+                        - img [ref=e788]
+                - row [ref=e1050]:
+                  - gridcell [ref=e1051]: "3"
+                  - gridcell [ref=e1052]:
+                    - paragraph [ref=e1054]: "10422"
+                  - gridcell [ref=e1055]:
+                    - paragraph [ref=e801]: john
+                  - gridcell [ref=e1057]:
+                    - paragraph [ref=e804]: doe
+                  - gridcell [ref=e1059]:
+                    - paragraph [ref=e807]: iqra.farooq+12@bytecorp.io
+                  - gridcell [ref=e1061]:
+                    - paragraph [ref=e810]: 05-19-2026
+                  - gridcell [ref=e811]:
+                    - menu [ref=e812]:
+                      - button [ref=e814] [cursor=pointer]:
+                        - img [ref=e815]
+                - row [ref=e1063]:
+                  - gridcell [ref=e1064]: "4"
+                  - gridcell [ref=e1065]:
+                    - paragraph [ref=e1067]: "10406"
+                  - gridcell [ref=e1068]:
+                    - paragraph [ref=e828]: Testing
+                  - gridcell [ref=e1070]:
+                    - paragraph [ref=e831]: admin
+                  - gridcell [ref=e1072]:
+                    - paragraph [ref=e834]: 9pyg6hlh@anonaddy.com
+                  - gridcell [ref=e1074]:
+                    - paragraph [ref=e837]: 05-05-2026
+                  - gridcell [ref=e838]:
+                    - menu [ref=e839]:
+                      - button [ref=e841] [cursor=pointer]:
+                        - img [ref=e842]
+                - row [ref=e1076]:
+                  - gridcell [ref=e1077]: "5"
+                  - gridcell [ref=e1078]:
+                    - paragraph [ref=e1080]: "10360"
+                  - gridcell [ref=e1081]:
+                    - paragraph [ref=e855]: john
+                  - gridcell [ref=e1083]:
+                    - paragraph [ref=e858]: doe
+                  - gridcell [ref=e1085]:
+                    - paragraph [ref=e861]: janrpgrv@anonaddy.com
+                  - gridcell [ref=e1087]:
+                    - paragraph [ref=e864]: 04-14-2026
+                  - gridcell [ref=e865]:
+                    - menu [ref=e866]:
+                      - button [ref=e868] [cursor=pointer]:
+                        - img [ref=e869]
+                - row [ref=e1089]:
+                  - gridcell [ref=e1090]: "6"
+                  - gridcell [ref=e1091]:
+                    - paragraph [ref=e1093]: "10358"
+                  - gridcell [ref=e1094]:
+                    - paragraph [ref=e1096]: john
+                  - gridcell [ref=e1097]:
+                    - paragraph [ref=e1099]: doe
+                  - gridcell [ref=e1100]:
+                    - paragraph [ref=e1102]: d0w0hwdh@anonaddy.com
+                  - gridcell [ref=e1103]:
+                    - paragraph [ref=e1105]: 04-14-2026
+                  - gridcell [ref=e1106]:
+                    - menu [ref=e1107]:
+                      - button [ref=e1109] [cursor=pointer]:
+                        - img [ref=e1110]
+                - row [ref=e1116]:
+                  - gridcell [ref=e1117]: "7"
+                  - gridcell [ref=e1118]:
+                    - paragraph [ref=e1120]: "10313"
+                  - gridcell [ref=e1121]:
+                    - paragraph [ref=e1123]: QAExecutive
+                  - gridcell [ref=e1124]:
+                    - paragraph [ref=e1126]: admin
+                  - gridcell [ref=e1127]:
+                    - paragraph [ref=e1129]: uy8ojhef@anonaddy.com
+                  - gridcell [ref=e1130]:
+                    - paragraph [ref=e1132]: 04-06-2026
+                  - gridcell [ref=e1133]:
+                    - menu [ref=e1134]:
+                      - button [ref=e1136] [cursor=pointer]:
+                        - img [ref=e1137]
+                - row [ref=e1143]:
+                  - gridcell [ref=e1144]: "8"
+                  - gridcell [ref=e1145]:
+                    - paragraph [ref=e1147]: "10187"
+                  - gridcell [ref=e1148]:
+                    - paragraph [ref=e1150]: Executive
+                  - gridcell [ref=e1151]:
+                    - paragraph [ref=e1153]: Admin
+                  - gridcell [ref=e1154]:
+                    - paragraph [ref=e1156]: p9mn1kh5@anonaddy.me
+                  - gridcell [ref=e1157]:
+                    - paragraph [ref=e1159]: 03-24-2026
+                  - gridcell [ref=e1160]:
+                    - menu [ref=e1161]:
+                      - button [ref=e1163] [cursor=pointer]:
+                        - img [ref=e1164]
+          - generic [ref=e964]:
+            - generic [ref=e965]:
+              - paragraph [ref=e966]: Rows per page
+              - generic [ref=e970]:
+                - combobox [ref=e971]: "10"
+                - button [ref=e1170] [cursor=pointer]:
+                  - img [ref=e974]
+                - group
+            - navigation [ref=e1171]:
+              - list [ref=e977]:
+                - listitem [ref=e978]:
+                  - button [disabled]:
+                    - img
+                - listitem [ref=e979]:
+                  - button [ref=e1172] [cursor=pointer]: "1"
+                - listitem [ref=e981]:
+                  - button [ref=e1173] [cursor=pointer]: "2"
+                - listitem [ref=e983]:
+                  - button [ref=e1174] [cursor=pointer]: "3"
+                - listitem [ref=e985]:
+                  - button [ref=e1175] [cursor=pointer]:
+                    - img [ref=e987]
+  - menu [ref=e1178]:
+    - menuitem "View Details" [active] [ref=e1179] [cursor=pointer]:
+      - img [ref=e1180]
+      - paragraph [ref=e1187]: View Details

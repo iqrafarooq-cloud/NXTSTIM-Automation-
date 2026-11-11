@@ -1,0 +1,8 @@
+[    7328ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/me:0
+[    7789ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/refresh-token:0
+[    7790ms] [LOG] Token refresh failed: Do @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-CCvHd_Ks.js:326
+[    8644ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/login:0
+[   54544ms] [LOG] Fetching supervisors with params: {sortBy: created_at, isActive: true, sortDirection: desc, status: active, searchTerm: undefined} and filters: [Object] @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-CCvHd_Ks.js:513
+[  247959ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/supervisors:0
+[  249083ms] [LOG] Fetching supervisors with params: {sortBy: created_at, isActive: true, sortDirection: desc, status: active, searchTerm: undefined} and filters: [Object] @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-CCvHd_Ks.js:513
+[  267954ms] [LOG] Fetching supervisors with params: {sortBy: updated_at, isActive: false, sortDirection: desc, status: pending, searchTerm: undefined} and filters: [Object] @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-CCvHd_Ks.js:513

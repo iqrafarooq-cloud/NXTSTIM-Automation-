@@ -1,0 +1,192 @@
+- generic [ref=f1e8]:
+  - banner [ref=f1e3140]:
+    - generic [ref=f1e3141]:
+      - button "open drawer" [ref=f1e3143] [cursor=pointer]
+      - generic [ref=f1e3147] [cursor=pointer]:
+        - generic [ref=f1e3148]:
+          - generic [ref=f1e3149]:
+            - img "profile" [ref=f1e3150]
+            - generic [ref=f1e3151]: "!"
+          - paragraph [ref=f1e3152]: QAAuto Admin
+        - button [ref=f1e3153]
+  - generic [ref=f1e26]:
+    - button [ref=f1e28] [cursor=pointer]
+    - separator [ref=f1e34]
+    - list [ref=f1e35]:
+      - link [ref=f1e3156] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f1e37]:
+          - button "Monitoring" [ref=f1e3157]
+      - link [ref=f1e3158] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f1e47]:
+          - button "Reports" [ref=f1e3159]
+      - link [ref=f1e3160] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f1e60]:
+          - button "Invoices" [ref=f1e3161]
+      - link [ref=f1e3162] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f1e70]:
+          - button "Clinics" [ref=f1e3163]
+      - link [ref=f1e3164] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f1e78]:
+          - button "Patients" [ref=f1e3165]
+      - link [ref=f1e3166] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f1e88]:
+          - button [ref=f1e3167]
+      - link [ref=f1e3168] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f1e95]:
+          - button "Roles" [ref=f1e3169]
+  - main [ref=f1e104]:
+    - generic [ref=f1e106]:
+      - generic [ref=f1e108]:
+        - generic [ref=f1e109]:
+          - paragraph [ref=f1e111]: Users
+          - button [ref=f1e3170] [cursor=pointer]
+        - paragraph [ref=f1e116]: View and manage all users and their assigned roles across the system.
+      - tablist [ref=f1e119]:
+        - tab "Active" [selected] [ref=f1e3171] [cursor=pointer]
+        - tab "Pending" [ref=f1e3172] [cursor=pointer]
+        - tab "Suspended" [ref=f1e3173] [cursor=pointer]
+        - tab "Inactive" [ref=f1e3174] [cursor=pointer]
+      - generic [ref=f1e125]:
+        - generic [ref=f1e126]:
+          - button [ref=f1e3175] [cursor=pointer]
+          - generic [ref=f1e133]:
+            - textbox "Search for User ID" [ref=f1e3176]
+            - group
+        - generic [ref=f1e135]:
+          - generic [ref=f1e137]:
+            - button [active] [ref=f1e3177] [cursor=pointer]
+            - generic: "1"
+            - button "Clear All" [ref=f1e3181] [cursor=pointer]
+          - button [ref=f1e3182] [cursor=pointer]
+          - button [ref=f1e3183] [cursor=pointer]
+      - generic [ref=f1e153]:
+        - generic [ref=f1e154]:
+          - generic [ref=f1e156]:
+            - paragraph [ref=f1e157]: Total Users
+            - generic [ref=f1e158]: 3 Users
+          - grid [ref=f1e162]:
+            - row [ref=f1e3184]:
+              - columnheader [ref=f1e164]
+              - columnheader "User ID" [ref=f1e3185]
+              - columnheader "Username" [ref=f1e3186]
+              - columnheader "First Name" [ref=f1e3187]
+              - columnheader "Last Name" [ref=f1e3188]
+              - columnheader "Roles" [ref=f1e3189]
+              - columnheader "Email Address" [ref=f1e3190]
+              - columnheader "Phone Number" [ref=f1e3191]
+              - columnheader "Onboarding Date" [ref=f1e3192]
+              - columnheader "Associated Clinics" [ref=f1e3193]
+              - columnheader [ref=f1e192]
+            - rowgroup [ref=f1e193]:
+              - row [ref=f1e3194]:
+                - gridcell "1" [ref=f1e3195]
+                - gridcell [ref=f1e3196]:
+                  - generic "10910" [ref=f1e3197]:
+                    - paragraph [ref=f1e3198]: "10910"
+                - gridcell [ref=f1e3199]:
+                  - generic "Support Staff" [ref=f1e3201] [cursor=pointer]:
+                    - paragraph [ref=f1e3202]: Support Staff
+                - gridcell [ref=f1e3203]:
+                  - generic "Support" [ref=f1e3204]:
+                    - paragraph [ref=f1e3205]: Support
+                - gridcell [ref=f1e3206]:
+                  - generic "Staff" [ref=f1e3207]:
+                    - paragraph [ref=f1e3208]: Staff
+                - gridcell "Support Staff" [ref=f1e3209]
+                - gridcell [ref=f1e3213]:
+                  - generic "8g3f6knv@anonaddy.me" [ref=f1e3214]:
+                    - paragraph [ref=f1e3215]: 8g3f6knv@anonaddy.me
+                - gridcell [ref=f1e3216]:
+                  - generic "+1 (111) 111-1111" [ref=f1e3217]:
+                    - paragraph [ref=f1e3218]: +1 (111) 111-1111
+                - gridcell [ref=f1e3219]:
+                  - generic "07-26-2026" [ref=f1e3220]:
+                    - paragraph [ref=f1e3221]: 07-26-2026
+                - gridcell [ref=f1e3222]:
+                  - generic "-" [ref=f1e3223]:
+                    - paragraph [ref=f1e3224]: "-"
+                - gridcell [ref=f1e3225]:
+                  - menu [ref=f1e3226]:
+                    - button [ref=f1e3228] [cursor=pointer]
+              - row [ref=f1e3235]:
+                - gridcell "2" [ref=f1e3236]
+                - gridcell [ref=f1e3237]:
+                  - generic "10899" [ref=f1e3238]:
+                    - paragraph [ref=f1e3239]: "10899"
+                - gridcell [ref=f1e3240]:
+                  - generic "Lifecycle QAUser" [ref=f1e3242] [cursor=pointer]:
+                    - paragraph [ref=f1e3243]: Lifecycle QAUser
+                - gridcell [ref=f1e3244]:
+                  - generic "Lifecycle" [ref=f1e3245]:
+                    - paragraph [ref=f1e3246]: Lifecycle
+                - gridcell [ref=f1e3247]:
+                  - generic "QAUser" [ref=f1e3248]:
+                    - paragraph [ref=f1e3249]: QAUser
+                - gridcell "Support Staff" [ref=f1e3250]
+                - gridcell [ref=f1e3254]:
+                  - generic "users+ms0k2q858cm2@iqra.anonaddy.com" [ref=f1e3255]:
+                    - paragraph [ref=f1e3256]: users+ms0k2q858cm2@iqra.anonaddy.com
+                - gridcell [ref=f1e3257]:
+                  - generic "+1 (155) 512-3456" [ref=f1e3258]:
+                    - paragraph [ref=f1e3259]: +1 (155) 512-3456
+                - gridcell [ref=f1e3260]:
+                  - generic "07-25-2026" [ref=f1e3261]:
+                    - paragraph [ref=f1e3262]: 07-25-2026
+                - gridcell [ref=f1e3263]:
+                  - generic "-" [ref=f1e3264]:
+                    - paragraph [ref=f1e3265]: "-"
+                - gridcell [ref=f1e3266]:
+                  - menu [ref=f1e3267]:
+                    - button [ref=f1e3269] [cursor=pointer]
+              - row [ref=f1e3276]:
+                - gridcell "3" [ref=f1e3277]
+                - gridcell [ref=f1e3278]:
+                  - generic "10704" [ref=f1e3279]:
+                    - paragraph [ref=f1e3280]: "10704"
+                - gridcell [ref=f1e3281]:
+                  - generic "Testing Sanity" [ref=f1e3283] [cursor=pointer]:
+                    - paragraph [ref=f1e3284]: Testing Sanity
+                - gridcell [ref=f1e3285]:
+                  - generic "Testing" [ref=f1e3286]:
+                    - paragraph [ref=f1e3287]: Testing
+                - gridcell [ref=f1e3288]:
+                  - generic "Sanity" [ref=f1e3289]:
+                    - paragraph [ref=f1e3290]: Sanity
+                - gridcell "Support Staff" [ref=f1e3291]
+                - gridcell [ref=f1e3295]:
+                  - generic "iqra.farooq+0101@bytecorp.io" [ref=f1e3296]:
+                    - paragraph [ref=f1e3297]: iqra.farooq+0101@bytecorp.io
+                - gridcell [ref=f1e3298]:
+                  - generic "+1 (333) 333-3333" [ref=f1e3299]:
+                    - paragraph [ref=f1e3300]: +1 (333) 333-3333
+                - gridcell [ref=f1e3301]:
+                  - generic "07-16-2026" [ref=f1e3302]:
+                    - paragraph [ref=f1e3303]: 07-16-2026
+                - gridcell [ref=f1e3304]:
+                  - generic "-" [ref=f1e3305]:
+                    - paragraph [ref=f1e3306]: "-"
+                - gridcell [ref=f1e3307]:
+                  - menu [ref=f1e3308]:
+                    - button [ref=f1e3310] [cursor=pointer]
+        - generic [ref=f1e571]:
+          - generic [ref=f1e572]:
+            - paragraph [ref=f1e573]: Rows per page
+            - generic [ref=f1e577]:
+              - combobox [ref=f1e578]: "100"
+              - button "Open" [ref=f1e3320] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f1e3321]:
+            - list [ref=f1e584]:
+              - listitem [ref=f1e585]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f1e586]:
+                - button "page 1" [ref=f1e3322] [cursor=pointer]: "1"
+              - listitem [ref=f1e3323]:
+                - button "Go to next page" [disabled]

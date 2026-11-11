@@ -1,0 +1,304 @@
+- generic [ref=f1e8]:
+  - banner [ref=f1e1111]:
+    - generic [ref=f1e1112]:
+      - button "open drawer" [ref=f1e1114] [cursor=pointer]
+      - generic [ref=f1e1118] [cursor=pointer]:
+        - generic [ref=f1e1119]:
+          - generic [ref=f1e1120]:
+            - img "profile" [ref=f1e1121]
+            - generic [ref=f1e1122]: "!"
+          - paragraph [ref=f1e1123]: admin auth
+        - button [ref=f1e1124]
+  - generic [ref=f1e26]:
+    - button [ref=f1e28] [cursor=pointer]
+    - separator [ref=f1e34]
+    - list [ref=f1e35]:
+      - link [ref=f1e735] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f1e37]:
+          - button "Monitoring" [ref=f1e736]
+      - link [ref=f1e737] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f1e47]:
+          - button "Reports" [ref=f1e738]
+      - link [ref=f1e739] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f1e60]:
+          - button "Invoices" [ref=f1e740]
+      - link [ref=f1e741] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f1e70]:
+          - button [ref=f1e742]
+      - link [ref=f1e743] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f1e76]:
+          - button "Patients" [ref=f1e744]
+      - link [ref=f1e745] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f1e86]:
+          - button "Users" [ref=f1e746]
+      - link [ref=f1e747] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f1e95]:
+          - button "Roles" [ref=f1e748]
+  - main [ref=f1e104]:
+    - generic [ref=f1e106]:
+      - generic [ref=f1e108]:
+        - generic [ref=f1e109]:
+          - paragraph [ref=f1e111]: Clinics
+          - button [ref=f1e749] [cursor=pointer]
+        - paragraph [ref=f1e116]: View and manage all registered clinics, track their active status, contact details and access monitoring metrics in one centralized list.
+      - tablist [ref=f1e119]:
+        - tab "Active" [selected] [ref=f1e750] [cursor=pointer]
+        - tab "Inactive" [ref=f1e751] [cursor=pointer]
+      - generic [ref=f1e123]:
+        - generic [ref=f1e124]:
+          - button [ref=f1e752] [cursor=pointer]
+          - generic [ref=f1e131]:
+            - textbox "Search for ID" [ref=f1e753]
+            - group
+        - generic [ref=f1e133]:
+          - button [ref=f1e754] [cursor=pointer]
+          - button [ref=f1e755] [cursor=pointer]
+          - button [ref=f1e756] [cursor=pointer]
+      - generic [ref=f1e151]:
+        - generic [ref=f1e152]:
+          - generic [ref=f1e154]:
+            - paragraph [ref=f1e155]: Total Clinics
+            - generic [ref=f1e156]: 70 Clinics
+          - grid [ref=f1e160]:
+            - row [ref=f1e757]:
+              - columnheader [ref=f1e162]
+              - columnheader "ID" [ref=f1e758]
+              - columnheader "Name" [ref=f1e759]
+              - columnheader "Street Address" [ref=f1e760]
+              - columnheader "City" [ref=f1e761]
+              - columnheader "State" [ref=f1e762]
+              - columnheader "Zip Code" [ref=f1e763]
+              - columnheader "Monitoring Metrics" [ref=f1e764]
+              - columnheader "Contact Info" [ref=f1e765]
+              - columnheader "Current Status" [ref=f1e766]
+              - columnheader [ref=f1e190]
+            - rowgroup [ref=f1e191]:
+              - row [ref=f1e1127]:
+                - gridcell "1" [ref=f1e1128]
+                - gridcell "10001" [ref=f1e1129]
+                - gridcell [ref=f1e1130]:
+                  - generic "NXTSTIM" [ref=f1e1131]:
+                    - paragraph [ref=f1e1132]: NXTSTIM
+                - gridcell [ref=f1e1133]:
+                  - generic "5362 sweetwater tr" [ref=f1e1134]:
+                    - paragraph [ref=f1e1135]: 5362 sweetwater tr
+                - gridcell "San Diego" [ref=f1e1136]
+                - gridcell "CA" [ref=f1e1137]
+                - gridcell "92130" [ref=f1e1138]
+                - gridcell [ref=f1e1139]:
+                  - button "View Metrics" [ref=f1e1140] [cursor=pointer]
+                - gridcell [ref=f1e1141]:
+                  - generic [ref=f1e1142]:
+                    - paragraph [ref=f1e1143]: Maria Kappell
+                    - paragraph [ref=f1e1144]: "Email: maria.kappell@nxtstim.com"
+                    - paragraph [ref=f1e1145]: "Phone: 6192590296"
+                - gridcell "Active" [ref=f1e1146]
+                - gridcell [ref=f1e1152]:
+                  - menu [ref=f1e1153]:
+                    - button [ref=f1e1155] [cursor=pointer]
+              - row [ref=f1e1162]:
+                - gridcell "2" [ref=f1e1163]
+                - gridcell "10002" [ref=f1e1164]
+                - gridcell [ref=f1e1165]:
+                  - generic "Demo" [ref=f1e1166]:
+                    - paragraph [ref=f1e1167]: Demo
+                - gridcell [ref=f1e1168]:
+                  - generic "25 South Main St" [ref=f1e1169]:
+                    - paragraph [ref=f1e1170]: 25 South Main St
+                - gridcell "Edison" [ref=f1e1171]
+                - gridcell "NJ" [ref=f1e1172]
+                - gridcell "8837" [ref=f1e1173]
+                - gridcell [ref=f1e1174]:
+                  - button "View Metrics" [ref=f1e1175] [cursor=pointer]
+                - gridcell [ref=f1e1176]:
+                  - generic [ref=f1e1177]:
+                    - paragraph [ref=f1e1178]: Dipan Patel
+                    - paragraph [ref=f1e1179]: "Email: dipan@nxtstim.com"
+                    - paragraph [ref=f1e1180]: "Phone: 7169082392"
+                - gridcell "Active" [ref=f1e1181]
+                - gridcell [ref=f1e1187]:
+                  - menu [ref=f1e1188]:
+                    - button [ref=f1e1190] [cursor=pointer]
+              - row [ref=f1e1197]:
+                - gridcell "3" [ref=f1e1198]
+                - gridcell "10003" [ref=f1e1199]
+                - gridcell [ref=f1e1200]:
+                  - generic "Denver Diagnostic Pain" [ref=f1e1201]:
+                    - paragraph [ref=f1e1202]: Denver Diagnostic Pain
+                - gridcell [ref=f1e1203]:
+                  - 'generic "7800 E. Orchard Rd. #350" [ref=f1e1204]':
+                    - paragraph [ref=f1e1205]: "7800 E. Orchard Rd. #350"
+                - gridcell "Greenwood Village" [ref=f1e1206]
+                - gridcell "CO" [ref=f1e1207]
+                - gridcell "80111" [ref=f1e1208]
+                - gridcell [ref=f1e1209]:
+                  - button "View Metrics" [ref=f1e1210] [cursor=pointer]
+                - gridcell [ref=f1e1211]:
+                  - generic [ref=f1e1212]:
+                    - paragraph [ref=f1e1213]: Jack Rentz
+                    - paragraph [ref=f1e1214]: "Email: jrentzmd@gmail.com"
+                    - paragraph [ref=f1e1215]: "Phone: 5555555555"
+                - gridcell "Active" [ref=f1e1216]
+                - gridcell [ref=f1e1222]:
+                  - menu [ref=f1e1223]:
+                    - button [ref=f1e1225] [cursor=pointer]
+              - row [ref=f1e1232]:
+                - gridcell "4" [ref=f1e1233]
+                - gridcell "10004" [ref=f1e1234]
+                - gridcell [ref=f1e1235]:
+                  - generic "Integrative Spine Care LLC" [ref=f1e1236]:
+                    - paragraph [ref=f1e1237]: Integrative Spine Care LLC
+                - gridcell [ref=f1e1238]:
+                  - generic "13710 Olive Blvd" [ref=f1e1239]:
+                    - paragraph [ref=f1e1240]: 13710 Olive Blvd
+                - gridcell "CHESTERFIELD" [ref=f1e1241]
+                - gridcell "MO" [ref=f1e1242]
+                - gridcell "63017" [ref=f1e1243]
+                - gridcell [ref=f1e1244]:
+                  - button "View Metrics" [ref=f1e1245] [cursor=pointer]
+                - gridcell [ref=f1e1246]:
+                  - generic [ref=f1e1247]:
+                    - paragraph [ref=f1e1248]: Manish Suthar
+                    - paragraph [ref=f1e1249]: "Email: msuthar@att.net"
+                    - paragraph [ref=f1e1250]: "Phone: 13145180736"
+                - gridcell "Active" [ref=f1e1251]
+                - gridcell [ref=f1e1257]:
+                  - menu [ref=f1e1258]:
+                    - button [ref=f1e1260] [cursor=pointer]
+              - row [ref=f1e1267]:
+                - gridcell "5" [ref=f1e1268]
+                - gridcell "10005" [ref=f1e1269]
+                - gridcell [ref=f1e1270]:
+                  - generic "Interventional Pain Solutions" [ref=f1e1271]:
+                    - paragraph [ref=f1e1272]: Interventional Pain Solutions
+                - gridcell [ref=f1e1273]:
+                  - generic "1158 N. Court St." [ref=f1e1274]:
+                    - paragraph [ref=f1e1275]: 1158 N. Court St.
+                - gridcell "redding" [ref=f1e1276]
+                - gridcell "ca" [ref=f1e1277]
+                - gridcell "96001" [ref=f1e1278]
+                - gridcell [ref=f1e1279]:
+                  - button "View Metrics" [ref=f1e1280] [cursor=pointer]
+                - gridcell [ref=f1e1281]:
+                  - generic [ref=f1e1282]:
+                    - paragraph [ref=f1e1283]: Zachary Lipman
+                    - paragraph [ref=f1e1284]: "Email: s.rossini@norcalpaindocs.com"
+                    - paragraph [ref=f1e1285]: "Phone: 5307681722"
+                - gridcell "Active" [ref=f1e1286]
+                - gridcell [ref=f1e1292]:
+                  - menu [ref=f1e1293]:
+                    - button [ref=f1e1295] [cursor=pointer]
+              - row [ref=f1e1302]:
+                - gridcell "6" [ref=f1e1303]
+                - gridcell "10006" [ref=f1e1304]
+                - gridcell [ref=f1e1305]:
+                  - generic "Lakeshore Pain and Spine Center" [ref=f1e1306]:
+                    - paragraph [ref=f1e1307]: Lakeshore Pain and Spine Center
+                - gridcell [ref=f1e1308]:
+                  - generic "7201 Green Bay Rd." [ref=f1e1309]:
+                    - paragraph [ref=f1e1310]: 7201 Green Bay Rd.
+                - gridcell "Kenosha" [ref=f1e1311]
+                - gridcell "WI" [ref=f1e1312]
+                - gridcell "53142" [ref=f1e1313]
+                - gridcell [ref=f1e1314]:
+                  - button "View Metrics" [ref=f1e1315] [cursor=pointer]
+                - gridcell [ref=f1e1316]:
+                  - generic [ref=f1e1317]:
+                    - paragraph [ref=f1e1318]: Brad Silva
+                    - paragraph [ref=f1e1319]: "Email: bas@lakeshorepain.com"
+                    - paragraph [ref=f1e1320]: "Phone: 2624844035"
+                - gridcell "Active" [ref=f1e1321]
+                - gridcell [ref=f1e1327]:
+                  - menu [ref=f1e1328]:
+                    - button [ref=f1e1330] [cursor=pointer]
+              - row [ref=f1e1337]:
+                - gridcell "7" [ref=f1e1338]
+                - gridcell "10007" [ref=f1e1339]
+                - gridcell [ref=f1e1340]:
+                  - generic "Lakeside Orthopedic Ins. LLC.- Parent Org" [ref=f1e1341]:
+                    - paragraph [ref=f1e1342]: Lakeside Orthopedic Ins. LLC.- Parent Org
+                - gridcell [ref=f1e1343]:
+                  - generic "25 RIVIERA BLVD" [ref=f1e1344]:
+                    - paragraph [ref=f1e1345]: 25 RIVIERA BLVD
+                - gridcell "LAKE HAVASU CITY" [ref=f1e1346]
+                - gridcell "AZ" [ref=f1e1347]
+                - gridcell "86403" [ref=f1e1348]
+                - gridcell [ref=f1e1349]:
+                  - button "View Metrics" [ref=f1e1350] [cursor=pointer]
+                - gridcell [ref=f1e1351]:
+                  - generic [ref=f1e1352]:
+                    - paragraph [ref=f1e1353]: Paul Wilkinson
+                    - paragraph [ref=f1e1354]: "Email: prwilkinson@lakesideoi.com"
+                    - paragraph [ref=f1e1355]: "Phone: 9285052790"
+                - gridcell "Active" [ref=f1e1356]
+                - gridcell [ref=f1e1362]:
+                  - menu [ref=f1e1363]:
+                    - button [ref=f1e1365] [cursor=pointer]
+              - row [ref=f1e1372]:
+                - gridcell "8" [ref=f1e1373]
+                - gridcell "10008" [ref=f1e1374]
+                - gridcell [ref=f1e1375]:
+                  - generic "Lakeside Orthopedic - LOI RPM" [ref=f1e1376]:
+                    - paragraph [ref=f1e1377]: Lakeside Orthopedic - LOI RPM
+                - gridcell [ref=f1e1378]:
+                  - generic "25 RIVIERA BLVD" [ref=f1e1379]:
+                    - paragraph [ref=f1e1380]: 25 RIVIERA BLVD
+                - gridcell "LAKE HAVASU CITY" [ref=f1e1381]
+                - gridcell "AZ" [ref=f1e1382]
+                - gridcell "86403" [ref=f1e1383]
+                - gridcell [ref=f1e1384]:
+                  - button "View Metrics" [ref=f1e1385] [cursor=pointer]
+                - gridcell [ref=f1e1386]:
+                  - generic [ref=f1e1387]:
+                    - paragraph [ref=f1e1388]: Paul Wilkinson
+                    - paragraph [ref=f1e1389]: "Email: prwilkinson@lakesideoi.com"
+                    - paragraph [ref=f1e1390]: "Phone: 9285052790"
+                - gridcell "Active" [ref=f1e1391]
+                - gridcell [ref=f1e1397]:
+                  - menu [ref=f1e1398]:
+                    - button [ref=f1e1400] [cursor=pointer]
+              - row [ref=f1e1407]:
+                - gridcell "9" [ref=f1e1408]
+                - gridcell "10009" [ref=f1e1409]
+                - gridcell [ref=f1e1410]:
+                  - generic "Lakeside PT - RTM" [ref=f1e1411]:
+                    - paragraph [ref=f1e1412]: Lakeside PT - RTM
+                - gridcell [ref=f1e1413]:
+                  - generic "PT - RTM" [ref=f1e1414]:
+                    - paragraph [ref=f1e1415]: PT - RTM
+                - gridcell "LAKE HAVASU CITY" [ref=f1e1416]
+                - gridcell "AZ" [ref=f1e1417]
+                - gridcell "86403" [ref=f1e1418]
+                - gridcell [ref=f1e1419]:
+                  - button "View Metrics" [ref=f1e1420] [cursor=pointer]
+                - gridcell [ref=f1e1421]:
+                  - generic [ref=f1e1422]:
+                    - paragraph [ref=f1e1423]: Paul Wilkinson
+                    - paragraph [ref=f1e1424]: "Email: prwilkinson@lakesideoi.com"
+                    - paragraph [ref=f1e1425]: "Phone: 9285052790"
+                - gridcell "Active" [ref=f1e1426]
+                - gridcell [ref=f1e1432]:
+                  - menu [ref=f1e1433]:
+                    - button [ref=f1e1435] [cursor=pointer]
+        - generic [ref=f1e515]:
+          - generic [ref=f1e516]:
+            - paragraph [ref=f1e517]: Rows per page
+            - generic [ref=f1e521]:
+              - combobox [active] [ref=f1e522]: "100"
+              - button "Open" [ref=f1e1445] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f1e1086]:
+            - list [ref=f1e528]:
+              - listitem [ref=f1e529]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f1e530]:
+                - button "page 1" [ref=f1e1087] [cursor=pointer]: "1"
+              - listitem [ref=f1e1446]:
+                - button "Go to next page" [disabled]

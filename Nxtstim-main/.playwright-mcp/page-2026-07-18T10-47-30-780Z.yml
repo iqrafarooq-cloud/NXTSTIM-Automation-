@@ -1,0 +1,106 @@
+- generic [ref=f1e8]:
+  - banner [ref=f1e734]:
+    - generic [ref=f1e735]:
+      - button "open drawer" [ref=f1e737] [cursor=pointer]
+      - generic [ref=f1e741] [cursor=pointer]:
+        - generic [ref=f1e742]:
+          - generic [ref=f1e743]:
+            - img "profile" [ref=f1e744]
+            - generic [ref=f1e745]: "!"
+          - paragraph [ref=f1e746]: ADMIN USER
+        - button [ref=f1e747]
+  - generic [ref=f1e26]:
+    - button [ref=f1e28] [cursor=pointer]
+    - separator [ref=f1e34]
+    - list [ref=f1e35]:
+      - link [ref=f1e750] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f1e37]:
+          - button "Monitoring" [ref=f1e751]
+      - link [ref=f1e752] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f1e47]:
+          - button "Reports" [ref=f1e753]
+      - link [ref=f1e754] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f1e60]:
+          - button "Invoices" [ref=f1e755]
+      - link [ref=f1e756] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f1e70]:
+          - button [ref=f1e757]
+      - link [ref=f1e758] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f1e76]:
+          - button "Patients" [ref=f1e759]
+      - link [ref=f1e760] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f1e86]:
+          - button "Users" [ref=f1e761]
+      - link [ref=f1e762] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f1e95]:
+          - button "Roles" [ref=f1e763]
+  - main [ref=f1e104]:
+    - generic [ref=f1e764]:
+      - navigation [ref=f1e765]:
+        - list [ref=f1e766]:
+          - listitem [ref=f1e767]:
+            - button "Clinics" [ref=f1e768] [cursor=pointer]
+          - listitem [ref=f1e769]: ">"
+          - listitem [ref=f1e770]:
+            - paragraph [ref=f1e771]: Clinic ID 11730
+      - generic [ref=f1e772]:
+        - generic [ref=f1e774]:
+          - paragraph [ref=f1e775]: QA Clinic bhiedgjfjhiig
+          - generic [ref=f1e776]: Active
+        - generic [ref=f1e786]:
+          - paragraph [ref=f1e791]: "11730"
+          - paragraph [ref=f1e795]: QA Automation
+          - paragraph [ref=f1e799]: qa.clinic+597886@bytecorp.io
+          - paragraph [ref=f1e808]: +1 (310) 564-8721
+      - generic [ref=f1e809]:
+        - tablist [ref=f1e813]:
+          - tab "Clinic Profile" [selected] [ref=f1e814] [cursor=pointer]
+          - tab "Supervisor" [ref=f1e815] [cursor=pointer]
+          - tab "Nurses" [ref=f1e816] [cursor=pointer]
+          - tab "Patient Tags" [ref=f1e817] [cursor=pointer]
+          - tab "File Vault" [ref=f1e818] [cursor=pointer]
+          - tab "Billing" [ref=f1e819] [cursor=pointer]
+        - generic [ref=f1e820]:
+          - button "Edit" [ref=f1e821] [cursor=pointer]
+          - generic [ref=f1e824]:
+            - paragraph [ref=f1e831]: Clinic Info
+            - generic [ref=f1e833]:
+              - paragraph [ref=f1e834]: Name
+              - paragraph [ref=f1e835]: QA Clinic bhiedgjfjhiig
+          - generic [ref=f1e836]:
+            - paragraph [ref=f1e842]: Contact Info
+            - generic [ref=f1e843]:
+              - generic [ref=f1e844]:
+                - paragraph [ref=f1e845]: Full Name
+                - paragraph [ref=f1e846]: QA Automation
+              - generic [ref=f1e847]:
+                - paragraph [ref=f1e848]: Email
+                - paragraph [ref=f1e849]: qa.clinic+597886@bytecorp.io
+              - generic [ref=f1e850]:
+                - paragraph [ref=f1e851]: Phone Number
+                - paragraph [ref=f1e852]:
+                  - generic [ref=f1e853]:
+                    - textbox "1 (702) 123-4567" [disabled] [ref=f1e854]: +1 (310) 564-8721
+                    - 'button "United States: + 1" [ref=f1e856]'
+          - generic [ref=f1e858]:
+            - paragraph [ref=f1e865]: Location
+            - generic [ref=f1e866]:
+              - generic [ref=f1e867]:
+                - paragraph [ref=f1e868]: Street Address
+                - paragraph [ref=f1e869]: 123 QA Street
+              - generic [ref=f1e870]:
+                - paragraph [ref=f1e871]: City
+                - paragraph [ref=f1e872]: San Diego
+              - generic [ref=f1e873]:
+                - paragraph [ref=f1e874]: State
+                - paragraph [ref=f1e875]: CA
+              - generic [ref=f1e876]:
+                - paragraph [ref=f1e877]: Zip Code
+                - paragraph [ref=f1e878]: "92130"

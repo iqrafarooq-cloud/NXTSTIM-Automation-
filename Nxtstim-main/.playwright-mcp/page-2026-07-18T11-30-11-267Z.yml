@@ -1,0 +1,98 @@
+- generic [ref=f3e8]:
+  - banner [ref=f3e799]:
+    - generic [ref=f3e800]:
+      - button "open drawer" [ref=f3e802] [cursor=pointer]
+      - generic [ref=f3e806] [cursor=pointer]:
+        - generic [ref=f3e807]:
+          - generic [ref=f3e808]:
+            - img "profile" [ref=f3e809]
+            - generic [ref=f3e810]: "!"
+          - paragraph [ref=f3e811]: ADMIN USER
+        - button [ref=f3e812]
+  - generic [ref=f3e26]:
+    - button [ref=f3e28] [cursor=pointer]
+    - separator [ref=f3e34]
+    - list [ref=f3e35]:
+      - link [ref=f3e736] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f3e37]:
+          - button "Monitoring" [ref=f3e737]
+      - link [ref=f3e738] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f3e47]:
+          - button "Reports" [ref=f3e739]
+      - link [ref=f3e740] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f3e60]:
+          - button "Invoices" [ref=f3e741]
+      - link [ref=f3e742] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f3e70]:
+          - button "Clinics" [ref=f3e743]
+      - link [ref=f3e744] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f3e78]:
+          - button "Patients" [ref=f3e745]
+      - link [ref=f3e746] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f3e88]:
+          - button [ref=f3e747]
+      - link [ref=f3e748] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f3e95]:
+          - button "Roles" [ref=f3e749]
+  - main [ref=f3e104]:
+    - generic [ref=f3e106]:
+      - generic [ref=f3e108]:
+        - generic [ref=f3e109]:
+          - paragraph [ref=f3e111]: Users
+          - button [ref=f3e750] [cursor=pointer]
+        - paragraph [ref=f3e116]: View and manage all users and their assigned roles across the system.
+      - tablist [ref=f3e119]:
+        - tab "Active" [ref=f3e751] [cursor=pointer]
+        - tab "Pending" [selected] [ref=f3e752] [cursor=pointer]
+        - tab "Suspended" [ref=f3e753] [cursor=pointer]
+        - tab "Inactive" [ref=f3e754] [cursor=pointer]
+      - generic [ref=f3e125]:
+        - generic [ref=f3e126]:
+          - button [ref=f3e755] [cursor=pointer]
+          - generic [ref=f3e133]:
+            - textbox "Search for User ID" [active] [ref=f3e756]: executiveadmin@iqra.anonaddy.com
+            - group
+        - generic [ref=f3e135]:
+          - button [ref=f3e757] [cursor=pointer]
+          - button [ref=f3e758] [cursor=pointer]
+          - button [ref=f3e759] [cursor=pointer]
+      - generic [ref=f3e153]:
+        - generic [ref=f3e154]:
+          - generic [ref=f3e156]:
+            - paragraph [ref=f3e157]: Total Users
+            - generic [ref=f3e158]: 0 Users
+          - grid [ref=f3e162]:
+            - row [ref=f3e760]:
+              - columnheader [ref=f3e164]
+              - columnheader "User ID" [ref=f3e761]
+              - columnheader "Username" [ref=f3e762]
+              - columnheader "First Name" [ref=f3e763]
+              - columnheader "Last Name" [ref=f3e764]
+              - columnheader "Roles" [ref=f3e765]
+              - columnheader "Email Address" [ref=f3e766]
+              - columnheader "Phone Number" [ref=f3e767]
+              - columnheader "Onboarding Date" [ref=f3e768]
+              - columnheader "Associated Clinics" [ref=f3e769]
+              - columnheader [ref=f3e192]
+            - generic: Nothing here yet.
+            - rowgroup
+        - generic [ref=f3e573]:
+          - generic [ref=f3e574]:
+            - paragraph [ref=f3e575]: Rows per page
+            - generic [ref=f3e579]:
+              - combobox [ref=f3e580]: "10"
+              - button "Open" [ref=f3e789] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f3e790]:
+            - list [ref=f3e586]:
+              - listitem [ref=f3e587]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f3e588]:
+                - button "Go to next page" [disabled]

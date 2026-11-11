@@ -1,0 +1,218 @@
+- generic [ref=e6]:
+  - generic [ref=e35]:
+    - banner [ref=e622]:
+      - generic [ref=e625] [cursor=pointer]:
+        - generic [ref=e626]:
+          - img [ref=e1464]
+          - paragraph [ref=e628]: Executive Admin
+        - button [ref=e629]:
+          - img [ref=e630]
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - button [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - img [ref=e57]
+      - separator [ref=e59]
+      - list [ref=e60]:
+        - generic [ref=e61]:
+          - listitem [ref=e62]:
+            - button [ref=e1465] [cursor=pointer]:
+              - img [ref=e632]
+              - generic [ref=e635]: Accounts
+              - img [ref=e636]
+          - generic [ref=e641]:
+            - link [ref=e1466] [cursor=pointer]:
+              - /url: /admin
+              - listitem [ref=e643]:
+                - button [ref=e1467]:
+                  - generic [ref=e646]: Admin
+            - link [ref=e1468] [cursor=pointer]:
+              - /url: /supervisors
+              - listitem [ref=e648]:
+                - button [ref=e1469]:
+                  - generic [ref=e651]: Supervisors
+            - link [ref=e1470] [cursor=pointer]:
+              - /url: /clinics
+              - listitem [ref=e653]:
+                - button [ref=e1471]:
+                  - generic [ref=e656]: Clinics
+            - link [ref=e1472] [cursor=pointer]:
+              - /url: /nurses
+              - listitem [ref=e658]:
+                - button [ref=e1473]:
+                  - generic [ref=e661]: Nurses
+            - link [ref=e1474] [cursor=pointer]:
+              - /url: /patients
+              - listitem [ref=e663]:
+                - button [ref=e1475]:
+                  - generic [ref=e666]: Patients
+            - link [ref=e1476] [cursor=pointer]:
+              - /url: /support-staff
+              - listitem [ref=e668]:
+                - button [ref=e1477]:
+                  - generic [ref=e671]: Support Staff
+        - link [ref=e1478] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=e72]:
+            - button [ref=e1479]:
+              - img [ref=e75]
+              - generic [ref=e673]: Monitoring
+        - link [ref=e1480] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=e80]:
+            - button [ref=e1481]:
+              - img [ref=e83]
+              - generic [ref=e91]: Reports
+        - link [ref=e1482] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=e93]:
+            - button [ref=e1483]:
+              - img [ref=e96]
+              - generic [ref=e101]: Invoices
+    - main [ref=e102]:
+      - generic [ref=e675]:
+        - generic [ref=e677]:
+          - paragraph [ref=e680]: Admin
+          - paragraph [ref=e681]: Access and manage platform-wide settings, user roles, system controls, and global reports across all clinics and care programs.
+        - tablist [ref=e684]:
+          - tab [ref=e1484] [cursor=pointer]: Active
+          - tab [selected] [ref=e1485] [cursor=pointer]: Pending
+          - tab [ref=e1486] [cursor=pointer]: Suspended
+        - generic [ref=e689]:
+          - generic [ref=e690]:
+            - button [ref=e1487] [cursor=pointer]:
+              - text: ID
+              - img [ref=e693]
+            - generic [ref=e697]:
+              - textbox [ref=e1488]:
+                - /placeholder: Search for ID
+              - group
+          - generic [ref=e699]:
+            - button [ref=e1489] [cursor=pointer]:
+              - img [ref=e704]
+              - text: Sort By
+            - button [ref=e1490] [cursor=pointer]:
+              - img [ref=e708]
+              - text: Export CSV
+        - generic [ref=e711]:
+          - generic [ref=e712]:
+            - generic [ref=e714]:
+              - paragraph [ref=e715]: Total Admin
+              - generic [ref=e717]: 5 Admin
+            - grid [ref=e720]:
+              - row [ref=e1491]:
+                - columnheader [ref=e722]
+                - columnheader [ref=e1492]:
+                  - generic [ref=e1019]: ID
+                - columnheader [ref=e1493]:
+                  - generic [ref=e728]: First Name
+                - columnheader [ref=e1494]:
+                  - generic [ref=e731]: Last Name
+                - columnheader [ref=e1495]:
+                  - generic [ref=e734]: Email
+                - columnheader [ref=e1496]:
+                  - generic [ref=e737]: Onboarding Date
+                - columnheader [ref=e738]
+              - rowgroup [ref=e739]:
+                - row [ref=e1497]:
+                  - gridcell [ref=e1498]: "1"
+                  - gridcell [ref=e1499]:
+                    - paragraph [ref=e1329]: "10101"
+                  - gridcell [ref=e1501]:
+                    - paragraph [ref=e1332]: admin
+                  - gridcell [ref=e1503]:
+                    - paragraph [ref=e1335]: email
+                  - gridcell [ref=e1505]:
+                    - paragraph [ref=e1338]: resenemail@yopmail.com
+                  - gridcell [ref=e1507]:
+                    - paragraph [ref=e1341]: 02-23-2026
+                  - gridcell [ref=e1342]:
+                    - menu [ref=e1343]:
+                      - button [ref=e1345] [cursor=pointer]:
+                        - img [ref=e1346]
+                - row [ref=e1509]:
+                  - gridcell [ref=e1510]: "2"
+                  - gridcell [ref=e1511]:
+                    - paragraph [ref=e1356]: "10407"
+                  - gridcell [ref=e1513]:
+                    - paragraph [ref=e1359]: Testing2
+                  - gridcell [ref=e1515]:
+                    - paragraph [ref=e1362]: admin
+                  - gridcell [ref=e1517]:
+                    - paragraph [ref=e1365]: dd3re9qs@anonaddy.com
+                  - gridcell [ref=e1519]:
+                    - paragraph [ref=e1368]: 05-05-2026
+                  - gridcell [ref=e1369]:
+                    - menu [ref=e1370]:
+                      - button [ref=e1372] [cursor=pointer]:
+                        - img [ref=e1373]
+                - row [ref=e1521]:
+                  - gridcell [ref=e1522]: "3"
+                  - gridcell [ref=e1523]:
+                    - paragraph [ref=e1383]: "10029"
+                  - gridcell [ref=e1525]:
+                    - paragraph [ref=e1386]: Abyaz
+                  - gridcell [ref=e1527]:
+                    - paragraph [ref=e1389]: Admin
+                  - gridcell [ref=e1529]:
+                    - paragraph [ref=e1392]: pnq16mkr@anonaddy.me
+                  - gridcell [ref=e1531]:
+                    - paragraph [ref=e1395]: 01-02-2026
+                  - gridcell [ref=e1396]:
+                    - menu [ref=e1397]:
+                      - button [ref=e1399] [cursor=pointer]:
+                        - img [ref=e1400]
+                - row [ref=e1533]:
+                  - gridcell [ref=e1534]: "4"
+                  - gridcell [ref=e1535]:
+                    - paragraph [ref=e1410]: "10160"
+                  - gridcell [ref=e1537]:
+                    - paragraph [ref=e1413]: john
+                  - gridcell [ref=e1539]:
+                    - paragraph [ref=e1416]: doe
+                  - gridcell [ref=e1541]:
+                    - paragraph [ref=e1419]: executiveadmin00@yopmail.com
+                  - gridcell [ref=e1543]:
+                    - paragraph [ref=e1422]: 03-06-2026
+                  - gridcell [ref=e1423]:
+                    - menu [ref=e1424]:
+                      - button [ref=e1426] [cursor=pointer]:
+                        - img [ref=e1427]
+                - row [ref=e1545]:
+                  - gridcell [ref=e1546]: "5"
+                  - gridcell [ref=e1547]:
+                    - paragraph [ref=e1437]: "10173"
+                  - gridcell [ref=e1549]:
+                    - paragraph [ref=e1440]: john
+                  - gridcell [ref=e1551]:
+                    - paragraph [ref=e1443]: doe
+                  - gridcell [ref=e1553]:
+                    - paragraph [ref=e1446]: admin45@yopmail.com
+                  - gridcell [ref=e1555]:
+                    - paragraph [ref=e1449]: 03-09-2026
+                  - gridcell [ref=e1450]:
+                    - menu [ref=e1451]:
+                      - button [ref=e1453] [cursor=pointer]:
+                        - img [ref=e1454]
+          - generic [ref=e964]:
+            - generic [ref=e965]:
+              - paragraph [ref=e966]: Rows per page
+              - generic [ref=e970]:
+                - combobox [ref=e971]: "10"
+                - button [ref=e1557] [cursor=pointer]:
+                  - img [ref=e974]
+                - group
+            - navigation [ref=e1558]:
+              - list [ref=e977]:
+                - listitem [ref=e978]:
+                  - button [disabled]:
+                    - img
+                - listitem [ref=e979]:
+                  - button [ref=e1559] [cursor=pointer]: "1"
+                - listitem [ref=e1463]:
+                  - button [disabled]:
+                    - img
+  - menu [ref=e1562]:
+    - menuitem "Resend Email" [active] [ref=e1563] [cursor=pointer]:
+      - img [ref=e1564]
+      - paragraph [ref=e1566]: Resend Email

@@ -1,0 +1,101 @@
+- generic [ref=f1e8]:
+  - banner [ref=f1e3978]:
+    - generic [ref=f1e3979]:
+      - button "open drawer" [ref=f1e3981] [cursor=pointer]
+      - generic [ref=f1e3985] [cursor=pointer]:
+        - generic [ref=f1e3986]:
+          - generic [ref=f1e3987]:
+            - img "profile" [ref=f1e3988]
+            - generic [ref=f1e3989]: "!"
+          - paragraph [ref=f1e3990]: QAAuto Admin
+        - button [ref=f1e3991]
+  - generic [ref=f1e26]:
+    - button [ref=f1e28] [cursor=pointer]
+    - separator [ref=f1e34]
+    - list [ref=f1e35]:
+      - link [ref=f1e3994] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f1e37]:
+          - button "Monitoring" [ref=f1e3995]
+      - link [ref=f1e3996] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f1e47]:
+          - button "Reports" [ref=f1e3997]
+      - link [ref=f1e3998] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f1e60]:
+          - button "Invoices" [ref=f1e3999]
+      - link [ref=f1e4000] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f1e70]:
+          - button "Clinics" [ref=f1e4001]
+      - link [ref=f1e4002] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f1e78]:
+          - button "Patients" [ref=f1e4003]
+      - link [ref=f1e4004] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f1e88]:
+          - button [ref=f1e4005]
+      - link [ref=f1e4006] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f1e95]:
+          - button "Roles" [ref=f1e4007]
+  - main [ref=f1e104]:
+    - generic [ref=f1e106]:
+      - generic [ref=f1e108]:
+        - generic [ref=f1e109]:
+          - paragraph [ref=f1e111]: Users
+          - button [ref=f1e4008] [cursor=pointer]
+        - paragraph [ref=f1e116]: View and manage all users and their assigned roles across the system.
+      - tablist [ref=f1e119]:
+        - tab "Active" [selected] [ref=f1e4009] [cursor=pointer]
+        - tab "Pending" [ref=f1e4010] [cursor=pointer]
+        - tab "Suspended" [ref=f1e4011] [cursor=pointer]
+        - tab "Inactive" [ref=f1e4012] [cursor=pointer]
+      - generic [ref=f1e125]:
+        - generic [ref=f1e126]:
+          - button [ref=f1e4013] [cursor=pointer]
+          - generic [ref=f1e133]:
+            - textbox "Search for User ID" [ref=f1e4014]
+            - group
+        - generic [ref=f1e135]:
+          - generic [ref=f1e137]:
+            - button [ref=f1e4015] [cursor=pointer]
+            - generic: "2"
+            - button "Clear All" [ref=f1e4016] [cursor=pointer]
+          - button [ref=f1e4017] [cursor=pointer]
+          - button [active] [ref=f1e4018] [cursor=pointer]
+      - generic [ref=f1e153]:
+        - generic [ref=f1e154]:
+          - generic [ref=f1e156]:
+            - paragraph [ref=f1e157]: Total Users
+            - generic [ref=f1e158]: 0 Users
+          - grid [ref=f1e162]:
+            - row [ref=f1e4019]:
+              - columnheader [ref=f1e164]
+              - columnheader "User ID" [ref=f1e4020]
+              - columnheader "Username" [ref=f1e4021]
+              - columnheader "First Name" [ref=f1e4022]
+              - columnheader "Last Name" [ref=f1e4023]
+              - columnheader "Roles" [ref=f1e4024]
+              - columnheader "Email Address" [ref=f1e4025]
+              - columnheader "Phone Number" [ref=f1e4026]
+              - columnheader "Onboarding Date" [ref=f1e4027]
+              - columnheader "Associated Clinics" [ref=f1e4028]
+              - columnheader [ref=f1e192]
+            - generic: Nothing here yet.
+            - rowgroup
+        - generic [ref=f1e571]:
+          - generic [ref=f1e572]:
+            - paragraph [ref=f1e573]: Rows per page
+            - generic [ref=f1e577]:
+              - combobox [ref=f1e578]: "100"
+              - button "Open" [ref=f1e4037] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f1e4038]:
+            - list [ref=f1e584]:
+              - listitem [ref=f1e585]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f1e586]:
+                - button "Go to next page" [disabled]

@@ -1,0 +1,184 @@
+- generic [ref=f1e6]:
+  - generic [ref=f1e8]:
+    - banner [ref=f1e1159]:
+      - generic [ref=f1e1160]:
+        - button [ref=f1e1261] [cursor=pointer]
+        - generic [ref=f1e1166] [cursor=pointer]:
+          - generic [ref=f1e1167]:
+            - generic [ref=f1e1168]: "!"
+            - paragraph [ref=f1e1171]: QAAuto Admin
+          - button [ref=f1e1172]
+    - generic [ref=f1e26]:
+      - button [ref=f1e28] [cursor=pointer]
+      - separator [ref=f1e34]
+      - list [ref=f1e35]:
+        - link [ref=f1e1263] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f1e37]:
+            - button [ref=f1e1264]:
+              - generic [ref=f1e44]: Monitoring
+        - link [ref=f1e1265] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f1e47]:
+            - button [ref=f1e1266]:
+              - generic [ref=f1e57]: Reports
+        - link [ref=f1e1267] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f1e60]:
+            - button [ref=f1e1268]:
+              - generic [ref=f1e67]: Invoices
+        - link [ref=f1e1269] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f1e70]:
+            - button [ref=f1e1270]:
+              - generic [ref=f1e75]: Clinics
+        - link [ref=f1e1271] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f1e78]:
+            - button [ref=f1e1272]:
+              - generic [ref=f1e85]: Patients
+        - link [ref=f1e1273] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f1e88]:
+            - button [ref=f1e1274]
+        - link [ref=f1e1275] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f1e95]:
+            - button [ref=f1e1276]:
+              - generic [ref=f1e102]: Roles
+    - main [ref=f1e104]:
+      - generic [ref=f1e106]:
+        - generic [ref=f1e108]:
+          - generic [ref=f1e109]:
+            - paragraph [ref=f1e111]: Users
+            - button [ref=f1e1277] [cursor=pointer]: Add New User
+          - paragraph [ref=f1e116]: View and manage all users and their assigned roles across the system.
+        - tablist [ref=f1e119]:
+          - tab [selected] [ref=f1e1278] [cursor=pointer]: Active
+          - tab [ref=f1e1279] [cursor=pointer]: Pending
+          - tab [ref=f1e1280] [cursor=pointer]: Suspended
+          - tab [ref=f1e1281] [cursor=pointer]: Inactive
+        - generic [ref=f1e125]:
+          - generic [ref=f1e126]:
+            - button [ref=f1e1282] [cursor=pointer]: Onboarding Date
+            - generic [ref=f1e133]:
+              - textbox [ref=f1e1283]:
+                - /placeholder: Search for Onboarding Date
+                - text: 07-25-2026
+              - group
+          - generic [ref=f1e135]:
+            - button [ref=f1e1284] [cursor=pointer]: Filters
+            - button [ref=f1e1285] [cursor=pointer]: Sort By
+            - button [ref=f1e1286] [cursor=pointer]: Export CSV
+        - generic [ref=f1e153]:
+          - generic [ref=f1e154]:
+            - generic [ref=f1e156]:
+              - paragraph [ref=f1e157]: Total Users
+              - generic [ref=f1e158]: 2 Users
+            - grid [ref=f1e162]:
+              - row [ref=f1e1287]:
+                - columnheader [ref=f1e164]
+                - columnheader [ref=f1e1288]:
+                  - generic [ref=f1e166]: User ID
+                - columnheader [ref=f1e1289]:
+                  - generic [ref=f1e169]: Username
+                - columnheader [ref=f1e1290]:
+                  - generic [ref=f1e172]: First Name
+                - columnheader [ref=f1e1291]:
+                  - generic [ref=f1e175]: Last Name
+                - columnheader [ref=f1e1292]:
+                  - generic [ref=f1e178]: Roles
+                - columnheader [ref=f1e1293]:
+                  - generic [ref=f1e181]: Email Address
+                - columnheader [ref=f1e1294]:
+                  - generic [ref=f1e184]: Phone Number
+                - columnheader [ref=f1e1295]:
+                  - generic [ref=f1e187]: Onboarding Date
+                - columnheader [ref=f1e1296]:
+                  - generic [ref=f1e190]: Associated Clinics
+                - columnheader [ref=f1e192]
+              - rowgroup [ref=f1e193]:
+                - row [ref=f1e1297]:
+                  - gridcell [ref=f1e1298]: "1"
+                  - gridcell [ref=f1e1299]:
+                    - paragraph [ref=f1e1179]: "10910"
+                  - gridcell [ref=f1e1301]:
+                    - paragraph [ref=f1e1183] [cursor=pointer]: Support Staff
+                  - gridcell [ref=f1e1303]:
+                    - paragraph [ref=f1e1186]: Support
+                  - gridcell [ref=f1e1305]:
+                    - paragraph [ref=f1e1189]: Staff
+                  - gridcell [ref=f1e1307]:
+                    - generic [ref=f1e1191]: Support Staff
+                  - gridcell [ref=f1e1308]:
+                    - paragraph [ref=f1e1196]: 8g3f6knv@anonaddy.me
+                  - gridcell [ref=f1e1310]:
+                    - paragraph [ref=f1e1199]: +1 (111) 111-1111
+                  - gridcell [ref=f1e1312]:
+                    - paragraph [ref=f1e1202]: 07-26-2026
+                  - gridcell [ref=f1e1314]:
+                    - paragraph [ref=f1e1205]: "-"
+                  - gridcell [ref=f1e1206]:
+                    - menu [ref=f1e1207]:
+                      - button [ref=f1e1209] [cursor=pointer]
+                - row [ref=f1e1316]:
+                  - gridcell [ref=f1e1317]: "2"
+                  - gridcell [ref=f1e1318]:
+                    - paragraph [ref=f1e1220]: "10899"
+                  - gridcell [ref=f1e1320]:
+                    - paragraph [ref=f1e1224] [cursor=pointer]: Lifecycle QAUser
+                  - gridcell [ref=f1e1322]:
+                    - paragraph [ref=f1e1227]: Lifecycle
+                  - gridcell [ref=f1e1324]:
+                    - paragraph [ref=f1e1230]: QAUser
+                  - gridcell [ref=f1e1326]:
+                    - generic [ref=f1e1232]: Support Staff
+                  - gridcell [ref=f1e1327]:
+                    - paragraph [ref=f1e1237]: users+ms0k2q858cm2@iqra.anonaddy.com
+                  - gridcell [ref=f1e1329]:
+                    - paragraph [ref=f1e1240]: +1 (155) 512-3456
+                  - gridcell [ref=f1e1331]:
+                    - paragraph [ref=f1e1243]: 07-25-2026
+                  - gridcell [ref=f1e1333]:
+                    - paragraph [ref=f1e1246]: "-"
+                  - gridcell [ref=f1e1247]:
+                    - menu [ref=f1e1248]:
+                      - button [ref=f1e1250] [cursor=pointer]
+          - generic [ref=f1e571]:
+            - generic [ref=f1e572]:
+              - paragraph [ref=f1e573]: Rows per page
+              - generic [ref=f1e577]:
+                - combobox [ref=f1e578]: "10"
+                - button [ref=f1e1335] [cursor=pointer]
+                - group
+            - navigation [ref=f1e1336]:
+              - list [ref=f1e584]:
+                - listitem [ref=f1e585]:
+                  - button [disabled]
+                - listitem [ref=f1e586]:
+                  - button [ref=f1e1337] [cursor=pointer]: "1"
+                - listitem [ref=f1e1260]:
+                  - button [disabled]
+  - menu [ref=f1e1340]:
+    - radiogroup [ref=f1e1341]:
+      - generic [ref=f1e1342] [cursor=pointer]:
+        - radio "User ID" [ref=f1e1344]
+        - paragraph [ref=f1e1346]: User ID
+      - generic [ref=f1e1347] [cursor=pointer]:
+        - radio "Username" [ref=f1e1349]
+        - paragraph [ref=f1e1351]: Username
+      - generic [ref=f1e1352] [cursor=pointer]:
+        - radio "First Name" [ref=f1e1354]
+        - paragraph [ref=f1e1356]: First Name
+      - generic [ref=f1e1357] [cursor=pointer]:
+        - radio "Last Name" [ref=f1e1359]
+        - paragraph [ref=f1e1361]: Last Name
+      - generic [ref=f1e1362] [cursor=pointer]:
+        - radio "Email" [ref=f1e1364]
+        - paragraph [ref=f1e1366]: Email
+      - generic [ref=f1e1367] [cursor=pointer]:
+        - radio "Phone Number" [ref=f1e1369]
+        - paragraph [ref=f1e1371]: Phone Number
+      - generic [ref=f1e1372] [cursor=pointer]:
+        - radio "Onboarding Date" [checked] [ref=f1e1374]
+        - paragraph [ref=f1e1377]: Onboarding Date

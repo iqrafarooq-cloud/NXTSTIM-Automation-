@@ -1,0 +1,174 @@
+- generic [ref=e35]:
+  - banner [ref=e622]:
+    - generic [ref=e625] [cursor=pointer]:
+      - generic [ref=e626]:
+        - img "profile" [ref=e1567]
+        - paragraph [ref=e628]: Executive Admin
+      - button [ref=e629]:
+        - img [ref=e630]
+  - generic [ref=e51]:
+    - generic [ref=e52]:
+      - button [ref=e53] [cursor=pointer]:
+        - img [ref=e54]
+      - img [ref=e57]
+    - separator [ref=e59]
+    - list [ref=e60]:
+      - generic [ref=e61]:
+        - listitem [ref=e62]:
+          - button "Accounts" [ref=e1568] [cursor=pointer]:
+            - img [ref=e632]
+            - generic [ref=e635]: Accounts
+            - img [ref=e636]
+        - generic [ref=e641]:
+          - link "Admin" [ref=e1569] [cursor=pointer]:
+            - /url: /admin
+            - listitem [ref=e643]:
+              - button "Admin" [ref=e1570]:
+                - generic [ref=e646]: Admin
+          - link "Supervisors" [ref=e1571] [cursor=pointer]:
+            - /url: /supervisors
+            - listitem [ref=e648]:
+              - button "Supervisors" [ref=e1572]:
+                - generic [ref=e651]: Supervisors
+          - link "Clinics" [ref=e1573] [cursor=pointer]:
+            - /url: /clinics
+            - listitem [ref=e653]:
+              - button "Clinics" [ref=e1574]:
+                - generic [ref=e656]: Clinics
+          - link "Nurses" [ref=e1575] [cursor=pointer]:
+            - /url: /nurses
+            - listitem [ref=e658]:
+              - button "Nurses" [ref=e1576]:
+                - generic [ref=e661]: Nurses
+          - link "Patients" [ref=e1577] [cursor=pointer]:
+            - /url: /patients
+            - listitem [ref=e663]:
+              - button "Patients" [ref=e1578]:
+                - generic [ref=e666]: Patients
+          - link "Support Staff" [ref=e1579] [cursor=pointer]:
+            - /url: /support-staff
+            - listitem [ref=e668]:
+              - button "Support Staff" [ref=e1580]:
+                - generic [ref=e671]: Support Staff
+      - link "Monitoring" [ref=e1581] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e72]:
+          - button "Monitoring" [ref=e1582]:
+            - img [ref=e75]
+            - generic [ref=e673]: Monitoring
+      - link "Reports" [ref=e1583] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e80]:
+          - button "Reports" [ref=e1584]:
+            - img [ref=e83]
+            - generic [ref=e91]: Reports
+      - link "Invoices" [ref=e1585] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e93]:
+          - button "Invoices" [ref=e1586]:
+            - img [ref=e96]
+            - generic [ref=e101]: Invoices
+  - main [ref=e102]:
+    - generic [ref=e675]:
+      - generic [ref=e677]:
+        - paragraph [ref=e680]: Admin
+        - paragraph [ref=e681]: Access and manage platform-wide settings, user roles, system controls, and global reports across all clinics and care programs.
+      - tablist [ref=e684]:
+        - tab "Active" [ref=e1587] [cursor=pointer]: Active
+        - tab "Pending" [ref=e1588] [cursor=pointer]: Pending
+        - tab "Suspended" [selected] [ref=e1589] [cursor=pointer]: Suspended
+      - generic [ref=e689]:
+        - generic [ref=e690]:
+          - button "ID" [ref=e1590] [cursor=pointer]:
+            - text: ID
+            - img [ref=e693]
+          - generic [ref=e697]:
+            - textbox "Search for ID" [ref=e1591]
+            - group
+        - generic [ref=e699]:
+          - button "Sort By" [ref=e1592] [cursor=pointer]:
+            - img [ref=e704]
+            - text: Sort By
+          - button "Export CSV" [ref=e1593] [cursor=pointer]:
+            - img [ref=e708]
+            - text: Export CSV
+      - generic [ref=e711]:
+        - generic [ref=e712]:
+          - generic [ref=e714]:
+            - paragraph [ref=e715]: Total Admin
+            - generic [ref=e717]: 2 Admin
+          - grid [ref=e720]:
+            - row "ID First Name Last Name Email Onboarding Date" [ref=e1594]:
+              - columnheader [ref=e722]
+              - columnheader "ID" [ref=e1595]:
+                - generic [ref=e1019]: ID
+              - columnheader "First Name" [ref=e1596]:
+                - generic [ref=e728]: First Name
+              - columnheader "Last Name" [ref=e1597]:
+                - generic [ref=e731]: Last Name
+              - columnheader "Email" [ref=e1598]:
+                - generic [ref=e734]: Email
+              - columnheader "Onboarding Date" [ref=e1599]:
+                - generic [ref=e737]: Onboarding Date
+              - columnheader [ref=e738]
+            - rowgroup [ref=e739]:
+              - row "1 10103 john doe mids@yopmail.com 02-23-2026" [ref=e1665]:
+                - gridcell "1" [ref=e1666]
+                - gridcell "10103" [ref=e1667]:
+                  - generic "10103" [ref=e1668]:
+                    - paragraph [ref=e1669]: "10103"
+                - gridcell "john" [ref=e1670]:
+                  - generic "john" [ref=e1671]:
+                    - paragraph [ref=e1672]: john
+                - gridcell "doe" [ref=e1673]:
+                  - generic "doe" [ref=e1674]:
+                    - paragraph [ref=e1675]: doe
+                - gridcell "mids@yopmail.com" [ref=e1676]:
+                  - generic "mids@yopmail.com" [ref=e1677]:
+                    - paragraph [ref=e1678]: mids@yopmail.com
+                - gridcell "02-23-2026" [ref=e1679]:
+                  - generic "02-23-2026" [ref=e1680]:
+                    - paragraph [ref=e1681]: 02-23-2026
+                - gridcell [ref=e1682]:
+                  - menu [ref=e1683]:
+                    - button [ref=e1685] [cursor=pointer]:
+                      - img [ref=e1686]
+              - row "2 10085 Executive Admin executiveadmin1@yopmail.com 02-19-2026" [ref=e1692]:
+                - gridcell "2" [ref=e1693]
+                - gridcell "10085" [ref=e1694]:
+                  - generic "10085" [ref=e1695]:
+                    - paragraph [ref=e1696]: "10085"
+                - gridcell "Executive" [ref=e1697]:
+                  - generic "Executive" [ref=e1698]:
+                    - paragraph [ref=e1699]: Executive
+                - gridcell "Admin" [ref=e1700]:
+                  - generic "Admin" [ref=e1701]:
+                    - paragraph [ref=e1702]: Admin
+                - gridcell "executiveadmin1@yopmail.com" [ref=e1703]:
+                  - generic "executiveadmin1@yopmail.com" [ref=e1704]:
+                    - paragraph [ref=e1705]: executiveadmin1@yopmail.com
+                - gridcell "02-19-2026" [ref=e1706]:
+                  - generic "02-19-2026" [ref=e1707]:
+                    - paragraph [ref=e1708]: 02-19-2026
+                - gridcell [ref=e1709]:
+                  - menu [ref=e1710]:
+                    - button [ref=e1712] [cursor=pointer]:
+                      - img [ref=e1713]
+        - generic [ref=e964]:
+          - generic [ref=e965]:
+            - paragraph [ref=e966]: Rows per page
+            - generic [ref=e970]:
+              - combobox [ref=e971]: "10"
+              - button "Open" [ref=e1660] [cursor=pointer]:
+                - img [ref=e974]
+              - group
+          - navigation "pagination navigation" [ref=e1661]:
+            - list [ref=e977]:
+              - listitem [ref=e978]:
+                - button "Go to previous page" [disabled]:
+                  - img
+              - listitem [ref=e979]:
+                - button "page 1" [ref=e1662] [cursor=pointer]: "1"
+              - listitem [ref=e1722]:
+                - button "Go to next page" [disabled]:
+                  - img

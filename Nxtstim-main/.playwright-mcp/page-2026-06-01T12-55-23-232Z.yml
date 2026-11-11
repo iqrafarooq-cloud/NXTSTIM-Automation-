@@ -1,0 +1,119 @@
+- generic [ref=e6]:
+  - generic [ref=e46]:
+    - banner [ref=e47]:
+      - generic [ref=e48]:
+        - button [ref=e765] [cursor=pointer]:
+          - img [ref=e51]
+        - generic [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - img [ref=e766]
+              - generic [ref=e58]: "!"
+            - paragraph [ref=e59]: admin auth
+          - button [ref=e60]:
+            - img [ref=e61]
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - button [ref=e66] [cursor=pointer]:
+          - img [ref=e67]
+        - img [ref=e70]
+      - separator [ref=e72]
+      - list [ref=e73]:
+        - listitem [ref=e75]:
+          - button [ref=e767] [cursor=pointer]:
+            - generic [ref=e77]:
+              - img [ref=e79]
+              - img [ref=e82]
+        - link [ref=e768] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=e85]:
+            - button [ref=e769]:
+              - img [ref=e88]
+              - generic [ref=e608]: Monitoring
+        - link [ref=e770] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=e93]:
+            - button [ref=e771]:
+              - img [ref=e96]
+              - generic [ref=e104]: Reports
+        - link [ref=e772] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=e106]:
+            - button [ref=e773]:
+              - img [ref=e109]
+              - generic [ref=e114]: Invoices
+    - main [ref=e115]:
+      - generic [ref=e613]:
+        - paragraph [ref=e616]: Settings
+        - paragraph [ref=e617]: Manage your account settings
+        - paragraph [ref=e619]: Security Settings
+        - generic [ref=e620]:
+          - generic [ref=e621]:
+            - paragraph [ref=e622]: Change your password
+            - paragraph [ref=e623]: Update your password to keep your account secure and accessible only to you. Change your password frequently to reduce the chance of unauthorized access
+          - button [ref=e774] [cursor=pointer]: Change Password
+        - generic [ref=e627]:
+          - generic [ref=e628]:
+            - generic [ref=e629]:
+              - paragraph [ref=e630]: Set-up 2FA
+              - img [ref=e632]
+            - paragraph [ref=e635]: Select your preferred 2FA method
+            - radiogroup [ref=e636]:
+              - generic [ref=e637] [cursor=pointer]:
+                - generic [ref=e638]:
+                  - radio [ref=e776]
+                  - img [ref=e641]
+                - generic [ref=e646]:
+                  - generic [ref=e647]: "Authenticator App :"
+                  - generic [ref=e648]: Use an app to generate a verification code when signing in.
+                  - generic [ref=e649]: Recommended
+              - generic [ref=e650] [cursor=pointer]:
+                - generic [ref=e651]:
+                  - radio [checked] [ref=e777]
+                  - generic [ref=e653]:
+                    - img [ref=e654]
+                    - img [ref=e763]
+                - generic [ref=e657]:
+                  - generic [ref=e658]: "Email Verification :"
+                  - generic [ref=e659]: We'll send a verification code to your email each time you sign in.
+          - button [ref=e778] [cursor=pointer]: Enable 2FA
+        - generic [ref=e663]:
+          - generic [ref=e664]:
+            - paragraph [ref=e665]: Trusted Devices
+            - paragraph [ref=e666]: Manage the devices you have marked as trusted. These devices don't require a 2FA code when signing in.
+          - generic [ref=e667]:
+            - img [ref=e779]
+            - paragraph [ref=e669]: You haven't marked any devices as trusted yet. Once you enable 2FA and log in from a new device, you can choose to trust it for easier future sign-ins.
+  - dialog [ref=e782]:
+    - generic [ref=e783]:
+      - generic [ref=e784]:
+        - generic [ref=e785]:
+          - paragraph [ref=e786]: Enter the verification code
+          - paragraph [ref=e787]: A code was sent to a****r@iqra.anonaddy.com. Enter it below to enable two-factor authentication.
+        - generic [ref=e788]:
+          - paragraph [ref=e789]: Verification code
+          - generic [ref=e790]:
+            - generic [ref=e792]:
+              - textbox "Digit 1" [active] [ref=e793]
+              - group
+            - generic [ref=e795]:
+              - textbox "Digit 2" [ref=e796]
+              - group
+            - generic [ref=e798]:
+              - textbox "Digit 3" [ref=e799]
+              - group
+            - generic [ref=e801]:
+              - textbox "Digit 4" [ref=e802]
+              - group
+            - generic [ref=e804]:
+              - textbox "Digit 5" [ref=e805]
+              - group
+            - generic [ref=e807]:
+              - textbox "Digit 6" [ref=e808]
+              - group
+          - generic [ref=e810]:
+            - text: Resend in
+            - generic [ref=e811]: 00:59
+      - generic [ref=e812]:
+        - button "Cancel" [ref=e813] [cursor=pointer]: Cancel
+        - button "Verify" [disabled]

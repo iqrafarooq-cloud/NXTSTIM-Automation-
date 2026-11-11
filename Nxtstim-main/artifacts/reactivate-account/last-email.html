@@ -1,0 +1,292 @@
+<!-- Account Reactivated email to qa-react-1@iqra.anonaddy.com captured 2026-05-21T12:33:39.250Z -->
+Delivered-To: iqra.farooq@bytecorp.io
+Received: by 2002:a05:6918:34d9:b0:46e:18a2:ccb0 with SMTP id c25csp328065ysh;
+        Thu, 21 May 2026 05:33:29 -0700 (PDT)
+X-Forwarded-Encrypted: i=2; AFNElJ9V+KiSCM9/Xdcm+6M9bpHEAFiW6rcgVWW7riSJlnC8R2jd5j2vDsb4fl/rocYGVSjR45vnNHmsIW1faA==@bytecorp.io
+X-Received: by 2002:a17:906:8a5c:b0:bd0:6e7:7a7 with SMTP id a640c23a62f3a-bdc12f87358mr135454166b.9.1779366809422;
+        Thu, 21 May 2026 05:33:29 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1779366809; cv=none;
+        d=google.com; s=arc-20240605;
+        b=XDamdhNPadrRp4Hv0d5Bkf8/bEwGIBqOG2y0pXekYSZgiuc25FD72EG+5JA2ps66t3
+         2QTmz+y4NB++ff780Susa7x2VoWbinXwqMxH48odYTc7yQ9JcL7EBwldsSso2I31q8Ka
+         Fc/9B5wpNuEpUns/MaOzxE5DTzUuLjJ9lk0FMn+MA3lP+Q+gkBr54bulN250sWxsY/JO
+         O1WiwpPR7Bb0W9RqwDcTVbQrVyKCNwqFNJjX+IIzqD6amoX+IJpSacn70HXEOBpt34AB
+         7qWHOv91pAewKefyeFPIE+RXwabA5cAE/3ZFcG2xjZoEFaDD5/W1kScVI91+A0lrkKBX
+         uu5Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=date:mime-version:list-unsubscribe-post:list-unsubscribe:message-id
+         :feedback-id:subject:to:from:dkim-signature;
+        bh=gbxNPwKVqBWgAL80avt9SR+l364qL+pnfU/aMb2KlqE=;
+        fh=iVJdWgXvNnY4mD3xah+0yXm7e+99S5lH9oZ+ELvmb6M=;
+        b=PZRorwz3SNoHfiFjLraK+/qbBYktttci/kchtXBKA+5Q4fdQuSCjZYPT9gXHvfXgry
+         jtQkYMZje4/XGZXxsvaaKRxzMqsaZYhFwPle8psnx1cd3JE62ZxMOfndldqmUWol2wzw
+         orCtQ/Z/fOih83YRlJ8Zgk1GiaC6yLei+FQSccv44gb6rO7qyYwuHJSwXuCdZP2D0Wi1
+         50HdIWHBgq2zqwz+qLd2ZeozNC0mN7GXVUOhd+iAxZqRM+x6ynZXWJLY9jcqcPpVAnb8
+         0qNpTCTu4CPO1cyLK49Mc79B5UdB/RM8Q7FT3IsFQivrLUjK8nZWuGdCpHMTw4vnvVSw
+         wMDg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@anonaddy.com header.s=default2 header.b="DJixkS/H";
+       spf=pass (google.com: domain of b_nvxgq4tporxdey3uouya_gi2dgmbzmyyts@iqra.anonaddy.com designates 185.70.196.149 as permitted sender) smtp.mailfrom=b_nvxgq4tporxdey3uouya_gi2dgmbzmyyts@iqra.anonaddy.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=anonaddy.com
+Return-Path: <b_nvxgq4tporxdey3uouya_gi2dgmbzmyyts@iqra.anonaddy.com>
+Received: from mail2.anonaddy.me (mail2.anonaddy.me. [185.70.196.149])
+        by mx.google.com with ESMTPS id a640c23a62f3a-bdc87b81ae1si55132466b.31.2026.05.21.05.33.29
+        for <iqra.farooq@bytecorp.io>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Thu, 21 May 2026 05:33:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of b_nvxgq4tporxdey3uouya_gi2dgmbzmyyts@iqra.anonaddy.com designates 185.70.196.149 as permitted sender) client-ip=185.70.196.149;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@anonaddy.com header.s=default2 header.b="DJixkS/H";
+       spf=pass (google.com: domain of b_nvxgq4tporxdey3uouya_gi2dgmbzmyyts@iqra.anonaddy.com designates 185.70.196.149 as permitted sender) smtp.mailfrom=b_nvxgq4tporxdey3uouya_gi2dgmbzmyyts@iqra.anonaddy.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=anonaddy.com
+Received: from mail2.anonaddy.me (mail2.anonaddy.me [127.0.0.1])
+	by mail2.anonaddy.me (Postfix) with ESMTPS id C2D32FAA9D
+	for <iqra.farooq@bytecorp.io>; Thu, 21 May 2026 12:33:28 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=anonaddy.com;
+	s=default2; t=1779366808;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 list-unsubscribe:list-unsubscribe-post;
+	bh=gbxNPwKVqBWgAL80avt9SR+l364qL+pnfU/aMb2KlqE=;
+	b=DJixkS/HcUqIlg8K/WVqNT5BsQxzMts8x68SzEQQxsIQcn577txaojoEN88AHhWAdL8NTj
+	9jPJB2L9cC9JdqBtBYeGw9d7yVoZisUhhRfAtRH5bLaOpXJiZH+esyfpylaBm625ACXsxg
+	2P53XtgGqYT/mwGDoYNqoFcXR3f0GcyRXTHbToOQTb5lmnP2wx+vNHJufW3LJuJnYC1WD5
+	5vfCFEzXsGSHlHtylu/h4zax6fliPt99qHnQl95VNF+dcEECaqg+4SdzSAlkzszqZ5fOIJ
+	RGfmE7MLe5DB2Ah/QESUrmT8xTG9wt+Kt83/V+L2V9AYdfjPlnvvMdMkCB412w==
+From: "no-reply at nxtstim.com"
+ <qa-react-1+no-reply=nxtstim.com@iqra.anonaddy.com>
+To: qa-react-1@iqra.anonaddy.com
+Subject: Account Reactivation
+Feedback-ID: F:484417e1-b3c8-453c-89e0-8fe00ca5d974:anonaddy
+Message-ID: <sVcitrwdR0acetu9KDno8Q@geopod-ismtpd-5>
+List-Unsubscribe: <https://app.addy.io/deactivate-one-click/484417e1-b3c8-453c-89e0-8fe00ca5d974?expires=1781958805&signature=46e547acbbd91fc51476c80c3b86bc22ce59f5b55ef35b96828c47a7d5f7691e>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Received: from s.wrqvwxzv.outbound-mail.sendgrid.net
+ (s.wrqvwxzv.outbound-mail.sendgrid.net [149.72.154.232]) by
+ mail2.anonaddy.me (Postfix) with ESMTPS id 4621DFB05A for
+ <qa-react-1@iqra.anonaddy.com>; Thu, 21 May 2026 12:33:23 +0000 (UTC)
+Received: by recvd-57b698b956-vw8sh with SMTP id
+ recvd-57b698b956-vw8sh-1-6A0EFB92-3B 2026-05-21 12:33:22.41166629 +0000 UTC
+ m=+1954899.551056919
+Received: from NTEyNDg4OTQ (unknown) by geopod-ismtpd-5 (SG) with HTTP id
+ sVcitrwdR0acetu9KDno8Q Thu, 21 May 2026 12:33:22.399 +0000 (UTC)
+X-AnonAddy-Authentication-Results: mail2.anonaddy.me; dkim=pass
+ header.d=nxtstim.com header.s=sg1 header.b=hNUwLudv; spf=pass
+ (mail2.anonaddy.me: domain of
+ "bounces+51248894-5bd7-qa-react-1=iqra.anonaddy.com@em5371.nxtstim.com"
+ designates 149.72.154.232 as permitted sender)
+ smtp.mailfrom="bounces+51248894-5bd7-qa-react-1=iqra.anonaddy.com@em5371.nxtstim.com";
+ dmarc=pass (policy=none) header.from=nxtstim.com
+X-AnonAddy-Original-Sender: no-reply@nxtstim.com
+X-AnonAddy-Original-Envelope-From: bounces+51248894-5bd7-qa-react-1=iqra.anonaddy.com@em5371.nxtstim.com
+X-AnonAddy-Original-From-Header: no-reply@nxtstim.com
+X-AnonAddy-Original-To: qa-react-1@iqra.anonaddy.com
+X-Complaints-To: abuse@help.addy.io
+X-Report-Abuse: abuse@help.addy.io
+X-Report-Abuse-To: abuse@help.addy.io
+MIME-Version: 1.0
+Date: Thu, 21 May 2026 12:33:28 +0000
+Content-Type: multipart/alternative; boundary=8ENc_R9I
+
+--8ENc_R9I
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello TestQA TempSuspended,
+
+Your account has been successfully reactiv=
+ated, and you can now access the platform again.
+Before proceeding, pleas=
+e use the link below to reset your password. This step is required to ensur=
+e your account remains secure.
+
+=F0=9F=91=89 Reset your password: Click=
+ here ( http://url7372.nxtstim.com/ls/click?upn=3Du001.m9fHavKs8OxaBdlbdA5-=
+2FZt9bIE5L1yVQqW-2FiHcvzFI-2F2W7vO1oRoe-2BZp59eN9UblPplVL-2BElpGgK3GbqKSWgQ=
+4zwXRcYXlA4eCaFA5WmgzkEZjoI8h7GdWk5W7SEE8CB6gIuvc-2BcvVMX0HuZSnkK7P-2BK-2Bt=
+JGeONohX-2BoS0TsWuAUwzF6Fu6iXZbi0MBsVQdO5Nz-2FOQHL8pTjU78m4NQGq0zoNijozeJs0=
+p-2Bosl5c6hiz4oyKefT91x5OZS49QRchzpFpba0Bxr0BBOHl6IYV88pEAF98dOzI7eYPOw1N-2=
+FBTbNGtqPQBvyJprb-2B4t4MDXlxN3on18TjnQHUtncLaLtcB94HWNIRHe-2FQRNlLg9qNKy6XZ=
+jxKkElTBUtR87rzY4YDUQ_IWXH3umlBt8-2Ft95mHXnEYWnYH8CqTPOHVhTd0It2SUaY1yI-2BO=
+k0zYVdrJ0c4vOWRwoupMWQBW-2ByUwcyg6RJR6ASlY8PKvt-2B8mXEgGAeJWH2VNUGMcCbOuHZg=
+vVQWLqjSi-2B7QA6vHlML4GmDyyyawuuQuxrvX91i9lRB8hxPx1pTZXGiOU5IAyjC0RtiBHNk6O=
+KBlPKdN-2B3Qh3PplhQdOZWGoyZNQBxTOeTz7-2Flk6ErJC8rcV-2BlkMt0mjhR-2BAP4M72QUi=
+mkVjy8S-2FAt5bw45nPXifjFNF43tCO0npbxbmIz6H1LvuFDpeNCQbFS-2FYZqL9Mg13Vs4PB1A=
+FvCx1vXCMQA-3D-3D )
+
+Once your password is updated, you can log in and =
+continue using the platform as usual.
+
+If you need assistance or have a=
+ny questions, please contact support@nxtstim.com for assistance.
+
+Copyr=
+ight =C2=A9 2025
+
+--8ENc_R9I
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<table style=3D"width:100% !important;">
+        <tbody>
+              =
+                          <tr>
+    <td>
+        <div style=3D"margin:0p=
+x auto !important;max-width:896px !important;padding:10px 20px !important;b=
+ackground-color:#f5f7fa !important;text-align:center !important;line-height=
+:1.5 !important;font-size:12px !important;width:100% !important;border-left=
+: 3px solid #19216c !important;font-family: ui-sans-serif, system-ui, -appl=
+e-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, =
+'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI S=
+ymbol', 'Noto Color Emoji' !important;color:#323f4b !important;overflow-wra=
+p:break-word !important;box-sizing:border-box !important;">
+            T=
+his email was sent to <span style=3D"font-weight:500 !important;color:#1921=
+6c !important;">qa-react-1@iqra.anonaddy.com</span> (Created automatically =
+by catch-all) from <span style=3D"font-weight:500 !important;color:#19216c =
+!important;">no-reply@nxtstim.com</span><br>Click <a href=3D"https://app.ad=
+dy.io/deactivate/484417e1-b3c8-453c-89e0-8fe00ca5d974?signature=3D3018cfb16=
+0ebdea037ecae7b829e3a759c059a2390365b1f50d6fad02d5c8952" style=3D"color:#2d=
+3a8c !important;text-decoration:underline !important;" target=3D"_blank" re=
+l=3D"noreferrer noopener nofollow">here</a> to deactivate this alias
+    =
+    </div>
+    </td>
+</tr>                        <tr>
+              =
+  <td style=3D"padding:10px 0 !important;width:100% !important;">
+       =
+             <link href=3D"https://fonts.googleapis.com/css2?family=3DSourc=
+e+Sans+Pro:wght@400;600&amp;display=3Dswap" rel=3D"stylesheet">
+
+  <!--=
+ Outer wrapper table -->
+  <table width=3D"100%" cellpadding=3D"0" cellsp=
+acing=3D"0" border=3D"0" style=3D"background-color: #f4f4f4;">
+    <tr>=
+
+      <td align=3D"center" style=3D"padding: 20px 0;">
+
+        <!--=
+ Container table -->
+        <table width=3D"600" cellpadding=3D"0" cells=
+pacing=3D"0" border=3D"0" style=3D"max-width: 600px; width: 100%; backgroun=
+d-color: #ffffff; border-radius: 8px; padding: 20px;">
+
+          <!-- =
+Header -->
+          <tr>
+            <td align=3D"center" style=3D"pad=
+ding: 40px 20px;">
+              <img src=3D"http://cdn.mcauto-images-pro=
+duction.sendgrid.net/74e92e17cdcbc82a/fef7e77f-4c16-499a-91f0-375da896585a/=
+160x18.png" alt=3D"NXTSTIM" width=3D"200" border=3D"0" style=3D"display: bl=
+ock; border: 0; outline: none; text-decoration: none;">
+            </td>=
+
+          </tr>
+
+          <!-- Content -->
+          <tr>
+     =
+       <td style=3D"padding: 0 20px 20px 20px; font-family: 'Source Sans Pr=
+o', Arial, sans-serif; font-size: 14px; color: #333333; line-height: 1.6;">=
+
+              <p style=3D"margin: 0 0 12px 0; font-size: 16px;">Hello Te=
+stQA TempSuspended,</p>
+              <p style=3D"margin: 0 0 12px 0; fon=
+t-size: 14px;">Your account has been successfully reactivated, and you can =
+now access the platform again.<br>
+              Before proceeding, pleas=
+e use the link below to reset your password. This step is required to ensur=
+e your account remains secure.</p>
+              <p style=3D"margin: 0 0 =
+12px 0; font-size: 14px;">&#128073; Reset your password: <a href=3D"http://=
+url7372.nxtstim.com/ls/click?upn=3Du001.m9fHavKs8OxaBdlbdA5-2FZt9bIE5L1yVQq=
+W-2FiHcvzFI-2F2W7vO1oRoe-2BZp59eN9UblPplVL-2BElpGgK3GbqKSWgQ4zwXRcYXlA4eCaF=
+A5WmgzkEZjoI8h7GdWk5W7SEE8CB6gIuvc-2BcvVMX0HuZSnkK7P-2BK-2BtJGeONohX-2BoS0T=
+sWuAUwzF6Fu6iXZbi0MBsVQdO5Nz-2FOQHL8pTjU78m4NQGq0zoNijozeJs0p-2Bosl5c6hiz4o=
+yKefT91x5OZS49QRchzpFpba0Bxr0BBOHl6IYV88pEAF98dOzI7eYPOw1N-2FBTbNGtqPQBvyJp=
+rb-2B4t4MDXlxN3on18TjnQHUtncLaLtcB94HWNIRHe-2FQRNlLg9qNKy6XZjxKkElTBUtR87rz=
+Y41KWT_IWXH3umlBt8-2Ft95mHXnEYWnYH8CqTPOHVhTd0It2SUaY1yI-2BOk0zYVdrJ0c4vOWR=
+woupMWQBW-2ByUwcyg6RJR6ASlY8PKvt-2B8mXEgGAeJWH2VNUGMcCbOuHZgvVQWLqjSi-2B7QA=
+6vHlML4GmDyyyawuuQuxrvX91i9lRB8hxPx1pTZXGiOU5IAyjC0RtiBHNk65otkjBPJ78pH-2FU=
+-2FDEMggl7aEjpdU-2BaT0W2dZ7bqqSQAycU2th9xsfioZc-2Bacbza60br6-2FizTGRzdneC09=
+Zif04I3lds9i7OI8EntLPUg0CB9SSmt0Xtsqw0nc0LijGlQFnJO4-2BAoO8kmfjTUNCZaXg-3D-=
+3D" style=3D"color: #2230F6; font-weight: bold; text-decoration: none;">Cli=
+ck here</a></p>
+              <p style=3D"margin: 0 0 12px 0; font-size: =
+14px;">Once your password is updated, you can log in and continue using the=
+ platform as usual.</p>
+              <p style=3D"margin: 0; font-size: 1=
+4px;">If you need assistance or have any questions, please contact <a href=
+=3D"mailto:support@nxtstim.com" style=3D"color: #2230F6; font-weight: bold;=
+ text-decoration: none;">support@nxtstim.com</a> for assistance.</p>
+    =
+        </td>
+          </tr>
+
+          <!-- Divider -->
+         =
+ <tr>
+            <td style=3D"padding: 20px 20px 0 20px;">
+           =
+   <table width=3D"30%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=
+
+                <tr>
+                  <td style=3D"border-top: 1px so=
+lid #e0e0e0; font-size: 0; line-height: 0;">&nbsp;</td>
+                <=
+/tr>
+              </table>
+            </td>
+          </tr>
+
+  =
+        <!-- Footer -->
+          <tr>
+            <td align=3D"center"=
+ style=3D"padding: 20px 20px 20px 20px; font-family: 'Source Sans Pro', Ari=
+al, sans-serif; font-size: 14px; color: #888888;">
+              <p style=
+=3D"margin: 0 0 10px 0; color: #BABABA; font-weight: 400; font-size: 14px;"=
+>Copyright &copy; 2025</p>
+              <img src=3D"http://cdn.mcauto-im=
+ages-production.sendgrid.net/930e288a6930056b/70304783-015a-4b6e-beec-1afa7=
+c8567db/106x12.png" alt=3D"NXTSTIM" width=3D"106" height=3D"12" border=3D"0=
+" style=3D"display: block; margin: 0 auto; border: 0; outline: none; text-d=
+ecoration: none;">
+            </td>
+          </tr>
+
+        </tab=
+le>
+        <!-- /Container table -->
+
+      </td>
+    </tr>
+  </=
+table>
+  <!-- /Outer wrapper table -->
+
+<img src=3D"http://url7372.nx=
+tstim.com/wf/open?upn=3Du001.ikmJ3cCaeDELjs051I0rmGcTY1IcCR-2Fz2cWOzefaBeMb=
+hB7KStsjejhBcIXrFf9sqyUdyzkdylU95-2Bk9DDbsXPSx-2B9UC4hqyFLqTSXt1IveAhYjgp3f=
+fpT9JUlxXnNzuIQOltyutu39BbfLtpUmXs3mXq7PP1n9i0m74gLzTYpr9ucquVERFck-2BdXcwx=
+w7hi69D9536CAAQw15u69lcV0QBPCT3OyTrq65Cd8wUTS3a-2BGEGdlPZts3B5f16C-2FXgtIOG=
+Kh-2FfcsSLnaGRf2e3BLkppnbRKQH5roF5BqRTovV2BORWYn-2FUTweSAROywoWOK2ScYNQD9nN=
+xFxu9c3nMEqQ-3D-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D=
+"height:1px !important;width:1px !important;border-width:0 !important;margi=
+n-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;mar=
+gin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;=
+padding-right:0 !important;padding-left:0 !important;"/>
+                =
+</td>
+            </tr>
+                    </tbody>
+    </table>
+
+--8ENc_R9I--
+

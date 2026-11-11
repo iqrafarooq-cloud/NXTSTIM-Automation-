@@ -1,0 +1,270 @@
+- generic [ref=f2e6]:
+  - generic [ref=f2e8]:
+    - banner [ref=f2e9]:
+      - generic [ref=f2e10]:
+        - button [ref=f2e953] [cursor=pointer]
+        - generic [ref=f2e16] [cursor=pointer]:
+          - generic [ref=f2e17]:
+            - generic [ref=f2e18]: "!"
+            - paragraph [ref=f2e21]: QAAuto Admin
+          - button [ref=f2e22]
+    - generic [ref=f2e26]:
+      - button [ref=f2e28] [cursor=pointer]
+      - separator [ref=f2e34]
+      - list [ref=f2e35]:
+        - link [ref=f2e955] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f2e37]:
+            - button [ref=f2e956]:
+              - generic [ref=f2e44]: Monitoring
+        - link [ref=f2e957] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f2e47]:
+            - button [ref=f2e958]:
+              - generic [ref=f2e57]: Reports
+        - link [ref=f2e959] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f2e60]:
+            - button [ref=f2e960]:
+              - generic [ref=f2e67]: Invoices
+        - link [ref=f2e961] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f2e70]:
+            - button [ref=f2e962]:
+              - generic [ref=f2e75]: Clinics
+        - link [ref=f2e963] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f2e78]:
+            - button [ref=f2e964]:
+              - generic [ref=f2e85]: Patients
+        - link [ref=f2e965] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f2e88]:
+            - button [ref=f2e966]
+        - link [ref=f2e967] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f2e95]:
+            - button [ref=f2e968]:
+              - generic [ref=f2e102]: Roles
+    - main [ref=f2e104]:
+      - generic [ref=f2e106]:
+        - generic [ref=f2e108]:
+          - generic [ref=f2e109]:
+            - paragraph [ref=f2e111]: Users
+            - button [ref=f2e969] [cursor=pointer]: Add New User
+          - paragraph [ref=f2e116]: View and manage all users and their assigned roles across the system.
+        - tablist [ref=f2e119]:
+          - tab [selected] [ref=f2e970] [cursor=pointer]: Active
+          - tab [ref=f2e971] [cursor=pointer]: Pending
+          - tab [ref=f2e972] [cursor=pointer]: Suspended
+          - tab [ref=f2e973] [cursor=pointer]: Inactive
+        - generic [ref=f2e125]:
+          - generic [ref=f2e126]:
+            - button [ref=f2e974] [cursor=pointer]: User ID
+            - generic [ref=f2e133]:
+              - textbox [ref=f2e975]:
+                - /placeholder: Search for User ID
+              - group
+          - generic [ref=f2e135]:
+            - generic [ref=f2e137]:
+              - button [ref=f2e976] [cursor=pointer]: Filters
+              - generic [ref=f2e142]: "1"
+              - button [ref=f2e977] [cursor=pointer]: Clear All
+            - button [ref=f2e978] [cursor=pointer]: Sort By
+            - button [ref=f2e979] [cursor=pointer]: Export CSV
+        - generic [ref=f2e157]:
+          - generic [ref=f2e158]:
+            - generic [ref=f2e160]:
+              - paragraph [ref=f2e161]: Total Users
+              - generic [ref=f2e162]: 5 Users
+            - grid [ref=f2e166]:
+              - row [ref=f2e980]:
+                - columnheader [ref=f2e168]
+                - columnheader [ref=f2e981]:
+                  - generic [ref=f2e170]: User ID
+                - columnheader [ref=f2e982]:
+                  - generic [ref=f2e173]: Username
+                - columnheader [ref=f2e983]:
+                  - generic [ref=f2e176]: First Name
+                - columnheader [ref=f2e984]:
+                  - generic [ref=f2e179]: Last Name
+                - columnheader [ref=f2e985]:
+                  - generic [ref=f2e182]: Roles
+                - columnheader [ref=f2e986]:
+                  - generic [ref=f2e185]: Email Address
+                - columnheader [ref=f2e987]:
+                  - generic [ref=f2e188]: Phone Number
+                - columnheader [ref=f2e988]:
+                  - generic [ref=f2e191]: Onboarding Date
+                - columnheader [ref=f2e989]:
+                  - generic [ref=f2e194]: Associated Clinics
+                - columnheader [ref=f2e196]
+              - rowgroup [ref=f2e197]:
+                - row [ref=f2e990]:
+                  - gridcell [ref=f2e991]: "1"
+                  - gridcell [ref=f2e992]:
+                    - paragraph [ref=f2e202]: "10730"
+                  - gridcell [ref=f2e994]:
+                    - paragraph [ref=f2e206] [cursor=pointer]: Nurse User
+                  - gridcell [ref=f2e996]:
+                    - paragraph [ref=f2e209]: Nurse
+                  - gridcell [ref=f2e998]:
+                    - paragraph [ref=f2e212]: User
+                  - gridcell [ref=f2e1000]:
+                    - generic [ref=f2e214]: Nurse
+                  - gridcell [ref=f2e1001]:
+                    - paragraph [ref=f2e219]: iqra.farooq+15@bytecorp.io
+                  - gridcell [ref=f2e1003]:
+                    - paragraph [ref=f2e222]: +1 (000) 000-0000
+                  - gridcell [ref=f2e1005]:
+                    - paragraph [ref=f2e225]: 07-16-2026
+                  - gridcell [ref=f2e1007]:
+                    - paragraph [ref=f2e228]: QAClinic
+                  - gridcell [ref=f2e229]:
+                    - menu [ref=f2e230]:
+                      - button [ref=f2e232] [cursor=pointer]
+                - row [ref=f2e1009]:
+                  - gridcell [ref=f2e1010]: "2"
+                  - gridcell [ref=f2e1011]:
+                    - paragraph [ref=f2e243]: "10590"
+                  - gridcell [ref=f2e1013]:
+                    - paragraph [ref=f2e247] [cursor=pointer]: Nurse Test
+                  - gridcell [ref=f2e1015]:
+                    - paragraph [ref=f2e250]: Nurse
+                  - gridcell [ref=f2e1017]:
+                    - paragraph [ref=f2e253]: Test
+                  - gridcell [ref=f2e1019]:
+                    - generic [ref=f2e255]: Nurse
+                  - gridcell [ref=f2e1020]:
+                    - paragraph [ref=f2e260]: 32p8lrvb@anonaddy.me
+                  - gridcell [ref=f2e1022]:
+                    - paragraph [ref=f2e263]: +1 (111) 111-1111
+                  - gridcell [ref=f2e1024]:
+                    - paragraph [ref=f2e266]: 07-01-2026
+                  - gridcell [ref=f2e1026]:
+                    - paragraph [ref=f2e269]: Testing Clinic
+                  - gridcell [ref=f2e270]:
+                    - menu [ref=f2e271]:
+                      - button [ref=f2e273] [cursor=pointer]
+                - row [ref=f2e1028]:
+                  - gridcell [ref=f2e1029]: "3"
+                  - gridcell [ref=f2e1030]:
+                    - paragraph [ref=f2e284]: "10535"
+                  - gridcell [ref=f2e1032]:
+                    - paragraph [ref=f2e288] [cursor=pointer]: Muhammad Khalid
+                  - gridcell [ref=f2e1034]:
+                    - paragraph [ref=f2e291]: Muhammad
+                  - gridcell [ref=f2e1036]:
+                    - paragraph [ref=f2e294]: Khalid
+                  - gridcell [ref=f2e1038]:
+                    - generic [ref=f2e296]: Nurse
+                  - gridcell [ref=f2e1039]:
+                    - paragraph [ref=f2e301]: abyaz.khalid@bytecorp.io
+                  - gridcell [ref=f2e1041]:
+                    - paragraph [ref=f2e304]: +1 (111) 111-2222
+                  - gridcell [ref=f2e1043]:
+                    - paragraph [ref=f2e307]: 06-15-2026
+                  - gridcell [ref=f2e1045]:
+                    - paragraph [ref=f2e310]: Billing Clinic
+                  - gridcell [ref=f2e311]:
+                    - menu [ref=f2e312]:
+                      - button [ref=f2e314] [cursor=pointer]
+                - row [ref=f2e1047]:
+                  - gridcell [ref=f2e1048]: "4"
+                  - gridcell [ref=f2e1049]:
+                    - paragraph [ref=f2e325]: "10419"
+                  - gridcell [ref=f2e1051]:
+                    - paragraph [ref=f2e329] [cursor=pointer]: Userr communication
+                  - gridcell [ref=f2e1053]:
+                    - paragraph [ref=f2e332]: Userr
+                  - gridcell [ref=f2e1055]:
+                    - paragraph [ref=f2e335]: communication
+                  - gridcell [ref=f2e1057]:
+                    - generic [ref=f2e337]: Nurse
+                  - gridcell [ref=f2e1058]:
+                    - paragraph [ref=f2e342]: nursenew@iqra.anonaddy.com
+                  - gridcell [ref=f2e1060]:
+                    - paragraph [ref=f2e345]: +1 (984) 651-3204
+                  - gridcell [ref=f2e1062]:
+                    - paragraph [ref=f2e348]: 05-15-2026
+                  - gridcell [ref=f2e1064]:
+                    - paragraph [ref=f2e351]: healthcare
+                  - gridcell [ref=f2e352]:
+                    - menu [ref=f2e353]:
+                      - button [ref=f2e355] [cursor=pointer]
+                - row [ref=f2e1066]:
+                  - gridcell [ref=f2e1067]: "5"
+                  - gridcell [ref=f2e1068]:
+                    - paragraph [ref=f2e366]: "10401"
+                  - gridcell [ref=f2e1070]:
+                    - paragraph [ref=f2e370] [cursor=pointer]: new nurseeee
+                  - gridcell [ref=f2e1072]:
+                    - paragraph [ref=f2e373]: new
+                  - gridcell [ref=f2e1074]:
+                    - paragraph [ref=f2e376]: nurseeee
+                  - gridcell [ref=f2e1076]:
+                    - generic [ref=f2e378]: Nurse
+                  - gridcell [ref=f2e1077]:
+                    - paragraph [ref=f2e383]: newnurseee@yopmail.com
+                  - gridcell [ref=f2e1079]:
+                    - paragraph [ref=f2e386]: +45 13 29 84 65
+                  - gridcell [ref=f2e1081]:
+                    - paragraph [ref=f2e389]: 04-27-2026
+                  - gridcell [ref=f2e1083]:
+                    - paragraph [ref=f2e392]: issuecredit test
+                  - gridcell [ref=f2e393]:
+                    - menu [ref=f2e394]:
+                      - button [ref=f2e396] [cursor=pointer]
+          - generic [ref=f2e411]:
+            - generic [ref=f2e412]:
+              - paragraph [ref=f2e413]: Rows per page
+              - generic [ref=f2e417]:
+                - combobox [ref=f2e418]: "10"
+                - button [ref=f2e1085] [cursor=pointer]
+                - group
+            - navigation [ref=f2e1086]:
+              - list [ref=f2e424]:
+                - listitem [ref=f2e425]:
+                  - button [disabled]
+                - listitem [ref=f2e426]:
+                  - button [ref=f2e1087] [cursor=pointer]: "1"
+                - listitem [ref=f2e428]:
+                  - button [disabled]
+  - dialog [ref=f2e1091]:
+    - generic [ref=f2e1092]:
+      - generic [ref=f2e1093]:
+        - generic [ref=f2e1100] [cursor=pointer]:
+          - paragraph [ref=f2e1101]: Role Selection
+          - paragraph [ref=f2e1102]: Select the users role to determine the permissions
+        - generic [ref=f2e1107] [cursor=pointer]:
+          - paragraph [ref=f2e1108]: Basic Details
+          - paragraph [ref=f2e1109]: Enter user's personal information.
+        - generic [ref=f2e1110] [cursor=pointer]:
+          - generic [ref=f2e1111]: "3"
+          - generic [ref=f2e1113]:
+            - paragraph [ref=f2e1114]: Permissions
+            - paragraph [ref=f2e1115]: Define what this user can do
+      - generic [ref=f2e1116]:
+        - generic [ref=f2e1117]:
+          - generic [ref=f2e1118]:
+            - paragraph [ref=f2e1119]: Step 3/3
+            - button [ref=f2e1120] [cursor=pointer]
+          - paragraph [ref=f2e1123]: Permissions
+        - generic [ref=f2e1342]:
+          - generic [ref=f2e1343]:
+            - generic [ref=f2e1344]: Clinics*
+            - generic [ref=f2e1345]: Select Clinic
+          - generic [ref=f2e1350]:
+            - generic [ref=f2e1351]:
+              - generic [ref=f2e1352]: Allow Program Creation*
+              - generic [ref=f2e1354]:
+                - combobox "Allow Program Creation*" [expanded] [active] [ref=f2e1925]: "No"
+                - generic [ref=f2e1356]:
+                  - button "Clear" [ref=f2e1927] [cursor=pointer]
+                  - button "Close" [ref=f2e1930] [cursor=pointer]
+                - group
+            - listbox "Allow Program Creation*" [ref=f2e1931]:
+              - option "Yes" [ref=f2e1932] [cursor=pointer]
+              - option "No" [selected] [ref=f2e1933] [cursor=pointer]
+        - generic [ref=f2e1171]:
+          - button "Add User" [disabled]

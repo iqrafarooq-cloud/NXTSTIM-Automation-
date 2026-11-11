@@ -1,0 +1,288 @@
+- generic [ref=e35]:
+  - banner [ref=e36]:
+    - generic [ref=e37]:
+      - button "open drawer" [ref=e39] [cursor=pointer]:
+        - img [ref=e40]
+      - generic [ref=e43] [cursor=pointer]:
+        - generic [ref=e44]:
+          - img "profile" [ref=e45]
+          - paragraph [ref=e46]: QAExecutive admin
+        - button [ref=e47]:
+          - img [ref=e48]
+  - generic [ref=e51]:
+    - generic [ref=e52]:
+      - button [ref=e53] [cursor=pointer]:
+        - img [ref=e54]
+      - img [ref=e57]
+    - separator [ref=e59]
+    - list [ref=e60]:
+      - listitem [ref=e62]:
+        - button "Accounts" [ref=e63] [cursor=pointer]:
+          - generic [ref=e64]:
+            - img [ref=e66]
+            - img [ref=e69]
+          - generic:
+            - generic: Accounts
+      - link "Monitoring" [ref=e71] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e72]:
+          - button "Monitoring" [ref=e73]:
+            - img [ref=e75]
+            - generic:
+              - generic: Monitoring
+      - link "Reports" [ref=e79] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e80]:
+          - button "Reports" [ref=e81]:
+            - img [ref=e83]
+            - generic [ref=e91]: Reports
+      - link "Invoices" [ref=e92] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e93]:
+          - button "Invoices" [ref=e94]:
+            - img [ref=e96]
+            - generic [ref=e101]: Invoices
+  - main [ref=e102]:
+    - generic [ref=e104]:
+      - generic [ref=e106]:
+        - paragraph [ref=e109]: Monitoring
+        - paragraph [ref=e110]: Track and monitor key patient metrics including device usage, vitals, care program status and many more.
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - button "Username" [ref=e113] [cursor=pointer]:
+            - text: Username
+            - img [ref=e115]
+          - generic [ref=e119]:
+            - textbox "Search for Username" [ref=e120]
+            - group
+        - generic [ref=e121]:
+          - button "Filters" [ref=e124] [cursor=pointer]:
+            - img [ref=e126]
+            - text: Filters
+          - button "Sort By" [ref=e129] [cursor=pointer]:
+            - img [ref=e132]
+            - text: Sort By
+          - button "Export CSV" [ref=e134] [cursor=pointer]:
+            - img [ref=e136]
+            - text: Export CSV
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e141]:
+            - paragraph [ref=e142]: Total Patients
+            - generic [ref=e144]: 84 Patients
+          - grid [ref=e147]:
+            - row "Username Patient ID First Name Last Name DOB Associated Clinic" [ref=e148]:
+              - columnheader [ref=e149]
+              - columnheader [ref=e150]
+              - columnheader "Username" [ref=e151]:
+                - generic [ref=e153]: Username
+              - columnheader "Patient ID" [ref=e154]:
+                - generic [ref=e156]: Patient ID
+              - columnheader "First Name" [ref=e157]:
+                - generic [ref=e159]: First Name
+              - columnheader "Last Name" [ref=e160]:
+                - generic [ref=e162]: Last Name
+              - columnheader "DOB" [ref=e163]:
+                - generic [ref=e165]: DOB
+              - columnheader "Associated Clinic" [ref=e166]:
+                - generic [ref=e168]: Associated Clinic
+              - columnheader [ref=e169]
+            - rowgroup [ref=e170]:
+              - row "1 Test run 10404 Test run 04-23-2026 issuecredit test" [ref=e171]:
+                - gridcell "1" [ref=e172]
+                - gridcell [ref=e173]
+                - gridcell "Test run" [ref=e175]:
+                  - generic "Test run" [ref=e176]:
+                    - paragraph [ref=e177] [cursor=pointer]: Test run
+                - gridcell "10404" [ref=e178]
+                - gridcell "Test" [ref=e179]:
+                  - generic "Test" [ref=e180]:
+                    - paragraph [ref=e181]: Test
+                - gridcell "run" [ref=e182]:
+                  - generic "run" [ref=e183]:
+                    - paragraph [ref=e184]: run
+                - gridcell "04-23-2026" [ref=e185]
+                - gridcell "issuecredit test" [ref=e186]:
+                  - generic "issuecredit test" [ref=e187]:
+                    - paragraph [ref=e188]: issuecredit test
+                - gridcell [ref=e189]:
+                  - menu [ref=e190]:
+                    - button "View Details" [ref=e191] [cursor=pointer]:
+                      - img [ref=e192]
+              - row "2 codeprogress report 10402 codeprogress report 04-22-2026 issuecredit test" [ref=e199]:
+                - gridcell "2" [ref=e200]
+                - gridcell [ref=e201]
+                - gridcell "codeprogress report" [ref=e203]:
+                  - generic "codeprogress report" [ref=e204]:
+                    - paragraph [ref=e205] [cursor=pointer]: codeprogress report
+                - gridcell "10402" [ref=e206]
+                - gridcell "codeprogress" [ref=e207]:
+                  - generic "codeprogress" [ref=e208]:
+                    - paragraph [ref=e209]: codeprogress
+                - gridcell "report" [ref=e210]:
+                  - generic "report" [ref=e211]:
+                    - paragraph [ref=e212]: report
+                - gridcell "04-22-2026" [ref=e213]
+                - gridcell "issuecredit test" [ref=e214]:
+                  - generic "issuecredit test" [ref=e215]:
+                    - paragraph [ref=e216]: issuecredit test
+                - gridcell [ref=e217]:
+                  - menu [ref=e218]:
+                    - button "View Details" [ref=e219] [cursor=pointer]:
+                      - img [ref=e220]
+              - row "3 Not Diabetes 10395 Not Diabetes 04-10-2000 NXTSTIM" [ref=e227]:
+                - gridcell "3" [ref=e228]
+                - gridcell [ref=e229]
+                - gridcell "Not Diabetes" [ref=e231]:
+                  - generic "Not Diabetes" [ref=e232]:
+                    - paragraph [ref=e233] [cursor=pointer]: Not Diabetes
+                - gridcell "10395" [ref=e234]
+                - gridcell "Not" [ref=e235]:
+                  - generic "Not" [ref=e236]:
+                    - paragraph [ref=e237]: Not
+                - gridcell "Diabetes" [ref=e238]:
+                  - generic "Diabetes" [ref=e239]:
+                    - paragraph [ref=e240]: Diabetes
+                - gridcell "04-10-2000" [ref=e241]
+                - gridcell "NXTSTIM" [ref=e242]:
+                  - generic "NXTSTIM" [ref=e243]:
+                    - paragraph [ref=e244]: NXTSTIM
+                - gridcell [ref=e245]:
+                  - menu [ref=e246]:
+                    - button "View Details" [ref=e247] [cursor=pointer]:
+                      - img [ref=e248]
+              - row "4 John Doe 10394 John Doe 01-01-1990 CareCenter" [ref=e255]:
+                - gridcell "4" [ref=e256]
+                - gridcell [ref=e257]
+                - gridcell "John Doe" [ref=e259]:
+                  - generic "John Doe" [ref=e260]:
+                    - paragraph [ref=e261] [cursor=pointer]: John Doe
+                - gridcell "10394" [ref=e262]
+                - gridcell "John" [ref=e263]:
+                  - generic "John" [ref=e264]:
+                    - paragraph [ref=e265]: John
+                - gridcell "Doe" [ref=e266]:
+                  - generic "Doe" [ref=e267]:
+                    - paragraph [ref=e268]: Doe
+                - gridcell "01-01-1990" [ref=e269]
+                - gridcell "CareCenter" [ref=e270]:
+                  - generic "CareCenter" [ref=e271]:
+                    - paragraph [ref=e272]: CareCenter
+                - gridcell [ref=e273]:
+                  - menu [ref=e274]:
+                    - button "View Details" [ref=e275] [cursor=pointer]:
+                      - img [ref=e276]
+              - row "5 NEW Patientsession 10391 NEW Patientsession 04-17-2026 Medical care" [ref=e283]:
+                - gridcell "5" [ref=e284]
+                - gridcell [ref=e285]
+                - gridcell "NEW Patientsession" [ref=e287]:
+                  - generic "NEW Patientsession" [ref=e288]:
+                    - paragraph [ref=e289] [cursor=pointer]: NEW Patientsession
+                - gridcell "10391" [ref=e290]
+                - gridcell "NEW" [ref=e291]:
+                  - generic "NEW" [ref=e292]:
+                    - paragraph [ref=e293]: NEW
+                - gridcell "Patientsession" [ref=e294]:
+                  - generic "Patientsession" [ref=e295]:
+                    - paragraph [ref=e296]: Patientsession
+                - gridcell "04-17-2026" [ref=e297]
+                - gridcell "Medical care" [ref=e298]:
+                  - generic "Medical care" [ref=e299]:
+                    - paragraph [ref=e300]: Medical care
+                - gridcell [ref=e301]:
+                  - menu [ref=e302]:
+                    - button "View Details" [ref=e303] [cursor=pointer]:
+                      - img [ref=e304]
+              - row "6 Iqra Farooq 10359 Iqra Farooq 04-09-2026 issuecredit test" [ref=e311]:
+                - gridcell "6" [ref=e312]
+                - gridcell [ref=e313]
+                - gridcell "Iqra Farooq" [ref=e316]:
+                  - generic "Iqra Farooq" [ref=e317]:
+                    - paragraph [ref=e318] [cursor=pointer]: Iqra Farooq
+                - gridcell "10359" [ref=e319]
+                - gridcell "Iqra" [ref=e320]:
+                  - generic "Iqra" [ref=e321]:
+                    - paragraph [ref=e322]: Iqra
+                - gridcell "Farooq" [ref=e323]:
+                  - generic "Farooq" [ref=e324]:
+                    - paragraph [ref=e325]: Farooq
+                - gridcell "04-09-2026" [ref=e326]
+                - gridcell "issuecredit test" [ref=e327]:
+                  - generic "issuecredit test" [ref=e328]:
+                    - paragraph [ref=e329]: issuecredit test
+                - gridcell [ref=e330]:
+                  - menu [ref=e331]:
+                    - button "View Details" [ref=e332] [cursor=pointer]:
+                      - img [ref=e333]
+              - row "7 testclinic appID 10311 testclinic appID 04-01-2026 Android" [ref=e340]:
+                - gridcell "7" [ref=e341]
+                - gridcell [ref=e342]
+                - gridcell "testclinic appID" [ref=e344]:
+                  - generic "testclinic appID" [ref=e345]:
+                    - paragraph [ref=e346] [cursor=pointer]: testclinic appID
+                - gridcell "10311" [ref=e347]
+                - gridcell "testclinic" [ref=e348]:
+                  - generic "testclinic" [ref=e349]:
+                    - paragraph [ref=e350]: testclinic
+                - gridcell "appID" [ref=e351]:
+                  - generic "appID" [ref=e352]:
+                    - paragraph [ref=e353]: appID
+                - gridcell "04-01-2026" [ref=e354]
+                - gridcell "Android" [ref=e355]:
+                  - generic "Android" [ref=e356]:
+                    - paragraph [ref=e357]: Android
+                - gridcell [ref=e358]:
+                  - menu [ref=e359]:
+                    - button "View Details" [ref=e360] [cursor=pointer]:
+                      - img [ref=e361]
+              - row "8 test Android 10307 test Android 04-01-2026 app clinic" [ref=e368]:
+                - gridcell "8" [ref=e369]
+                - gridcell [ref=e370]
+                - gridcell "test Android" [ref=e373]:
+                  - generic "test Android" [ref=e374]:
+                    - paragraph [ref=e375] [cursor=pointer]: test Android
+                - gridcell "10307" [ref=e376]
+                - gridcell "test" [ref=e377]:
+                  - generic "test" [ref=e378]:
+                    - paragraph [ref=e379]: test
+                - gridcell "Android" [ref=e380]:
+                  - generic "Android" [ref=e381]:
+                    - paragraph [ref=e382]: Android
+                - gridcell "04-01-2026" [ref=e383]
+                - gridcell "app clinic" [ref=e384]:
+                  - generic "app clinic" [ref=e385]:
+                    - paragraph [ref=e386]: app clinic
+                - gridcell [ref=e387]:
+                  - menu [ref=e388]:
+                    - button "View Details" [ref=e389] [cursor=pointer]:
+                      - img [ref=e390]
+        - generic [ref=e405]:
+          - generic [ref=e406]:
+            - paragraph [ref=e407]: Rows per page
+            - generic [ref=e411]:
+              - combobox [ref=e412]: "10"
+              - button "Open" [ref=e414] [cursor=pointer]:
+                - img [ref=e415]
+              - group
+          - navigation "pagination navigation" [ref=e417]:
+            - list [ref=e418]:
+              - listitem [ref=e419]:
+                - button "Go to previous page" [disabled]:
+                  - img
+              - listitem [ref=e420]:
+                - button "page 1" [ref=e421] [cursor=pointer]: "1"
+              - listitem [ref=e422]:
+                - button "Go to page 2" [ref=e423] [cursor=pointer]: "2"
+              - listitem [ref=e424]:
+                - button "Go to page 3" [ref=e425] [cursor=pointer]: "3"
+              - listitem [ref=e426]:
+                - button "Go to page 4" [ref=e427] [cursor=pointer]: "4"
+              - listitem [ref=e428]:
+                - button "Go to page 5" [ref=e429] [cursor=pointer]: "5"
+              - listitem [ref=e430]:
+                - generic [ref=e431]: …
+              - listitem [ref=e432]:
+                - button "Go to page 9" [ref=e433] [cursor=pointer]: "9"
+              - listitem [ref=e434]:
+                - button "Go to next page" [ref=e435] [cursor=pointer]:
+                  - img [ref=e436]

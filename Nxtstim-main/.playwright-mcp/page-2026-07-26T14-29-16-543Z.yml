@@ -1,0 +1,140 @@
+- generic [ref=f4e8]:
+  - banner [ref=f4e630]:
+    - generic [ref=f4e631]:
+      - button "open drawer" [ref=f4e633] [cursor=pointer]
+      - generic [ref=f4e637] [cursor=pointer]:
+        - generic [ref=f4e638]:
+          - generic [ref=f4e639]:
+            - img "profile" [ref=f4e640]
+            - generic [ref=f4e641]: "!"
+          - paragraph [ref=f4e642]: Rbac Probe
+        - button [ref=f4e643]
+  - generic [ref=f4e26]:
+    - button [ref=f4e28] [cursor=pointer]
+    - separator [ref=f4e34]
+    - list [ref=f4e35]:
+      - link [ref=f4e646] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f4e37]:
+          - button [ref=f4e647]
+      - link [ref=f4e648] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f4e47]:
+          - button "Reports" [ref=f4e649]
+      - link [ref=f4e650] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f4e60]:
+          - button "Invoices" [ref=f4e651]
+      - link [ref=f4e652] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f4e70]:
+          - button "Clinics" [ref=f4e653]
+      - link [ref=f4e654] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f4e78]:
+          - button "Patients" [ref=f4e655]
+      - link [ref=f4e658] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f4e86]:
+          - button "Users" [ref=f4e659]
+  - main [ref=f4e94]:
+    - generic [ref=f4e660]:
+      - navigation [ref=f4e661]:
+        - list [ref=f4e662]:
+          - listitem [ref=f4e663]:
+            - button "Monitoring" [ref=f4e664] [cursor=pointer]
+          - listitem [ref=f4e665]: ">"
+          - listitem [ref=f4e666]:
+            - paragraph [ref=f4e667]: Patient ID 10891
+      - generic [ref=f4e668]:
+        - heading "Jane Doe-ihjjafipljpiefdakeppjcllngihaadi" [level=4] [ref=f4e669]
+        - generic [ref=f4e670]:
+          - button "Show All Notes" [ref=f4e671] [cursor=pointer]
+          - button [ref=f4e679] [cursor=pointer]
+      - generic [ref=f4e684]:
+        - generic [ref=f4e685]:
+          - generic [ref=f4e686]:
+            - paragraph [ref=f4e691]: 01-01-1990
+            - paragraph [ref=f4e698]: English
+            - paragraph [ref=f4e709]: Bytecorp Clinic
+            - paragraph [ref=f4e720]: Pain Relief
+          - generic [ref=f4e721]:
+            - paragraph [ref=f4e722]: "Active Programs:"
+            - generic [ref=f4e725]:
+              - generic [ref=f4e726]: RPM
+              - generic [ref=f4e728]: CCM
+              - generic [ref=f4e730]: BHI
+        - generic [ref=f4e732]:
+          - generic [ref=f4e733]: Currently Enrolled
+          - paragraph [ref=f4e741]: "Login Date & Time: Jul 26, 2026 - 07:24 PM"
+      - separator [ref=f4e742]
+      - group [ref=f4e744]:
+        - button "RPM" [pressed] [ref=f4e745] [cursor=pointer]
+        - button "CCM" [ref=f4e746] [cursor=pointer]
+        - button "BHI" [ref=f4e747] [cursor=pointer]
+      - generic [ref=f4e748]:
+        - tablist [ref=f4e752]:
+          - tab "Overview" [selected] [ref=f4e753] [cursor=pointer]
+          - tab "Patient Profile" [ref=f4e754] [cursor=pointer]
+          - tab "Care Plans" [ref=f4e755] [cursor=pointer]
+          - tab "Sessions History" [ref=f4e756] [cursor=pointer]
+          - tab "Forms" [ref=f4e757] [cursor=pointer]
+          - tab "Communications" [ref=f4e758] [cursor=pointer]
+          - tab "Past Programs" [ref=f4e759] [cursor=pointer]
+          - tab "Login History" [ref=f4e760] [cursor=pointer]
+          - tab "File Vault" [ref=f4e761] [cursor=pointer]
+          - tab "Patient Tags" [ref=f4e762] [cursor=pointer]
+        - generic [ref=f4e765]:
+          - heading "Patient Information" [level=5] [ref=f4e773]
+          - generic [ref=f4e774]:
+            - generic [ref=f4e776]:
+              - paragraph [ref=f4e777]: First Name
+              - paragraph [ref=f4e778]: Jane
+            - generic [ref=f4e779]:
+              - paragraph [ref=f4e780]: Last Name
+              - paragraph [ref=f4e781]: Doe-ihjjafipljpiefdakeppjcllngihaadi
+            - generic [ref=f4e782]:
+              - paragraph [ref=f4e783]: DOB
+              - paragraph [ref=f4e784]: 01-01-1990
+            - generic [ref=f4e785]:
+              - paragraph [ref=f4e786]: Associated Clinic
+              - generic "Bytecorp Clinic" [ref=f4e787]:
+                - paragraph [ref=f4e788]: Bytecorp Clinic
+            - generic [ref=f4e789]:
+              - paragraph [ref=f4e790]: Primary Diagnosis
+              - generic "Test Primary Diagnosis 953f978d" [ref=f4e791]:
+                - paragraph [ref=f4e792]: Test Primary Diagnosis 953f978d
+            - generic [ref=f4e793]:
+              - paragraph [ref=f4e794]: Secondary Diagnosis
+              - generic "Test Secondary Diagnosis 953f978d" [ref=f4e795]:
+                - paragraph [ref=f4e796]: Test Secondary Diagnosis 953f978d
+            - generic [ref=f4e797]:
+              - paragraph [ref=f4e798]: Activation Date
+              - paragraph [ref=f4e799]: 07-23-2026
+            - generic [ref=f4e800]:
+              - paragraph [ref=f4e801]: Code Status
+              - generic [ref=f4e802]: Pending
+            - generic [ref=f4e804]:
+              - paragraph [ref=f4e805]: Phone Number
+              - paragraph [ref=f4e806]: +1 (555) 123-4567
+          - separator [ref=f4e807]
+          - heading "Recent Activity" [level=5] [ref=f4e813]
+          - generic [ref=f4e814]:
+            - paragraph [ref=f4e817]: Eco AI
+            - generic [ref=f4e818]:
+              - generic [ref=f4e833]:
+                - paragraph [ref=f4e834]: Last Eco AI Device Use
+                - paragraph [ref=f4e835]:
+                  - progressbar [ref=f4e836]
+              - generic [ref=f4e847]:
+                - paragraph [ref=f4e848]: Last Cure Intensity
+                - paragraph [ref=f4e849]:
+                  - progressbar [ref=f4e850]
+              - generic [ref=f4e863]:
+                - paragraph [ref=f4e864]: Last Session Duration
+                - paragraph [ref=f4e865]:
+                  - progressbar [ref=f4e866]
+          - separator [ref=f4e869]
+          - generic [ref=f4e871]:
+            - heading "Weekly Treatment Graph" [level=5] [ref=f4e878]
+            - progressbar [ref=f4e882]

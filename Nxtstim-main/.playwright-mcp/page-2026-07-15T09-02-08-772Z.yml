@@ -1,0 +1,201 @@
+- generic [ref=f4e6]:
+  - generic [ref=f4e8]:
+    - banner [ref=f4e9]:
+      - generic [ref=f4e10]:
+        - button [ref=f4e505] [cursor=pointer]
+        - generic [ref=f4e16] [cursor=pointer]:
+          - generic [ref=f4e17]:
+            - generic [ref=f4e18]: "!"
+            - paragraph [ref=f4e21]: admin auth
+          - button [ref=f4e22]
+    - generic [ref=f4e26]:
+      - button [ref=f4e28] [cursor=pointer]
+      - separator [ref=f4e34]
+      - list [ref=f4e35]:
+        - link [ref=f4e507] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f4e37]:
+            - button [ref=f4e508]:
+              - generic [ref=f4e44]: Monitoring
+        - link [ref=f4e509] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f4e47]:
+            - button [ref=f4e510]:
+              - generic [ref=f4e57]: Reports
+        - link [ref=f4e511] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f4e60]:
+            - button [ref=f4e512]:
+              - generic [ref=f4e67]: Invoices
+        - link [ref=f4e513] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f4e70]:
+            - button [ref=f4e514]
+        - link [ref=f4e515] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f4e76]:
+            - button [ref=f4e516]:
+              - generic [ref=f4e83]: Patients
+        - link [ref=f4e517] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f4e86]:
+            - button [ref=f4e518]:
+              - generic [ref=f4e92]: Users
+        - link [ref=f4e519] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f4e95]:
+            - button [ref=f4e520]:
+              - generic [ref=f4e102]: Roles
+    - main [ref=f4e104]:
+      - generic [ref=f4e106]:
+        - generic [ref=f4e108]:
+          - generic [ref=f4e109]:
+            - paragraph [ref=f4e111]: Clinics
+            - button [ref=f4e521] [cursor=pointer]: Add Clinic
+          - paragraph [ref=f4e116]: View and manage all registered clinics, track their active status, contact details and access monitoring metrics in one centralized list.
+        - tablist [ref=f4e119]:
+          - tab [selected] [ref=f4e522] [cursor=pointer]: Active
+          - tab [ref=f4e523] [cursor=pointer]: Inactive
+        - generic [ref=f4e123]:
+          - generic [ref=f4e124]:
+            - button [ref=f4e524] [cursor=pointer]: ID
+            - generic [ref=f4e131]:
+              - textbox [ref=f4e525]:
+                - /placeholder: Search for ID
+              - group
+          - generic [ref=f4e133]:
+            - generic [ref=f4e135]:
+              - button [ref=f4e526] [cursor=pointer]: Filters
+              - generic [ref=f4e140]: "1"
+              - button [ref=f4e527] [cursor=pointer]: Clear All
+            - button [ref=f4e528] [cursor=pointer]: Sort By
+            - button [ref=f4e529] [cursor=pointer]: Export CSV
+        - generic [ref=f4e155]:
+          - generic [ref=f4e156]:
+            - generic [ref=f4e158]:
+              - paragraph [ref=f4e159]: Total Clinics
+              - generic [ref=f4e160]: 3 Clinics
+            - grid [ref=f4e164]:
+              - row [ref=f4e530]:
+                - columnheader [ref=f4e166]
+                - columnheader [ref=f4e531]:
+                  - generic [ref=f4e168]: ID
+                - columnheader [ref=f4e532]:
+                  - generic [ref=f4e171]: Name
+                - columnheader [ref=f4e533]:
+                  - generic [ref=f4e174]: Street Address
+                - columnheader [ref=f4e534]:
+                  - generic [ref=f4e177]: City
+                - columnheader [ref=f4e535]:
+                  - generic [ref=f4e180]: State
+                - columnheader [ref=f4e536]:
+                  - generic [ref=f4e183]: Zip Code
+                - columnheader [ref=f4e537]:
+                  - generic [ref=f4e186]: Monitoring Metrics
+                - columnheader [ref=f4e538]:
+                  - generic [ref=f4e189]: Contact Info
+                - columnheader [ref=f4e539]:
+                  - generic [ref=f4e192]: Current Status
+                - columnheader [ref=f4e194]
+              - rowgroup [ref=f4e195]:
+                - row [ref=f4e540]:
+                  - gridcell [ref=f4e541]: "1"
+                  - gridcell [ref=f4e542]: "11647"
+                  - gridcell [ref=f4e543]:
+                    - paragraph [ref=f4e201]: QA Automation Clinic
+                  - gridcell [ref=f4e545]:
+                    - paragraph [ref=f4e204]: 123 QA Street
+                  - gridcell [ref=f4e547]: San Diego
+                  - gridcell [ref=f4e548]: CA
+                  - gridcell [ref=f4e549]: "92130"
+                  - gridcell [ref=f4e550]:
+                    - button [ref=f4e551] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f4e552]:
+                    - generic [ref=f4e211]:
+                      - paragraph [ref=f4e212]: John Tester
+                      - paragraph [ref=f4e213]: "Email: qa.clinic@bytecorp.io"
+                      - paragraph [ref=f4e214]: "Phone: +31 05 648721"
+                  - gridcell [ref=f4e553]:
+                    - generic [ref=f4e216]: Active
+                  - gridcell [ref=f4e221]:
+                    - menu [ref=f4e222]:
+                      - button [ref=f4e224] [cursor=pointer]
+                - row [ref=f4e554]:
+                  - gridcell [ref=f4e555]: "2"
+                  - gridcell [ref=f4e556]: "11246"
+                  - gridcell [ref=f4e557]:
+                    - paragraph [ref=f4e236]: Billing Clinic
+                  - gridcell [ref=f4e559]:
+                    - paragraph [ref=f4e239]: 5362 sweetwater tr
+                  - gridcell [ref=f4e561]: San Diego
+                  - gridcell [ref=f4e562]: CA
+                  - gridcell [ref=f4e563]: "92130"
+                  - gridcell [ref=f4e564]:
+                    - button [ref=f4e565] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f4e566]:
+                    - generic [ref=f4e246]:
+                      - paragraph [ref=f4e247]: Nofil Khalid
+                      - paragraph [ref=f4e248]: "Email: nofilkhalid@yopmail.com"
+                      - paragraph [ref=f4e249]: "Phone: +1 (111) 111-1111"
+                  - gridcell [ref=f4e567]:
+                    - generic [ref=f4e251]: Active
+                  - gridcell [ref=f4e256]:
+                    - menu [ref=f4e257]:
+                      - button [ref=f4e259] [cursor=pointer]
+                - row [ref=f4e568]:
+                  - gridcell [ref=f4e569]: "3"
+                  - gridcell [ref=f4e570]: "10001"
+                  - gridcell [ref=f4e571]:
+                    - paragraph [ref=f4e271]: NXTSTIM
+                  - gridcell [ref=f4e573]:
+                    - paragraph [ref=f4e274]: 5362 sweetwater tr
+                  - gridcell [ref=f4e575]: San Diego
+                  - gridcell [ref=f4e576]: CA
+                  - gridcell [ref=f4e577]: "92130"
+                  - gridcell [ref=f4e578]:
+                    - button [ref=f4e579] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f4e580]:
+                    - generic [ref=f4e281]:
+                      - paragraph [ref=f4e282]: Maria Kappell
+                      - paragraph [ref=f4e283]: "Email: maria.kappell@nxtstim.com"
+                      - paragraph [ref=f4e284]: "Phone: 6192590296"
+                  - gridcell [ref=f4e581]:
+                    - generic [ref=f4e286]: Active
+                  - gridcell [ref=f4e291]:
+                    - menu [ref=f4e292]:
+                      - button [ref=f4e294] [cursor=pointer]
+          - generic [ref=f4e309]:
+            - generic [ref=f4e310]:
+              - paragraph [ref=f4e311]: Rows per page
+              - generic [ref=f4e315]:
+                - combobox [ref=f4e316]: "10"
+                - button [ref=f4e582] [cursor=pointer]
+                - group
+            - navigation [ref=f4e583]:
+              - list [ref=f4e322]:
+                - listitem [ref=f4e323]:
+                  - button [disabled]
+                - listitem [ref=f4e324]:
+                  - button [ref=f4e584] [cursor=pointer]: "1"
+                - listitem [ref=f4e326]:
+                  - button [disabled]
+  - menu [ref=f4e587]:
+    - radiogroup [ref=f4e588]:
+      - generic [ref=f4e589] [cursor=pointer]:
+        - radio "ID" [checked] [ref=f4e591]
+        - paragraph [ref=f4e594]: ID
+      - generic [ref=f4e595] [cursor=pointer]:
+        - radio "Clinic Name" [ref=f4e597]
+        - paragraph [ref=f4e599]: Clinic Name
+      - generic [ref=f4e600] [cursor=pointer]:
+        - radio "Street Address" [ref=f4e602]
+        - paragraph [ref=f4e604]: Street Address
+      - generic [ref=f4e605] [cursor=pointer]:
+        - radio "City" [ref=f4e607]
+        - paragraph [ref=f4e609]: City
+      - generic [ref=f4e610] [cursor=pointer]:
+        - radio "State" [ref=f4e612]
+        - paragraph [ref=f4e614]: State
+      - generic [ref=f4e615] [cursor=pointer]:
+        - radio "Zip Code" [ref=f4e617]
+        - paragraph [ref=f4e619]: Zip Code

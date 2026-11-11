@@ -1,0 +1,135 @@
+- generic [ref=f2e8]:
+  - banner [ref=f2e819]:
+    - generic [ref=f2e820]:
+      - button "open drawer" [ref=f2e1073] [cursor=pointer]
+      - generic [ref=f2e826] [cursor=pointer]:
+        - generic [ref=f2e827]:
+          - generic [ref=f2e828]:
+            - img "profile" [ref=f2e1074]
+            - generic [ref=f2e830]: "!"
+          - paragraph [ref=f2e831]: admin auth
+        - button [ref=f2e832]
+  - generic [ref=f2e26]:
+    - button [ref=f2e28] [cursor=pointer]
+    - separator [ref=f2e34]
+    - list [ref=f2e35]:
+      - link [ref=f2e1075] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f2e37]:
+          - button "Monitoring" [ref=f2e1076]
+      - link [ref=f2e1077] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f2e47]:
+          - button "Reports" [ref=f2e1078]
+      - link [ref=f2e1079] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f2e60]:
+          - button "Invoices" [ref=f2e1080]
+      - link [ref=f2e1081] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f2e70]:
+          - button [ref=f2e1082]
+      - link [ref=f2e1083] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f2e76]:
+          - button "Patients" [ref=f2e1084]
+      - link [ref=f2e1085] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f2e86]:
+          - button "Users" [ref=f2e1086]
+      - link [ref=f2e1087] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f2e95]:
+          - button "Roles" [ref=f2e1088]
+  - main [ref=f2e104]:
+    - generic [ref=f2e105]:
+      - navigation [ref=f2e106]:
+        - list [ref=f2e107]:
+          - listitem [ref=f2e108]:
+            - button "Clinics" [ref=f2e1089] [cursor=pointer]
+          - listitem [ref=f2e110]: ">"
+          - listitem [ref=f2e111]:
+            - paragraph [ref=f2e112]: Clinic ID 11646
+      - generic [ref=f2e835]:
+        - generic [ref=f2e837]:
+          - paragraph [ref=f2e838]: Bytecorp Clinic
+          - generic [ref=f2e839]: Active
+        - generic [ref=f2e849]:
+          - paragraph [ref=f2e854]: "11646"
+          - paragraph [ref=f2e858]: Abdul Rehman
+          - paragraph [ref=f2e862]: abdul.rehman@bytecorp.io
+          - paragraph [ref=f2e871]: +1 (221) 548-4544
+      - generic [ref=f2e872]:
+        - tablist [ref=f2e876]:
+          - tab "Clinic Profile" [ref=f2e1090] [cursor=pointer]
+          - tab "Supervisor" [ref=f2e1091] [cursor=pointer]
+          - tab "Nurses" [ref=f2e1092] [cursor=pointer]
+          - tab "Patient Tags" [ref=f2e1093] [cursor=pointer]
+          - tab "File Vault" [ref=f2e1094] [cursor=pointer]
+          - tab "Billing" [selected] [ref=f2e1095] [cursor=pointer]
+        - generic [ref=f2e883]:
+          - generic [ref=f2e884]:
+            - tablist [ref=f2e888]:
+              - tab "Billing Information" [selected] [ref=f2e1096] [cursor=pointer]
+              - tab "Payments" [ref=f2e1097] [cursor=pointer]
+              - tab "Invoices" [ref=f2e1098] [cursor=pointer]
+              - tab "Credit Log" [ref=f2e1099] [cursor=pointer]
+            - button "Edit" [active] [ref=f2e1100] [cursor=pointer]
+          - generic [ref=f2e897]:
+            - generic [ref=f2e898]:
+              - paragraph [ref=f2e899]: Financial Details
+              - generic [ref=f2e900]:
+                - generic [ref=f2e901]:
+                  - paragraph [ref=f2e902]:
+                    - text: Credit Balance
+                    - img "To update the credit balance, go to the Credit Log tab" [ref=f2e1101]
+                  - paragraph [ref=f2e905]: $0.00
+                - generic [ref=f2e906]:
+                  - paragraph [ref=f2e907]: Outstanding Balance
+                  - paragraph [ref=f2e908]: $0.00
+            - generic [ref=f2e910]:
+              - paragraph [ref=f2e911]: Billing Address
+              - generic [ref=f2e912]:
+                - generic [ref=f2e913]:
+                  - paragraph [ref=f2e914]: Street Address
+                  - paragraph [ref=f2e915]: 2nd Floor A-352 Blk 15 Block 15 Gulistan-e-Johar
+                - generic [ref=f2e916]:
+                  - paragraph [ref=f2e917]: City
+                  - paragraph [ref=f2e918]: karachi
+                - generic [ref=f2e919]:
+                  - paragraph [ref=f2e920]: State
+                  - paragraph [ref=f2e921]: Sindh
+                - generic [ref=f2e922]:
+                  - paragraph [ref=f2e923]: Zip Code
+                  - paragraph [ref=f2e924]: "75950"
+            - generic [ref=f2e926]:
+              - paragraph [ref=f2e927]: Shipping Address
+              - generic [ref=f2e928]:
+                - generic [ref=f2e929]:
+                  - paragraph [ref=f2e930]: Street Address
+                  - paragraph [ref=f2e931]: 2nd Floor A-352 Blk 15 Block 15 Gulistan-e-Johar
+                - generic [ref=f2e932]:
+                  - paragraph [ref=f2e933]: City
+                  - paragraph [ref=f2e934]: karachi
+                - generic [ref=f2e935]:
+                  - paragraph [ref=f2e936]: State
+                  - paragraph [ref=f2e937]: Sindh
+                - generic [ref=f2e938]:
+                  - paragraph [ref=f2e939]: Zip Code
+                  - paragraph [ref=f2e940]: "75950"
+            - generic [ref=f2e942]:
+              - paragraph [ref=f2e943]: Tax Details
+              - generic [ref=f2e944]:
+                - generic [ref=f2e945]:
+                  - paragraph [ref=f2e946]: Tax Status
+                  - paragraph [ref=f2e947]: Taxable
+                - generic [ref=f2e948]:
+                  - paragraph [ref=f2e949]: Tax ID
+                  - paragraph [ref=f2e950]: 12-2323222
+            - generic [ref=f2e952]:
+              - paragraph [ref=f2e953]: Subscription Details
+              - generic [ref=f2e955]:
+                - paragraph [ref=f2e956]: Subscription Plan
+                - paragraph [ref=f2e957]:
+                  - text: Yearly
+                  - generic [ref=f2e958]: Expires 07/01/2027

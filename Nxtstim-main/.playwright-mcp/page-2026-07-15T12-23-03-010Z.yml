@@ -1,0 +1,117 @@
+- generic [ref=f2e8]:
+  - banner [ref=f2e9]:
+    - generic [ref=f2e10]:
+      - button "open drawer" [ref=f2e12] [cursor=pointer]
+      - generic [ref=f2e16] [cursor=pointer]:
+        - generic [ref=f2e17]:
+          - generic [ref=f2e18]:
+            - img "profile" [ref=f2e19]
+            - generic [ref=f2e20]: "!"
+          - paragraph [ref=f2e21]: admin auth
+        - button [ref=f2e22]
+  - generic [ref=f2e26]:
+    - button [ref=f2e28] [cursor=pointer]
+    - separator [ref=f2e34]
+    - list [ref=f2e35]:
+      - link [ref=f2e36] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f2e37]:
+          - button "Monitoring" [ref=f2e38]
+      - link [ref=f2e46] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f2e47]:
+          - button "Reports" [ref=f2e48]
+      - link [ref=f2e59] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f2e60]:
+          - button "Invoices" [ref=f2e61]
+      - link [ref=f2e69] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f2e70]:
+          - button [ref=f2e71]
+      - link [ref=f2e75] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f2e76]:
+          - button "Patients" [ref=f2e77]
+      - link [ref=f2e85] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f2e86]:
+          - button "Users" [ref=f2e87]
+      - link [ref=f2e94] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f2e95]:
+          - button "Roles" [ref=f2e96]
+  - main [ref=f2e104]:
+    - generic [ref=f2e105]:
+      - navigation [ref=f2e106]:
+        - list [ref=f2e107]:
+          - listitem [ref=f2e108]:
+            - button "Clinics" [ref=f2e109] [cursor=pointer]
+          - listitem [ref=f2e110]: ">"
+          - listitem [ref=f2e111]:
+            - paragraph [ref=f2e112]: Clinic ID 11646
+      - generic [ref=f2e113]:
+        - generic [ref=f2e115]:
+          - paragraph [ref=f2e116]: Bytecorp Clinic
+          - generic [ref=f2e117]: Active
+        - generic [ref=f2e127]:
+          - paragraph [ref=f2e132]: "11646"
+          - paragraph [ref=f2e136]: Abdul Rehman
+          - paragraph [ref=f2e140]: abdul.rehman@bytecorp.io
+          - paragraph [ref=f2e149]: +1 (221) 548-4544
+      - generic [ref=f2e150]:
+        - tablist [ref=f2e154]:
+          - tab "Clinic Profile" [ref=f2e155] [cursor=pointer]
+          - tab "Supervisor" [ref=f2e156] [cursor=pointer]
+          - tab "Nurses" [ref=f2e157] [cursor=pointer]
+          - tab "Patient Tags" [ref=f2e158] [cursor=pointer]
+          - tab "File Vault" [selected] [ref=f2e159] [cursor=pointer]
+          - tab "Billing" [ref=f2e160] [cursor=pointer]
+        - generic [ref=f2e162]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph
+          - generic [ref=f2e163]:
+            - generic [ref=f2e164]:
+              - button [ref=f2e165] [cursor=pointer]
+              - generic [ref=f2e171]:
+                - textbox "Search for File Name" [ref=f2e172]
+                - group
+            - generic [ref=f2e173]:
+              - button [ref=f2e175] [cursor=pointer]
+              - button [ref=f2e181] [cursor=pointer]
+              - button [ref=f2e186] [cursor=pointer]
+              - button "Upload File" [ref=f2e191] [cursor=pointer]
+          - generic [ref=f2e195]:
+            - generic [ref=f2e196]:
+              - generic [ref=f2e199]:
+                - paragraph [ref=f2e200]: Total Files
+                - generic [ref=f2e201]: 0 File
+              - grid [ref=f2e205]:
+                - row [ref=f2e206]:
+                  - columnheader [ref=f2e207]
+                  - columnheader [ref=f2e208]:
+                    - checkbox [ref=f2e211] [cursor=pointer]
+                  - columnheader "File Name" [ref=f2e214]
+                  - columnheader "File Type" [ref=f2e217]
+                  - columnheader "Date Uploaded" [ref=f2e220]
+                  - columnheader "Uploaded By" [ref=f2e223]
+                  - columnheader "File Size" [ref=f2e226]
+                  - columnheader "Actions" [ref=f2e229]
+                - generic: Nothing here yet.
+                - rowgroup
+            - generic [ref=f2e244]:
+              - generic [ref=f2e245]:
+                - paragraph [ref=f2e246]: Rows per page
+                - generic [ref=f2e250]:
+                  - combobox [ref=f2e251]: "10"
+                  - button "Open" [ref=f2e253] [cursor=pointer]
+                  - group
+              - navigation "pagination navigation" [ref=f2e256]:
+                - list [ref=f2e257]:
+                  - listitem [ref=f2e258]:
+                    - button "Go to previous page" [disabled]
+                  - listitem [ref=f2e259]:
+                    - button "Go to next page" [disabled]

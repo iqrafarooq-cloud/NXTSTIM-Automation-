@@ -1,0 +1,146 @@
+- generic [ref=f1e8]:
+  - banner [ref=f1e1150]:
+    - generic [ref=f1e1151]:
+      - button "open drawer" [ref=f1e1153] [cursor=pointer]
+      - generic [ref=f1e1157] [cursor=pointer]:
+        - generic [ref=f1e1158]:
+          - generic [ref=f1e1159]:
+            - img "profile" [ref=f1e1160]
+            - generic [ref=f1e1161]: "!"
+          - paragraph [ref=f1e1162]: admin auth
+        - button [ref=f1e1163]
+  - generic [ref=f1e26]:
+    - button [ref=f1e28] [cursor=pointer]
+    - separator [ref=f1e34]
+    - list [ref=f1e35]:
+      - link [ref=f1e1166] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f1e37]:
+          - button "Monitoring" [ref=f1e1167]
+      - link [ref=f1e1168] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f1e47]:
+          - button "Reports" [ref=f1e1169]
+      - link [ref=f1e1170] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f1e60]:
+          - button "Invoices" [ref=f1e1171]
+      - link [ref=f1e1172] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f1e70]:
+          - button [ref=f1e1173]
+      - link [ref=f1e1174] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f1e76]:
+          - button "Patients" [ref=f1e1175]
+      - link [ref=f1e1176] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f1e86]:
+          - button "Users" [ref=f1e1177]
+      - link [ref=f1e1178] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f1e95]:
+          - button "Roles" [ref=f1e1179]
+  - main [ref=f1e104]:
+    - generic [ref=f1e106]:
+      - generic [ref=f1e108]:
+        - generic [ref=f1e109]:
+          - paragraph [ref=f1e111]: Clinics
+          - button [ref=f1e1180] [cursor=pointer]
+        - paragraph [ref=f1e116]: View and manage all registered clinics, track their active status, contact details and access monitoring metrics in one centralized list.
+      - tablist [ref=f1e119]:
+        - tab "Active" [ref=f1e1181] [cursor=pointer]
+        - tab "Inactive" [selected] [ref=f1e1182] [cursor=pointer]
+      - generic [ref=f1e123]:
+        - generic [ref=f1e124]:
+          - button [ref=f1e1183] [cursor=pointer]
+          - generic [ref=f1e131]:
+            - textbox "Search for ID" [ref=f1e1184]
+            - group
+        - generic [ref=f1e133]:
+          - generic [ref=f1e135]:
+            - button [ref=f1e1185] [cursor=pointer]
+            - generic: "1"
+            - button "Clear All" [ref=f1e1189] [cursor=pointer]
+          - button [ref=f1e1190] [cursor=pointer]
+          - button [active] [ref=f1e1191] [cursor=pointer]
+      - generic [ref=f1e151]:
+        - generic [ref=f1e152]:
+          - generic [ref=f1e154]:
+            - paragraph [ref=f1e155]: Total Clinics
+            - generic [ref=f1e156]: 2 Clinics
+          - grid [ref=f1e160]:
+            - row [ref=f1e1192]:
+              - columnheader [ref=f1e162]
+              - columnheader "ID" [ref=f1e1193]
+              - columnheader "Name" [ref=f1e1194]
+              - columnheader "Street Address" [ref=f1e1195]
+              - columnheader "City" [ref=f1e1196]
+              - columnheader "State" [ref=f1e1197]
+              - columnheader "Zip Code" [ref=f1e1198]
+              - columnheader "Monitoring Metrics" [ref=f1e1199]
+              - columnheader "Contact Info" [ref=f1e1200]
+              - columnheader "Current Status" [ref=f1e1201]
+              - columnheader [ref=f1e190]
+            - rowgroup [ref=f1e191]:
+              - row [ref=f1e1202]:
+                - gridcell "1" [ref=f1e1203]
+                - gridcell "11657" [ref=f1e1204]
+                - gridcell [ref=f1e1205]:
+                  - generic "QA Clinic bhiebcahhgjef" [ref=f1e1206]:
+                    - paragraph [ref=f1e1207]: QA Clinic bhiebcahhgjef
+                - gridcell [ref=f1e1208]:
+                  - generic "123 QA Street" [ref=f1e1209]:
+                    - paragraph [ref=f1e1210]: 123 QA Street
+                - gridcell "San Diego" [ref=f1e1211]
+                - gridcell "CA" [ref=f1e1212]
+                - gridcell "92130" [ref=f1e1213]
+                - gridcell [ref=f1e1214]:
+                  - button "View Metrics" [ref=f1e1215] [cursor=pointer]
+                - gridcell [ref=f1e1216]:
+                  - generic [ref=f1e1217]:
+                    - paragraph [ref=f1e1218]: QA Automation
+                    - paragraph [ref=f1e1219]: "Email: qa.clinic+776945@bytecorp.io"
+                    - paragraph [ref=f1e1220]: "Phone: +1 (310) 564-8721"
+                - gridcell "Inactive" [ref=f1e1221]
+                - gridcell [ref=f1e1227]:
+                  - menu [ref=f1e1228]:
+                    - button [ref=f1e1230] [cursor=pointer]
+              - row [ref=f1e1237]:
+                - gridcell "2" [ref=f1e1238]
+                - gridcell "11653" [ref=f1e1239]
+                - gridcell [ref=f1e1240]:
+                  - generic "QA Clinic bhiebbjdgahaj" [ref=f1e1241]:
+                    - paragraph [ref=f1e1242]: QA Clinic bhiebbjdgahaj
+                - gridcell [ref=f1e1243]:
+                  - generic "123 QA Street" [ref=f1e1244]:
+                    - paragraph [ref=f1e1245]: 123 QA Street
+                - gridcell "San Diego" [ref=f1e1246]
+                - gridcell "CA" [ref=f1e1247]
+                - gridcell "92130" [ref=f1e1248]
+                - gridcell [ref=f1e1249]:
+                  - button "View Metrics" [ref=f1e1250] [cursor=pointer]
+                - gridcell [ref=f1e1251]:
+                  - generic [ref=f1e1252]:
+                    - paragraph [ref=f1e1253]: QA Automation
+                    - paragraph [ref=f1e1254]: "Email: qa.clinic+360709@bytecorp.io"
+                    - paragraph [ref=f1e1255]: "Phone: +1 (310) 564-8721"
+                - gridcell "Inactive" [ref=f1e1256]
+                - gridcell [ref=f1e1262]:
+                  - menu [ref=f1e1263]:
+                    - button [ref=f1e1265] [cursor=pointer]
+        - generic [ref=f1e445]:
+          - generic [ref=f1e446]:
+            - paragraph [ref=f1e447]: Rows per page
+            - generic [ref=f1e451]:
+              - combobox [ref=f1e452]: "100"
+              - button "Open" [ref=f1e1275] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f1e1276]:
+            - list [ref=f1e458]:
+              - listitem [ref=f1e459]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f1e460]:
+                - button "page 1" [ref=f1e1277] [cursor=pointer]: "1"
+              - listitem [ref=f1e1278]:
+                - button "Go to next page" [disabled]

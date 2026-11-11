@@ -1,0 +1,115 @@
+- generic [ref=f2e8]:
+  - banner [ref=f2e1102]:
+    - generic [ref=f2e1103]:
+      - button "open drawer" [ref=f2e1105] [cursor=pointer]
+      - generic [ref=f2e1109] [cursor=pointer]:
+        - generic [ref=f2e1110]:
+          - generic [ref=f2e1111]:
+            - img "profile" [ref=f2e1112]
+            - generic [ref=f2e1113]: "!"
+          - paragraph [ref=f2e1114]: admin auth
+        - button [ref=f2e1115]
+  - generic [ref=f2e26]:
+    - button [ref=f2e28] [cursor=pointer]
+    - separator [ref=f2e34]
+    - list [ref=f2e35]:
+      - link [ref=f2e1075] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f2e37]:
+          - button "Monitoring" [ref=f2e1076]
+      - link [ref=f2e1077] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f2e47]:
+          - button "Reports" [ref=f2e1078]
+      - link [ref=f2e1079] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f2e60]:
+          - button "Invoices" [ref=f2e1080]
+      - link [ref=f2e1081] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f2e70]:
+          - button [ref=f2e1082]
+      - link [ref=f2e1083] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f2e76]:
+          - button "Patients" [ref=f2e1084]
+      - link [ref=f2e1085] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f2e86]:
+          - button "Users" [ref=f2e1086]
+      - link [ref=f2e1087] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f2e95]:
+          - button "Roles" [ref=f2e1088]
+  - main [ref=f2e104]:
+    - generic [ref=f2e105]:
+      - navigation [ref=f2e106]:
+        - list [ref=f2e107]:
+          - listitem [ref=f2e108]:
+            - button "Clinics" [ref=f2e1089] [cursor=pointer]
+          - listitem [ref=f2e110]: ">"
+          - listitem [ref=f2e111]:
+            - paragraph [ref=f2e112]: Clinic ID 11646
+      - generic [ref=f2e835]:
+        - generic [ref=f2e837]:
+          - paragraph [ref=f2e838]: Bytecorp Clinic
+          - generic [ref=f2e839]: Active
+        - generic [ref=f2e849]:
+          - paragraph [ref=f2e854]: "11646"
+          - paragraph [ref=f2e858]: Abdul Rehman
+          - paragraph [ref=f2e862]: abdul.rehman@bytecorp.io
+          - paragraph [ref=f2e871]: +1 (221) 548-4544
+      - generic [ref=f2e872]:
+        - tablist [ref=f2e876]:
+          - tab "Clinic Profile" [ref=f2e1090] [cursor=pointer]
+          - tab "Supervisor" [active] [selected] [ref=f2e1091] [cursor=pointer]
+          - tab "Nurses" [ref=f2e1092] [cursor=pointer]
+          - tab "Patient Tags" [ref=f2e1093] [cursor=pointer]
+          - tab "File Vault" [ref=f2e1094] [cursor=pointer]
+          - tab "Billing" [ref=f2e1095] [cursor=pointer]
+        - generic [ref=f2e1119]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph
+          - generic [ref=f2e1120]:
+            - generic [ref=f2e1121]:
+              - button [ref=f2e1122] [cursor=pointer]
+              - generic [ref=f2e1128]:
+                - textbox "Search for ID" [ref=f2e1129]
+                - group
+            - generic [ref=f2e1130]:
+              - button [ref=f2e1132] [cursor=pointer]
+              - button [ref=f2e1137] [cursor=pointer]
+          - generic [ref=f2e1142]:
+            - generic [ref=f2e1143]:
+              - generic [ref=f2e1145]:
+                - paragraph [ref=f2e1146]: Total Supervisors
+                - generic [ref=f2e1147]: 0 Supervisor
+              - grid [ref=f2e1151]:
+                - row [ref=f2e1152]:
+                  - columnheader [ref=f2e1153]
+                  - columnheader "ID" [ref=f2e1154]
+                  - columnheader "First Name" [ref=f2e1157]
+                  - columnheader "Last Name" [ref=f2e1160]
+                  - columnheader "Email" [ref=f2e1163]
+                  - columnheader "Phone No." [ref=f2e1166]
+                  - columnheader "Associated Clinic" [ref=f2e1169]
+                  - columnheader "Onboarding Date" [ref=f2e1172]
+                  - columnheader [ref=f2e1175]
+                - generic: Nothing here yet.
+                - rowgroup
+            - generic [ref=f2e1189]:
+              - generic [ref=f2e1190]:
+                - paragraph [ref=f2e1191]: Rows per page
+                - generic [ref=f2e1195]:
+                  - combobox [ref=f2e1196]: "10"
+                  - button "Open" [ref=f2e1198] [cursor=pointer]
+                  - group
+              - navigation "pagination navigation" [ref=f2e1201]:
+                - list [ref=f2e1202]:
+                  - listitem [ref=f2e1203]:
+                    - button "Go to previous page" [disabled]
+                  - listitem [ref=f2e1204]:
+                    - button "Go to next page" [disabled]

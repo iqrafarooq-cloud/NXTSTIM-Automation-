@@ -1,0 +1,106 @@
+- generic [ref=f1e8]:
+  - banner [ref=f1e1922]:
+    - generic [ref=f1e1923]:
+      - button "open drawer" [ref=f1e1925] [cursor=pointer]
+      - generic [ref=f1e1929] [cursor=pointer]:
+        - generic [ref=f1e1930]:
+          - generic [ref=f1e1931]:
+            - img "profile" [ref=f1e1932]
+            - generic [ref=f1e1933]: "!"
+          - paragraph [ref=f1e1934]: admin auth
+        - button [ref=f1e1935]
+  - generic [ref=f1e26]:
+    - button [ref=f1e28] [cursor=pointer]
+    - separator [ref=f1e34]
+    - list [ref=f1e35]:
+      - link [ref=f1e1938] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f1e37]:
+          - button "Monitoring" [ref=f1e1939]
+      - link [ref=f1e1940] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f1e47]:
+          - button "Reports" [ref=f1e1941]
+      - link [ref=f1e1942] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f1e60]:
+          - button "Invoices" [ref=f1e1943]
+      - link [ref=f1e1944] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f1e70]:
+          - button [ref=f1e1945]
+      - link [ref=f1e1946] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f1e76]:
+          - button "Patients" [ref=f1e1947]
+      - link [ref=f1e1948] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f1e86]:
+          - button "Users" [ref=f1e1949]
+      - link [ref=f1e1950] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f1e95]:
+          - button "Roles" [ref=f1e1951]
+  - main [ref=f1e104]:
+    - generic [ref=f1e1952]:
+      - navigation [ref=f1e1953]:
+        - list [ref=f1e1954]:
+          - listitem [ref=f1e1955]:
+            - button "Clinics" [ref=f1e1956] [cursor=pointer]
+          - listitem [ref=f1e1957]: ">"
+          - listitem [ref=f1e1958]:
+            - paragraph [ref=f1e1959]: Clinic ID 11647
+      - generic [ref=f1e1960]:
+        - generic [ref=f1e1962]:
+          - paragraph [ref=f1e1963]: QA Automation Clinic
+          - generic [ref=f1e1964]: Active
+        - generic [ref=f1e1974]:
+          - paragraph [ref=f1e1979]: "11647"
+          - paragraph [ref=f1e1983]: John Tester
+          - paragraph [ref=f1e1987]: qa.clinic@bytecorp.io
+          - paragraph [ref=f1e1996]: +31 05 648721
+      - generic [ref=f1e1997]:
+        - tablist [ref=f1e2001]:
+          - tab "Clinic Profile" [selected] [ref=f1e2002] [cursor=pointer]
+          - tab "Supervisor" [ref=f1e2003] [cursor=pointer]
+          - tab "Nurses" [ref=f1e2004] [cursor=pointer]
+          - tab "Patient Tags" [ref=f1e2005] [cursor=pointer]
+          - tab "File Vault" [ref=f1e2006] [cursor=pointer]
+          - tab "Billing" [ref=f1e2007] [cursor=pointer]
+        - generic [ref=f1e2008]:
+          - button "Edit" [ref=f1e2009] [cursor=pointer]
+          - generic [ref=f1e2012]:
+            - paragraph [ref=f1e2019]: Clinic Info
+            - generic [ref=f1e2021]:
+              - paragraph [ref=f1e2022]: Name
+              - paragraph [ref=f1e2023]: QA Automation Clinic
+          - generic [ref=f1e2024]:
+            - paragraph [ref=f1e2030]: Contact Info
+            - generic [ref=f1e2031]:
+              - generic [ref=f1e2032]:
+                - paragraph [ref=f1e2033]: Full Name
+                - paragraph [ref=f1e2034]: John Tester
+              - generic [ref=f1e2035]:
+                - paragraph [ref=f1e2036]: Email
+                - paragraph [ref=f1e2037]: qa.clinic@bytecorp.io
+              - generic [ref=f1e2038]:
+                - paragraph [ref=f1e2039]: Phone Number
+                - paragraph [ref=f1e2040]:
+                  - generic [ref=f1e2041]:
+                    - textbox "1 (702) 123-4567" [disabled] [ref=f1e2042]: +31 05 648721
+                    - 'button "Netherlands: + 31" [ref=f1e2044]'
+          - generic [ref=f1e2046]:
+            - paragraph [ref=f1e2053]: Location
+            - generic [ref=f1e2054]:
+              - generic [ref=f1e2055]:
+                - paragraph [ref=f1e2056]: Street Address
+                - paragraph [ref=f1e2057]: 123 QA Street
+              - generic [ref=f1e2058]:
+                - paragraph [ref=f1e2059]: City
+                - paragraph [ref=f1e2060]: San Diego
+              - generic [ref=f1e2061]:
+                - paragraph [ref=f1e2062]: State
+                - paragraph [ref=f1e2063]: CA
+              - generic [ref=f1e2064]:
+                - paragraph [ref=f1e2065]: Zip Code
+                - paragraph [ref=f1e2066]: "92130"

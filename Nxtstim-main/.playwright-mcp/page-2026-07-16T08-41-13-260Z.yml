@@ -1,0 +1,374 @@
+- generic [ref=f1e6]:
+  - generic [ref=f1e8]:
+    - banner [ref=f1e565]:
+      - generic [ref=f1e566]:
+        - button [ref=f1e830] [cursor=pointer]
+        - generic [ref=f1e572] [cursor=pointer]:
+          - generic [ref=f1e573]:
+            - generic [ref=f1e574]: "!"
+            - paragraph [ref=f1e577]: admin auth
+          - button [ref=f1e578]
+    - generic [ref=f1e26]:
+      - button [ref=f1e28] [cursor=pointer]
+      - separator [ref=f1e34]
+      - list [ref=f1e35]:
+        - link [ref=f1e832] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f1e37]:
+            - button [ref=f1e833]:
+              - generic [ref=f1e44]: Monitoring
+        - link [ref=f1e834] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f1e47]:
+            - button [ref=f1e835]:
+              - generic [ref=f1e57]: Reports
+        - link [ref=f1e836] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f1e60]:
+            - button [ref=f1e837]:
+              - generic [ref=f1e67]: Invoices
+        - link [ref=f1e838] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f1e70]:
+            - button [ref=f1e839]
+        - link [ref=f1e840] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f1e76]:
+            - button [ref=f1e841]:
+              - generic [ref=f1e83]: Patients
+        - link [ref=f1e842] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f1e86]:
+            - button [ref=f1e843]:
+              - generic [ref=f1e92]: Users
+        - link [ref=f1e844] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f1e95]:
+            - button [ref=f1e845]:
+              - generic [ref=f1e102]: Roles
+    - main [ref=f1e104]:
+      - generic [ref=f1e106]:
+        - generic [ref=f1e108]:
+          - generic [ref=f1e109]:
+            - paragraph [ref=f1e111]: Clinics
+            - button [ref=f1e846] [cursor=pointer]: Add Clinic
+          - paragraph [ref=f1e116]: View and manage all registered clinics, track their active status, contact details and access monitoring metrics in one centralized list.
+        - tablist [ref=f1e119]:
+          - tab [ref=f1e847] [cursor=pointer]: Active
+          - tab [selected] [ref=f1e848] [cursor=pointer]: Inactive
+        - generic [ref=f1e123]:
+          - generic [ref=f1e124]:
+            - button [ref=f1e849] [cursor=pointer]: ID
+            - generic [ref=f1e131]:
+              - textbox [ref=f1e850]:
+                - /placeholder: Search for ID
+              - group
+          - generic [ref=f1e133]:
+            - button [ref=f1e851] [cursor=pointer]: Filters
+            - button [ref=f1e852] [cursor=pointer]: Sort By
+            - button [ref=f1e853] [cursor=pointer]: Export CSV
+        - generic [ref=f1e151]:
+          - generic [ref=f1e152]:
+            - generic [ref=f1e154]:
+              - paragraph [ref=f1e155]: Total Clinics
+              - generic [ref=f1e156]: 7 Clinics
+            - grid [ref=f1e160]:
+              - row [ref=f1e854]:
+                - columnheader [ref=f1e162]
+                - columnheader [ref=f1e855]:
+                  - generic [ref=f1e164]: ID
+                - columnheader [ref=f1e856]:
+                  - generic [ref=f1e167]: Name
+                - columnheader [ref=f1e857]:
+                  - generic [ref=f1e170]: Street Address
+                - columnheader [ref=f1e858]:
+                  - generic [ref=f1e173]: City
+                - columnheader [ref=f1e859]:
+                  - generic [ref=f1e176]: State
+                - columnheader [ref=f1e860]:
+                  - generic [ref=f1e179]: Zip Code
+                - columnheader [ref=f1e861]:
+                  - generic [ref=f1e182]: Monitoring Metrics
+                - columnheader [ref=f1e862]:
+                  - generic [ref=f1e185]: Contact Info
+                - columnheader [ref=f1e863]:
+                  - generic [ref=f1e188]: Current Status
+                - columnheader [ref=f1e190]
+              - rowgroup [ref=f1e191]:
+                - row [ref=f1e864]:
+                  - gridcell [ref=f1e865]: "1"
+                  - gridcell [ref=f1e866]: "11657"
+                  - gridcell [ref=f1e867]:
+                    - paragraph [ref=f1e586]: QA Clinic bhiebcahhgjef
+                  - gridcell [ref=f1e869]:
+                    - paragraph [ref=f1e589]: 123 QA Street
+                  - gridcell [ref=f1e871]: San Diego
+                  - gridcell [ref=f1e872]: CA
+                  - gridcell [ref=f1e873]: "92130"
+                  - gridcell [ref=f1e874]:
+                    - button [ref=f1e875] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e876]:
+                    - generic [ref=f1e596]:
+                      - paragraph [ref=f1e597]: QA Automation
+                      - paragraph [ref=f1e598]: "Email: qa.clinic+776945@bytecorp.io"
+                      - paragraph [ref=f1e599]: "Phone: +1 (310) 564-8721"
+                  - gridcell [ref=f1e877]:
+                    - generic [ref=f1e601]: Inactive
+                  - gridcell [ref=f1e606]:
+                    - menu [ref=f1e607]:
+                      - button [ref=f1e609] [cursor=pointer]
+                - row [ref=f1e878]:
+                  - gridcell [ref=f1e879]: "2"
+                  - gridcell [ref=f1e880]: "11653"
+                  - gridcell [ref=f1e881]:
+                    - paragraph [ref=f1e621]: QA Clinic bhiebbjdgahaj
+                  - gridcell [ref=f1e883]:
+                    - paragraph [ref=f1e624]: 123 QA Street
+                  - gridcell [ref=f1e885]: San Diego
+                  - gridcell [ref=f1e886]: CA
+                  - gridcell [ref=f1e887]: "92130"
+                  - gridcell [ref=f1e888]:
+                    - button [ref=f1e889] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e890]:
+                    - generic [ref=f1e631]:
+                      - paragraph [ref=f1e632]: QA Automation
+                      - paragraph [ref=f1e633]: "Email: qa.clinic+360709@bytecorp.io"
+                      - paragraph [ref=f1e634]: "Phone: +1 (310) 564-8721"
+                  - gridcell [ref=f1e891]:
+                    - generic [ref=f1e636]: Inactive
+                  - gridcell [ref=f1e641]:
+                    - menu [ref=f1e642]:
+                      - button [ref=f1e644] [cursor=pointer]
+                - row [ref=f1e892]:
+                  - gridcell [ref=f1e893]: "3"
+                  - gridcell [ref=f1e894]: "11269"
+                  - gridcell [ref=f1e895]:
+                    - paragraph [ref=f1e656]: clinix xyz
+                  - gridcell [ref=f1e897]:
+                    - paragraph [ref=f1e659]: dwa213wda
+                  - gridcell [ref=f1e899]: Karachi
+                  - gridcell [ref=f1e900]: Sindh
+                  - gridcell [ref=f1e901]: "32422"
+                  - gridcell [ref=f1e902]:
+                    - button [ref=f1e903] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e904]:
+                    - generic [ref=f1e666]:
+                      - paragraph [ref=f1e667]: xyz
+                      - paragraph [ref=f1e668]: "Email: xyz@example.com"
+                      - paragraph [ref=f1e669]: "Phone: +1 (213) 131-2312"
+                  - gridcell [ref=f1e905]:
+                    - generic [ref=f1e671]: Inactive
+                  - gridcell [ref=f1e676]:
+                    - menu [ref=f1e677]:
+                      - button [ref=f1e679] [cursor=pointer]
+                - row [ref=f1e906]:
+                  - gridcell [ref=f1e907]: "4"
+                  - gridcell [ref=f1e908]: "10030"
+                  - gridcell [ref=f1e909]:
+                    - paragraph [ref=f1e691]: Abdul Rehman
+                  - gridcell [ref=f1e911]:
+                    - paragraph [ref=f1e694]: A14 LPQ
+                  - gridcell [ref=f1e913]: New York City
+                  - gridcell [ref=f1e914]: New York
+                  - gridcell [ref=f1e915]: "12345"
+                  - gridcell [ref=f1e916]:
+                    - button [ref=f1e917] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e918]:
+                    - generic [ref=f1e701]:
+                      - paragraph [ref=f1e702]: Mr Ark
+                      - paragraph [ref=f1e703]: "Email: 123123!@dd.com"
+                      - paragraph [ref=f1e704]: "Phone: +1 (123) 123-1231"
+                  - gridcell [ref=f1e919]:
+                    - generic [ref=f1e706]: Inactive
+                  - gridcell [ref=f1e711]:
+                    - menu [ref=f1e712]:
+                      - button [ref=f1e714] [cursor=pointer]
+                - row [ref=f1e920]:
+                  - gridcell [ref=f1e921]: "5"
+                  - gridcell [ref=f1e922]: "10027"
+                  - gridcell [ref=f1e923]:
+                    - paragraph [ref=f1e726]: ss
+                  - gridcell [ref=f1e925]:
+                    - paragraph [ref=f1e729]: ss
+                  - gridcell [ref=f1e927]: ss
+                  - gridcell [ref=f1e928]: ss
+                  - gridcell [ref=f1e929]: "23234"
+                  - gridcell [ref=f1e930]:
+                    - button [ref=f1e931] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e932]:
+                    - generic [ref=f1e736]:
+                      - paragraph [ref=f1e737]: ss
+                      - paragraph [ref=f1e738]: "Email: 1@gmail.com"
+                      - paragraph [ref=f1e739]: "Phone: +1 (345) 5"
+                  - gridcell [ref=f1e933]:
+                    - generic [ref=f1e741]: Inactive
+                  - gridcell [ref=f1e746]:
+                    - menu [ref=f1e747]:
+                      - button [ref=f1e749] [cursor=pointer]
+                - row [ref=f1e934]:
+                  - gridcell [ref=f1e935]: "6"
+                  - gridcell [ref=f1e936]: "10026"
+                  - gridcell [ref=f1e937]:
+                    - paragraph [ref=f1e761]: Test
+                  - gridcell [ref=f1e939]:
+                    - paragraph [ref=f1e764]: Bufferzone
+                  - gridcell [ref=f1e941]: Karachi
+                  - gridcell [ref=f1e942]: akjakjs
+                  - gridcell [ref=f1e943]: "78558"
+                  - gridcell [ref=f1e944]:
+                    - button [ref=f1e945] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e946]:
+                    - generic [ref=f1e771]:
+                      - paragraph [ref=f1e772]: Abyaz
+                      - paragraph [ref=f1e773]: "Email: pnq16mkr@anonaddy.me"
+                      - paragraph [ref=f1e774]: "Phone: +1 (111) 111-1111"
+                  - gridcell [ref=f1e947]:
+                    - generic [ref=f1e776]: Inactive
+                  - gridcell [ref=f1e781]:
+                    - menu [ref=f1e782]:
+                      - button [ref=f1e784] [cursor=pointer]
+                - row [ref=f1e948]:
+                  - gridcell [ref=f1e949]: "7"
+                  - gridcell [ref=f1e950]: "10019"
+                  - gridcell [ref=f1e951]:
+                    - paragraph [ref=f1e796]: Rejuvink Richmond
+                  - gridcell [ref=f1e953]:
+                    - paragraph [ref=f1e799]: 7301 Forest Avenue Suite 204
+                  - gridcell [ref=f1e955]: Richmond
+                  - gridcell [ref=f1e956]: VA
+                  - gridcell [ref=f1e957]: "23226"
+                  - gridcell [ref=f1e958]:
+                    - button [ref=f1e959] [cursor=pointer]: View Metrics
+                  - gridcell [ref=f1e960]:
+                    - generic [ref=f1e806]:
+                      - paragraph [ref=f1e807]: Jingi Hairston
+                      - paragraph [ref=f1e808]: "Email: jingi@rejstaff.com"
+                      - paragraph [ref=f1e809]: "Phone: (804) 533-5399"
+                  - gridcell [ref=f1e961]:
+                    - generic [ref=f1e811]: Inactive
+                  - gridcell [ref=f1e816]:
+                    - menu [ref=f1e817]:
+                      - button [ref=f1e819] [cursor=pointer]
+          - generic [ref=f1e445]:
+            - generic [ref=f1e446]:
+              - paragraph [ref=f1e447]: Rows per page
+              - generic [ref=f1e451]:
+                - combobox [ref=f1e452]: "100"
+                - button [ref=f1e962] [cursor=pointer]
+                - group
+            - navigation [ref=f1e963]:
+              - list [ref=f1e458]:
+                - listitem [ref=f1e459]:
+                  - button [disabled]
+                - listitem [ref=f1e460]:
+                  - button [ref=f1e964] [cursor=pointer]: "1"
+                - listitem [ref=f1e829]:
+                  - button [disabled]
+  - menu [ref=f1e967]:
+    - generic [ref=f1e968]:
+      - tablist [ref=f1e972]:
+        - tab [selected] [ref=f1e973] [cursor=pointer]:
+          - paragraph [ref=f1e975]: City
+        - tab [ref=f1e976] [cursor=pointer]:
+          - paragraph [ref=f1e978]: State
+      - generic [ref=f1e979]:
+        - generic [ref=f1e981]:
+          - generic [ref=f1e984]:
+            - button [ref=f1e986] [cursor=pointer]
+            - textbox "Search Cities" [ref=f1e989]
+            - group
+          - generic [ref=f1e990]:
+            - paragraph [ref=f1e991]: All Cities
+            - generic [ref=f1e992] [cursor=pointer]:
+              - checkbox "Select All" [ref=f1e994]
+              - paragraph [ref=f1e996]: Select All
+          - separator [ref=f1e997]
+          - generic [ref=f1e998]:
+            - generic [ref=f1e999] [cursor=pointer]:
+              - checkbox "San Diego" [ref=f1e1001]
+              - paragraph [ref=f1e1003]: San Diego
+            - generic [ref=f1e1004] [cursor=pointer]:
+              - checkbox "karachio" [ref=f1e1006]
+              - paragraph [ref=f1e1008]: karachio
+            - generic [ref=f1e1009] [cursor=pointer]:
+              - checkbox "karachi" [ref=f1e1011]
+              - paragraph [ref=f1e1013]: karachi
+            - generic [ref=f1e1014] [cursor=pointer]:
+              - checkbox "aa" [ref=f1e1016]
+              - paragraph [ref=f1e1018]: aa
+            - generic [ref=f1e1019] [cursor=pointer]:
+              - checkbox "Karachi" [ref=f1e1021]
+              - paragraph [ref=f1e1023]: Karachi
+            - generic [ref=f1e1024] [cursor=pointer]:
+              - checkbox "City" [ref=f1e1026]
+              - paragraph [ref=f1e1028]: City
+            - generic [ref=f1e1029] [cursor=pointer]:
+              - checkbox "ds" [ref=f1e1031]
+              - paragraph [ref=f1e1033]: ds
+            - generic [ref=f1e1034] [cursor=pointer]:
+              - checkbox "new york" [ref=f1e1036]
+              - paragraph [ref=f1e1038]: new york
+            - generic [ref=f1e1039] [cursor=pointer]:
+              - checkbox "Springfield" [ref=f1e1041]
+              - paragraph [ref=f1e1043]: Springfield
+            - generic [ref=f1e1044] [cursor=pointer]:
+              - checkbox "New York" [ref=f1e1046]
+              - paragraph [ref=f1e1048]: New York
+            - generic [ref=f1e1049] [cursor=pointer]:
+              - checkbox "New York City" [ref=f1e1051]
+              - paragraph [ref=f1e1053]: New York City
+            - generic [ref=f1e1054] [cursor=pointer]:
+              - checkbox "ss" [ref=f1e1056]
+              - paragraph [ref=f1e1058]: ss
+            - generic [ref=f1e1059] [cursor=pointer]:
+              - checkbox "Eugene" [ref=f1e1061]
+              - paragraph [ref=f1e1063]: Eugene
+            - generic [ref=f1e1064] [cursor=pointer]:
+              - checkbox "Irvine" [ref=f1e1066]
+              - paragraph [ref=f1e1068]: Irvine
+            - generic [ref=f1e1069] [cursor=pointer]:
+              - checkbox "Catonsville" [ref=f1e1071]
+              - paragraph [ref=f1e1073]: Catonsville
+            - generic [ref=f1e1074] [cursor=pointer]:
+              - checkbox "Chicago" [ref=f1e1076]
+              - paragraph [ref=f1e1078]: Chicago
+            - generic [ref=f1e1079] [cursor=pointer]:
+              - checkbox "New Orleans" [ref=f1e1081]
+              - paragraph [ref=f1e1083]: New Orleans
+            - generic [ref=f1e1084] [cursor=pointer]:
+              - checkbox "LAKE HAVASU CITY" [ref=f1e1086]
+              - paragraph [ref=f1e1088]: LAKE HAVASU CITY
+            - generic [ref=f1e1089] [cursor=pointer]:
+              - checkbox "Kenosha" [ref=f1e1091]
+              - paragraph [ref=f1e1093]: Kenosha
+            - generic [ref=f1e1094] [cursor=pointer]:
+              - checkbox "redding" [ref=f1e1096]
+              - paragraph [ref=f1e1098]: redding
+            - generic [ref=f1e1099] [cursor=pointer]:
+              - checkbox "CHESTERFIELD" [ref=f1e1101]
+              - paragraph [ref=f1e1103]: CHESTERFIELD
+            - generic [ref=f1e1104] [cursor=pointer]:
+              - checkbox "Greenwood Village" [ref=f1e1106]
+              - paragraph [ref=f1e1108]: Greenwood Village
+            - generic [ref=f1e1109] [cursor=pointer]:
+              - checkbox "Richmond" [ref=f1e1111]
+              - paragraph [ref=f1e1113]: Richmond
+            - generic [ref=f1e1114] [cursor=pointer]:
+              - checkbox "Edison" [ref=f1e1116]
+              - paragraph [ref=f1e1118]: Edison
+            - generic [ref=f1e1119] [cursor=pointer]:
+              - checkbox "Dallas" [ref=f1e1121]
+              - paragraph [ref=f1e1123]: Dallas
+            - generic [ref=f1e1124] [cursor=pointer]:
+              - checkbox "Virginia Beach" [ref=f1e1126]
+              - paragraph [ref=f1e1128]: Virginia Beach
+            - generic [ref=f1e1129] [cursor=pointer]:
+              - checkbox "Elm Grove" [ref=f1e1131]
+              - paragraph [ref=f1e1133]: Elm Grove
+            - generic [ref=f1e1134] [cursor=pointer]:
+              - checkbox "Houston" [ref=f1e1136]
+              - paragraph [ref=f1e1138]: Houston
+            - generic [ref=f1e1139] [cursor=pointer]:
+              - checkbox "Waukesha" [ref=f1e1141]
+              - paragraph [ref=f1e1143]: Waukesha
+        - button "Apply" [ref=f1e1145] [cursor=pointer]

@@ -1,0 +1,278 @@
+- generic [ref=e8]:
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - button "open drawer" [ref=e12] [cursor=pointer]:
+        - img [ref=e13]
+      - generic [ref=e16] [cursor=pointer]:
+        - generic [ref=e17]:
+          - img "profile" [ref=e18]
+          - paragraph [ref=e19]: Executive Admin
+        - button [ref=e20]:
+          - img [ref=e21]
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - button [ref=e26] [cursor=pointer]:
+        - img [ref=e27]
+      - img [ref=e30]
+    - separator [ref=e32]
+    - list [ref=e33]:
+      - listitem [ref=e35]:
+        - button "Accounts" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]:
+            - img [ref=e39]
+            - img [ref=e42]
+          - generic:
+            - generic: Accounts
+      - link "Monitoring" [ref=e44] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e45]:
+          - button "Monitoring" [ref=e46]:
+            - img [ref=e48]
+            - generic:
+              - generic: Monitoring
+      - link "Reports" [ref=e52] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e53]:
+          - button "Reports" [ref=e54]:
+            - img [ref=e56]
+            - generic [ref=e64]: Reports
+      - link "Invoices" [ref=e65] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e66]:
+          - button "Invoices" [ref=e67]:
+            - img [ref=e69]
+            - generic [ref=e74]: Invoices
+  - main [ref=e75]:
+    - generic [ref=e77]:
+      - generic [ref=e79]:
+        - paragraph [ref=e82]: Monitoring
+        - paragraph [ref=e83]: Track and monitor key patient metrics including device usage, vitals, care program status and many more.
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - button "Username" [ref=e86] [cursor=pointer]:
+            - text: Username
+            - img [ref=e88]
+          - generic [ref=e92]:
+            - textbox "Search for Username" [ref=e93]
+            - group
+        - generic [ref=e94]:
+          - button "Filters" [ref=e97] [cursor=pointer]:
+            - img [ref=e99]
+            - text: Filters
+          - button "Sort By" [ref=e102] [cursor=pointer]:
+            - img [ref=e105]
+            - text: Sort By
+          - button "Export CSV" [ref=e107] [cursor=pointer]:
+            - img [ref=e109]
+            - text: Export CSV
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e114]:
+            - paragraph [ref=e115]: Total Patients
+            - generic [ref=e117]: 89 Patients
+          - grid [ref=e120]:
+            - row "Username Patient ID First Name Last Name Email" [ref=e121]:
+              - columnheader [ref=e122]
+              - columnheader [ref=e123]
+              - columnheader "Username" [ref=e124]:
+                - generic [ref=e126]: Username
+              - columnheader "Patient ID" [ref=e127]:
+                - generic [ref=e129]: Patient ID
+              - columnheader "First Name" [ref=e130]:
+                - generic [ref=e132]: First Name
+              - columnheader "Last Name" [ref=e133]:
+                - generic [ref=e135]: Last Name
+              - columnheader "Email" [ref=e136]:
+                - generic [ref=e138]: Email
+              - columnheader [ref=e139]
+            - rowgroup [ref=e140]:
+              - row "1 Iqra Farooq 10426 Iqra Farooq iqra.farooq+000@bytecorp.io" [ref=e141]:
+                - gridcell "1" [ref=e142]
+                - gridcell [ref=e143]
+                - gridcell "Iqra Farooq" [ref=e145]:
+                  - generic "Iqra Farooq" [ref=e146]:
+                    - paragraph [ref=e147] [cursor=pointer]: Iqra Farooq
+                - gridcell "10426" [ref=e148]
+                - gridcell "Iqra" [ref=e149]:
+                  - generic "Iqra" [ref=e150]:
+                    - paragraph [ref=e151]: Iqra
+                - gridcell "Farooq" [ref=e152]:
+                  - generic "Farooq" [ref=e153]:
+                    - paragraph [ref=e154]: Farooq
+                - gridcell "iqra.farooq+000@bytecorp.io" [ref=e155]:
+                  - generic "iqra.farooq+000@bytecorp.io" [ref=e156]:
+                    - paragraph [ref=e157]: iqra.farooq+000@bytecorp.io
+                - gridcell [ref=e158]:
+                  - menu [ref=e159]:
+                    - button "View Details" [ref=e160] [cursor=pointer]:
+                      - img [ref=e161]
+              - row "2 rootcause analysis 10425 rootcause analysis iqra.farooq+011@bytecorp.io" [ref=e168]:
+                - gridcell "2" [ref=e169]
+                - gridcell [ref=e170]
+                - gridcell "rootcause analysis" [ref=e172]:
+                  - generic "rootcause analysis" [ref=e173]:
+                    - paragraph [ref=e174] [cursor=pointer]: rootcause analysis
+                - gridcell "10425" [ref=e175]
+                - gridcell "rootcause" [ref=e176]:
+                  - generic "rootcause" [ref=e177]:
+                    - paragraph [ref=e178]: rootcause
+                - gridcell "analysis" [ref=e179]:
+                  - generic "analysis" [ref=e180]:
+                    - paragraph [ref=e181]: analysis
+                - gridcell "iqra.farooq+011@bytecorp.io" [ref=e182]:
+                  - generic "iqra.farooq+011@bytecorp.io" [ref=e183]:
+                    - paragraph [ref=e184]: iqra.farooq+011@bytecorp.io
+                - gridcell [ref=e185]:
+                  - menu [ref=e186]:
+                    - button "View Details" [ref=e187] [cursor=pointer]:
+                      - img [ref=e188]
+              - row "3 Nofil Khalid 10423 Nofil Khalid nk@gmail.com" [ref=e195]:
+                - gridcell "3" [ref=e196]
+                - gridcell [ref=e197]
+                - gridcell "Nofil Khalid" [ref=e199]:
+                  - generic "Nofil Khalid" [ref=e200]:
+                    - paragraph [ref=e201] [cursor=pointer]: Nofil Khalid
+                - gridcell "10423" [ref=e202]
+                - gridcell "Nofil" [ref=e203]:
+                  - generic "Nofil" [ref=e204]:
+                    - paragraph [ref=e205]: Nofil
+                - gridcell "Khalid" [ref=e206]:
+                  - generic "Khalid" [ref=e207]:
+                    - paragraph [ref=e208]: Khalid
+                - gridcell "nk@gmail.com" [ref=e209]:
+                  - generic "nk@gmail.com" [ref=e210]:
+                    - paragraph [ref=e211]: nk@gmail.com
+                - gridcell [ref=e212]:
+                  - menu [ref=e213]:
+                    - button "View Details" [ref=e214] [cursor=pointer]:
+                      - img [ref=e215]
+              - row "4 Communication Test 10420 Communication Test communication@adday.com" [ref=e222]:
+                - gridcell "4" [ref=e223]
+                - gridcell [ref=e224]
+                - gridcell "Communication Test" [ref=e226]:
+                  - generic "Communication Test" [ref=e227]:
+                    - paragraph [ref=e228] [cursor=pointer]: Communication Test
+                - gridcell "10420" [ref=e229]
+                - gridcell "Communication" [ref=e230]:
+                  - generic "Communication" [ref=e231]:
+                    - paragraph [ref=e232]: Communication
+                - gridcell "Test" [ref=e233]:
+                  - generic "Test" [ref=e234]:
+                    - paragraph [ref=e235]: Test
+                - gridcell "communication@adday.com" [ref=e236]:
+                  - generic "communication@adday.com" [ref=e237]:
+                    - paragraph [ref=e238]: communication@adday.com
+                - gridcell [ref=e239]:
+                  - menu [ref=e240]:
+                    - button "View Details" [ref=e241] [cursor=pointer]:
+                      - img [ref=e242]
+              - row "5 testing phase 10416 testing phase testphase@anonaddy.com" [ref=e249]:
+                - gridcell "5" [ref=e250]
+                - gridcell [ref=e251]
+                - gridcell "testing phase" [ref=e253]:
+                  - generic "testing phase" [ref=e254]:
+                    - paragraph [ref=e255] [cursor=pointer]: testing phase
+                - gridcell "10416" [ref=e256]
+                - gridcell "testing" [ref=e257]:
+                  - generic "testing" [ref=e258]:
+                    - paragraph [ref=e259]: testing
+                - gridcell "phase" [ref=e260]:
+                  - generic "phase" [ref=e261]:
+                    - paragraph [ref=e262]: phase
+                - gridcell "testphase@anonaddy.com" [ref=e263]:
+                  - generic "testphase@anonaddy.com" [ref=e264]:
+                    - paragraph [ref=e265]: testphase@anonaddy.com
+                - gridcell [ref=e266]:
+                  - menu [ref=e267]:
+                    - button "View Details" [ref=e268] [cursor=pointer]:
+                      - img [ref=e269]
+              - row "6 Test run 10404 Test run testrun@adday.com" [ref=e276]:
+                - gridcell "6" [ref=e277]
+                - gridcell [ref=e278]
+                - gridcell "Test run" [ref=e280]:
+                  - generic "Test run" [ref=e281]:
+                    - paragraph [ref=e282] [cursor=pointer]: Test run
+                - gridcell "10404" [ref=e283]
+                - gridcell "Test" [ref=e284]:
+                  - generic "Test" [ref=e285]:
+                    - paragraph [ref=e286]: Test
+                - gridcell "run" [ref=e287]:
+                  - generic "run" [ref=e288]:
+                    - paragraph [ref=e289]: run
+                - gridcell "testrun@adday.com" [ref=e290]:
+                  - generic "testrun@adday.com" [ref=e291]:
+                    - paragraph [ref=e292]: testrun@adday.com
+                - gridcell [ref=e293]:
+                  - menu [ref=e294]:
+                    - button "View Details" [ref=e295] [cursor=pointer]:
+                      - img [ref=e296]
+              - row "7 codeprogress report 10402 codeprogress report report@adday.com" [ref=e303]:
+                - gridcell "7" [ref=e304]
+                - gridcell [ref=e305]
+                - gridcell "codeprogress report" [ref=e307]:
+                  - generic "codeprogress report" [ref=e308]:
+                    - paragraph [ref=e309] [cursor=pointer]: codeprogress report
+                - gridcell "10402" [ref=e310]
+                - gridcell "codeprogress" [ref=e311]:
+                  - generic "codeprogress" [ref=e312]:
+                    - paragraph [ref=e313]: codeprogress
+                - gridcell "report" [ref=e314]:
+                  - generic "report" [ref=e315]:
+                    - paragraph [ref=e316]: report
+                - gridcell "report@adday.com" [ref=e317]:
+                  - generic "report@adday.com" [ref=e318]:
+                    - paragraph [ref=e319]: report@adday.com
+                - gridcell [ref=e320]:
+                  - menu [ref=e321]:
+                    - button "View Details" [ref=e322] [cursor=pointer]:
+                      - img [ref=e323]
+              - row "8 Not Diabetes 10395 Not Diabetes 123@gmail.com" [ref=e330]:
+                - gridcell "8" [ref=e331]
+                - gridcell [ref=e332]
+                - gridcell "Not Diabetes" [ref=e334]:
+                  - generic "Not Diabetes" [ref=e335]:
+                    - paragraph [ref=e336] [cursor=pointer]: Not Diabetes
+                - gridcell "10395" [ref=e337]
+                - gridcell "Not" [ref=e338]:
+                  - generic "Not" [ref=e339]:
+                    - paragraph [ref=e340]: Not
+                - gridcell "Diabetes" [ref=e341]:
+                  - generic "Diabetes" [ref=e342]:
+                    - paragraph [ref=e343]: Diabetes
+                - gridcell "123@gmail.com" [ref=e344]:
+                  - generic "123@gmail.com" [ref=e345]:
+                    - paragraph [ref=e346]: 123@gmail.com
+                - gridcell [ref=e347]:
+                  - menu [ref=e348]:
+                    - button "View Details" [ref=e349] [cursor=pointer]:
+                      - img [ref=e350]
+        - generic [ref=e365]:
+          - generic [ref=e366]:
+            - paragraph [ref=e367]: Rows per page
+            - generic [ref=e371]:
+              - combobox [ref=e372]: "10"
+              - button "Open" [ref=e374] [cursor=pointer]:
+                - img [ref=e375]
+              - group
+          - navigation "pagination navigation" [ref=e377]:
+            - list [ref=e378]:
+              - listitem [ref=e379]:
+                - button "Go to previous page" [disabled]:
+                  - img
+              - listitem [ref=e380]:
+                - button "page 1" [ref=e381] [cursor=pointer]: "1"
+              - listitem [ref=e382]:
+                - button "Go to page 2" [ref=e383] [cursor=pointer]: "2"
+              - listitem [ref=e384]:
+                - button "Go to page 3" [ref=e385] [cursor=pointer]: "3"
+              - listitem [ref=e386]:
+                - button "Go to page 4" [ref=e387] [cursor=pointer]: "4"
+              - listitem [ref=e388]:
+                - button "Go to page 5" [ref=e389] [cursor=pointer]: "5"
+              - listitem [ref=e390]:
+                - generic [ref=e391]: …
+              - listitem [ref=e392]:
+                - button "Go to page 9" [ref=e393] [cursor=pointer]: "9"
+              - listitem [ref=e394]:
+                - button "Go to next page" [ref=e395] [cursor=pointer]:
+                  - img [ref=e396]

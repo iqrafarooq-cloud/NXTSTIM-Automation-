@@ -1,0 +1,3 @@
+[    4066ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/me:0
+[    4787ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/refresh-token:0
+[    4788ms] [LOG] Token refresh failed: Do @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-Yk7rnhMV.js:329

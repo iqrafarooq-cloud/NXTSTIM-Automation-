@@ -1,0 +1,5 @@
+[    6135ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/SourceSansPro-Regular-DttFCsV7.woff2 @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/login:0
+[   13031ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/users/me:0
+[   13539ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://qa-nxtstim-api.azurewebsites.net/api/auth/refresh-token:0
+[   13541ms] [LOG] Token refresh failed: Do @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/assets/index-qF5zNFFb.js:329
+[   14558ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://gentle-glacier-00956ce0f-preview.eastus2.6.azurestaticapps.net/login:0

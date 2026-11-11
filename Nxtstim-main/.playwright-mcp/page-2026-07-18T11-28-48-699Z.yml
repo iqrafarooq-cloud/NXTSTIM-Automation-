@@ -1,0 +1,129 @@
+- generic [ref=f3e8]:
+  - banner [ref=f3e608]:
+    - generic [ref=f3e609]:
+      - button "open drawer" [ref=f3e611] [cursor=pointer]
+      - generic [ref=f3e615] [cursor=pointer]:
+        - generic [ref=f3e616]:
+          - generic [ref=f3e617]:
+            - img "profile" [ref=f3e618]
+            - generic [ref=f3e619]: "!"
+          - paragraph [ref=f3e620]: ADMIN USER
+        - button [ref=f3e621]
+  - generic [ref=f3e26]:
+    - button [ref=f3e28] [cursor=pointer]
+    - separator [ref=f3e34]
+    - list [ref=f3e35]:
+      - link [ref=f3e36] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f3e37]:
+          - button "Monitoring" [ref=f3e38]
+      - link [ref=f3e46] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f3e47]:
+          - button "Reports" [ref=f3e48]
+      - link [ref=f3e59] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f3e60]:
+          - button "Invoices" [ref=f3e61]
+      - link [ref=f3e69] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f3e70]:
+          - button "Clinics" [ref=f3e71]
+      - link [ref=f3e77] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f3e78]:
+          - button "Patients" [ref=f3e79]
+      - link [ref=f3e87] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f3e88]:
+          - button [ref=f3e89]
+      - link [ref=f3e94] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f3e95]:
+          - button "Roles" [ref=f3e96]
+  - main [ref=f3e104]:
+    - generic [ref=f3e106]:
+      - generic [ref=f3e108]:
+        - generic [ref=f3e109]:
+          - paragraph [ref=f3e111]: Users
+          - button [ref=f3e112] [cursor=pointer]
+        - paragraph [ref=f3e116]: View and manage all users and their assigned roles across the system.
+      - tablist [ref=f3e119]:
+        - tab "Active" [ref=f3e120] [cursor=pointer]
+        - tab "Pending" [selected] [ref=f3e121] [cursor=pointer]
+        - tab "Suspended" [ref=f3e122] [cursor=pointer]
+        - tab "Inactive" [ref=f3e123] [cursor=pointer]
+      - generic [ref=f3e125]:
+        - generic [ref=f3e126]:
+          - button [ref=f3e127] [cursor=pointer]
+          - generic [ref=f3e133]:
+            - textbox "Search for User ID" [active] [ref=f3e134]: "10431"
+            - group
+        - generic [ref=f3e135]:
+          - button [ref=f3e138] [cursor=pointer]
+          - button [ref=f3e143] [cursor=pointer]
+          - button [ref=f3e148] [cursor=pointer]
+      - generic [ref=f3e153]:
+        - generic [ref=f3e154]:
+          - generic [ref=f3e156]:
+            - paragraph [ref=f3e157]: Total Users
+            - generic [ref=f3e158]: 1 Users
+          - grid [ref=f3e162]:
+            - row [ref=f3e163]:
+              - columnheader [ref=f3e164]
+              - columnheader "User ID" [ref=f3e165]
+              - columnheader "Username" [ref=f3e168]
+              - columnheader "First Name" [ref=f3e171]
+              - columnheader "Last Name" [ref=f3e174]
+              - columnheader "Roles" [ref=f3e177]
+              - columnheader "Email Address" [ref=f3e180]
+              - columnheader "Phone Number" [ref=f3e183]
+              - columnheader "Onboarding Date" [ref=f3e186]
+              - columnheader "Associated Clinics" [ref=f3e189]
+              - columnheader [ref=f3e192]
+            - rowgroup [ref=f3e193]:
+              - row [ref=f3e624]:
+                - gridcell "1" [ref=f3e625]
+                - gridcell [ref=f3e626]:
+                  - generic "10431" [ref=f3e627]:
+                    - paragraph [ref=f3e628]: "10431"
+                - gridcell [ref=f3e629]:
+                  - generic "Executive Admin" [ref=f3e631] [cursor=pointer]:
+                    - paragraph [ref=f3e632]: Executive Admin
+                - gridcell [ref=f3e633]:
+                  - generic "Executive" [ref=f3e634]:
+                    - paragraph [ref=f3e635]: Executive
+                - gridcell [ref=f3e636]:
+                  - generic "Admin" [ref=f3e637]:
+                    - paragraph [ref=f3e638]: Admin
+                - gridcell "Executive Admin" [ref=f3e639]
+                - gridcell [ref=f3e643]:
+                  - generic "executiveadmin@iqra.anonaddy.com" [ref=f3e644]:
+                    - paragraph [ref=f3e645]: executiveadmin@iqra.anonaddy.com
+                - gridcell [ref=f3e646]:
+                  - generic "-" [ref=f3e647]:
+                    - paragraph [ref=f3e648]: "-"
+                - gridcell [ref=f3e649]:
+                  - generic "05-19-2026" [ref=f3e650]:
+                    - paragraph [ref=f3e651]: 05-19-2026
+                - gridcell [ref=f3e652]:
+                  - generic "-" [ref=f3e653]:
+                    - paragraph [ref=f3e654]: "-"
+                - gridcell [ref=f3e655]:
+                  - menu [ref=f3e656]:
+                    - button [ref=f3e658] [cursor=pointer]
+        - generic [ref=f3e573]:
+          - generic [ref=f3e574]:
+            - paragraph [ref=f3e575]: Rows per page
+            - generic [ref=f3e579]:
+              - combobox [ref=f3e580]: "10"
+              - button "Open" [ref=f3e582] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f3e585]:
+            - list [ref=f3e586]:
+              - listitem [ref=f3e587]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f3e588]:
+                - button "page 1" [ref=f3e589] [cursor=pointer]: "1"
+              - listitem [ref=f3e668]:
+                - button "Go to next page" [disabled]

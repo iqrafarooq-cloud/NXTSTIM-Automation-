@@ -1,0 +1,120 @@
+- generic [ref=f4e8]:
+  - banner [ref=f4e700]:
+    - generic [ref=f4e701]:
+      - button "open drawer" [ref=f4e703] [cursor=pointer]
+      - generic [ref=f4e707] [cursor=pointer]:
+        - generic [ref=f4e708]:
+          - generic [ref=f4e709]:
+            - img "profile" [ref=f4e710]
+            - generic [ref=f4e711]: "!"
+          - paragraph [ref=f4e712]: admin auth
+        - button [ref=f4e713]
+  - generic [ref=f4e26]:
+    - button [ref=f4e28] [cursor=pointer]
+    - separator [ref=f4e34]
+    - list [ref=f4e35]:
+      - link [ref=f4e622] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f4e37]:
+          - button "Monitoring" [ref=f4e623]
+      - link [ref=f4e624] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f4e47]:
+          - button "Reports" [ref=f4e625]
+      - link [ref=f4e626] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f4e60]:
+          - button "Invoices" [ref=f4e627]
+      - link [ref=f4e628] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f4e70]:
+          - button [ref=f4e629]
+      - link [ref=f4e630] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f4e76]:
+          - button "Patients" [ref=f4e631]
+      - link [ref=f4e632] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f4e86]:
+          - button "Users" [ref=f4e633]
+      - link [ref=f4e634] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f4e95]:
+          - button "Roles" [ref=f4e635]
+  - main [ref=f4e104]:
+    - generic [ref=f4e106]:
+      - generic [ref=f4e108]:
+        - generic [ref=f4e109]:
+          - paragraph [ref=f4e111]: Clinics
+          - button [ref=f4e636] [cursor=pointer]
+        - paragraph [ref=f4e116]: View and manage all registered clinics, track their active status, contact details and access monitoring metrics in one centralized list.
+      - tablist [ref=f4e119]:
+        - tab "Active" [selected] [ref=f4e637] [cursor=pointer]
+        - tab "Inactive" [ref=f4e638] [cursor=pointer]
+      - generic [ref=f4e123]:
+        - generic [ref=f4e124]:
+          - button [ref=f4e639] [cursor=pointer]
+          - generic [ref=f4e131]:
+            - textbox "Search for Clinic Name" [ref=f4e640]: Bytecorp
+            - group
+        - generic [ref=f4e133]:
+          - button [ref=f4e641] [cursor=pointer]
+          - button [ref=f4e643] [cursor=pointer]
+          - button [ref=f4e644] [cursor=pointer]
+      - generic [ref=f4e155]:
+        - generic [ref=f4e156]:
+          - generic [ref=f4e158]:
+            - paragraph [ref=f4e159]: Total Clinics
+            - generic [ref=f4e160]: 1 Clinic
+          - grid [ref=f4e164]:
+            - row [ref=f4e645]:
+              - columnheader [ref=f4e166]
+              - columnheader "ID" [ref=f4e646]
+              - columnheader "Name" [ref=f4e647]
+              - columnheader "Street Address" [ref=f4e648]
+              - columnheader "City" [ref=f4e649]
+              - columnheader "State" [ref=f4e650]
+              - columnheader "Zip Code" [ref=f4e651]
+              - columnheader "Monitoring Metrics" [ref=f4e652]
+              - columnheader "Contact Info" [ref=f4e653]
+              - columnheader "Current Status" [ref=f4e654]
+              - columnheader [ref=f4e194]
+            - rowgroup [ref=f4e195]:
+              - row [ref=f4e724]:
+                - gridcell "1" [ref=f4e725]
+                - gridcell "11646" [ref=f4e726]
+                - gridcell [ref=f4e727]:
+                  - generic "Bytecorp Clinic" [ref=f4e728]:
+                    - paragraph [ref=f4e729]: Bytecorp Clinic
+                - gridcell [ref=f4e730]:
+                  - generic "2nd Floor A-352 Blk 15 Block 15 Gulistan-e-Johar" [ref=f4e731]:
+                    - paragraph [ref=f4e732]: 2nd Floor A-352 Blk 15 Block 15 Gulistan-e-Johar
+                - gridcell "karachi" [ref=f4e733]
+                - gridcell "Sindh" [ref=f4e734]
+                - gridcell "75950" [ref=f4e735]
+                - gridcell [ref=f4e736]:
+                  - button "View Metrics" [ref=f4e737] [cursor=pointer]
+                - gridcell [ref=f4e738]:
+                  - generic [ref=f4e739]:
+                    - paragraph [ref=f4e740]: Abdul Rehman
+                    - paragraph [ref=f4e741]: "Email: abdul.rehman@bytecorp.io"
+                    - paragraph [ref=f4e742]: "Phone: +1 (221) 548-4544"
+                - gridcell "Active" [ref=f4e743]
+                - gridcell [ref=f4e749]:
+                  - menu [ref=f4e750]:
+                    - button [ref=f4e752] [cursor=pointer]
+        - generic [ref=f4e309]:
+          - generic [ref=f4e310]:
+            - paragraph [ref=f4e311]: Rows per page
+            - generic [ref=f4e315]:
+              - combobox [ref=f4e316]: "10"
+              - button "Open" [ref=f4e697] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f4e698]:
+            - list [ref=f4e322]:
+              - listitem [ref=f4e323]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f4e324]:
+                - button "page 1" [ref=f4e699] [cursor=pointer]: "1"
+              - listitem [ref=f4e762]:
+                - button "Go to next page" [disabled]

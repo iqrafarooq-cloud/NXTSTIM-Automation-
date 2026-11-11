@@ -1,0 +1,88 @@
+- generic [ref=e47]:
+  - banner [ref=e48]:
+    - generic [ref=e49]:
+      - button "open drawer" [ref=e732] [cursor=pointer]:
+        - img [ref=e52]
+      - generic [ref=e55] [cursor=pointer]:
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - img "profile" [ref=e733]
+            - generic [ref=e391]: "!"
+          - paragraph [ref=e59]: admin auth
+        - button [ref=e60]:
+          - img [ref=e61]
+  - generic [ref=e64]:
+    - generic [ref=e65]:
+      - button [ref=e66] [cursor=pointer]:
+        - img [ref=e67]
+      - img [ref=e70]
+    - separator [ref=e72]
+    - list [ref=e73]:
+      - listitem [ref=e75]:
+        - button "Accounts" [ref=e734] [cursor=pointer]:
+          - generic [ref=e77]:
+            - img [ref=e79]
+            - img [ref=e82]
+          - generic:
+            - generic: Accounts
+      - link "Monitoring" [ref=e735] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e85]:
+          - button "Monitoring" [ref=e736]:
+            - img [ref=e88]
+            - generic [ref=e738]: Monitoring
+      - link "Reports" [ref=e739] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e93]:
+          - button "Reports" [ref=e740]:
+            - img [ref=e96]
+            - generic [ref=e104]: Reports
+      - link "Invoices" [ref=e741] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e106]:
+          - button "Invoices" [ref=e742]:
+            - img [ref=e109]
+            - generic [ref=e114]: Invoices
+  - main [ref=e115]:
+    - generic [ref=e743]:
+      - paragraph [ref=e746]: Settings
+      - paragraph [ref=e747]: Manage your account settings
+      - paragraph [ref=e749]: Security Settings
+      - generic [ref=e750]:
+        - generic [ref=e751]:
+          - paragraph [ref=e752]: Change your password
+          - paragraph [ref=e753]: Update your password to keep your account secure and accessible only to you. Change your password frequently to reduce the chance of unauthorized access
+        - button "Change Password" [ref=e754] [cursor=pointer]
+      - generic [ref=e757]:
+        - generic [ref=e758]:
+          - generic [ref=e759]:
+            - paragraph [ref=e760]: Set-up Multifactor Authentication
+            - generic "Action required" [ref=e761]:
+              - img [ref=e762]
+          - paragraph [ref=e765]: Select your preferred Multifactor Authentication method
+          - radiogroup [ref=e766]:
+            - generic [ref=e767] [cursor=pointer]:
+              - generic [ref=e768]:
+                - 'radio "Authenticator App : Use an app to generate a verification code when signing in. Recommended" [checked] [ref=e769]'
+                - generic [ref=e770]:
+                  - img [ref=e771]
+                  - img [ref=e773]
+              - generic [ref=e776]:
+                - generic [ref=e777]: "Authenticator App :"
+                - generic [ref=e778]: Use an app to generate a verification code when signing in.
+                - generic [ref=e779]: Recommended
+            - generic [ref=e780] [cursor=pointer]:
+              - generic [ref=e781]:
+                - 'radio "Email Verification : We''ll send a verification code to your email each time you sign in." [ref=e782]'
+                - img [ref=e784]
+              - generic [ref=e787]:
+                - generic [ref=e788]: "Email Verification :"
+                - generic [ref=e789]: We'll send a verification code to your email each time you sign in.
+        - button "Enable MFA" [ref=e791] [cursor=pointer]: Enable MFA
+      - generic [ref=e793]:
+        - generic [ref=e794]:
+          - paragraph [ref=e795]: Trusted Devices
+          - paragraph [ref=e796]: Manage the devices you have marked as trusted. These devices don't require a Multifactor Authentication code when signing in.
+        - generic [ref=e797]:
+          - img "No trusted devices" [ref=e798]
+          - paragraph [ref=e799]: You haven't marked any devices as trusted yet. Once you enable Multifactor Authentication and log in from a new device, you can choose to trust it for easier future sign-ins.

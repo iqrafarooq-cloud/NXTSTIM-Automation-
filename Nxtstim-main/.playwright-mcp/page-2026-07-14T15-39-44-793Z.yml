@@ -1,0 +1,115 @@
+- generic [ref=f3e8]:
+  - banner [ref=f3e331]:
+    - generic [ref=f3e332]:
+      - button "open drawer" [ref=f3e334] [cursor=pointer]
+      - generic [ref=f3e338] [cursor=pointer]:
+        - generic [ref=f3e339]:
+          - generic [ref=f3e340]:
+            - img "profile" [ref=f3e341]
+            - generic [ref=f3e342]: "!"
+          - paragraph [ref=f3e343]: admin auth
+        - button [ref=f3e344]
+  - generic [ref=f3e26]:
+    - button [ref=f3e28] [cursor=pointer]
+    - separator [ref=f3e34]
+    - list [ref=f3e35]:
+      - link [ref=f3e307] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f3e37]:
+          - button "Monitoring" [ref=f3e308]
+      - link [ref=f3e309] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f3e47]:
+          - button "Reports" [ref=f3e310]
+      - link [ref=f3e311] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f3e60]:
+          - button "Invoices" [ref=f3e312]
+      - link [ref=f3e313] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f3e70]:
+          - button [ref=f3e314]
+      - link [ref=f3e315] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f3e76]:
+          - button "Patients" [ref=f3e316]
+      - link [ref=f3e317] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f3e86]:
+          - button "Users" [ref=f3e318]
+      - link [ref=f3e319] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f3e95]:
+          - button "Roles" [ref=f3e320]
+  - main [ref=f3e104]:
+    - generic [ref=f3e105]:
+      - navigation [ref=f3e106]:
+        - list [ref=f3e107]:
+          - listitem [ref=f3e108]:
+            - button "Clinics" [ref=f3e321] [cursor=pointer]
+          - listitem [ref=f3e110]: ">"
+          - listitem [ref=f3e111]:
+            - paragraph [ref=f3e112]: Clinic ID 11647
+      - generic [ref=f3e113]:
+        - generic [ref=f3e115]:
+          - paragraph [ref=f3e116]: QA Automation Clinic
+          - generic [ref=f3e117]: Active
+        - generic [ref=f3e127]:
+          - paragraph [ref=f3e132]: "11647"
+          - paragraph [ref=f3e136]: John Tester
+          - paragraph [ref=f3e140]: qa.clinic@bytecorp.io
+          - paragraph [ref=f3e149]: +31 05 648721
+      - generic [ref=f3e150]:
+        - tablist [ref=f3e154]:
+          - tab "Clinic Profile" [ref=f3e322] [cursor=pointer]
+          - tab "Supervisor" [active] [selected] [ref=f3e323] [cursor=pointer]
+          - tab "Nurses" [ref=f3e324] [cursor=pointer]
+          - tab "Patient Tags" [ref=f3e325] [cursor=pointer]
+          - tab "File Vault" [ref=f3e326] [cursor=pointer]
+          - tab "Billing" [ref=f3e327] [cursor=pointer]
+        - generic [ref=f3e348]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph
+          - generic [ref=f3e349]:
+            - generic [ref=f3e350]:
+              - button [ref=f3e351] [cursor=pointer]
+              - generic [ref=f3e357]:
+                - textbox "Search for ID" [ref=f3e358]
+                - group
+            - generic [ref=f3e359]:
+              - button [ref=f3e361] [cursor=pointer]
+              - button [ref=f3e366] [cursor=pointer]
+          - generic [ref=f3e371]:
+            - generic [ref=f3e372]:
+              - generic [ref=f3e374]:
+                - paragraph [ref=f3e375]: Total Supervisors
+                - generic [ref=f3e376]: 0 Supervisor
+              - grid [ref=f3e380]:
+                - row [ref=f3e381]:
+                  - columnheader [ref=f3e382]
+                  - columnheader "ID" [ref=f3e383]
+                  - columnheader "First Name" [ref=f3e386]
+                  - columnheader "Last Name" [ref=f3e389]
+                  - columnheader "Email" [ref=f3e392]
+                  - columnheader "Phone No." [ref=f3e395]
+                  - columnheader "Associated Clinic" [ref=f3e398]
+                  - columnheader "Onboarding Date" [ref=f3e401]
+                  - columnheader [ref=f3e404]
+                - generic: Nothing here yet.
+                - rowgroup
+            - generic [ref=f3e418]:
+              - generic [ref=f3e419]:
+                - paragraph [ref=f3e420]: Rows per page
+                - generic [ref=f3e424]:
+                  - combobox [ref=f3e425]: "10"
+                  - button "Open" [ref=f3e427] [cursor=pointer]
+                  - group
+              - navigation "pagination navigation" [ref=f3e430]:
+                - list [ref=f3e431]:
+                  - listitem [ref=f3e432]:
+                    - button "Go to previous page" [disabled]
+                  - listitem [ref=f3e433]:
+                    - button "Go to next page" [disabled]

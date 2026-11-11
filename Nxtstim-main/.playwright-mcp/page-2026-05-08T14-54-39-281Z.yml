@@ -1,0 +1,310 @@
+- generic [ref=e35]:
+  - banner [ref=e438]:
+    - generic [ref=e441] [cursor=pointer]:
+      - generic [ref=e442]:
+        - img "profile" [ref=e1156]
+        - paragraph [ref=e444]: QAExecutive admin
+      - button [ref=e445]:
+        - img [ref=e446]
+  - generic [ref=e51]:
+    - generic [ref=e52]:
+      - button [ref=e53] [cursor=pointer]:
+        - img [ref=e54]
+      - img [ref=e57]
+    - separator [ref=e59]
+    - list [ref=e60]:
+      - generic [ref=e61]:
+        - listitem [ref=e62]:
+          - button "Accounts" [ref=e1157] [cursor=pointer]:
+            - img [ref=e448]
+            - generic [ref=e451]: Accounts
+            - img [ref=e452]
+        - generic [ref=e457]:
+          - link "Admin" [ref=e1158] [cursor=pointer]:
+            - /url: /admin
+            - listitem [ref=e459]:
+              - button "Admin" [ref=e1159]:
+                - generic [ref=e462]: Admin
+          - link "Supervisors" [ref=e1160] [cursor=pointer]:
+            - /url: /supervisors
+            - listitem [ref=e464]:
+              - button "Supervisors" [ref=e1161]:
+                - generic [ref=e467]: Supervisors
+          - link "Clinics" [ref=e1162] [cursor=pointer]:
+            - /url: /clinics
+            - listitem [ref=e469]:
+              - button "Clinics" [ref=e1163]:
+                - generic [ref=e472]: Clinics
+          - link "Nurses" [ref=e1164] [cursor=pointer]:
+            - /url: /nurses
+            - listitem [ref=e474]:
+              - button "Nurses" [ref=e1165]:
+                - generic [ref=e477]: Nurses
+          - link "Patients" [ref=e1166] [cursor=pointer]:
+            - /url: /patients
+            - listitem [ref=e479]:
+              - button "Patients" [ref=e1167]:
+                - generic [ref=e482]: Patients
+          - link "Support Staff" [ref=e1168] [cursor=pointer]:
+            - /url: /support-staff
+            - listitem [ref=e484]:
+              - button "Support Staff" [ref=e1169]:
+                - generic [ref=e487]: Support Staff
+      - link "Monitoring" [ref=e1170] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=e72]:
+          - button "Monitoring" [ref=e1171]:
+            - img [ref=e75]
+            - generic [ref=e489]: Monitoring
+      - link "Reports" [ref=e1172] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=e80]:
+          - button "Reports" [ref=e1173]:
+            - img [ref=e83]
+            - generic [ref=e91]: Reports
+      - link "Invoices" [ref=e1174] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=e93]:
+          - button "Invoices" [ref=e1175]:
+            - img [ref=e96]
+            - generic [ref=e101]: Invoices
+  - main [ref=e102]:
+    - generic [ref=e500]:
+      - generic [ref=e502]:
+        - generic [ref=e503]:
+          - paragraph [ref=e505]: Supervisors
+          - button "Add Supervisor" [active] [ref=e1176] [cursor=pointer]:
+            - img [ref=e508]
+            - text: Add Supervisor
+        - paragraph [ref=e510]: View and manage patient progress, care program activity, and staff performance across assigned clinics with streamlined access to reports, communication logs, and monitoring data.
+      - tablist [ref=e513]:
+        - tab "Active" [selected] [ref=e1177] [cursor=pointer]
+        - tab "Pending" [ref=e1178] [cursor=pointer]
+        - tab "Suspended" [ref=e1179] [cursor=pointer]
+        - tab "Inactive" [ref=e1180] [cursor=pointer]
+      - generic [ref=e519]:
+        - generic [ref=e520]:
+          - button "ID" [ref=e1181] [cursor=pointer]:
+            - text: ID
+            - img [ref=e523]
+          - generic [ref=e527]:
+            - textbox "Search for ID" [ref=e1182]
+            - group
+        - generic [ref=e529]:
+          - button "Filters" [ref=e1183] [cursor=pointer]:
+            - img [ref=e534]
+            - text: Filters
+          - button "Sort By" [ref=e1184] [cursor=pointer]:
+            - img [ref=e540]
+            - text: Sort By
+          - button "Export CSV" [ref=e1185] [cursor=pointer]:
+            - img [ref=e544]
+            - text: Export CSV
+      - generic [ref=e546]:
+        - generic [ref=e547]:
+          - generic [ref=e549]:
+            - paragraph [ref=e550]: Total Supervisors
+            - generic [ref=e552]: 7 Supervisors
+          - grid [ref=e555]:
+            - row "ID First Name Last Name Email Phone No. Associated Clinic" [ref=e1186]:
+              - columnheader [ref=e557]
+              - columnheader "ID" [ref=e1187]:
+                - generic [ref=e560]: ID
+              - columnheader "First Name" [ref=e1188]:
+                - generic [ref=e563]: First Name
+              - columnheader "Last Name" [ref=e1189]:
+                - generic [ref=e566]: Last Name
+              - columnheader "Email" [ref=e1190]:
+                - generic [ref=e569]: Email
+              - columnheader "Phone No." [ref=e1191]:
+                - generic [ref=e572]: Phone No.
+              - columnheader "Associated Clinic" [ref=e1192]:
+                - generic [ref=e575]: Associated Clinic
+              - columnheader [ref=e576]
+            - rowgroup [ref=e577]:
+              - row "1 10410 ewf frf ryej@yopmail.com +1 (874) 562-8965 abcc" [ref=e1193]:
+                - gridcell "1" [ref=e1194]
+                - gridcell "10410" [ref=e1195]:
+                  - generic "10410" [ref=e1196]:
+                    - paragraph [ref=e1197]: "10410"
+                - gridcell "ewf" [ref=e1198]:
+                  - generic "ewf" [ref=e1199]:
+                    - paragraph [ref=e1200]: ewf
+                - gridcell "frf" [ref=e1201]:
+                  - generic "frf" [ref=e1202]:
+                    - paragraph [ref=e1203]: frf
+                - gridcell "ryej@yopmail.com" [ref=e1204]:
+                  - generic "ryej@yopmail.com" [ref=e1205]:
+                    - paragraph [ref=e1206]: ryej@yopmail.com
+                - gridcell "+1 (874) 562-8965" [ref=e1207]:
+                  - generic "+1 (874) 562-8965" [ref=e1208]:
+                    - paragraph [ref=e1209]: +1 (874) 562-8965
+                - gridcell "abcc" [ref=e1210]:
+                  - generic "abcc" [ref=e1211]:
+                    - paragraph [ref=e1212]: abcc
+                - gridcell [ref=e1213]:
+                  - menu [ref=e1214]:
+                    - button [ref=e1216] [cursor=pointer]:
+                      - img [ref=e1217]
+              - row "2 10400 new user-supervisor tmn0uc11@anonaddy.com +1 (894) 653-2879 Medical care" [ref=e1223]:
+                - gridcell "2" [ref=e1224]
+                - gridcell "10400" [ref=e1225]:
+                  - generic "10400" [ref=e1226]:
+                    - paragraph [ref=e1227]: "10400"
+                - gridcell "new" [ref=e1228]:
+                  - generic "new" [ref=e1229]:
+                    - paragraph [ref=e1230]: new
+                - gridcell "user-supervisor" [ref=e1231]:
+                  - generic "user-supervisor" [ref=e1232]:
+                    - paragraph [ref=e1233]: user-supervisor
+                - gridcell "tmn0uc11@anonaddy.com" [ref=e1234]:
+                  - generic "tmn0uc11@anonaddy.com" [ref=e1235]:
+                    - paragraph [ref=e1236]: tmn0uc11@anonaddy.com
+                - gridcell "+1 (894) 653-2879" [ref=e1237]:
+                  - generic "+1 (894) 653-2879" [ref=e1238]:
+                    - paragraph [ref=e1239]: +1 (894) 653-2879
+                - gridcell "Medical care" [ref=e1240]:
+                  - generic "Medical care" [ref=e1241]:
+                    - paragraph [ref=e1242]: Medical care
+                - gridcell [ref=e1243]:
+                  - menu [ref=e1244]:
+                    - button [ref=e1246] [cursor=pointer]:
+                      - img [ref=e1247]
+              - row "3 10308 android supervisor sitmc9wt@anonaddy.com +1 (874) 597-8465 app clinic" [ref=e1253]:
+                - gridcell "3" [ref=e1254]
+                - gridcell "10308" [ref=e1255]:
+                  - generic "10308" [ref=e1256]:
+                    - paragraph [ref=e1257]: "10308"
+                - gridcell "android" [ref=e1258]:
+                  - generic "android" [ref=e1259]:
+                    - paragraph [ref=e1260]: android
+                - gridcell "supervisor" [ref=e1261]:
+                  - generic "supervisor" [ref=e1262]:
+                    - paragraph [ref=e1263]: supervisor
+                - gridcell "sitmc9wt@anonaddy.com" [ref=e1264]:
+                  - generic "sitmc9wt@anonaddy.com" [ref=e1265]:
+                    - paragraph [ref=e1266]: sitmc9wt@anonaddy.com
+                - gridcell "+1 (874) 597-8465" [ref=e1267]:
+                  - generic "+1 (874) 597-8465" [ref=e1268]:
+                    - paragraph [ref=e1269]: +1 (874) 597-8465
+                - gridcell "app clinic" [ref=e1270]:
+                  - generic "app clinic" [ref=e1271]:
+                    - paragraph [ref=e1272]: app clinic
+                - gridcell [ref=e1273]:
+                  - menu [ref=e1274]:
+                    - button [ref=e1276] [cursor=pointer]:
+                      - img [ref=e1277]
+              - row "4 10298 Supervising provider 7edoe7wv@anonaddy.me +1 (978) 465-1329 chargeclinic" [ref=e1283]:
+                - gridcell "4" [ref=e1284]
+                - gridcell "10298" [ref=e1285]:
+                  - generic "10298" [ref=e1286]:
+                    - paragraph [ref=e1287]: "10298"
+                - gridcell "Supervising" [ref=e1288]:
+                  - generic "Supervising" [ref=e1289]:
+                    - paragraph [ref=e1290]: Supervising
+                - gridcell "provider" [ref=e1291]:
+                  - generic "provider" [ref=e1292]:
+                    - paragraph [ref=e1293]: provider
+                - gridcell "7edoe7wv@anonaddy.me" [ref=e1294]:
+                  - generic "7edoe7wv@anonaddy.me" [ref=e1295]:
+                    - paragraph [ref=e1296]: 7edoe7wv@anonaddy.me
+                - gridcell "+1 (978) 465-1329" [ref=e1297]:
+                  - generic "+1 (978) 465-1329" [ref=e1298]:
+                    - paragraph [ref=e1299]: +1 (978) 465-1329
+                - gridcell "chargeclinic" [ref=e1300]:
+                  - generic "chargeclinic" [ref=e1301]:
+                    - paragraph [ref=e1302]: chargeclinic
+                - gridcell [ref=e1303]:
+                  - menu [ref=e1304]:
+                    - button [ref=e1306] [cursor=pointer]:
+                      - img [ref=e1307]
+              - row "5 10185 user new user@yopmail.com +48 888-888-888 CareCenter" [ref=e1313]:
+                - gridcell "5" [ref=e1314]
+                - gridcell "10185" [ref=e1315]:
+                  - generic "10185" [ref=e1316]:
+                    - paragraph [ref=e1317]: "10185"
+                - gridcell "user" [ref=e1318]:
+                  - generic "user" [ref=e1319]:
+                    - paragraph [ref=e1320]: user
+                - gridcell "new" [ref=e1321]:
+                  - generic "new" [ref=e1322]:
+                    - paragraph [ref=e1323]: new
+                - gridcell "user@yopmail.com" [ref=e1324]:
+                  - generic "user@yopmail.com" [ref=e1325]:
+                    - paragraph [ref=e1326]: user@yopmail.com
+                - gridcell "+48 888-888-888" [ref=e1327]:
+                  - generic "+48 888-888-888" [ref=e1328]:
+                    - paragraph [ref=e1329]: +48 888-888-888
+                - gridcell "CareCenter" [ref=e1330]:
+                  - generic "CareCenter" [ref=e1331]:
+                    - paragraph [ref=e1332]: CareCenter
+                - gridcell [ref=e1333]:
+                  - menu [ref=e1334]:
+                    - button [ref=e1336] [cursor=pointer]:
+                      - img [ref=e1337]
+              - row "6 10110 supervisor one supervisorone@yopmail.com +1876 543 789 648 79 Medical care" [ref=e1343]:
+                - gridcell "6" [ref=e1344]
+                - gridcell "10110" [ref=e1345]:
+                  - generic "10110" [ref=e1346]:
+                    - paragraph [ref=e1347]: "10110"
+                - gridcell "supervisor" [ref=e1348]:
+                  - generic "supervisor" [ref=e1349]:
+                    - paragraph [ref=e1350]: supervisor
+                - gridcell "one" [ref=e1351]:
+                  - generic "one" [ref=e1352]:
+                    - paragraph [ref=e1353]: one
+                - gridcell "supervisorone@yopmail.com" [ref=e1354]:
+                  - generic "supervisorone@yopmail.com" [ref=e1355]:
+                    - paragraph [ref=e1356]: supervisorone@yopmail.com
+                - gridcell "+1876 543 789 648 79" [ref=e1357]:
+                  - generic "+1876 543 789 648 79" [ref=e1358]:
+                    - paragraph [ref=e1359]: +1876 543 789 648 79
+                - gridcell "Medical care" [ref=e1360]:
+                  - generic "Medical care" [ref=e1361]:
+                    - paragraph [ref=e1362]: Medical care
+                - gridcell [ref=e1363]:
+                  - menu [ref=e1364]:
+                    - button [ref=e1366] [cursor=pointer]:
+                      - img [ref=e1367]
+              - row "7 10102 Iqra Farooq user22@yopmail.com +1 (123) 456-7890 Medical care" [ref=e1373]:
+                - gridcell "7" [ref=e1374]
+                - gridcell "10102" [ref=e1375]:
+                  - generic "10102" [ref=e1376]:
+                    - paragraph [ref=e1377]: "10102"
+                - gridcell "Iqra" [ref=e1378]:
+                  - generic "Iqra" [ref=e1379]:
+                    - paragraph [ref=e1380]: Iqra
+                - gridcell "Farooq" [ref=e1381]:
+                  - generic "Farooq" [ref=e1382]:
+                    - paragraph [ref=e1383]: Farooq
+                - gridcell "user22@yopmail.com" [ref=e1384]:
+                  - generic "user22@yopmail.com" [ref=e1385]:
+                    - paragraph [ref=e1386]: user22@yopmail.com
+                - gridcell "+1 (123) 456-7890" [ref=e1387]:
+                  - generic "+1 (123) 456-7890" [ref=e1388]:
+                    - paragraph [ref=e1389]: +1 (123) 456-7890
+                - gridcell "Medical care" [ref=e1390]:
+                  - generic "Medical care" [ref=e1391]:
+                    - paragraph [ref=e1392]: Medical care
+                - gridcell [ref=e1393]:
+                  - menu [ref=e1394]:
+                    - button [ref=e1396] [cursor=pointer]:
+                      - img [ref=e1397]
+        - generic [ref=e796]:
+          - generic [ref=e797]:
+            - paragraph [ref=e798]: Rows per page
+            - generic [ref=e802]:
+              - combobox [ref=e803]: "10"
+              - button "Open" [ref=e1406] [cursor=pointer]:
+                - img [ref=e806]
+              - group
+          - navigation "pagination navigation" [ref=e1407]:
+            - list [ref=e809]:
+              - listitem [ref=e810]:
+                - button "Go to previous page" [disabled]:
+                  - img
+              - listitem [ref=e811]:
+                - button "page 1" [ref=e1408] [cursor=pointer]: "1"
+              - listitem [ref=e813]:
+                - button "Go to next page" [disabled]:
+                  - img

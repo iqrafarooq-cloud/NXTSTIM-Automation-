@@ -1,0 +1,23 @@
+- generic [ref=f2e7]:
+  - generic [ref=f2e1459]:
+    - generic [ref=f2e1462]:
+      - paragraph [ref=f2e1466]: Log in to your account
+      - generic [ref=f2e1467]:
+        - generic [ref=f2e1468]: Email Address
+        - generic [ref=f2e1470]:
+          - textbox "Enter Email" [ref=f2e1471]: inactive+716a@iqra.anonaddy.com
+          - group
+      - generic [ref=f2e1472]:
+        - generic [ref=f2e1473]: Password
+        - generic [ref=f2e1475]:
+          - textbox "Enter Password" [ref=f2e1476]: InactiveUser123!@A9
+          - button [ref=f2e1478] [cursor=pointer]
+          - group
+      - link [ref=f2e1482] [cursor=pointer]:
+        - /url: /forgot-password
+        - paragraph [ref=f2e1483]: Forgot Your Password?
+      - button "Log In" [ref=f2e1485] [cursor=pointer]
+    - link "Terms Of Service" [ref=f2e1484] [cursor=pointer]:
+      - /url: https://nxtstim.com/terms-of-service
+  - alert [ref=f2e1489]:
+    - generic [ref=f2e1490]: Your account is in inactive state, please contact support@nxtstim.com

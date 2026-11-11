@@ -1,0 +1,316 @@
+- generic [ref=f1e8]:
+  - banner [ref=f1e9]:
+    - generic [ref=f1e10]:
+      - button "open drawer" [ref=f1e12] [cursor=pointer]
+      - generic [ref=f1e16] [cursor=pointer]:
+        - generic [ref=f1e17]:
+          - generic [ref=f1e18]:
+            - img "profile" [ref=f1e19]
+            - generic [ref=f1e20]: "!"
+          - paragraph [ref=f1e21]: admin auth
+        - button [ref=f1e22]
+  - generic [ref=f1e26]:
+    - button [ref=f1e28] [cursor=pointer]
+    - separator [ref=f1e34]
+    - list [ref=f1e35]:
+      - link [ref=f1e36] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f1e37]:
+          - button "Monitoring" [ref=f1e38]
+      - link [ref=f1e46] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f1e47]:
+          - button "Reports" [ref=f1e48]
+      - link [ref=f1e59] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f1e60]:
+          - button "Invoices" [ref=f1e61]
+      - link [ref=f1e69] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f1e70]:
+          - button [ref=f1e71]
+      - link [ref=f1e75] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f1e76]:
+          - button "Patients" [ref=f1e77]
+      - link [ref=f1e85] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f1e86]:
+          - button "Users" [ref=f1e87]
+      - link [ref=f1e94] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f1e95]:
+          - button "Roles" [ref=f1e96]
+  - main [ref=f1e104]:
+    - generic [ref=f1e106]:
+      - generic [ref=f1e108]:
+        - generic [ref=f1e109]:
+          - paragraph [ref=f1e111]: Clinics
+          - button [ref=f1e112] [cursor=pointer]
+        - paragraph [ref=f1e116]: View and manage all registered clinics, track their active status, contact details and access monitoring metrics in one centralized list.
+      - tablist [ref=f1e119]:
+        - tab "Active" [selected] [ref=f1e120] [cursor=pointer]
+        - tab "Inactive" [ref=f1e121] [cursor=pointer]
+      - generic [ref=f1e123]:
+        - generic [ref=f1e124]:
+          - button [ref=f1e125] [cursor=pointer]
+          - generic [ref=f1e131]:
+            - textbox "Search for ID" [ref=f1e132]
+            - group
+        - generic [ref=f1e133]:
+          - button [ref=f1e136] [cursor=pointer]
+          - button [ref=f1e141] [cursor=pointer]
+          - button [ref=f1e146] [cursor=pointer]
+      - generic [ref=f1e151]:
+        - generic [ref=f1e152]:
+          - generic [ref=f1e154]:
+            - paragraph [ref=f1e155]: Total Clinics
+            - generic [ref=f1e156]: 70 Clinics
+          - grid [ref=f1e160]:
+            - row [ref=f1e161]:
+              - columnheader [ref=f1e162]
+              - columnheader "ID" [ref=f1e163]
+              - columnheader "Name" [ref=f1e166]
+              - columnheader "Street Address" [ref=f1e169]
+              - columnheader "City" [ref=f1e172]
+              - columnheader "State" [ref=f1e175]
+              - columnheader "Zip Code" [ref=f1e178]
+              - columnheader "Monitoring Metrics" [ref=f1e181]
+              - columnheader "Contact Info" [ref=f1e184]
+              - columnheader "Current Status" [ref=f1e187]
+              - columnheader [ref=f1e190]
+            - rowgroup [ref=f1e191]:
+              - row [ref=f1e192]:
+                - gridcell "1" [ref=f1e193]
+                - gridcell "11656" [ref=f1e194]
+                - gridcell [ref=f1e195]:
+                  - generic "QA Clinic bhiebcafffhhe Edited bhiebcageabab" [ref=f1e196]:
+                    - paragraph [ref=f1e197]: QA Clinic bhiebcafffhhe Edited bhiebcageabab
+                - gridcell [ref=f1e198]:
+                  - generic "123 QA Street" [ref=f1e199]:
+                    - paragraph [ref=f1e200]: 123 QA Street
+                - gridcell "San Diego" [ref=f1e201]
+                - gridcell "CA" [ref=f1e202]
+                - gridcell "92130" [ref=f1e203]
+                - gridcell [ref=f1e204]:
+                  - button "View Metrics" [ref=f1e205] [cursor=pointer]
+                - gridcell [ref=f1e206]:
+                  - generic [ref=f1e207]:
+                    - paragraph [ref=f1e208]: QA Automation
+                    - paragraph [ref=f1e209]: "Email: qa.clinic+555774@bytecorp.io"
+                    - paragraph [ref=f1e210]: "Phone: +1 (310) 564-8721"
+                - gridcell "Active" [ref=f1e211]
+                - gridcell [ref=f1e217]:
+                  - menu [ref=f1e218]:
+                    - button [ref=f1e220] [cursor=pointer]
+              - row [ref=f1e227]:
+                - gridcell "2" [ref=f1e228]
+                - gridcell "11655" [ref=f1e229]
+                - gridcell [ref=f1e230]:
+                  - generic "QA Clinic bhiebcaejgdgi" [ref=f1e231]:
+                    - paragraph [ref=f1e232]: QA Clinic bhiebcaejgdgi
+                - gridcell [ref=f1e233]:
+                  - generic "123 QA Street" [ref=f1e234]:
+                    - paragraph [ref=f1e235]: 123 QA Street
+                - gridcell "San Diego" [ref=f1e236]
+                - gridcell "CA" [ref=f1e237]
+                - gridcell "92130" [ref=f1e238]
+                - gridcell [ref=f1e239]:
+                  - button "View Metrics" [ref=f1e240] [cursor=pointer]
+                - gridcell [ref=f1e241]:
+                  - generic [ref=f1e242]:
+                    - paragraph [ref=f1e243]: QA Automation
+                    - paragraph [ref=f1e244]: "Email: qa.clinic+496368@bytecorp.io"
+                    - paragraph [ref=f1e245]: "Phone: +1 (310) 564-8721"
+                - gridcell "Active" [ref=f1e246]
+                - gridcell [ref=f1e252]:
+                  - menu [ref=f1e253]:
+                    - button [ref=f1e255] [cursor=pointer]
+              - row [ref=f1e262]:
+                - gridcell "3" [ref=f1e263]
+                - gridcell "11654" [ref=f1e264]
+                - gridcell [ref=f1e265]:
+                  - generic "ni" [ref=f1e266]:
+                    - paragraph [ref=f1e267]: ni
+                - gridcell [ref=f1e268]:
+                  - generic "nuil" [ref=f1e269]:
+                    - paragraph [ref=f1e270]: nuil
+                - gridcell "karachio" [ref=f1e271]
+                - gridcell "sindh" [ref=f1e272]
+                - gridcell "75000" [ref=f1e273]
+                - gridcell [ref=f1e274]:
+                  - button "View Metrics" [ref=f1e275] [cursor=pointer]
+                - gridcell [ref=f1e276]:
+                  - generic [ref=f1e277]:
+                    - paragraph [ref=f1e278]: nifjed
+                    - paragraph [ref=f1e279]: "Email: iqra.farooq2+00@bytecorp.io"
+                    - paragraph [ref=f1e280]: "Phone: +1 (444) 444-4444"
+                - gridcell "Active" [ref=f1e281]
+                - gridcell [ref=f1e287]:
+                  - menu [ref=f1e288]:
+                    - button [ref=f1e290] [cursor=pointer]
+              - row [ref=f1e297]:
+                - gridcell "4" [ref=f1e298]
+                - gridcell "11652" [ref=f1e299]
+                - gridcell [ref=f1e300]:
+                  - generic "QA Clinic bhiebbijdachf Edited bhiebbijhhhbj" [ref=f1e301]:
+                    - paragraph [ref=f1e302]: QA Clinic bhiebbijdachf Edited bhiebbijhhhbj
+                - gridcell [ref=f1e303]:
+                  - generic "123 QA Street" [ref=f1e304]:
+                    - paragraph [ref=f1e305]: 123 QA Street
+                - gridcell "San Diego" [ref=f1e306]
+                - gridcell "CA" [ref=f1e307]
+                - gridcell "92130" [ref=f1e308]
+                - gridcell [ref=f1e309]:
+                  - button "View Metrics" [ref=f1e310] [cursor=pointer]
+                - gridcell [ref=f1e311]:
+                  - generic [ref=f1e312]:
+                    - paragraph [ref=f1e313]: QA Automation
+                    - paragraph [ref=f1e314]: "Email: qa.clinic+930275@bytecorp.io"
+                    - paragraph [ref=f1e315]: "Phone: +1 (310) 564-8721"
+                - gridcell "Active" [ref=f1e316]
+                - gridcell [ref=f1e322]:
+                  - menu [ref=f1e323]:
+                    - button [ref=f1e325] [cursor=pointer]
+              - row [ref=f1e332]:
+                - gridcell "5" [ref=f1e333]
+                - gridcell "11651" [ref=f1e334]
+                - gridcell [ref=f1e335]:
+                  - generic "QA Clinic bhiebbiiigfaj" [ref=f1e336]:
+                    - paragraph [ref=f1e337]: QA Clinic bhiebbiiigfaj
+                - gridcell [ref=f1e338]:
+                  - generic "123 QA Street" [ref=f1e339]:
+                    - paragraph [ref=f1e340]: 123 QA Street
+                - gridcell "San Diego" [ref=f1e341]
+                - gridcell "CA" [ref=f1e342]
+                - gridcell "92130" [ref=f1e343]
+                - gridcell [ref=f1e344]:
+                  - button "View Metrics" [ref=f1e345] [cursor=pointer]
+                - gridcell [ref=f1e346]:
+                  - generic [ref=f1e347]:
+                    - paragraph [ref=f1e348]: QA Automation
+                    - paragraph [ref=f1e349]: "Email: qa.clinic+886509@bytecorp.io"
+                    - paragraph [ref=f1e350]: "Phone: +1 (310) 564-8721"
+                - gridcell "Active" [ref=f1e351]
+                - gridcell [ref=f1e357]:
+                  - menu [ref=f1e358]:
+                    - button [ref=f1e360] [cursor=pointer]
+              - row [ref=f1e367]:
+                - gridcell "6" [ref=f1e368]
+                - gridcell "11650" [ref=f1e369]
+                - gridcell [ref=f1e370]:
+                  - generic "QA Clinic bhiebbhcjgdca Edited bhiebbhdejiij" [ref=f1e371]:
+                    - paragraph [ref=f1e372]: QA Clinic bhiebbhcjgdca Edited bhiebbhdejiij
+                - gridcell [ref=f1e373]:
+                  - generic "123 QA Street" [ref=f1e374]:
+                    - paragraph [ref=f1e375]: 123 QA Street
+                - gridcell "San Diego" [ref=f1e376]
+                - gridcell "CA" [ref=f1e377]
+                - gridcell "92130" [ref=f1e378]
+                - gridcell [ref=f1e379]:
+                  - button "View Metrics" [ref=f1e380] [cursor=pointer]
+                - gridcell [ref=f1e381]:
+                  - generic [ref=f1e382]:
+                    - paragraph [ref=f1e383]: QA Automation
+                    - paragraph [ref=f1e384]: "Email: qa.clinic+296320@bytecorp.io"
+                    - paragraph [ref=f1e385]: "Phone: +1 (310) 564-8721"
+                - gridcell "Active" [ref=f1e386]
+                - gridcell [ref=f1e392]:
+                  - menu [ref=f1e393]:
+                    - button [ref=f1e395] [cursor=pointer]
+              - row [ref=f1e402]:
+                - gridcell "7" [ref=f1e403]
+                - gridcell "11649" [ref=f1e404]
+                - gridcell [ref=f1e405]:
+                  - generic "QA Clinic bhiebbhcfadjg" [ref=f1e406]:
+                    - paragraph [ref=f1e407]: QA Clinic bhiebbhcfadjg
+                - gridcell [ref=f1e408]:
+                  - generic "123 QA Street" [ref=f1e409]:
+                    - paragraph [ref=f1e410]: 123 QA Street
+                - gridcell "San Diego" [ref=f1e411]
+                - gridcell "CA" [ref=f1e412]
+                - gridcell "92130" [ref=f1e413]
+                - gridcell [ref=f1e414]:
+                  - button "View Metrics" [ref=f1e415] [cursor=pointer]
+                - gridcell [ref=f1e416]:
+                  - generic [ref=f1e417]:
+                    - paragraph [ref=f1e418]: QA Automation
+                    - paragraph [ref=f1e419]: "Email: qa.clinic+250396@bytecorp.io"
+                    - paragraph [ref=f1e420]: "Phone: +1 (310) 564-8721"
+                - gridcell "Active" [ref=f1e421]
+                - gridcell [ref=f1e427]:
+                  - menu [ref=f1e428]:
+                    - button [ref=f1e430] [cursor=pointer]
+              - row [ref=f1e437]:
+                - gridcell "8" [ref=f1e438]
+                - gridcell "11648" [ref=f1e439]
+                - gridcell [ref=f1e440]:
+                  - generic "QA Clinic bhiebbehabaib" [ref=f1e441]:
+                    - paragraph [ref=f1e442]: QA Clinic bhiebbehabaib
+                - gridcell [ref=f1e443]:
+                  - generic "123 QA Street" [ref=f1e444]:
+                    - paragraph [ref=f1e445]: 123 QA Street
+                - gridcell "San Diego" [ref=f1e446]
+                - gridcell "CA" [ref=f1e447]
+                - gridcell "92130" [ref=f1e448]
+                - gridcell [ref=f1e449]:
+                  - button "View Metrics" [ref=f1e450] [cursor=pointer]
+                - gridcell [ref=f1e451]:
+                  - generic [ref=f1e452]:
+                    - paragraph [ref=f1e453]: QA Automation
+                    - paragraph [ref=f1e454]: "Email: qa.clinic+701081@bytecorp.io"
+                    - paragraph [ref=f1e455]: "Phone: +1 (310) 564-8721"
+                - gridcell "Active" [ref=f1e456]
+                - gridcell [ref=f1e462]:
+                  - menu [ref=f1e463]:
+                    - button [ref=f1e465] [cursor=pointer]
+              - row [ref=f1e472]:
+                - gridcell "9" [ref=f1e473]
+                - gridcell "11647" [ref=f1e474]
+                - gridcell [ref=f1e475]:
+                  - generic "QA Automation Clinic" [ref=f1e476]:
+                    - paragraph [ref=f1e477]: QA Automation Clinic
+                - gridcell [ref=f1e478]:
+                  - generic "123 QA Street" [ref=f1e479]:
+                    - paragraph [ref=f1e480]: 123 QA Street
+                - gridcell "San Diego" [ref=f1e481]
+                - gridcell "CA" [ref=f1e482]
+                - gridcell "92130" [ref=f1e483]
+                - gridcell [ref=f1e484]:
+                  - button "View Metrics" [ref=f1e485] [cursor=pointer]
+                - gridcell [ref=f1e486]:
+                  - generic [ref=f1e487]:
+                    - paragraph [ref=f1e488]: John Tester
+                    - paragraph [ref=f1e489]: "Email: qa.clinic@bytecorp.io"
+                    - paragraph [ref=f1e490]: "Phone: +31 05 648721"
+                - gridcell "Active" [ref=f1e491]
+                - gridcell [ref=f1e497]:
+                  - menu [ref=f1e498]:
+                    - button [ref=f1e500] [cursor=pointer]
+        - generic [ref=f1e515]:
+          - generic [ref=f1e516]:
+            - paragraph [ref=f1e517]: Rows per page
+            - generic [ref=f1e521]:
+              - combobox [ref=f1e522]: "10"
+              - button "Open" [ref=f1e524] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f1e527]:
+            - list [ref=f1e528]:
+              - listitem [ref=f1e529]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f1e530]:
+                - button "page 1" [ref=f1e531] [cursor=pointer]: "1"
+              - listitem [ref=f1e532]:
+                - button "Go to page 2" [ref=f1e533] [cursor=pointer]: "2"
+              - listitem [ref=f1e534]:
+                - button "Go to page 3" [ref=f1e535] [cursor=pointer]: "3"
+              - listitem [ref=f1e536]:
+                - button "Go to page 4" [ref=f1e537] [cursor=pointer]: "4"
+              - listitem [ref=f1e538]:
+                - button "Go to page 5" [ref=f1e539] [cursor=pointer]: "5"
+              - listitem [ref=f1e540]:
+                - button "Go to page 6" [ref=f1e541] [cursor=pointer]: "6"
+              - listitem [ref=f1e542]:
+                - button "Go to page 7" [ref=f1e543] [cursor=pointer]: "7"
+              - listitem [ref=f1e544]:
+                - button "Go to next page" [ref=f1e545] [cursor=pointer]

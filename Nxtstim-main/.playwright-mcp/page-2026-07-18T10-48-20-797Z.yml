@@ -1,0 +1,133 @@
+- generic [ref=f1e8]:
+  - banner [ref=f1e1084]:
+    - generic [ref=f1e1085]:
+      - button "open drawer" [ref=f1e1087] [cursor=pointer]
+      - generic [ref=f1e1091] [cursor=pointer]:
+        - generic [ref=f1e1092]:
+          - generic [ref=f1e1093]:
+            - img "profile" [ref=f1e1094]
+            - generic [ref=f1e1095]: "!"
+          - paragraph [ref=f1e1096]: ADMIN USER
+        - button [ref=f1e1097]
+  - generic [ref=f1e26]:
+    - button [ref=f1e28] [cursor=pointer]
+    - separator [ref=f1e34]
+    - list [ref=f1e35]:
+      - link [ref=f1e750] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f1e37]:
+          - button "Monitoring" [ref=f1e751]
+      - link [ref=f1e752] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f1e47]:
+          - button "Reports" [ref=f1e753]
+      - link [ref=f1e754] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f1e60]:
+          - button "Invoices" [ref=f1e755]
+      - link [ref=f1e756] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f1e70]:
+          - button [ref=f1e757]
+      - link [ref=f1e758] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f1e76]:
+          - button "Patients" [ref=f1e759]
+      - link [ref=f1e760] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f1e86]:
+          - button "Users" [ref=f1e761]
+      - link [ref=f1e762] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f1e95]:
+          - button "Roles" [ref=f1e763]
+  - main [ref=f1e104]:
+    - generic [ref=f1e764]:
+      - navigation [ref=f1e765]:
+        - list [ref=f1e766]:
+          - listitem [ref=f1e767]:
+            - button "Clinics" [ref=f1e768] [cursor=pointer]
+          - listitem [ref=f1e769]: ">"
+          - listitem [ref=f1e770]:
+            - paragraph [ref=f1e771]: Clinic ID 11730
+      - generic [ref=f1e772]:
+        - generic [ref=f1e774]:
+          - paragraph [ref=f1e775]: QA Clinic bhiedgjfjhiig
+          - generic [ref=f1e776]: Active
+        - generic [ref=f1e786]:
+          - paragraph [ref=f1e791]: "11730"
+          - paragraph [ref=f1e795]: QA Automation
+          - paragraph [ref=f1e799]: qa.clinic+597886@bytecorp.io
+          - paragraph [ref=f1e808]: +1 (310) 564-8721
+      - generic [ref=f1e809]:
+        - tablist [ref=f1e813]:
+          - tab "Clinic Profile" [ref=f1e814] [cursor=pointer]
+          - tab "Supervisor" [ref=f1e815] [cursor=pointer]
+          - tab "Nurses" [ref=f1e816] [cursor=pointer]
+          - tab "Patient Tags" [ref=f1e817] [cursor=pointer]
+          - tab "File Vault" [ref=f1e818] [cursor=pointer]
+          - tab "Billing" [active] [selected] [ref=f1e819] [cursor=pointer]
+        - generic [ref=f1e1100]:
+          - generic [ref=f1e1101]:
+            - tablist [ref=f1e1105]:
+              - tab "Billing Information" [selected] [ref=f1e1106] [cursor=pointer]
+              - tab "Payments" [ref=f1e1107] [cursor=pointer]
+              - tab "Invoices" [ref=f1e1108] [cursor=pointer]
+              - tab "Credit Log" [ref=f1e1109] [cursor=pointer]
+            - button "Edit" [ref=f1e1111] [cursor=pointer]
+          - generic [ref=f1e1114]:
+            - generic [ref=f1e1115]:
+              - paragraph [ref=f1e1116]: Financial Details
+              - generic [ref=f1e1117]:
+                - generic [ref=f1e1118]:
+                  - paragraph [ref=f1e1119]:
+                    - text: Credit Balance
+                    - img "To update the credit balance, go to the Credit Log tab" [ref=f1e1120]
+                  - paragraph [ref=f1e1122]: "-"
+                - generic [ref=f1e1123]:
+                  - paragraph [ref=f1e1124]: Outstanding Balance
+                  - paragraph [ref=f1e1125]: $0.00
+            - generic [ref=f1e1127]:
+              - paragraph [ref=f1e1128]: Billing Address
+              - generic [ref=f1e1129]:
+                - generic [ref=f1e1130]:
+                  - paragraph [ref=f1e1131]: Street Address
+                  - paragraph [ref=f1e1132]: 123 QA Street
+                - generic [ref=f1e1133]:
+                  - paragraph [ref=f1e1134]: City
+                  - paragraph [ref=f1e1135]: San Diego
+                - generic [ref=f1e1136]:
+                  - paragraph [ref=f1e1137]: State
+                  - paragraph [ref=f1e1138]: CA
+                - generic [ref=f1e1139]:
+                  - paragraph [ref=f1e1140]: Zip Code
+                  - paragraph [ref=f1e1141]: "92130"
+            - generic [ref=f1e1143]:
+              - paragraph [ref=f1e1144]: Shipping Address
+              - generic [ref=f1e1145]:
+                - generic [ref=f1e1146]:
+                  - paragraph [ref=f1e1147]: Street Address
+                  - paragraph [ref=f1e1148]: 123 QA Street
+                - generic [ref=f1e1149]:
+                  - paragraph [ref=f1e1150]: City
+                  - paragraph [ref=f1e1151]: San Diego
+                - generic [ref=f1e1152]:
+                  - paragraph [ref=f1e1153]: State
+                  - paragraph [ref=f1e1154]: CA
+                - generic [ref=f1e1155]:
+                  - paragraph [ref=f1e1156]: Zip Code
+                  - paragraph [ref=f1e1157]: "92130"
+            - generic [ref=f1e1159]:
+              - paragraph [ref=f1e1160]: Tax Details
+              - generic [ref=f1e1161]:
+                - generic [ref=f1e1162]:
+                  - paragraph [ref=f1e1163]: Tax Status
+                  - paragraph [ref=f1e1164]: Taxable
+                - generic [ref=f1e1165]:
+                  - paragraph [ref=f1e1166]: Tax ID
+                  - paragraph [ref=f1e1167]: "-"
+            - generic [ref=f1e1169]:
+              - paragraph [ref=f1e1170]: Subscription Details
+              - generic [ref=f1e1172]:
+                - paragraph [ref=f1e1173]: Subscription Plan
+                - paragraph [ref=f1e1174]: Free

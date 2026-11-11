@@ -1,0 +1,97 @@
+- generic [ref=f1e8]:
+  - banner [ref=f1e1159]:
+    - generic [ref=f1e1160]:
+      - button "open drawer" [ref=f1e1378] [cursor=pointer]
+      - generic [ref=f1e1166] [cursor=pointer]:
+        - generic [ref=f1e1167]:
+          - generic [ref=f1e1168]:
+            - img "profile" [ref=f1e1379]
+            - generic [ref=f1e1170]: "!"
+          - paragraph [ref=f1e1171]: QAAuto Admin
+        - button [ref=f1e1172]
+  - generic [ref=f1e26]:
+    - button [ref=f1e28] [cursor=pointer]
+    - separator [ref=f1e34]
+    - list [ref=f1e35]:
+      - link [ref=f1e1380] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f1e37]:
+          - button "Monitoring" [ref=f1e1381]
+      - link [ref=f1e1382] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f1e47]:
+          - button "Reports" [ref=f1e1383]
+      - link [ref=f1e1384] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f1e60]:
+          - button "Invoices" [ref=f1e1385]
+      - link [ref=f1e1386] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f1e70]:
+          - button "Clinics" [ref=f1e1387]
+      - link [ref=f1e1388] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f1e78]:
+          - button "Patients" [ref=f1e1389]
+      - link [ref=f1e1390] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f1e88]:
+          - button [ref=f1e1391]
+      - link [ref=f1e1392] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f1e95]:
+          - button "Roles" [ref=f1e1393]
+  - main [ref=f1e104]:
+    - generic [ref=f1e106]:
+      - generic [ref=f1e108]:
+        - generic [ref=f1e109]:
+          - paragraph [ref=f1e111]: Users
+          - button [ref=f1e1394] [cursor=pointer]
+        - paragraph [ref=f1e116]: View and manage all users and their assigned roles across the system.
+      - tablist [ref=f1e119]:
+        - tab "Active" [selected] [ref=f1e1395] [cursor=pointer]
+        - tab "Pending" [ref=f1e1396] [cursor=pointer]
+        - tab "Suspended" [ref=f1e1397] [cursor=pointer]
+        - tab "Inactive" [ref=f1e1398] [cursor=pointer]
+      - generic [ref=f1e125]:
+        - generic [ref=f1e126]:
+          - button [active] [ref=f1e1399] [cursor=pointer]
+          - generic [ref=f1e133]:
+            - textbox "Search for Phone Number" [ref=f1e1400]: 07-25-2026
+            - group
+        - generic [ref=f1e135]:
+          - button [ref=f1e1401] [cursor=pointer]
+          - button [ref=f1e1402] [cursor=pointer]
+          - button [ref=f1e1403] [cursor=pointer]
+      - generic [ref=f1e153]:
+        - generic [ref=f1e154]:
+          - generic [ref=f1e156]:
+            - paragraph [ref=f1e157]: Total Users
+            - generic [ref=f1e158]: 0 Users
+          - grid [ref=f1e162]:
+            - row [ref=f1e1404]:
+              - columnheader [ref=f1e164]
+              - columnheader "Username" [ref=f1e1405]
+              - columnheader "First Name" [ref=f1e1408]
+              - columnheader "Last Name" [ref=f1e1411]
+              - columnheader "Roles" [ref=f1e1412]
+              - columnheader "Email Address" [ref=f1e1413]
+              - columnheader "Phone Number" [ref=f1e1414]
+              - columnheader "Onboarding Date" [ref=f1e1415]
+              - columnheader "Associated Clinics" [ref=f1e1416]
+              - columnheader [ref=f1e192]
+            - generic: Nothing here yet.
+            - rowgroup
+        - generic [ref=f1e571]:
+          - generic [ref=f1e572]:
+            - paragraph [ref=f1e573]: Rows per page
+            - generic [ref=f1e577]:
+              - combobox [ref=f1e578]: "10"
+              - button "Open" [ref=f1e1425] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f1e1426]:
+            - list [ref=f1e584]:
+              - listitem [ref=f1e585]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f1e586]:
+                - button "Go to next page" [disabled]

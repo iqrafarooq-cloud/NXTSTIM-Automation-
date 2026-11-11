@@ -1,0 +1,127 @@
+- generic [ref=f2e8]:
+  - banner [ref=f2e1004]:
+    - generic [ref=f2e1005]:
+      - button "open drawer" [ref=f2e1007] [cursor=pointer]
+      - generic [ref=f2e1011] [cursor=pointer]:
+        - generic [ref=f2e1012]:
+          - img "profile" [ref=f2e1014]
+          - paragraph [ref=f2e1015]: admin auth
+        - button [ref=f2e1016]
+  - generic [ref=f2e25]:
+    - button [ref=f2e27] [cursor=pointer]
+    - separator [ref=f2e33]
+    - list [ref=f2e34]:
+      - link [ref=f2e35] [cursor=pointer]:
+        - /url: /monitoring
+        - listitem [ref=f2e36]:
+          - button "Monitoring" [ref=f2e37]
+      - link [ref=f2e45] [cursor=pointer]:
+        - /url: /reports
+        - listitem [ref=f2e46]:
+          - button "Reports" [ref=f2e47]
+      - link [ref=f2e58] [cursor=pointer]:
+        - /url: /invoices
+        - listitem [ref=f2e59]:
+          - button "Invoices" [ref=f2e60]
+      - link [ref=f2e68] [cursor=pointer]:
+        - /url: /clinics
+        - listitem [ref=f2e69]:
+          - button "Clinics" [ref=f2e70]
+      - link [ref=f2e76] [cursor=pointer]:
+        - /url: /patients
+        - listitem [ref=f2e77]:
+          - button "Patients" [ref=f2e78]
+      - link [ref=f2e86] [cursor=pointer]:
+        - /url: /users
+        - listitem [ref=f2e87]:
+          - button [ref=f2e88]
+      - link [ref=f2e93] [cursor=pointer]:
+        - /url: /roles
+        - listitem [ref=f2e94]:
+          - button "Roles" [ref=f2e95]
+  - main [ref=f2e103]:
+    - generic [ref=f2e105]:
+      - generic [ref=f2e107]:
+        - generic [ref=f2e108]:
+          - paragraph [ref=f2e110]: Users
+          - button [ref=f2e111] [cursor=pointer]
+        - paragraph [ref=f2e115]: View and manage all users and their assigned roles across the system.
+      - tablist [ref=f2e118]:
+        - tab "Active" [selected] [ref=f2e119] [cursor=pointer]
+        - tab "Pending" [ref=f2e120] [cursor=pointer]
+        - tab "Suspended" [ref=f2e121] [cursor=pointer]
+        - tab "Inactive" [ref=f2e122] [cursor=pointer]
+      - generic [ref=f2e124]:
+        - generic [ref=f2e125]:
+          - button [ref=f2e126] [cursor=pointer]
+          - generic [ref=f2e132]:
+            - textbox "Search for User ID" [active] [ref=f2e133]: "10733"
+            - group
+        - generic [ref=f2e134]:
+          - button [ref=f2e137] [cursor=pointer]
+          - button [ref=f2e142] [cursor=pointer]
+          - button [ref=f2e147] [cursor=pointer]
+      - generic [ref=f2e152]:
+        - generic [ref=f2e153]:
+          - generic [ref=f2e155]:
+            - paragraph [ref=f2e156]: Total Users
+            - generic [ref=f2e157]: 1 Users
+          - grid [ref=f2e161]:
+            - row [ref=f2e162]:
+              - columnheader [ref=f2e163]
+              - columnheader "User ID" [ref=f2e164]
+              - columnheader "Username" [ref=f2e167]
+              - columnheader "First Name" [ref=f2e170]
+              - columnheader "Last Name" [ref=f2e173]
+              - columnheader "Roles" [ref=f2e176]
+              - columnheader "Email Address" [ref=f2e179]
+              - columnheader "Phone Number" [ref=f2e182]
+              - columnheader "Onboarding Date" [ref=f2e185]
+              - columnheader "Associated Clinics" [ref=f2e188]
+              - columnheader [ref=f2e191]
+            - rowgroup [ref=f2e192]:
+              - row [ref=f2e1019]:
+                - gridcell "1" [ref=f2e1020]
+                - gridcell [ref=f2e1021]:
+                  - generic "10733" [ref=f2e1022]:
+                    - paragraph [ref=f2e1023]: "10733"
+                - gridcell [ref=f2e1024]:
+                  - generic "Inactive QAUser" [ref=f2e1026] [cursor=pointer]:
+                    - paragraph [ref=f2e1027]: Inactive QAUser
+                - gridcell [ref=f2e1028]:
+                  - generic "Inactive" [ref=f2e1029]:
+                    - paragraph [ref=f2e1030]: Inactive
+                - gridcell [ref=f2e1031]:
+                  - generic "QAUser" [ref=f2e1032]:
+                    - paragraph [ref=f2e1033]: QAUser
+                - gridcell "Monitoring Admin" [ref=f2e1034]
+                - gridcell [ref=f2e1038]:
+                  - generic "inactive+716a@iqra.anonaddy.com" [ref=f2e1039]:
+                    - paragraph [ref=f2e1040]: inactive+716a@iqra.anonaddy.com
+                - gridcell [ref=f2e1041]:
+                  - generic "+1 (555) 123-4567" [ref=f2e1042]:
+                    - paragraph [ref=f2e1043]: +1 (555) 123-4567
+                - gridcell [ref=f2e1044]:
+                  - generic "07-16-2026" [ref=f2e1045]:
+                    - paragraph [ref=f2e1046]: 07-16-2026
+                - gridcell [ref=f2e1047]:
+                  - generic "-" [ref=f2e1048]:
+                    - paragraph [ref=f2e1049]: "-"
+                - gridcell [ref=f2e1050]:
+                  - menu [ref=f2e1051]:
+                    - button [ref=f2e1053] [cursor=pointer]
+        - generic [ref=f2e572]:
+          - generic [ref=f2e573]:
+            - paragraph [ref=f2e574]: Rows per page
+            - generic [ref=f2e578]:
+              - combobox [ref=f2e579]: "10"
+              - button "Open" [ref=f2e581] [cursor=pointer]
+              - group
+          - navigation "pagination navigation" [ref=f2e584]:
+            - list [ref=f2e585]:
+              - listitem [ref=f2e586]:
+                - button "Go to previous page" [disabled]
+              - listitem [ref=f2e587]:
+                - button "page 1" [ref=f2e588] [cursor=pointer]: "1"
+              - listitem [ref=f2e1063]:
+                - button "Go to next page" [disabled]

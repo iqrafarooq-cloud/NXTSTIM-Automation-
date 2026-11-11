@@ -1,0 +1,303 @@
+- generic [ref=e6]:
+  - generic [ref=e35]:
+    - banner [ref=e398]:
+      - generic [ref=e399]:
+        - button [ref=e955] [cursor=pointer]
+        - generic [ref=e405] [cursor=pointer]:
+          - generic [ref=e406]:
+            - generic [ref=e407]: "!"
+            - paragraph [ref=e410]: admin auth
+          - button [ref=e411]
+    - generic [ref=e52]:
+      - button [ref=e54] [cursor=pointer]
+      - separator [ref=e60]
+      - list [ref=e61]:
+        - listitem [ref=e63]:
+          - button [ref=e957] [cursor=pointer]
+        - link [ref=e958] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=e73]:
+            - button [ref=e959]
+        - link [ref=e960] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=e81]:
+            - button [ref=e961]:
+              - generic [ref=e91]: Reports
+        - link [ref=e962] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=e94]:
+            - button [ref=e963]:
+              - generic [ref=e101]: Invoices
+    - main [ref=e103]:
+      - generic [ref=e105]:
+        - generic [ref=e107]:
+          - paragraph [ref=e110]: Monitoring
+          - paragraph [ref=e111]: Track and monitor key patient metrics including device usage, vitals, care program status and many more.
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - button [ref=e964] [cursor=pointer]: Username
+            - generic [ref=e120]:
+              - textbox [ref=e965]:
+                - /placeholder: Search for Username
+              - group
+          - generic [ref=e122]:
+            - button [ref=e966] [cursor=pointer]: Filters
+            - button [ref=e967] [cursor=pointer]: Sort By
+            - button [ref=e968] [cursor=pointer]: Export CSV
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e142]:
+              - paragraph [ref=e143]: Total Patients
+              - generic [ref=e144]: 97 Patients
+            - grid [ref=e148]:
+              - row [ref=e969]:
+                - columnheader [ref=e150]
+                - columnheader [ref=e151]
+                - columnheader [ref=e970]:
+                  - generic [ref=e153]: Username
+                - columnheader [ref=e971]:
+                  - generic [ref=e156]: Patient ID
+                - columnheader [ref=e972]:
+                  - generic [ref=e159]: First Name
+                - columnheader [ref=e973]:
+                  - generic [ref=e162]: Last Name
+                - columnheader [ref=e974]:
+                  - generic [ref=e165]: Email
+                - columnheader [ref=e975]:
+                  - generic [ref=e168]: Phone Number
+                - columnheader [ref=e976]:
+                  - generic [ref=e171]: DOB
+                - columnheader [ref=e977]:
+                  - generic [ref=e174]: Associated Clinic
+                - columnheader [ref=e978]:
+                  - paragraph [ref=e179]: Care Codes
+                - columnheader [ref=e183]
+              - rowgroup [ref=e414]:
+                - row [ref=e980]:
+                  - gridcell [ref=e981]: "1"
+                  - gridcell [ref=e417]
+                  - gridcell [ref=e982]:
+                    - paragraph [ref=e421] [cursor=pointer]: Testing Timer
+                  - gridcell [ref=e984]: "10589"
+                  - gridcell [ref=e985]:
+                    - paragraph [ref=e425]: Testing
+                  - gridcell [ref=e987]:
+                    - paragraph [ref=e428]: Timer
+                  - gridcell [ref=e989]:
+                    - paragraph [ref=e431]: testing_timer@c.com
+                  - gridcell [ref=e991]: +1 (111) 111-1111
+                  - gridcell [ref=e992]: 07-01-2026
+                  - gridcell [ref=e993]:
+                    - paragraph [ref=e436]: Testing Clinic
+                  - gridcell [ref=e995]:
+                    - button [ref=e1000] [cursor=pointer]:
+                      - paragraph [ref=e466]: details
+                  - gridcell [ref=e467]:
+                    - menu [ref=e468]:
+                      - button [ref=e1001] [cursor=pointer]
+                - row [ref=e1002]:
+                  - gridcell [ref=e1003]: "2"
+                  - gridcell [ref=e479]
+                  - gridcell [ref=e1004]:
+                    - paragraph [ref=e483] [cursor=pointer]: rtm test
+                  - gridcell [ref=e1006]: "10586"
+                  - gridcell [ref=e1007]:
+                    - paragraph [ref=e487]: rtm
+                  - gridcell [ref=e1009]:
+                    - paragraph [ref=e490]: test
+                  - gridcell [ref=e1011]:
+                    - paragraph [ref=e493]: rpmtest@gmail.com
+                  - gridcell [ref=e1013]: +1 (111) 111-1111
+                  - gridcell [ref=e1014]: 06-30-1985
+                  - gridcell [ref=e1015]:
+                    - paragraph [ref=e498]: NXTSTIM
+                  - gridcell [ref=e1017]:
+                    - button [ref=e1022] [cursor=pointer]:
+                      - paragraph [ref=e528]: details
+                  - gridcell [ref=e529]:
+                    - menu [ref=e530]:
+                      - button [ref=e1023] [cursor=pointer]
+                - row [ref=e1024]:
+                  - gridcell [ref=e1025]: "3"
+                  - gridcell [ref=e541]
+                  - gridcell [ref=e1026]:
+                    - paragraph [ref=e545] [cursor=pointer]: Merge-patient details
+                  - gridcell [ref=e1028]: "10581"
+                  - gridcell [ref=e1029]:
+                    - paragraph [ref=e549]: Merge-patient
+                  - gridcell [ref=e1031]:
+                    - paragraph [ref=e552]: details
+                  - gridcell [ref=e1033]:
+                    - paragraph [ref=e555]: details@addy.com
+                  - gridcell [ref=e1035]: +1 (555) 555-5555
+                  - gridcell [ref=e1036]: 06-24-2026
+                  - gridcell [ref=e1037]:
+                    - paragraph [ref=e560]: Testing Clinic
+                  - gridcell [ref=e1039]:
+                    - button [ref=e1044] [cursor=pointer]:
+                      - paragraph [ref=e590]: details
+                  - gridcell [ref=e591]:
+                    - menu [ref=e592]:
+                      - button [ref=e1045] [cursor=pointer]
+                - row [ref=e1046]:
+                  - gridcell [ref=e1047]: "4"
+                  - gridcell [ref=e603]
+                  - gridcell [ref=e1048]:
+                    - paragraph [ref=e607] [cursor=pointer]: Iqra Farooq
+                  - gridcell [ref=e1050]: "10557"
+                  - gridcell [ref=e1051]:
+                    - paragraph [ref=e611]: Iqra
+                  - gridcell [ref=e1053]:
+                    - paragraph [ref=e614]: Farooq
+                  - gridcell [ref=e1055]:
+                    - paragraph [ref=e617]: iqra.farooq+90@bytecorp.io
+                  - gridcell [ref=e1057]: +1 (345) 678-90
+                  - gridcell [ref=e1058]: 06-12-2026
+                  - gridcell [ref=e1059]:
+                    - paragraph [ref=e622]: Testing Clinic
+                  - gridcell [ref=e1061]:
+                    - button [ref=e1065] [cursor=pointer]:
+                      - paragraph [ref=e645]: details
+                  - gridcell [ref=e646]:
+                    - menu [ref=e647]:
+                      - button [ref=e1066] [cursor=pointer]
+                - row [ref=e1067]:
+                  - gridcell [ref=e1068]: "5"
+                  - gridcell [ref=e658]
+                  - gridcell [ref=e1069]:
+                    - paragraph [ref=e662] [cursor=pointer]: codes logic
+                  - gridcell [ref=e1071]: "10555"
+                  - gridcell [ref=e1072]:
+                    - paragraph [ref=e666]: codes
+                  - gridcell [ref=e1074]:
+                    - paragraph [ref=e669]: logic
+                  - gridcell [ref=e1076]:
+                    - paragraph [ref=e672]: user23@addy.com
+                  - gridcell [ref=e1078]: +1 (345) 678-90
+                  - gridcell [ref=e1079]: 06-04-2026
+                  - gridcell [ref=e1080]:
+                    - paragraph [ref=e677]: Testing Clinic
+                  - gridcell [ref=e1082]:
+                    - button [ref=e1087] [cursor=pointer]:
+                      - paragraph [ref=e707]: details
+                  - gridcell [ref=e708]:
+                    - menu [ref=e709]:
+                      - button [ref=e1088] [cursor=pointer]
+                - row [ref=e1089]:
+                  - gridcell [ref=e1090]: "6"
+                  - gridcell [ref=e720]
+                  - gridcell [ref=e1091]:
+                    - paragraph [ref=e726] [cursor=pointer]: Nofil Khalid
+                  - gridcell [ref=e1093]: "10543"
+                  - gridcell [ref=e1094]:
+                    - paragraph [ref=e730]: Nofil
+                  - gridcell [ref=e1096]:
+                    - paragraph [ref=e733]: Khalid
+                  - gridcell [ref=e1098]:
+                    - paragraph [ref=e736]: nnofil@gmail.com
+                  - gridcell [ref=e1100]: +1 (111) 111-1111
+                  - gridcell [ref=e1101]: 12-12-2004
+                  - gridcell [ref=e1102]:
+                    - paragraph [ref=e741]: NXTSTIM
+                  - gridcell [ref=e1104]:
+                    - button [ref=e1109] [cursor=pointer]:
+                      - paragraph [ref=e771]: details
+                  - gridcell [ref=e772]:
+                    - menu [ref=e773]:
+                      - button [ref=e1110] [cursor=pointer]
+                - row [ref=e1111]:
+                  - gridcell [ref=e1112]: "7"
+                  - gridcell [ref=e784]
+                  - gridcell [ref=e1113]:
+                    - paragraph [ref=e788] [cursor=pointer]: Iqra Farooq
+                  - gridcell [ref=e1115]: "10539"
+                  - gridcell [ref=e1116]:
+                    - paragraph [ref=e792]: Iqra
+                  - gridcell [ref=e1118]:
+                    - paragraph [ref=e795]: Farooq
+                  - gridcell [ref=e1120]:
+                    - paragraph [ref=e798]: iqra.farooq+44@bytecorp.io
+                  - gridcell [ref=e1122]: +1 (894) 527-8945
+                  - gridcell [ref=e1123]: 06-11-2026
+                  - gridcell [ref=e1124]:
+                    - paragraph [ref=e803]: healthcare
+                  - gridcell [ref=e1126]:
+                    - button [ref=e1131] [cursor=pointer]:
+                      - paragraph [ref=e833]: details
+                  - gridcell [ref=e834]:
+                    - menu [ref=e835]:
+                      - button [ref=e1132] [cursor=pointer]
+                - row [ref=e1133]:
+                  - gridcell [ref=e1134]: "8"
+                  - gridcell [ref=e846]
+                  - gridcell [ref=e1135]:
+                    - paragraph [ref=e851] [cursor=pointer]: Testing Timer Issue
+                  - gridcell [ref=e1137]: "10538"
+                  - gridcell [ref=e1138]:
+                    - paragraph [ref=e855]: Testing Timer
+                  - gridcell [ref=e1140]:
+                    - paragraph [ref=e858]: Issue
+                  - gridcell [ref=e1142]:
+                    - paragraph [ref=e861]: issue@timer.com
+                  - gridcell [ref=e1144]: +1 (111) 111-1111
+                  - gridcell [ref=e1145]: 06-01-2026
+                  - gridcell [ref=e1146]:
+                    - paragraph [ref=e866]: healthcare
+                  - gridcell [ref=e1148]:
+                    - button [ref=e1151] [cursor=pointer]:
+                      - paragraph [ref=e879]: details
+                  - gridcell [ref=e880]:
+                    - menu [ref=e881]:
+                      - button [ref=e1152] [cursor=pointer]
+                - row [ref=e1153]:
+                  - gridcell [ref=e1154]: "9"
+                  - gridcell [ref=e892]
+                  - gridcell [ref=e1155]:
+                    - paragraph [ref=e896] [cursor=pointer]: new test
+                  - gridcell [ref=e1157]: "10529"
+                  - gridcell [ref=e1158]:
+                    - paragraph [ref=e900]: new
+                  - gridcell [ref=e1160]:
+                    - paragraph [ref=e903]: test
+                  - gridcell [ref=e1162]:
+                    - paragraph [ref=e906]: newtest@gmail.com
+                  - gridcell [ref=e1164]: +1 (232) 323-2322
+                  - gridcell [ref=e1165]: 02-22-2002
+                  - gridcell [ref=e1166]:
+                    - paragraph [ref=e911]: Billing
+                  - gridcell [ref=e1168]:
+                    - button [ref=e1171] [cursor=pointer]:
+                      - paragraph [ref=e924]: details
+                  - gridcell [ref=e925]:
+                    - menu [ref=e926]:
+                      - button [ref=e1172] [cursor=pointer]
+          - generic [ref=e382]:
+            - generic [ref=e383]:
+              - paragraph [ref=e384]: Rows per page
+              - generic [ref=e388]:
+                - combobox [ref=e389]: "10"
+                - button [ref=e1173] [cursor=pointer]
+                - group
+            - navigation [ref=e1174]:
+              - list [ref=e395]:
+                - listitem [ref=e396]:
+                  - button [disabled]
+                - listitem [ref=e397]:
+                  - button [ref=e1175] [cursor=pointer]: "1"
+                - listitem [ref=e939]:
+                  - button [ref=e1176] [cursor=pointer]: "2"
+                - listitem [ref=e941]:
+                  - button [ref=e1177] [cursor=pointer]: "3"
+                - listitem [ref=e943]:
+                  - button [ref=e1178] [cursor=pointer]: "4"
+                - listitem [ref=e945]:
+                  - button [ref=e1179] [cursor=pointer]: "5"
+                - listitem [ref=e947]:
+                  - generic [ref=e948]: …
+                - listitem [ref=e949]:
+                  - button [ref=e1180] [cursor=pointer]: "10"
+                - listitem [ref=e951]:
+                  - button [ref=e1181] [cursor=pointer]
+  - menu [ref=e1184]:
+    - menuitem "Settings" [ref=e1185] [cursor=pointer]
+    - menuitem "Logout" [ref=e1193] [cursor=pointer]

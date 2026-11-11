@@ -1,0 +1,29 @@
+{
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": true,
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true
+  },
+  "cucumberJsRunner.cucumberExecutable": "./node_modules/@cucumber/cucumber/bin/cucumber.js",
+  "cucumberJsRunner.cwd": "${workspaceFolder}",
+  "cucumberJsRunner.features": [
+    "features/**/*.feature"
+  ],
+  "cucumberJsRunner.env": {
+    "HEADED": "false"
+  },
+  "cucumberJsRunner.debugEnv": {
+    "HEADED": "true",
+    "DEBUG": "true"
+  },
+  "cucumberJsRunner.cliArgs": [
+    "--strict"
+  ],
+  "files.associations": {
+    "*.feature": "cucumber"
+  },
+  "testing.automaticallyOpenPeekView": "never"
+}

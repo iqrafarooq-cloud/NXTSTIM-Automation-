@@ -1,0 +1,573 @@
+- generic [ref=f1e6]:
+  - generic [ref=f1e8]:
+    - banner [ref=f1e3978]:
+      - generic [ref=f1e3979]:
+        - button [ref=f1e4669] [cursor=pointer]
+        - generic [ref=f1e3985] [cursor=pointer]:
+          - generic [ref=f1e3986]:
+            - generic [ref=f1e3987]: "!"
+            - paragraph [ref=f1e3990]: QAAuto Admin
+          - button [ref=f1e3991]
+    - generic [ref=f1e26]:
+      - button [ref=f1e28] [cursor=pointer]
+      - separator [ref=f1e34]
+      - list [ref=f1e35]:
+        - link [ref=f1e4671] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f1e37]:
+            - button [ref=f1e4672]:
+              - generic [ref=f1e44]: Monitoring
+        - link [ref=f1e4673] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f1e47]:
+            - button [ref=f1e4674]:
+              - generic [ref=f1e57]: Reports
+        - link [ref=f1e4675] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f1e60]:
+            - button [ref=f1e4676]:
+              - generic [ref=f1e67]: Invoices
+        - link [ref=f1e4677] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f1e70]:
+            - button [ref=f1e4678]:
+              - generic [ref=f1e75]: Clinics
+        - link [ref=f1e4679] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f1e78]:
+            - button [ref=f1e4680]:
+              - generic [ref=f1e85]: Patients
+        - link [ref=f1e4681] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f1e88]:
+            - button [ref=f1e4682]
+        - link [ref=f1e4683] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f1e95]:
+            - button [ref=f1e4684]:
+              - generic [ref=f1e102]: Roles
+    - main [ref=f1e104]:
+      - generic [ref=f1e106]:
+        - generic [ref=f1e108]:
+          - generic [ref=f1e109]:
+            - paragraph [ref=f1e111]: Users
+            - button [ref=f1e4685] [cursor=pointer]: Add New User
+          - paragraph [ref=f1e116]: View and manage all users and their assigned roles across the system.
+        - tablist [ref=f1e119]:
+          - tab [selected] [ref=f1e4686] [cursor=pointer]: Active
+          - tab [ref=f1e4687] [cursor=pointer]: Pending
+          - tab [ref=f1e4688] [cursor=pointer]: Suspended
+          - tab [ref=f1e4689] [cursor=pointer]: Inactive
+        - generic [ref=f1e125]:
+          - generic [ref=f1e126]:
+            - button [ref=f1e4690] [cursor=pointer]: User ID
+            - generic [ref=f1e133]:
+              - textbox [ref=f1e4691]:
+                - /placeholder: Search for User ID
+              - group
+          - generic [ref=f1e135]:
+            - button [ref=f1e4692] [cursor=pointer]: Filters
+            - button [ref=f1e4693] [cursor=pointer]: Sort By
+            - button [ref=f1e4694] [cursor=pointer]: Export CSV
+        - generic [ref=f1e153]:
+          - generic [ref=f1e154]:
+            - generic [ref=f1e156]:
+              - paragraph [ref=f1e157]: Total Users
+              - generic [ref=f1e158]: 42 Users
+            - grid [ref=f1e162]:
+              - row [ref=f1e4695]:
+                - columnheader [ref=f1e164]
+                - columnheader [ref=f1e4696]:
+                  - generic [ref=f1e166]: User ID
+                - columnheader [ref=f1e4697]:
+                  - generic [ref=f1e169]: Username
+                - columnheader [ref=f1e4698]:
+                  - generic [ref=f1e172]: First Name
+                - columnheader [ref=f1e4699]:
+                  - generic [ref=f1e175]: Last Name
+                - columnheader [ref=f1e4700]:
+                  - generic [ref=f1e178]: Roles
+                - columnheader [ref=f1e4701]:
+                  - generic [ref=f1e181]: Email Address
+                - columnheader [ref=f1e4702]:
+                  - generic [ref=f1e184]: Phone Number
+                - columnheader [ref=f1e4703]:
+                  - generic [ref=f1e187]: Onboarding Date
+                - columnheader [ref=f1e4704]:
+                  - generic [ref=f1e190]: Associated Clinics
+                - columnheader [ref=f1e192]
+              - rowgroup [ref=f1e193]:
+                - row [ref=f1e4705]:
+                  - gridcell [ref=f1e4706]: "1"
+                  - gridcell [ref=f1e4707]:
+                    - paragraph [ref=f1e4427]: "10910"
+                  - gridcell [ref=f1e4709]:
+                    - paragraph [ref=f1e4431] [cursor=pointer]: Support Staff
+                  - gridcell [ref=f1e4711]:
+                    - paragraph [ref=f1e4434]: Support
+                  - gridcell [ref=f1e4713]:
+                    - paragraph [ref=f1e4437]: Staff
+                  - gridcell [ref=f1e4715]:
+                    - generic [ref=f1e4439]: Support Staff
+                  - gridcell [ref=f1e4716]:
+                    - paragraph [ref=f1e4444]: 8g3f6knv@anonaddy.me
+                  - gridcell [ref=f1e4718]:
+                    - paragraph [ref=f1e4447]: +1 (111) 111-1111
+                  - gridcell [ref=f1e4720]:
+                    - paragraph [ref=f1e4450]: 07-26-2026
+                  - gridcell [ref=f1e4722]:
+                    - paragraph [ref=f1e4453]: "-"
+                  - gridcell [ref=f1e4454]:
+                    - menu [ref=f1e4455]:
+                      - button [ref=f1e4457] [cursor=pointer]
+                - row [ref=f1e4724]:
+                  - gridcell [ref=f1e4725]: "2"
+                  - gridcell [ref=f1e4726]:
+                    - paragraph [ref=f1e4468]: "10899"
+                  - gridcell [ref=f1e4728]:
+                    - paragraph [ref=f1e4472] [cursor=pointer]: Lifecycle QAUser
+                  - gridcell [ref=f1e4730]:
+                    - paragraph [ref=f1e4475]: Lifecycle
+                  - gridcell [ref=f1e4732]:
+                    - paragraph [ref=f1e4478]: QAUser
+                  - gridcell [ref=f1e4734]:
+                    - generic [ref=f1e4480]: Support Staff
+                  - gridcell [ref=f1e4735]:
+                    - paragraph [ref=f1e4485]: users+ms0k2q858cm2@iqra.anonaddy.com
+                  - gridcell [ref=f1e4737]:
+                    - paragraph [ref=f1e4488]: +1 (155) 512-3456
+                  - gridcell [ref=f1e4739]:
+                    - paragraph [ref=f1e4491]: 07-25-2026
+                  - gridcell [ref=f1e4741]:
+                    - paragraph [ref=f1e4494]: "-"
+                  - gridcell [ref=f1e4495]:
+                    - menu [ref=f1e4496]:
+                      - button [ref=f1e4498] [cursor=pointer]
+                - row [ref=f1e4743]:
+                  - gridcell [ref=f1e4744]: "3"
+                  - gridcell [ref=f1e4745]:
+                    - paragraph [ref=f1e4509]: "10897"
+                  - gridcell [ref=f1e4747]:
+                    - paragraph [ref=f1e4513] [cursor=pointer]: Nxtstim Nursecustom role
+                  - gridcell [ref=f1e4749]:
+                    - paragraph [ref=f1e4516]: Nxtstim
+                  - gridcell [ref=f1e4751]:
+                    - paragraph [ref=f1e4519]: Nursecustom role
+                  - gridcell [ref=f1e4753]:
+                    - generic [ref=f1e4521]: Nxtstim Nurse-- custom role
+                  - gridcell [ref=f1e4754]:
+                    - paragraph [ref=f1e4526]: iqra.farooq+102@bytecorp.io
+                  - gridcell [ref=f1e4756]:
+                    - paragraph [ref=f1e4529]: +1 (444) 444-4444
+                  - gridcell [ref=f1e4758]:
+                    - paragraph [ref=f1e4532]: 07-24-2026
+                  - gridcell [ref=f1e4760]:
+                    - paragraph [ref=f1e4535]: QAClinic
+                  - gridcell [ref=f1e4536]:
+                    - menu [ref=f1e4537]:
+                      - button [ref=f1e4539] [cursor=pointer]
+                - row [ref=f1e4762]:
+                  - gridcell [ref=f1e4763]: "4"
+                  - gridcell [ref=f1e4764]:
+                    - paragraph [ref=f1e4550]: "10893"
+                  - gridcell [ref=f1e4766]:
+                    - paragraph [ref=f1e4554] [cursor=pointer]: BILLING OFFICER
+                  - gridcell [ref=f1e4768]:
+                    - paragraph [ref=f1e4557]: BILLING
+                  - gridcell [ref=f1e4770]:
+                    - paragraph [ref=f1e4560]: OFFICER
+                  - gridcell [ref=f1e4772]:
+                    - generic [ref=f1e4562]: Billing Officer
+                  - gridcell [ref=f1e4773]:
+                    - paragraph [ref=f1e4567]: iqra.farooq+28@bytecorp.io
+                  - gridcell [ref=f1e4775]:
+                    - paragraph [ref=f1e4570]: +1 (000) 000-0000
+                  - gridcell [ref=f1e4777]:
+                    - paragraph [ref=f1e4573]: 07-23-2026
+                  - gridcell [ref=f1e4779]:
+                    - paragraph [ref=f1e4576]: "-"
+                  - gridcell [ref=f1e4577]:
+                    - menu [ref=f1e4578]:
+                      - button [ref=f1e4580] [cursor=pointer]
+                - row [ref=f1e4781]:
+                  - gridcell [ref=f1e4782]: "5"
+                  - gridcell [ref=f1e4783]:
+                    - paragraph [ref=f1e4591]: "10830"
+                  - gridcell [ref=f1e4785]:
+                    - paragraph [ref=f1e4595] [cursor=pointer]: Sahnaz Ali
+                  - gridcell [ref=f1e4787]:
+                    - paragraph [ref=f1e4598]: Sahnaz
+                  - gridcell [ref=f1e4789]:
+                    - paragraph [ref=f1e4601]: Ali
+                  - gridcell [ref=f1e4791]:
+                    - generic [ref=f1e4603]: Nxtstim Nurse-- custom role
+                  - gridcell [ref=f1e4792]:
+                    - paragraph [ref=f1e4608]: lbysk1yn@anonaddy.me
+                  - gridcell [ref=f1e4794]:
+                    - paragraph [ref=f1e4611]: +1 (111) 111-1111
+                  - gridcell [ref=f1e4796]:
+                    - paragraph [ref=f1e4614]: 07-21-2026
+                  - gridcell [ref=f1e4798]:
+                    - paragraph [ref=f1e4617]: QA Clinic bhiedhcfgdbhe
+                  - gridcell [ref=f1e4618]:
+                    - menu [ref=f1e4619]:
+                      - button [ref=f1e4621] [cursor=pointer]
+                - row [ref=f1e4800]:
+                  - gridcell [ref=f1e4801]: "6"
+                  - gridcell [ref=f1e4802]:
+                    - paragraph [ref=f1e4632]: "10829"
+                  - gridcell [ref=f1e4804]:
+                    - paragraph [ref=f1e4636] [cursor=pointer]: Ark Nurse
+                  - gridcell [ref=f1e4806]:
+                    - paragraph [ref=f1e4639]: Ark
+                  - gridcell [ref=f1e4808]:
+                    - paragraph [ref=f1e4642]: Nurse
+                  - gridcell [ref=f1e4810]:
+                    - generic [ref=f1e4644]: NXTSTIM Nurse
+                  - gridcell [ref=f1e4811]:
+                    - paragraph [ref=f1e4649]: abdul.rehman+nxtnurse@bytecorp.io
+                  - gridcell [ref=f1e4813]:
+                    - paragraph [ref=f1e4652]: +1 (212) 312-3123
+                  - gridcell [ref=f1e4815]:
+                    - paragraph [ref=f1e4655]: 07-21-2026
+                  - gridcell [ref=f1e4817]:
+                    - paragraph [ref=f1e4658]: All Clinics
+                  - gridcell [ref=f1e4659]:
+                    - menu [ref=f1e4660]:
+                      - button [ref=f1e4662] [cursor=pointer]
+                - row [ref=f1e4819]:
+                  - gridcell [ref=f1e4820]: "7"
+                  - gridcell [ref=f1e4821]:
+                    - paragraph [ref=f1e4823]: "10744"
+                  - gridcell [ref=f1e4824]:
+                    - paragraph [ref=f1e4827] [cursor=pointer]: Monitoring Supervisor
+                  - gridcell [ref=f1e4828]:
+                    - paragraph [ref=f1e4830]: Monitoring
+                  - gridcell [ref=f1e4831]:
+                    - paragraph [ref=f1e4833]: Supervisor
+                  - gridcell [ref=f1e4834]:
+                    - generic [ref=f1e4835]: Monitoring Supervisor
+                  - gridcell [ref=f1e4838]:
+                    - paragraph [ref=f1e4840]: iqra.farooq+47@bytecorp.io
+                  - gridcell [ref=f1e4841]:
+                    - paragraph [ref=f1e4843]: +1 (111) 111-1111
+                  - gridcell [ref=f1e4844]:
+                    - paragraph [ref=f1e4846]: 07-17-2026
+                  - gridcell [ref=f1e4847]:
+                    - paragraph [ref=f1e4849]: QAClinic
+                  - gridcell [ref=f1e4850]:
+                    - menu [ref=f1e4851]:
+                      - button [ref=f1e4853] [cursor=pointer]
+                - row [ref=f1e4860]:
+                  - gridcell [ref=f1e4861]: "8"
+                  - gridcell [ref=f1e4862]:
+                    - paragraph [ref=f1e4864]: "10743"
+                  - gridcell [ref=f1e4865]:
+                    - paragraph [ref=f1e4868] [cursor=pointer]: ADMIN USER
+                  - gridcell [ref=f1e4869]:
+                    - paragraph [ref=f1e4871]: ADMIN
+                  - gridcell [ref=f1e4872]:
+                    - paragraph [ref=f1e4874]: USER
+                  - gridcell [ref=f1e4875]:
+                    - generic [ref=f1e4876]: Executive Admin
+                  - gridcell [ref=f1e4879]:
+                    - paragraph [ref=f1e4881]: adminuser+1@iqra.anonaddy.com
+                  - gridcell [ref=f1e4882]:
+                    - paragraph [ref=f1e4884]: "-"
+                  - gridcell [ref=f1e4885]:
+                    - paragraph [ref=f1e4887]: 07-17-2026
+                  - gridcell [ref=f1e4888]:
+                    - paragraph [ref=f1e4890]: "-"
+                  - gridcell [ref=f1e4891]:
+                    - menu [ref=f1e4892]:
+                      - button [ref=f1e4894] [cursor=pointer]
+                - row [ref=f1e4901]:
+                  - gridcell [ref=f1e4902]: "9"
+                  - gridcell [ref=f1e4903]:
+                    - paragraph [ref=f1e4905]: "10740"
+                  - gridcell [ref=f1e4906]:
+                    - paragraph [ref=f1e4909] [cursor=pointer]: Security Officer
+                  - gridcell [ref=f1e4910]:
+                    - paragraph [ref=f1e4912]: Security
+                  - gridcell [ref=f1e4913]:
+                    - paragraph [ref=f1e4915]: Officer
+                  - gridcell [ref=f1e4916]:
+                    - generic [ref=f1e4917]: Security Privacy Officer
+                  - gridcell [ref=f1e4920]:
+                    - paragraph [ref=f1e4922]: iqra.farooq+50@bytecorp.io
+                  - gridcell [ref=f1e4923]:
+                    - paragraph [ref=f1e4925]: +1 (000) 000-0000
+                  - gridcell [ref=f1e4926]:
+                    - paragraph [ref=f1e4928]: 07-17-2026
+                  - gridcell [ref=f1e4929]:
+                    - paragraph [ref=f1e4931]: "-"
+                  - gridcell [ref=f1e4932]:
+                    - menu [ref=f1e4933]:
+                      - button [ref=f1e4935] [cursor=pointer]
+          - generic [ref=f1e571]:
+            - generic [ref=f1e572]:
+              - paragraph [ref=f1e573]: Rows per page
+              - generic [ref=f1e577]:
+                - combobox [ref=f1e578]: "100"
+                - button [ref=f1e4942] [cursor=pointer]
+                - group
+            - navigation [ref=f1e4943]:
+              - list [ref=f1e584]:
+                - listitem [ref=f1e585]:
+                  - button [disabled]
+                - listitem [ref=f1e586]:
+                  - button [ref=f1e4944] [cursor=pointer]: "1"
+                - listitem [ref=f1e4422]:
+                  - button [disabled]
+  - menu [ref=f1e4947]:
+    - generic [ref=f1e4948]:
+      - tablist [ref=f1e4952]:
+        - tab [ref=f1e4953] [cursor=pointer]:
+          - paragraph [ref=f1e4955]: Roles
+        - tab [active] [selected] [ref=f1e4956] [cursor=pointer]:
+          - paragraph [ref=f1e4958]: Associated Clinic
+      - generic [ref=f1e4959]:
+        - generic [ref=f1e5095]:
+          - generic [ref=f1e5098]:
+            - button [ref=f1e5100] [cursor=pointer]
+            - textbox "Search Clinics" [ref=f1e5103]
+            - group
+          - generic [ref=f1e5104]:
+            - paragraph [ref=f1e5105]: All Clinics
+            - generic [ref=f1e5106] [cursor=pointer]:
+              - checkbox "Select All" [ref=f1e5108]
+              - paragraph [ref=f1e5110]: Select All
+          - separator [ref=f1e5111]
+          - generic [ref=f1e5112]:
+            - generic [ref=f1e5113] [cursor=pointer]:
+              - checkbox "QA Clinic bhiedhcfgdbhe" [ref=f1e5115]
+              - paragraph [ref=f1e5117]: QA Clinic bhiedhcfgdbhe
+            - generic [ref=f1e5118] [cursor=pointer]:
+              - checkbox "QA Clinic bhiedgjfjhiig" [ref=f1e5120]
+              - paragraph [ref=f1e5122]: QA Clinic bhiedgjfjhiig
+            - generic [ref=f1e5123] [cursor=pointer]:
+              - checkbox "QA Clinic bhiedggjfjadc" [ref=f1e5125]
+              - paragraph [ref=f1e5127]: QA Clinic bhiedggjfjadc
+            - generic [ref=f1e5128] [cursor=pointer]:
+              - checkbox "QA Clinic bhiedggidhihf" [ref=f1e5130]
+              - paragraph [ref=f1e5132]: QA Clinic bhiedggidhihf
+            - generic [ref=f1e5133] [cursor=pointer]:
+              - checkbox "QA Clinic bhiedgdiedaib" [ref=f1e5135]
+              - paragraph [ref=f1e5137]: QA Clinic bhiedgdiedaib
+            - generic [ref=f1e5138] [cursor=pointer]:
+              - checkbox "QA Clinic bhiedgcjaicbb" [ref=f1e5140]
+              - paragraph [ref=f1e5142]: QA Clinic bhiedgcjaicbb
+            - generic [ref=f1e5143] [cursor=pointer]:
+              - checkbox "QA Clinic bhiedgccbgbbc" [ref=f1e5145]
+              - paragraph [ref=f1e5147]: QA Clinic bhiedgccbgbbc
+            - generic [ref=f1e5148] [cursor=pointer]:
+              - checkbox "QA Clinic bhiebcafffhhe Edited bhiebcageabab" [ref=f1e5150]
+              - paragraph [ref=f1e5152]: QA Clinic bhiebcafffhhe Edited bhiebcageabab
+            - generic [ref=f1e5153] [cursor=pointer]:
+              - checkbox "QA Clinic bhiebcaejgdgi" [ref=f1e5155]
+              - paragraph [ref=f1e5157]: QA Clinic bhiebcaejgdgi
+            - generic [ref=f1e5158] [cursor=pointer]:
+              - checkbox "ni" [ref=f1e5160]
+              - paragraph [ref=f1e5162]: ni
+            - generic [ref=f1e5163] [cursor=pointer]:
+              - checkbox "QA Clinic bhiebbijdachf Edited bhiebbijhhhbj" [ref=f1e5165]
+              - paragraph [ref=f1e5167]: QA Clinic bhiebbijdachf Edited bhiebbijhhhbj
+            - generic [ref=f1e5168] [cursor=pointer]:
+              - checkbox "QA Clinic bhiebbiiigfaj" [ref=f1e5170]
+              - paragraph [ref=f1e5172]: QA Clinic bhiebbiiigfaj
+            - generic [ref=f1e5173] [cursor=pointer]:
+              - checkbox "QA Clinic bhiebbhcjgdca Edited bhiebbhdejiij" [ref=f1e5175]
+              - paragraph [ref=f1e5177]: QA Clinic bhiebbhcjgdca Edited bhiebbhdejiij
+            - generic [ref=f1e5178] [cursor=pointer]:
+              - checkbox "QA Clinic bhiebbhcfadjg" [ref=f1e5180]
+              - paragraph [ref=f1e5182]: QA Clinic bhiebbhcfadjg
+            - generic [ref=f1e5183] [cursor=pointer]:
+              - checkbox "QA Clinic bhiebbehabaib" [ref=f1e5185]
+              - paragraph [ref=f1e5187]: QA Clinic bhiebbehabaib
+            - generic [ref=f1e5188] [cursor=pointer]:
+              - checkbox "QA Automation Clinic" [ref=f1e5190]
+              - paragraph [ref=f1e5192]: QA Automation Clinic
+            - generic [ref=f1e5193] [cursor=pointer]:
+              - checkbox "Bytecorp Clinic" [ref=f1e5195]
+              - paragraph [ref=f1e5197]: Bytecorp Clinic
+            - generic [ref=f1e5198] [cursor=pointer]:
+              - checkbox "QAClinic" [ref=f1e5200]
+              - paragraph [ref=f1e5202]: QAClinic
+            - generic [ref=f1e5203] [cursor=pointer]:
+              - checkbox "Testing Clinic" [ref=f1e5205]
+              - paragraph [ref=f1e5207]: Testing Clinic
+            - generic [ref=f1e5208] [cursor=pointer]:
+              - checkbox "Billing Clinic" [ref=f1e5210]
+              - paragraph [ref=f1e5212]: Billing Clinic
+            - generic [ref=f1e5213] [cursor=pointer]:
+              - checkbox "hfgvc" [ref=f1e5215]
+              - paragraph [ref=f1e5217]: hfgvc
+            - generic [ref=f1e5218] [cursor=pointer]:
+              - checkbox "Test Clinic Five" [ref=f1e5220]
+              - paragraph [ref=f1e5222]: Test Clinic Five
+            - generic [ref=f1e5223] [cursor=pointer]:
+              - checkbox "Billing" [ref=f1e5225]
+              - paragraph [ref=f1e5227]: Billing
+            - generic [ref=f1e5228] [cursor=pointer]:
+              - checkbox "Test Clinic Four" [ref=f1e5230]
+              - paragraph [ref=f1e5232]: Test Clinic Four
+            - generic [ref=f1e5233] [cursor=pointer]:
+              - checkbox "dcxfevdcxdsx" [ref=f1e5235]
+              - paragraph [ref=f1e5237]: dcxfevdcxdsx
+            - generic [ref=f1e5238] [cursor=pointer]:
+              - checkbox "bannertest" [ref=f1e5240]
+              - paragraph [ref=f1e5242]: bannertest
+            - generic [ref=f1e5243] [cursor=pointer]:
+              - checkbox "QAclinic" [ref=f1e5245]
+              - paragraph [ref=f1e5247]: QAclinic
+            - generic [ref=f1e5248] [cursor=pointer]:
+              - checkbox "New Clinic" [ref=f1e5250]
+              - paragraph [ref=f1e5252]: New Clinic
+            - generic [ref=f1e5253] [cursor=pointer]:
+              - checkbox "clinic" [ref=f1e5255]
+              - paragraph [ref=f1e5257]: clinic
+            - generic [ref=f1e5258] [cursor=pointer]:
+              - checkbox "TestClinic" [ref=f1e5260]
+              - paragraph [ref=f1e5262]: TestClinic
+            - generic [ref=f1e5263] [cursor=pointer]:
+              - checkbox "abcc" [ref=f1e5265]
+              - paragraph [ref=f1e5267]: abcc
+            - generic [ref=f1e5268] [cursor=pointer]:
+              - checkbox "previous-invoice" [ref=f1e5270]
+              - paragraph [ref=f1e5272]: previous-invoice
+            - generic [ref=f1e5273] [cursor=pointer]:
+              - checkbox "issuecredit test" [ref=f1e5275]
+              - paragraph [ref=f1e5277]: issuecredit test
+            - generic [ref=f1e5278] [cursor=pointer]:
+              - checkbox "Test Clinics" [ref=f1e5280]
+              - paragraph [ref=f1e5282]: Test Clinics
+            - generic [ref=f1e5283] [cursor=pointer]:
+              - checkbox "Test Clinic" [ref=f1e5285]
+              - paragraph [ref=f1e5287]: Test Clinic
+            - generic [ref=f1e5288] [cursor=pointer]:
+              - checkbox "Updated data" [ref=f1e5290]
+              - paragraph [ref=f1e5292]: Updated data
+            - generic [ref=f1e5293] [cursor=pointer]:
+              - checkbox "Nofil Test" [ref=f1e5295]
+              - paragraph [ref=f1e5297]: Nofil Test
+            - generic [ref=f1e5298] [cursor=pointer]:
+              - checkbox "newcredit balance" [ref=f1e5300]
+              - paragraph [ref=f1e5302]: newcredit balance
+            - generic [ref=f1e5303] [cursor=pointer]:
+              - checkbox "Android" [ref=f1e5305]
+              - paragraph [ref=f1e5307]: Android
+            - generic [ref=f1e5308] [cursor=pointer]:
+              - checkbox "app clinic" [ref=f1e5310]
+              - paragraph [ref=f1e5312]: app clinic
+            - generic [ref=f1e5313] [cursor=pointer]:
+              - checkbox "outstandingcharge" [ref=f1e5315]
+              - paragraph [ref=f1e5317]: outstandingcharge
+            - generic [ref=f1e5318] [cursor=pointer]:
+              - checkbox "chargeclinic" [ref=f1e5320]
+              - paragraph [ref=f1e5322]: chargeclinic
+            - generic [ref=f1e5323] [cursor=pointer]:
+              - checkbox "downloadinvoice" [ref=f1e5325]
+              - paragraph [ref=f1e5327]: downloadinvoice
+            - generic [ref=f1e5328] [cursor=pointer]:
+              - checkbox "CareCenter" [ref=f1e5330]
+              - paragraph [ref=f1e5332]: CareCenter
+            - generic [ref=f1e5333] [cursor=pointer]:
+              - checkbox "issuecredit" [ref=f1e5335]
+              - paragraph [ref=f1e5337]: issuecredit
+            - generic [ref=f1e5338] [cursor=pointer]:
+              - checkbox "shifa" [ref=f1e5340]
+              - paragraph [ref=f1e5342]: shifa
+            - generic [ref=f1e5343] [cursor=pointer]:
+              - checkbox "newclinic" [ref=f1e5345]
+              - paragraph [ref=f1e5347]: newclinic
+            - generic [ref=f1e5348] [cursor=pointer]:
+              - checkbox "Mids Clinic" [ref=f1e5350]
+              - paragraph [ref=f1e5352]: Mids Clinic
+            - generic [ref=f1e5353] [cursor=pointer]:
+              - checkbox "medicareclinic" [ref=f1e5355]
+              - paragraph [ref=f1e5357]: medicareclinic
+            - generic [ref=f1e5358] [cursor=pointer]:
+              - checkbox "aghakhanclinic" [ref=f1e5360]
+              - paragraph [ref=f1e5362]: aghakhanclinic
+            - generic [ref=f1e5363] [cursor=pointer]:
+              - checkbox "Medical care" [ref=f1e5365]
+              - paragraph [ref=f1e5367]: Medical care
+            - generic [ref=f1e5368] [cursor=pointer]:
+              - checkbox "Test Customer - CCQA" [ref=f1e5370]
+              - paragraph [ref=f1e5372]: Test Customer - CCQA
+            - generic [ref=f1e5373] [cursor=pointer]:
+              - checkbox "QA ARK CLINIC QA ARK CLINICQA ARK CLINICQA ARK CLINICQA ARK CLINICQA ARK CLINICQA ARK CLINIC" [ref=f1e5375]
+              - paragraph [ref=f1e5377]: QA ARK CLINIC QA ARK CLINICQA ARK CLINICQA ARK CLINICQA ARK CLINICQA ARK CLINICQA ARK CLINIC
+            - generic [ref=f1e5378] [cursor=pointer]:
+              - checkbox "TestCustomer" [ref=f1e5380]
+              - paragraph [ref=f1e5382]: TestCustomer
+            - generic [ref=f1e5383] [cursor=pointer]:
+              - checkbox "Test Customer" [ref=f1e5385]
+              - paragraph [ref=f1e5387]: Test Customer
+            - generic [ref=f1e5388] [cursor=pointer]:
+              - checkbox "healthcare" [ref=f1e5390]
+              - paragraph [ref=f1e5392]: healthcare
+            - generic [ref=f1e5393] [cursor=pointer]:
+              - checkbox "Lakeside Orthopedic Ins. LLC.- Parent Org" [ref=f1e5395]
+              - paragraph [ref=f1e5397]: Lakeside Orthopedic Ins. LLC.- Parent Org
+            - generic [ref=f1e5398] [cursor=pointer]:
+              - checkbox "Lakeshore Pain and Spine Center" [ref=f1e5400]
+              - paragraph [ref=f1e5402]: Lakeshore Pain and Spine Center
+            - generic [ref=f1e5403] [cursor=pointer]:
+              - checkbox "Interventional Pain Solutions" [ref=f1e5405]
+              - paragraph [ref=f1e5407]: Interventional Pain Solutions
+            - generic [ref=f1e5408] [cursor=pointer]:
+              - checkbox "Integrative Spine Care LLC" [ref=f1e5410]
+              - paragraph [ref=f1e5412]: Integrative Spine Care LLC
+            - generic [ref=f1e5413] [cursor=pointer]:
+              - checkbox "Denver Diagnostic Pain" [ref=f1e5415]
+              - paragraph [ref=f1e5417]: Denver Diagnostic Pain
+            - generic [ref=f1e5418] [cursor=pointer]:
+              - checkbox "Demo" [ref=f1e5420]
+              - paragraph [ref=f1e5422]: Demo
+            - generic [ref=f1e5423] [cursor=pointer]:
+              - checkbox "NXTSTIM" [ref=f1e5425]
+              - paragraph [ref=f1e5427]: NXTSTIM
+            - generic [ref=f1e5428] [cursor=pointer]:
+              - checkbox "Unified Pain Management" [ref=f1e5430]
+              - paragraph [ref=f1e5432]: Unified Pain Management
+            - generic [ref=f1e5433] [cursor=pointer]:
+              - checkbox "The Centers for Advanced Orthopaedics - Parent Org" [ref=f1e5435]
+              - paragraph [ref=f1e5437]: The Centers for Advanced Orthopaedics - Parent Org
+            - generic [ref=f1e5438] [cursor=pointer]:
+              - checkbox "Rejuvink Virginia Beach" [ref=f1e5440]
+              - paragraph [ref=f1e5442]: Rejuvink Virginia Beach
+            - generic [ref=f1e5443] [cursor=pointer]:
+              - checkbox "Rejuvink - Parent Org" [ref=f1e5445]
+              - paragraph [ref=f1e5447]: Rejuvink - Parent Org
+            - generic [ref=f1e5448] [cursor=pointer]:
+              - checkbox "Rejuvink Milwaukee" [ref=f1e5450]
+              - paragraph [ref=f1e5452]: Rejuvink Milwaukee
+            - generic [ref=f1e5453] [cursor=pointer]:
+              - checkbox "Performance Pain & Sports Medicine, PLLC" [ref=f1e5455]
+              - paragraph [ref=f1e5457]: Performance Pain & Sports Medicine, PLLC
+            - generic [ref=f1e5458] [cursor=pointer]:
+              - checkbox "Pain Physicians of Wisconsin (dba Pro Spine and Pain)" [ref=f1e5460]
+              - paragraph [ref=f1e5462]: Pain Physicians of Wisconsin (dba Pro Spine and Pain)
+            - generic [ref=f1e5463] [cursor=pointer]:
+              - checkbox "Pacific Sports and Spine" [ref=f1e5465]
+              - paragraph [ref=f1e5467]: Pacific Sports and Spine
+            - generic [ref=f1e5468] [cursor=pointer]:
+              - checkbox "Pacific Pain and Spine" [ref=f1e5470]
+              - paragraph [ref=f1e5472]: Pacific Pain and Spine
+            - generic [ref=f1e5473] [cursor=pointer]:
+              - checkbox "Orthopaedic Associates of Central Maryland Division (OACM)" [ref=f1e5475]
+              - paragraph [ref=f1e5477]: Orthopaedic Associates of Central Maryland Division (OACM)
+            - generic [ref=f1e5478] [cursor=pointer]:
+              - checkbox "Northwestern Neurosurgical Assoc." [ref=f1e5480]
+              - paragraph [ref=f1e5482]: Northwestern Neurosurgical Assoc.
+            - generic [ref=f1e5483] [cursor=pointer]:
+              - checkbox "Louisiana Pain Specialists" [ref=f1e5485]
+              - paragraph [ref=f1e5487]: Louisiana Pain Specialists
+            - generic [ref=f1e5488] [cursor=pointer]:
+              - checkbox "Lakeside PT - RTM" [ref=f1e5490]
+              - paragraph [ref=f1e5492]: Lakeside PT - RTM
+            - generic [ref=f1e5493] [cursor=pointer]:
+              - checkbox "Lakeside Orthopedic - LOI RPM" [ref=f1e5495]
+              - paragraph [ref=f1e5497]: Lakeside Orthopedic - LOI RPM
+        - button "Apply" [ref=f1e5090] [cursor=pointer]

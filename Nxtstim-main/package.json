@@ -1,0 +1,25 @@
+{
+  "name": "nxt-automation",
+  "version": "1.0.0",
+  "description": "Playwright + Cucumber BDD automation framework with Page Object Model",
+  "scripts": {
+    "test": "node scripts/run-tests.js",
+    "test:login": "node scripts/run-tests.js features/login.feature",
+    "test:mfa": "node scripts/run-tests.js features/MFA-auth/",
+    "test:clinics": "node scripts/run-tests.js features/clinics/ --tags \"@clinics and not @known-issue\"",
+    "test:authorization": "node scripts/run-tests.js features/authorization/",
+    "test:authorization:ui": "node scripts/run-tests.js features/authorization/ --tags \"@ui and not @manual\"",
+    "test:manual": "cross-env CUCUMBER_TAGS=@manual node scripts/run-tests.js",
+    "test:known-issues": "cross-env CUCUMBER_TAGS=@known-issue node scripts/run-tests.js",
+    "test:headed": "cross-env HEADED=true node scripts/run-tests.js",
+    "test:report": "node scripts/generate-cucumber-report.js",
+    "test:users": "node scripts/run-tests.js features/UserManagement/User.feature"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@playwright/test": "^1.45.0",
+    "cross-env": "^7.0.3",
+    "imapflow": "^1.3.3",
+    "playwright": "^1.45.0"
+  }
+}

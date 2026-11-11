@@ -1,0 +1,210 @@
+- generic [ref=f2e6]:
+  - generic [ref=f2e8]:
+    - banner [ref=f2e819]:
+      - generic [ref=f2e820]:
+        - button [ref=f2e959] [cursor=pointer]
+        - generic [ref=f2e826] [cursor=pointer]:
+          - generic [ref=f2e827]:
+            - generic [ref=f2e828]: "!"
+            - paragraph [ref=f2e831]: admin auth
+          - button [ref=f2e832]
+    - generic [ref=f2e26]:
+      - button [ref=f2e28] [cursor=pointer]
+      - separator [ref=f2e34]
+      - list [ref=f2e35]:
+        - link [ref=f2e961] [cursor=pointer]:
+          - /url: /monitoring
+          - listitem [ref=f2e37]:
+            - button [ref=f2e962]:
+              - generic [ref=f2e44]: Monitoring
+        - link [ref=f2e963] [cursor=pointer]:
+          - /url: /reports
+          - listitem [ref=f2e47]:
+            - button [ref=f2e964]:
+              - generic [ref=f2e57]: Reports
+        - link [ref=f2e965] [cursor=pointer]:
+          - /url: /invoices
+          - listitem [ref=f2e60]:
+            - button [ref=f2e966]:
+              - generic [ref=f2e67]: Invoices
+        - link [ref=f2e967] [cursor=pointer]:
+          - /url: /clinics
+          - listitem [ref=f2e70]:
+            - button [ref=f2e968]
+        - link [ref=f2e969] [cursor=pointer]:
+          - /url: /patients
+          - listitem [ref=f2e76]:
+            - button [ref=f2e970]:
+              - generic [ref=f2e83]: Patients
+        - link [ref=f2e971] [cursor=pointer]:
+          - /url: /users
+          - listitem [ref=f2e86]:
+            - button [ref=f2e972]:
+              - generic [ref=f2e92]: Users
+        - link [ref=f2e973] [cursor=pointer]:
+          - /url: /roles
+          - listitem [ref=f2e95]:
+            - button [ref=f2e974]:
+              - generic [ref=f2e102]: Roles
+    - main [ref=f2e104]:
+      - generic [ref=f2e105]:
+        - navigation [ref=f2e106]:
+          - list [ref=f2e107]:
+            - listitem [ref=f2e108]:
+              - button [ref=f2e975] [cursor=pointer]: Clinics
+            - listitem [ref=f2e110]: ">"
+            - listitem [ref=f2e111]:
+              - paragraph [ref=f2e112]: Clinic ID 11646
+        - generic [ref=f2e835]:
+          - generic [ref=f2e837]:
+            - paragraph [ref=f2e838]: Bytecorp Clinic
+            - generic [ref=f2e839]: Active
+          - generic [ref=f2e849]:
+            - paragraph [ref=f2e854]: "11646"
+            - paragraph [ref=f2e858]: Abdul Rehman
+            - paragraph [ref=f2e862]: abdul.rehman@bytecorp.io
+            - paragraph [ref=f2e871]: +1 (221) 548-4544
+        - generic [ref=f2e872]:
+          - tablist [ref=f2e876]:
+            - tab [ref=f2e976] [cursor=pointer]: Clinic Profile
+            - tab [ref=f2e977] [cursor=pointer]: Supervisor
+            - tab [ref=f2e978] [cursor=pointer]: Nurses
+            - tab [ref=f2e979] [cursor=pointer]: Patient Tags
+            - tab [ref=f2e980] [cursor=pointer]: File Vault
+            - tab [selected] [ref=f2e981] [cursor=pointer]: Billing
+          - generic [ref=f2e883]:
+            - generic [ref=f2e884]:
+              - tablist [ref=f2e888]:
+                - tab [selected] [ref=f2e982] [cursor=pointer]: Billing Information
+                - tab [ref=f2e983] [cursor=pointer]: Payments
+                - tab [ref=f2e984] [cursor=pointer]: Invoices
+                - tab [ref=f2e985] [cursor=pointer]: Credit Log
+              - button [ref=f2e986] [cursor=pointer]: Edit
+            - generic [ref=f2e897]:
+              - generic [ref=f2e898]:
+                - paragraph [ref=f2e899]: Financial Details
+                - generic [ref=f2e900]:
+                  - generic [ref=f2e901]:
+                    - paragraph [ref=f2e902]: Credit Balance
+                    - paragraph [ref=f2e905]: $0.00
+                  - generic [ref=f2e906]:
+                    - paragraph [ref=f2e907]: Outstanding Balance
+                    - paragraph [ref=f2e908]: $0.00
+              - generic [ref=f2e910]:
+                - paragraph [ref=f2e911]: Billing Address
+                - generic [ref=f2e912]:
+                  - generic [ref=f2e913]:
+                    - paragraph [ref=f2e914]: Street Address
+                    - paragraph [ref=f2e915]: 2nd Floor A-352 Blk 15 Block 15 Gulistan-e-Johar
+                  - generic [ref=f2e916]:
+                    - paragraph [ref=f2e917]: City
+                    - paragraph [ref=f2e918]: karachi
+                  - generic [ref=f2e919]:
+                    - paragraph [ref=f2e920]: State
+                    - paragraph [ref=f2e921]: Sindh
+                  - generic [ref=f2e922]:
+                    - paragraph [ref=f2e923]: Zip Code
+                    - paragraph [ref=f2e924]: "75950"
+              - generic [ref=f2e926]:
+                - paragraph [ref=f2e927]: Shipping Address
+                - generic [ref=f2e928]:
+                  - generic [ref=f2e929]:
+                    - paragraph [ref=f2e930]: Street Address
+                    - paragraph [ref=f2e931]: 2nd Floor A-352 Blk 15 Block 15 Gulistan-e-Johar
+                  - generic [ref=f2e932]:
+                    - paragraph [ref=f2e933]: City
+                    - paragraph [ref=f2e934]: karachi
+                  - generic [ref=f2e935]:
+                    - paragraph [ref=f2e936]: State
+                    - paragraph [ref=f2e937]: Sindh
+                  - generic [ref=f2e938]:
+                    - paragraph [ref=f2e939]: Zip Code
+                    - paragraph [ref=f2e940]: "75950"
+              - generic [ref=f2e942]:
+                - paragraph [ref=f2e943]: Tax Details
+                - generic [ref=f2e944]:
+                  - generic [ref=f2e945]:
+                    - paragraph [ref=f2e946]: Tax Status
+                    - paragraph [ref=f2e947]: Taxable
+                  - generic [ref=f2e948]:
+                    - paragraph [ref=f2e949]: Tax ID
+                    - paragraph [ref=f2e950]: 12-2323222
+              - generic [ref=f2e952]:
+                - paragraph [ref=f2e953]: Subscription Details
+                - generic [ref=f2e955]:
+                  - paragraph [ref=f2e956]: Subscription Plan
+                  - paragraph [ref=f2e957]:
+                    - text: Yearly
+                    - generic [ref=f2e958]: Expires 07/01/2027
+  - generic [ref=f2e989]:
+    - generic [ref=f2e990]:
+      - paragraph [ref=f2e991]: Edit Billing Information
+      - button [ref=f2e992] [cursor=pointer]
+    - generic [ref=f2e996]:
+      - generic [ref=f2e997]:
+        - paragraph [ref=f2e998]: Billing Address
+        - generic [ref=f2e999]:
+          - generic [ref=f2e1000]:
+            - generic [ref=f2e1001]: Street Address
+            - generic [ref=f2e1003]:
+              - textbox "Enter Street Address" [ref=f2e1004]: 2nd Floor A-352 Blk 15 Block 15 Gulistan-e-Johar
+              - group
+          - generic [ref=f2e1005]:
+            - generic [ref=f2e1006]: City
+            - generic [ref=f2e1008]:
+              - textbox "Enter City" [ref=f2e1009]: karachio
+              - group
+          - generic [ref=f2e1010]:
+            - generic [ref=f2e1011]: State
+            - generic [ref=f2e1013]:
+              - textbox "Enter State" [ref=f2e1014]: Sindh
+              - group
+          - generic [ref=f2e1015]:
+            - generic [ref=f2e1016]: Zip Code
+            - generic [ref=f2e1018]:
+              - textbox "Enter Zip Code" [ref=f2e1019]: "75950"
+              - group
+      - generic [ref=f2e1020]:
+        - paragraph [ref=f2e1021]: Shipping Address
+        - generic [ref=f2e1022]:
+          - generic [ref=f2e1023]:
+            - generic [ref=f2e1024]: Street Address
+            - generic [ref=f2e1026]:
+              - textbox "Enter Street Address" [ref=f2e1027]: 2nd Floor A-352 Blk 15 Block 15 Gulistan-e-Johar
+              - group
+          - generic [ref=f2e1028]:
+            - generic [ref=f2e1029]: City
+            - generic [ref=f2e1031]:
+              - textbox "Enter City" [ref=f2e1032]: karachi
+              - group
+          - generic [ref=f2e1033]:
+            - generic [ref=f2e1034]: State
+            - generic [ref=f2e1036]:
+              - textbox "Enter State" [ref=f2e1037]: Sindh
+              - group
+          - generic [ref=f2e1038]:
+            - generic [ref=f2e1039]: Zip Code
+            - generic [ref=f2e1041]:
+              - textbox "Enter Zip Code" [ref=f2e1042]: "75950"
+              - group
+      - generic [ref=f2e1043]:
+        - paragraph [ref=f2e1044]: Tax Details
+        - generic [ref=f2e1045]:
+          - generic [ref=f2e1046]:
+            - generic [ref=f2e1047]: Tax Status
+            - generic [ref=f2e1048]: Taxable
+          - generic [ref=f2e1053]:
+            - generic [ref=f2e1054]: Tax ID
+            - generic [ref=f2e1055]:
+              - generic [ref=f2e1056]:
+                - textbox "12-3456789" [active] [invalid] [ref=f2e1057]: 12-23232234
+                - group
+              - paragraph [ref=f2e1071]: Please enter a valid Tax ID (e.g. 12-3456789)
+      - generic [ref=f2e1058]:
+        - paragraph [ref=f2e1059]: Subscription Details
+        - generic [ref=f2e1061]:
+          - generic [ref=f2e1062]: Subscription Plan
+          - generic [ref=f2e1063]: Yearly
+    - generic [ref=f2e1069]:
+      - button "Cancel" [ref=f2e1070] [cursor=pointer]
+      - button "Save Changes" [disabled]
